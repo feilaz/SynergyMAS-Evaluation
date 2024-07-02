@@ -1,110 +1,73 @@
+import argparse
+from conversation import AgentConversation
+from agent import Agent
 import autogen
-from termcolor import colored
 
-# Configure the agents
-config_list = autogen.config_list_from_json(
+def parse_arguments():
+    parser = argparse.ArgumentParser(description="Run a multi-agent conversation for problem-solving.")
+    
+    # !!! change required for --problem to True after the program is build !!!
+
+    parser.add_argument('--problem', type=str, required=False,
+                        help='The problem statement to be solved by the agents')
+    parser.add_argument('--max_iterations', type=int, default=5,
+                        help='Maximum number of conversation iterations (default: 5)')
+    
+    return parser.parse_args()
+
+if __name__ == "__main__":
+    args = parse_arguments()
+    
+    config_list = autogen.config_list_from_json(
     "C:/Users/adam/Desktop/autogen/OAI_CONFIG_LIST.json",
     filter_dict={
         "model": ["gpt-3.5-turbo"],
     },
 )
-
-AGENT_COLORS = {
-    'Analytica': 'blue',
-    'Innovo': 'green',
-    'Empathos': 'magenta',
-    'user': 'yellow'
-}
-
-analytica = autogen.AssistantAgent(
-    name="Analytica",
-    system_message="""You are working together with two other agents with a different set of skills. You are Analytica, an agent focused on data 
-    analysis and logical reasoning. Your goal is to analyze the data and provide insights to help solve the problem. 
-    You should ask other agents for more information or clarification if needed. You should always try to improve the solutions. Reply 'TERMINATE' in the end when everything is done and there is no room for improvement.""",
-    llm_config={"config_list": config_list},
-    human_input_mode="NEVER",
-)
-
-innovo = autogen.AssistantAgent(
-    name="Innovo",
-    system_message="""You are working together with two other agents with a different set of skills. You are Innovo, an agent specializing in creative problem-solving and innovation. 
-    Your goal is to generate creative solutions and ideas to address the problem. Collaborate with Analytica to ensure your solutions are data-driven and practical, 
-    and with Empathos to ensure they are user-friendly and considerate of all stakeholders. Ask for information or feedback from the other agents if needed. You should always try to improve the solutions. 
-    Reply 'TERMINATE' in the end when everything is done and there is no room for improvement.""",
-    llm_config={"config_list": config_list, "temperature": 0.9},
-    human_input_mode="NEVER",
-)
-
-empathos = autogen.AssistantAgent(
-    name="Empathos",
-    system_message="""You are working together with two other agents with a different set of skills. You are Empathos, an agent with high emotional intelligence and interpersonal skills. 
-    Your goal is to ensure that the solutions and analyses provided by the team are considerate of human factors and stakeholder perspectives. Collaborate with Innovo to refine solutions 
-    for better user experience and with Analytica to ensure all relevant data is considered. Ask for information or clarification from the other agents if needed. 
-    You should always try to improve the solutions.. Reply 'TERMINATE' in the end when everything is done and there is no room for improvement.""",
-    llm_config={"config_list": config_list},
-    human_input_mode="NEVER",
-)
-
-
-# user_proxy = autogen.UserProxyAgent(
-#     name="User_proxy",
-#     system_message="A human user.",
-#     code_execution_config={"last_n_messages": 3, "work_dir": "coding", "use_docker": False},
-#     human_input_mode="TERMINATE",
-#     is_termination_msg=lambda x: x.get("content", "") and x.get("content", "").rstrip().endswith("TERMINATE"),
-# )
-
-
-def agent_conversation(problem, max_iterations=5):
-    agents = [analytica, innovo, empathos]
-    chat_history = [{'role': 'user', 'content': problem}]
     
-    print(colored(f"User: {problem}", AGENT_COLORS['user']))
-    print()  # Add an empty line after the initial problem
+    INITIAL_MEASSAGE = """{agent_personality}
+
+    Maintain a belief state about other agents based on their contributions to the conversation. 
+    Use this belief state to inform your responses and avoid repeating information or suggestions already provided by others.
+
+    When responding:
+    1. Consider the problem at hand and your specific expertise.
+    2. Review your belief state about other agents' knowledge and contributions.
+    3. Provide unique insights or suggestions that complement what others have already shared.
+    4. If you believe the problem has been sufficiently addressed, end your message with 'TERMINATE'.
+
+    Your goal is to contribute meaningfully to the problem-solving process while maintaining an efficient and non-redundant conversation."""
+
+    AGENT1_PERSONALITY = """You are Analytica, an agent focused on data analysis and logical reasoning. Your goal is to analyze the 
+                            data and provide insights to help solve the problem. You should ask other agents for more information or 
+                            clarification if needed."""
     
-    for iteration in range(max_iterations):
-        print(colored(f"Iteration {iteration + 1}", 'cyan'))
-        print("=" * 40)  # Add a separator line
-        print()  # Add an empty line before the first agent
-        
-        for agent in agents:
-            # Get the last three messages
-            last_three_messages = chat_history[-3:]
-            
-            # Generate reply
-            reply = agent.generate_reply(messages=last_three_messages)
-            
-            # Add the response to chat history
-            if reply:
-                chat_history.append({'role': 'assistant', 'name': agent.name, 'content': reply})
-                print(colored(f"{agent.name}:", AGENT_COLORS[agent.name], attrs=['bold']))
-                print(colored(reply, AGENT_COLORS[agent.name]))
-                print()  # Add an empty line after each agent's response
-            else:
-                print(colored(f"{agent.name} did not generate a response.", 'red'))
-                print()  # Add an empty line even if there's no response
-        
-        # Check if the problem is solved
-        if chat_history[-1]['content'].strip().endswith("TERMINATE"):
-            print(colored("Problem solved!", 'green', attrs=['bold']))
-            break
+    AGENT2_PERSONALITY = """You are Innovo, an agent specializing in creative problem-solving and innovation. 
+                        Your goal is to generate creative solutions and ideas to address the problem. Collaborate with Analytica to ensure your solutions are data-driven and practical, 
+                        and with Empathos to ensure they are user-friendly and considerate of all stakeholders."""
     
-    return chat_history
+    AGENT3_PERSONALITY = """You are Empathos, an agent with high emotional intelligence and interpersonal skills. 
+                        Your goal is to ensure that the solutions and analyses provided by the team are considerate of human factors and stakeholder perspectives. Collaborate with Innovo to refine solutions 
+                        for better user experience and with Analytica to ensure all relevant data is considered."""
 
-# Example usage
-problem = "How can we reduce plastic waste in urban areas?"
-final_chat_history = agent_conversation(problem)
+    chatAgents = {
+        "Analytica": Agent("Analytica", 
+                            INITIAL_MEASSAGE.format(agent_personality=AGENT1_PERSONALITY, use_belief_state=True), 
+                            config_list),
+        "Innovo": Agent("Innovo",
+                        INITIAL_MEASSAGE.format(agent_personality=AGENT2_PERSONALITY, use_belief_state=True),
+                        config_list,
+                        temperature=0.9),
+        "Empathos": Agent("Empathos",
+                        INITIAL_MEASSAGE.format(agent_personality=AGENT3_PERSONALITY, use_belief_state=True),
+                        config_list=config_list)
+                        }
 
-# Print final chat history (optional, as we're already printing during the conversation)
+    args.problem = "How can we reduce plastic waste in urban areas?"
 
-# print(colored("\nFull Conversation History:", 'cyan', attrs=['bold']))
-# print("=" * 40)
-# print()
-# for message in final_chat_history:
-#     if 'name' in message:
-#         print(colored(f"{message['name']} ({message['role']}):", AGENT_COLORS[message['name']], attrs=['bold']))
-#         print(colored(message['content'], AGENT_COLORS[message['name']]))
-#     else:
-#         print(colored(f"{message['role'].capitalize()}:", AGENT_COLORS['user'], attrs=['bold']))
-#         print(colored(message['content'], AGENT_COLORS['user']))
-#     print()  # Add an empty line after each message in the full history
+    conversation = AgentConversation()
+    args.max_iterations = 2
+    chat_history = conversation.run_conversation(args.problem, args.max_iterations, chatAgents)
+
+    print(chat_history)
+    print(len(chat_history))
