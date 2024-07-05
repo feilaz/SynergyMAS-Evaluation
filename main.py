@@ -1,72 +1,76 @@
-import argparse
-from conversation import AgentConversation
-import autogen
-from tools import use_clingo, add_to_kb
+import os
 
-def parse_arguments():
-    parser = argparse.ArgumentParser(description="Run a multi-agent conversation for problem-solving.")
-    
-    parser.add_argument('--problem', type=str, required=False,
-                        help='The problem statement to be solved by the agents')
-    parser.add_argument('--max_iterations', type=int, default=5,
-                        help='Maximum number of conversation iterations (default: 5)')
-    parser.add_argument('--use_clingo', default=True,action='store_true', help='Enable Clingo solver')
-    
-    return parser.parse_args()
+from langchain_core.messages import HumanMessage
+from langchain_openai import ChatOpenAI
+from langchain_core.output_parsers.openai_functions import JsonOutputFunctionsParser
+from langchain_core.prompts import ChatPromptTemplate, MessagesPlaceholder
 
-if __name__ == "__main__":
-    args = parse_arguments()
-    args.max_iterations = 3
-    args.use_clingo = False
-    
-    config_list = autogen.config_list_from_json(
-    "C:/Users/adam/Desktop/autogen/OAI_CONFIG_LIST.json",
-    filter_dict={
-        "model": ["gpt-3.5-turbo"],
+import tools
+import agents
+
+# os.environ["LANGCHAIN_TRACING_V2"] = "true"
+# os.environ["LANGCHAIN_API_KEY"] = ""
+# os.environ["LANGCHAIN_PROJECT"] = "LangGraph Research Agents"
+
+OPENAI_API_KEY = os.getenv("OPENAI_API_KEY")
+
+llm = ChatOpenAI(model="gpt-3.5-turbo")
+
+
+members = ["Analytica", "Innovo", "Empathos"]
+system_prompt = (
+    "You are a supervisor tasked with managing a conversation between the"
+    " following workers:  {members}. Given the following user request,"
+    " respond with the worker to act next. Each worker will perform a"
+    " task and respond with their results and status. When finished,"
+    " respond with FINISH."
+)
+# Our team supervisor is an LLM node. It just picks the next agent to process
+# and decides when the work is completed
+options = ["FINISH"] + members
+# Using openai function calling can make output parsing easier for us
+function_def = {
+    "name": "route",
+    "description": "Select the next role.",
+    "parameters": {
+        "title": "routeSchema",
+        "type": "object",
+        "properties": {
+            "next": {
+                "title": "Next",
+                "anyOf": [
+                    {"enum": options},
+                ],
+            }
+        },
+        "required": ["next"],
     },
+}
+prompt = ChatPromptTemplate.from_messages(
+    [
+        ("system", system_prompt),
+        MessagesPlaceholder(variable_name="messages"),
+        (
+            "system",
+            "Given the conversation above, who should act next?"
+            " Or should we FINISH? Select one of: {options}",
+        ),
+    ]
+).partial(options=str(options), members=", ".join(members))
+
+llm = ChatOpenAI(model="gpt-3.5-turbo")
+
+supervisor_chain = (
+    prompt
+    | llm.bind_functions(functions=[function_def], function_call="route")
+    | JsonOutputFunctionsParser()
 )
 
-    if args.use_clingo:
-                llm_config = {
-                    "config_list": config_list,
-                    "timeout": 60,
-                    "functions": [
-                        {
-                            "name": "use_clingo",
-                            "description": "Use the Clingo solver to solve logical programming problems",
-                            "parameters": {
-                                "type": "object",
-                                "properties": {
-                                    "program": {
-                                        "type": "string",
-                                        "description": "The ASP program to solve"
-                                    }
-                                },
-                                "required": ["program"]
-                            }
-                        },
-                        {
-                            "name": "add_to_kb",
-                            "description": "Add facts and rules to the Clingo knowledge base",
-                            "parameters": {
-                                "type": "object",
-                                "properties": {
-                                    "facts_and_rules": {
-                                        "type": "string",
-                                        "description": "Facts and rules in ASP syntax to add to the knowledge base"
-                                    }
-                                },
-                                "required": ["facts_and_rules"]
-                            }
-                        }
-                    ]
-                }
-    else:
-        llm_config = {"config_list": config_list, "timeout": 60}
-        
-    function_map = {"use_clingo": use_clingo, "add_to_kb": add_to_kb} if args.use_clingo else {}
+import functools
+from langchain_core.prompts import ChatPromptTemplate, MessagesPlaceholder
+from langgraph.graph import END, StateGraph, START
 
-    INITIAL_MESSAGE_BASE = """{agent_personality}
+INITIAL_MESSAGE = """{agent_personality}
 
     Imagine you are part of a team of agents working together to solve a complex problem. Your goal is to contribute to the problem-solving process 
     while maintaining a belief state about the other agents' perspectives and strategies.
@@ -98,100 +102,72 @@ if __name__ == "__main__":
     Reward: Your response will be evaluated based on its clarity, coherence, and effectiveness in addressing the problem. The agent that provides 
     the most comprehensive and insightful response will receive a reward."""
 
-    CLINGO_INSTRUCTIONS = """
+AGENT1_PERSONALITY = """You are Analytica, an agent focused on data analysis and logical reasoning. Your goal is to analyze the 
+                        data and provide insights to help solve the problem. You should ask other agents for more information or 
+                        clarification if needed."""
 
-    You also have access to a Clingo solver for logical programming tasks. To use it:
-    1. Call the use_clingo function with an ASP program as an argument.
-    2. Interpret the results and present them in a human-readable format.
-    3. You can add facts and rules to a persistent knowledge base using the add_to_kb function.
+AGENT2_PERSONALITY = """You are Innovo, an agent specializing in creative problem-solving and innovation. 
+                    Your goal is to generate creative solutions and ideas to address the problem. Collaborate with Analytica to ensure your solutions are data-driven and practical, 
+                    and with Empathos to ensure they are user-friendly and considerate of all stakeholders."""
 
-    Example usage:
-    add_to_kb('''
-    location(urban_area).
-    waste_type(plastic).
-    ''')
+AGENT3_PERSONALITY = """You are Empathos, an agent with high emotional intelligence and interpersonal skills. 
+                    Your goal is to ensure that the solutions and analyses provided by the team are considerate of human factors and stakeholder perspectives. Collaborate with Innovo to refine solutions 
+                    for better user experience and with Analytica to ensure all relevant data is considered."""
 
-    result = use_clingo('''
-    reduction_method(X, recycling) :- location(X), waste_type(plastic).
-    reduction_method(X, ban_single_use) :- location(X), waste_type(plastic).
-    possible_solution(X, M) :- location(X), reduction_method(X, M).
-    ''')
-    print(result)
+analytica = agents.create_agent(llm, [tools.use_clingo], INITIAL_MESSAGE.format(agent_personality=AGENT1_PERSONALITY))
+analytica_node = functools.partial(agents.agent_node, agent=analytica, name="Analytica")
 
-    Include your reasoning and interpretation of the Clingo solver results in your responses when applicable."""
+innovo = agents.create_agent(llm, [tools.use_clingo], INITIAL_MESSAGE.format(agent_personality=AGENT2_PERSONALITY))
+innovo_node = functools.partial(agents.agent_node, agent=innovo, name="Innovo")
 
-    INITIAL_MESSAGE = INITIAL_MESSAGE_BASE + (CLINGO_INSTRUCTIONS if args.use_clingo else "")
+empathos = agents.create_agent(llm, [tools.use_clingo], INITIAL_MESSAGE.format(agent_personality=AGENT3_PERSONALITY))
+empathos_node = functools.partial(agents.agent_node, agent=empathos, name="Empathos")
 
-    AGENT1_PERSONALITY = """You are Analytica, an agent focused on data analysis and logical reasoning. Your goal is to analyze the 
-                            data and provide insights to help solve the problem. You should ask other agents for more information or 
-                            clarification if needed."""
-    
-    AGENT2_PERSONALITY = """You are Innovo, an agent specializing in creative problem-solving and innovation. 
-                        Your goal is to generate creative solutions and ideas to address the problem. Collaborate with Analytica to ensure your solutions are data-driven and practical, 
-                        and with Empathos to ensure they are user-friendly and considerate of all stakeholders."""
-    
-    AGENT3_PERSONALITY = """You are Empathos, an agent with high emotional intelligence and interpersonal skills. 
-                        Your goal is to ensure that the solutions and analyses provided by the team are considerate of human factors and stakeholder perspectives. Collaborate with Innovo to refine solutions 
-                        for better user experience and with Analytica to ensure all relevant data is considered."""
+workflow = StateGraph(agents.AgentState)
+workflow.add_node("Analytica", analytica_node)
+workflow.add_node("Innovo", innovo_node)
+workflow.add_node("Empathos", empathos_node)
 
-    args.problem = args.problem or """We need to optimize the class schedule for a small university. The constraints are as follows:
+workflow.add_node("supervisor", supervisor_chain)
 
-        1. There are 5 courses: Math, Physics, Chemistry, Biology, and Computer Science.
-        2. There are 3 classrooms available.
-        3. There are 4 time slots: 9AM, 11AM, 2PM, and 4PM.
-        4. Each course must be scheduled exactly once.
-        5. No two courses can be in the same classroom at the same time.
-        6. Math and Physics cannot be scheduled at the same time due to shared equipment.
-        7. Biology needs a specific classroom (let's call it Room 1) due to lab equipment.
-        8. The Computer Science professor is not available before 11AM.
+for member in members:
+    # We want our workers to ALWAYS "report back" to the supervisor when done
+    workflow.add_edge(member, "supervisor")
+# The supervisor populates the "next" field in the graph state
+# which routes to a node or finishes
+conditional_map = {k: k for k in members}
+conditional_map["FINISH"] = END
+workflow.add_conditional_edges("supervisor", lambda x: x["next"], conditional_map)
+# Finally, add entrypoint
+workflow.add_edge(START, "supervisor")
 
-        Use logical reasoning to create a valid schedule that satisfies all these constraints. If possible, also try to spread out the classes evenly across the time slots.
-        You should solve the problem in following manner:
-        1. Analyze the constraints and suggest a logical approach.
-        2. Add knowledge to the knowledge base.
-        3. use Clingo to solve the problem for constraints in the knowledge base.
-        4. interpret the results and present them in a human-readable format."""
-    
-    def termination_msg(x):
-        return isinstance(x, dict) and "TERMINATE" == str(x.get("content", ""))[-9:].upper()
 
-    llm_config_innovo = llm_config.copy()
-    llm_config_innovo["temperature"] = 0.9
+graph = workflow.compile()
 
-    chatAgents = {
-        "Analytica": autogen.AssistantAgent(
-                        name="Analytica",
-                        system_message=INITIAL_MESSAGE.format(agent_personality=AGENT1_PERSONALITY),
-                        llm_config=llm_config,
-                        human_input_mode="NEVER",
-                        function_map=function_map,
-                        is_termination_msg=termination_msg
-        ),
+problem = "How can we reduce plastic waste in urban areas?"
 
-        "Innovo": autogen.AssistantAgent(
-                        name="Innovo",
-                        system_message=INITIAL_MESSAGE.format(agent_personality=AGENT2_PERSONALITY),
-                        llm_config=llm_config,
-                        human_input_mode="NEVER",
-                        function_map=function_map,
-                        is_termination_msg=termination_msg
-        ),
-        "Empathos": autogen.AssistantAgent(
-                        name="Empathos",
-                        system_message=INITIAL_MESSAGE.format(agent_personality=AGENT3_PERSONALITY),
-                        llm_config=llm_config,
-                        human_input_mode="NEVER",
-                        function_map=function_map,
-                        is_termination_msg=termination_msg
-        )
+for s in graph.stream(
+    {
+        "messages": [
+            HumanMessage(content=problem)
+        ]
     }
+):
+    if "__end__" not in s:
+        print(s)
+        print("----")
 
-    def _reset_agents(chatAgents):
-          for agent in chatAgents.values():
-              agent.reset()
+graph = workflow.compile()
 
-    conversation = AgentConversation()
-    chat_history = conversation.run_conversation(args.problem, args.max_iterations, chatAgents, {"config_list": config_list})
 
-    print("Full conversation history:")
-    print(chat_history)
+
+
+
+# for s in graph.stream(
+#     {"messages": [HumanMessage(content="Write a brief research report on pikas.")]},
+#     {"recursion_limit": 100},
+# ):
+#     if "__end__" not in s:
+#         print(s)
+#         print("----")
+
