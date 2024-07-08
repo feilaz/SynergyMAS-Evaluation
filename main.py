@@ -12,9 +12,12 @@ import agents
 # os.environ["LANGCHAIN_API_KEY"] = ""
 # os.environ["LANGCHAIN_PROJECT"] = "LangGraph Research Agents"
 
+
+use_clingo = True
+
 OPENAI_API_KEY = os.getenv("OPENAI_API_KEY")
 
-llm = ChatOpenAI(model="gpt-3.5-turbo")
+llm = ChatOpenAI(model="gpt-3.5-turbo", streaming=True)
 
 
 members = ["Analytica", "Innovo", "Empathos"]
@@ -58,7 +61,7 @@ prompt = ChatPromptTemplate.from_messages(
     ]
 ).partial(options=str(options), members=", ".join(members))
 
-llm = ChatOpenAI(model="gpt-3.5-turbo")
+llm = ChatOpenAI(model="gpt-3.5-turbo", streaming=True)
 
 supervisor_chain = (
     prompt
@@ -70,7 +73,7 @@ import functools
 from langchain_core.prompts import ChatPromptTemplate, MessagesPlaceholder
 from langgraph.graph import END, StateGraph, START
 
-INITIAL_MESSAGE = """{agent_personality}
+INITIAL_MESSAGE_BASE = """{agent_personality}
 
     Imagine you are part of a team of agents working together to solve a complex problem. Your goal is to contribute to the problem-solving process 
     while maintaining a belief state about the other agents' perspectives and strategies.
@@ -102,6 +105,27 @@ INITIAL_MESSAGE = """{agent_personality}
     Reward: Your response will be evaluated based on its clarity, coherence, and effectiveness in addressing the problem. The agent that provides 
     the most comprehensive and insightful response will receive a reward."""
 
+CLINGO_MEASSAGE = """You are an agent with access to a knowledge base and Clingo solver. Use these functions:
+
+1. add_to_kb(knowledge: str) -> str
+   Add new information to the knowledge base.
+   Input: Natural language information.
+   Output: Confirmation or error message.
+
+2. solve_with_clingo(query: str) -> str
+   Solve queries using Clingo and the knowledge base.
+   Input: Natural language query.
+   Output: Answer in natural language.
+
+Guidelines:
+- Use add_to_kb() for new, non-redundant information.
+- Use solve_with_clingo() for questions or inferences.
+- Always add new information before querying.
+- Frame queries as clear, specific questions.
+- For complex queries, break them down or add missing information first.
+
+Your role is to manage the knowledge base and use Clingo to answer queries accurately."""
+
 AGENT1_PERSONALITY = """You are Analytica, an agent focused on data analysis and logical reasoning. Your goal is to analyze the 
                         data and provide insights to help solve the problem. You should ask other agents for more information or 
                         clarification if needed."""
@@ -114,13 +138,17 @@ AGENT3_PERSONALITY = """You are Empathos, an agent with high emotional intellige
                     Your goal is to ensure that the solutions and analyses provided by the team are considerate of human factors and stakeholder perspectives. Collaborate with Innovo to refine solutions 
                     for better user experience and with Analytica to ensure all relevant data is considered."""
 
-analytica = agents.create_agent(llm, [tools.use_clingo], INITIAL_MESSAGE.format(agent_personality=AGENT1_PERSONALITY))
+INITIAL_MESSAGE = INITIAL_MESSAGE_BASE + "\n\n" + CLINGO_MEASSAGE if use_clingo else INITIAL_MESSAGE_BASE
+
+toolbox = [tools.add_to_kb, tools.solve_with_clingo,tools.rag_michael]
+
+analytica = agents.create_agent(llm, toolbox, INITIAL_MESSAGE.format(agent_personality=AGENT1_PERSONALITY))
 analytica_node = functools.partial(agents.agent_node, agent=analytica, name="Analytica")
 
-innovo = agents.create_agent(llm, [tools.use_clingo], INITIAL_MESSAGE.format(agent_personality=AGENT2_PERSONALITY))
+innovo = agents.create_agent(llm, toolbox, INITIAL_MESSAGE.format(agent_personality=AGENT2_PERSONALITY))
 innovo_node = functools.partial(agents.agent_node, agent=innovo, name="Innovo")
 
-empathos = agents.create_agent(llm, [tools.use_clingo], INITIAL_MESSAGE.format(agent_personality=AGENT3_PERSONALITY))
+empathos = agents.create_agent(llm, toolbox, INITIAL_MESSAGE.format(agent_personality=AGENT3_PERSONALITY))
 empathos_node = functools.partial(agents.agent_node, agent=empathos, name="Empathos")
 
 workflow = StateGraph(agents.AgentState)
@@ -141,18 +169,15 @@ workflow.add_conditional_edges("supervisor", lambda x: x["next"], conditional_ma
 # Finally, add entrypoint
 workflow.add_edge(START, "supervisor")
 
-
 graph = workflow.compile()
 
-problem = "How can we reduce plastic waste in urban areas?"
+problem = "How did michael jackson die?"
 
-for s in graph.stream(
-    {
-        "messages": [
-            HumanMessage(content=problem)
-        ]
-    }
-):
+initial_state = {
+    "messages": [HumanMessage(content=problem)]
+}
+
+for s in graph.stream(initial_state):
     if "__end__" not in s:
         print(s)
         print("----")

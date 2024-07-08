@@ -3,7 +3,7 @@ from langchain_core.prompts import ChatPromptTemplate, MessagesPlaceholder
 from langchain_openai import ChatOpenAI
 from langchain_core.messages import HumanMessage, BaseMessage
 from typing import Annotated
-import operator
+from langgraph.graph.message import add_messages
 from typing import Sequence, TypedDict
 
 def create_agent(llm: ChatOpenAI, tools: list, system_prompt: str):
@@ -26,10 +26,6 @@ def agent_node(state, agent, name):
     result = agent.invoke(state)
     return {"messages": [HumanMessage(content=result["output"], name=name)]}
 
-# The agent state is the input to each node in the graph
 class AgentState(TypedDict):
-    # The annotation tells the graph that new messages will always
-    # be added to the current states
-    messages: Annotated[Sequence[BaseMessage], operator.add]
-    # The 'next' field indicates where to route to next
+    messages: Annotated[Sequence[BaseMessage], add_messages]
     next: str
