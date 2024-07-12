@@ -11,25 +11,50 @@ from langchain.tools import tool
 
 vectorstores = {}
 
+CHROMA_DB_DIR = "C:/Users/adam/Desktop/langchain"
+MRA_data_path = "C:/Users/adam/Desktop/product team/rag/MRA"
+PD_data_path = "C:/Users/adam/Desktop/product team/rag/PD"
+SM_data_path = "C:/Users/adam/Desktop/product team/rag/SM"
+
+
 def create_vectorstore(directory: str, name: str):
     """Create a vectorstore if it doesn't exist, otherwise return the existing one."""
-    if name not in vectorstores:
-        docs = []
-        for file_path in [os.path.join(directory, f) for f in os.listdir(directory) if f.endswith('.txt')]:
-            loader = TextLoader(file_path)
-            docs.extend(loader.load())
-
-        text_splitter = RecursiveCharacterTextSplitter.from_tiktoken_encoder(
-            chunk_size=100, chunk_overlap=50
-        )
-        doc_splits = text_splitter.split_documents(docs)
-
-        vectorstores[name] = Chroma.from_documents(
-            documents=doc_splits,
-            collection_name=f"rag-{name}-chroma",
-            embedding=OpenAIEmbeddings(),
-        )
+    chroma_db_path = os.path.join(CHROMA_DB_DIR, f"{name}_chroma_db")
     
+    if name not in vectorstores:
+        # Check if the vectorstore already exists on disk
+        if os.path.exists(chroma_db_path) and os.listdir(chroma_db_path):
+            print(f"Loading existing vectorstore for {name}")
+            vectorstores[name] = Chroma(
+                persist_directory=chroma_db_path,
+                embedding_function=OpenAIEmbeddings(),
+                collection_name=f"rag-{name}-chroma"
+            )
+        else:
+            print(f"Creating new vectorstore for {name}")
+            docs = []
+            for file_path in [os.path.join(directory, f) for f in os.listdir(directory) if f.endswith('.txt')]:
+                loader = TextLoader(file_path, encoding="utf-8")
+                docs.extend(loader.load())
+
+            text_splitter = RecursiveCharacterTextSplitter.from_tiktoken_encoder(
+                chunk_size=100, chunk_overlap=50
+            )
+            doc_splits = text_splitter.split_documents(docs)
+
+            # Set the custom directory for Chroma's database files
+            os.makedirs(CHROMA_DB_DIR, exist_ok=True)
+
+            vectorstores[name] = Chroma.from_documents(
+                documents=doc_splits,
+                collection_name=f"rag-{name}-chroma",
+                embedding=OpenAIEmbeddings(),
+                persist_directory=chroma_db_path
+            )
+            
+            # Persist the data
+            vectorstores[name].persist()
+
     return vectorstores[name].as_retriever()
 
 
@@ -70,20 +95,65 @@ def rag(retriever, question: str, llm_model: str = "gpt-3.5-turbo") -> str:
 
     return f"RELEVANT_INFORMATION: {response}"
 
-michael_data_path = "C:/Users/adam/Desktop/langchain"
-
 @tool
-def rag_michael(question: str) -> str:
+def rag_MRA(question: str) -> str:
     """
-    Perform Retrieval-Augmented Generation (RAG) to answer a question.
-    If the question is not suitable for retrieval or the answer is irrelevant, inform the agent.
+    Perform Retrieval-Augmented Generation (RAG) for the Market Research Analyst (MRA) agent.
+    This function accesses a specialized knowledge base containing market analysis data, customer needs, and industry trends.
     
+    Use this function to answer questions related to:
+    - Market trends and analysis
+    - Customer needs and preferences
+    - Competitive landscape
+    - Industry forecasts and projections
+
     Args:
-        question (str): The question to be answered.
+        question (str): A market research related question to be answered.
     
     Returns:
-        str: The generated answer or an information message.
+        str: The generated answer based on the MRA's knowledge base, or an information message if retrieval fails or the answer is irrelevant.
     """
-    retriever = create_vectorstore(michael_data_path, "michael-jackson")
+    retriever = create_vectorstore(MRA_data_path, "MRA")
     return rag(retriever, question)
 
+@tool
+def rag_PD(question: str) -> str:
+    """
+    Perform Retrieval-Augmented Generation (RAG) for the Product Designer (PD) agent.
+    This function accesses a specialized knowledge base containing information on product design, usability, and aesthetics.
+    
+    Use this function to answer questions related to:
+    - Product design principles and best practices
+    - User experience (UX) and user interface (UI) design
+    - Design trends and innovations
+    - Ergonomics and human factors in design
+
+    Args:
+        question (str): A product design related question to be answered.
+    
+    Returns:
+        str: The generated answer based on the PD's knowledge base, or an information message if retrieval fails or the answer is irrelevant.
+    """
+    retriever = create_vectorstore(PD_data_path, "PD")
+    return rag(retriever, question)
+
+@tool
+def rag_SM(question: str) -> str:
+    """
+    Perform Retrieval-Augmented Generation (RAG) for the Sales Manager (SM) agent.
+    This function accesses a specialized knowledge base containing information on sales strategies, team management, and customer relationships.
+    
+    Use this function to answer questions related to:
+    - Sales strategies and techniques
+    - Customer relationship management
+    - Sales team management and motivation
+    - Market positioning and product pricing
+
+    Args:
+        question (str): A sales management related question to be answered.
+    
+    Returns:
+        str: The generated answer based on the SM's knowledge base, or an information message if retrieval fails or the answer is irrelevant.
+    """
+    retriever = create_vectorstore(SM_data_path, "SM")
+    return rag(retriever, question)

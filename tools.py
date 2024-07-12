@@ -3,13 +3,15 @@ from clingo import Control, Symbol
 import json
 from langchain.tools import tool 
 from typing import Annotated, List
-from rag import rag_michael
+from rag import rag_MRA, rag_PD, rag_SM
 from pydantic import BaseModel, Field
 from langchain_openai import ChatOpenAI
 from langchain.prompts import ChatPromptTemplate
-from langchain.output_parsers import PydanticOutputParser
+from nltk.stem import WordNetLemmatizer
+import nltk
+from typing import Dict, Union, Literal
 
-KB_FILE = "C:/Users/adam/Desktop/langchain/knowledge_base.txt"
+KB_FILE = "C:/Users/adam/Desktop/langchain/knowledge_base.json"
 
 
 class ASPCategorizedTranslation(BaseModel):
@@ -26,44 +28,77 @@ class ASPInput(BaseModel):
     rules: str = Field(default="", description="ASP rules relevant to the query as a single string, separated by semicolons")
     query: str = Field(default="", description="ASP representation of the query")
     
+VALID_CONTEXTS = ["Client", "Product", "Market", "Design", "Sales", "Strategy"]
 
+class Context(BaseModel):
+    """Context for categorizing sentences."""
+    context: Literal["Client", "Product", "Market", "Design", "Sales", "Strategy"]
 
+# Initialize the LLM
+llm = ChatOpenAI(model="gpt-3.5-turbo-0125", temperature=0)
 
-asp_input_parser = PydanticOutputParser(pydantic_object=ASPInput)
-asp_categorized_parser = PydanticOutputParser(pydantic_object=ASPCategorizedTranslation)
-
+def categorize_sentences(sentence: str) -> str:
+    llm_categorizer = llm.with_structured_output(Context)
+    categorize_prompt = ChatPromptTemplate.from_messages([
+        ("system", "Categorize the given sentence into the appropriate context."),
+        ("human", "Given Sentence: {sentence}\n\nPlease categorize this sentence into one of the following contexts: Client, Product, Market, Design, Sales, Strategy")
+    ])
+    categorize_chain = categorize_prompt | llm_categorizer
+    result = categorize_chain.invoke({"sentence": sentence})
+    return result['context']
 
 @tool
-def add_to_kb(knowledge: Annotated[str, "The knowledge to add to the database"]) -> str:
+def add_to_kb(input_string: Annotated[str, "Semicolon-separated sentences"]) -> Annotated[str, "Confirmation message"]:
     """
-    Add knowledge to the knowledge database.
-    
-    Args:
-    knowledge (str): The knowledge to add, in natural language.
-    
-    Returns:
-    str: A confirmation message.
+    Adds knowledge to the Product Development Team's database from a string of sentences.
+    Categorizes each sentence into appropriate contexts. Use for new information, decisions,
+    or insights. Maintains shared understanding among agents. Use regularly to keep the
+    knowledge base current and comprehensive.
     """
-    # First, translate the natural language to categorized ASP
-    categorized_asp = translate_to_categorized_ASP(knowledge)
+    sentences = [s.strip() for s in input_string.split(';') if s.strip()]
     
-    # Create a dictionary to store the categorized ASP
-    entry = {
-        "original": knowledge,
-        "asp": {
-            "concepts": categorized_asp.concepts,
-            "relationships": categorized_asp.relationships,
-            "attributes": categorized_asp.attributes,
-            "instances": categorized_asp.instances,
-            "rules": categorized_asp.rules
-        }
-    }
+    # Process and lemmatize sentences
+    lemmatizer = WordNetLemmatizer()
+    processed_entries = {context: [] for context in VALID_CONTEXTS}
+
+    for sentence in sentences:
+        # Categorize each sentence individually
+        category = categorize_sentences(sentence)
+        
+        words = nltk.word_tokenize(sentence)
+        lemmatized_words = []
+        for word, tag in nltk.pos_tag(words):
+            if tag.startswith('NN'):
+                lemmatized_words.append(lemmatizer.lemmatize(word, pos='n'))
+            elif tag.startswith('VB'):
+                lemmatized_words.append(lemmatizer.lemmatize(word, pos='v'))
+            elif tag.startswith('JJ'):
+                lemmatized_words.append(lemmatizer.lemmatize(word, pos='a'))
+            elif tag.startswith('RB'):
+                lemmatized_words.append(lemmatizer.lemmatize(word, pos='r'))
+            else:
+                lemmatized_words.append(word)
+        
+        processed_sentence = ' '.join(lemmatized_words)
+        processed_entries[category].append(processed_sentence)
+
+    # Load existing knowledge base
+    try:
+        with open(KB_FILE, "r") as f:
+            kb = json.load(f)
+    except (FileNotFoundError, json.JSONDecodeError):
+        kb = {context: [] for context in VALID_CONTEXTS}
+
+    # Update knowledge base with new processed entries
+    for context, sentences in processed_entries.items():
+        kb[context].extend(sentences)
+
+    # Save updated knowledge base
+    with open(KB_FILE, "w") as f:
+        json.dump(kb, f, indent=2)
     
-    # Append the entry to the knowledge base file
-    with open(KB_FILE, "a") as f:
-        f.write(json.dumps(entry) + "\n")
-    
-    return f"Knowledge added to database: {knowledge}"
+    return f"Processed and categorized {len(sentences)} sentences and added to knowledge base."
+
 
 def translate_to_categorized_ASP(knowledge: str) -> ASPCategorizedTranslation:
     """
@@ -76,7 +111,8 @@ def translate_to_categorized_ASP(knowledge: str) -> ASPCategorizedTranslation:
     ASPCategorizedTranslation: The categorized ASP program generated from the knowledge.
     """
     result_str = asp_translator_categorized.invoke({"knowledge": knowledge})
-    return asp_categorized_parser.parse(result_str)
+    
+    return result_str
 
 # LLM with function call
 llm_to_categorized_asp = ChatOpenAI(model="gpt-3.5-turbo", temperature=0)
@@ -107,7 +143,7 @@ to_asp_translator_prompt = ChatPromptTemplate.from_messages([
     ("human", "Translate this to categorized ASP: {knowledge}")
 ])
 
-asp_translator_categorized = to_asp_translator_prompt | to_categorized_asp_translator | asp_categorized_parser
+asp_translator_categorized = to_asp_translator_prompt | to_categorized_asp_translator
 
 
 # LLM with function call
@@ -130,7 +166,7 @@ retrieval_prompt = ChatPromptTemplate.from_messages([
     ("human", "Query: {query}\n\nKnowledge Base:\n{kb_content}\n\nPlease provide the ASP input for Clingo, categorized into facts, rules, and the query.")
 ])
 
-retrieval_agent = retrieval_prompt | structured_llm_asp_input | asp_input_parser
+retrieval_agent = retrieval_prompt | structured_llm_asp_input
 
 llm_aps_to_natural_language = ChatOpenAI(model="gpt-3.5-turbo", temperature=0)
 
@@ -157,6 +193,9 @@ def solve_with_clingo(query: Annotated[str, "The query to solve using Clingo"]) 
     Returns:
     str: The solution from Clingo in natural language.
     """
+    print()
+    print("clingo querry: " + query)
+    print()
     # Read the entire knowledge base
     with open(KB_FILE, "r") as f:
         kb_content = f.read()
@@ -171,18 +210,18 @@ def solve_with_clingo(query: Annotated[str, "The query to solve using Clingo"]) 
     ctl = Control()
     
     # Add facts and rules from the knowledge base
-    for fact in asp_input.facts.split(';'):
+    for fact in asp_input.get("facts", "").split(';'):
         fact = fact.strip()
         if fact:
             ctl.add("base", [], fact)
     
-    for rule in asp_input.rules.split(';'):
+    for rule in asp_input("rules", "").split(';'):
         rule = rule.strip()
         if rule:
             ctl.add("base", [], rule)
     
     # Add the query
-    ctl.add("base", [], asp_input.query)
+    ctl.add("base", [], asp_input("query", ""))
     
     # Ground the program
     ctl.ground([("base", [])])
