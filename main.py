@@ -9,9 +9,7 @@ import tools
 import agents
 
 os.environ["LANGCHAIN_TRACING_V2"] = "true"
-os.environ["LANGCHAIN_API_KEY"] = "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"
 os.environ["LANGCHAIN_PROJECT"] = "LangGraph Research Agents"
-
 
 use_clingo = True
 
@@ -45,7 +43,6 @@ Future Work:
 - Identify the aspects of the product development that remain unresolved or require further investigation.
 - Suggest potential next steps or areas for future research to improve the product or gain deeper insights.
 - Explain why these aspects are important and how they relate to the overall product development process.
-- If you think that the product development task is complete, reply with "TERMINATE" at the end of your response.
 
 Additional Guidance:
 - Use a clear and concise writing style, avoiding ambiguity and ensuring that your response is easy to understand.
@@ -63,11 +60,14 @@ You are Alex, the Product Manager (PM) and team leader, focused on overseeing pr
 1. **Team Leadership:** As the boss, you are responsible for managing the conversation between team members: Sam (Market Research Analyst), Jamie (Product Designer), and Taylor (Sales Manager). Given the current state of the project, decide which team member should act next and specify the task they should perform.
 
 2. **Lean Startup Methodology Phases:**
-    - **Build:** Oversee the development of a Minimum Viable Product (MVP) with Jamie (Product Designer). Ensure the MVP includes core features necessary to address identified customer problems.
-    - **Measure:** Coordinate with Sam (Market Research Analyst) and Taylor (Sales Manager) to deploy the MVP to a select group of users. Collect and analyze feedback, market data, and initial sales performance.
-    - **Learn:** Synthesize feedback and data to identify areas for improvement and inform the next steps.
-    - **Pivot or Persevere:** Based on the analysis, decide whether to pivot (change direction) or persevere (continue with the current plan).
-    - **Iterate:** Develop the next version of the product based on validated learning from the Measure phase. Repeat the Build-Measure-Learn cycle to continually refine and enhance the product.
+    Follow these phases in order:
+    - **Start:** Initial project setup and planning.
+    - **Build:** Oversee the development of a Minimum Viable Product (MVP) with Jamie (Product Designer).
+    - **Measure:** Coordinate with Sam (Market Research Analyst) and Taylor (Sales Manager) to deploy the MVP and collect data.
+    - **Learn:** Synthesize feedback and data to identify areas for improvement.
+    - **Pivot/Persevere:** Decide whether to pivot (change direction) or persevere (continue with the current plan).
+    - **Iterate:** Develop the next version of the product based on validated learning.
+    - **Finish_phase:** Conclude the project and prepare for full-scale launch or next steps.
 
 3. **Team Collaboration:** Foster collaboration among team members, ensuring that each role provides essential input at different stages. Ask other team members for more information or clarification if needed.
 
@@ -77,10 +77,10 @@ You are Alex, the Product Manager (PM) and team leader, focused on overseeing pr
 2. Assign specific tasks to team members based on the current phase of the Lean Startup Methodology.
 3. Ensure continuous feedback loops and incorporate insights into product iterations.
 4. Monitor the progress and ensure alignment with the overall product vision and strategy.
-5. When all necessary tasks are completed, make a detailed report of the conversation and the results. After that, you can FINISH.
-
+5. Ensure all phases (Start, Build, Measure, Learn, Pivot/Persevere, Iterate, Finish_phase) are completed in order before finishing.
+Make sure that in each phase at least one task is assigned to a team member.
+6. To finish the interaction, first make sure that all the phases were completed and the Lean Startup Methodology Phases is in Finish_phase, then select FINISH. 
 Remember, as the boss, you should direct the conversation, assign tasks, and make decisions about when to move to the next phase or conclude the project.
-Remind agents to add data to knowledge base and solve problems using Clingo.
 """
 
 
@@ -108,23 +108,30 @@ members = ["Sam", "Jamie", "Taylor"]
 
 options = ["FINISH"] + members
 
+phases = ["Start", "Build", "Measure", "Learn", "Pivot/Persevere", "Iterate", "Finish_phase"]
+
 function_def = {
     "name": "assign_task",
-    "description": "Select the next role and assign a task.",
+    "description": "Select the next role, assign a task, and set the Lean Startup phase.",
     "parameters": {
         "type": "object",
         "properties": {
             "next": {
                 "type": "string",
-                "enum": options,
+                "enum": options,  # Make sure 'options' includes "FINISH"
                 "description": "The next worker to act or FINISH if done."
             },
             "task": {
                 "type": "string",
                 "description": "The task to be performed by the selected worker."
+            },
+            "lean_startup_phase": {
+                "type": "string",
+                "enum": phases,
+                "description": "The current phase of the Lean Startup Methodology."
             }
         },
-        "required": ["next", "task"],
+        "required": ["next", "task", "lean_startup_phase"],
     },
 }
 
@@ -136,9 +143,16 @@ prompt = ChatPromptTemplate.from_messages(
             "system",
             "Given the conversation above, who should act next and what task should they perform?"
             " Or should we FINISH? Select one of: {options} and provide a task description."
+            " If the {lean_startup_phase} is completed, you can move to the next phase according to the Lean Startup Methodology."
         ),
     ]
 ).partial(options=str(options))
+
+def route_next(state):
+    if state["next"] == "FINISH" and state["lean_startup_phase"] != "Finish_phase":
+        state["messages"].append(HumanMessage(content="We can't finish yet. Make sure that all the phases were completed", name="System"))
+        return "Alex"
+    return state["next"]
 
 boss_chain = (
     prompt
@@ -146,7 +160,8 @@ boss_chain = (
     | JsonOutputFunctionsParser()
     | (lambda x: {
         "next": x["next"],
-        "messages": [HumanMessage(content=f"Task: {x.get('task', 'Respond to the current situation.')}", name="Alex")]
+        "messages": [HumanMessage(content=f"Task: {x.get('task', 'Respond to the current situation.')}", name="Alex")],
+        "lean_startup_phase": x["lean_startup_phase"]
     })
 )
 
@@ -160,31 +175,34 @@ sales_manager = agents.create_agent(llm, toolbox + [tools.rag_SM], INITIAL_MESSA
 sales_manager_node = functools.partial(agents.agent_node, agent=sales_manager, name="Taylor")
 
 workflow = StateGraph(agents.AgentState)
+
+# Add nodes for each team member
 workflow.add_node("Sam", market_research_analyst_node)
 workflow.add_node("Jamie", product_designer_node)
 workflow.add_node("Taylor", sales_manager_node)
-
-# Alex (Product Manager) is now the boss
 workflow.add_node("Alex", boss_chain)
 
+# Add edges from team members to Alex
 for member in members:
-    # We want our workers to ALWAYS "report back" to Alex when done
     workflow.add_edge(member, "Alex")
 
-# Alex (as the boss) populates the "next" field in the graph state
-# which routes to a node or finishes
+# Create the conditional map
 conditional_map = {k: k for k in members}
 conditional_map["FINISH"] = END
+conditional_map["Alex"] = "Alex"
+
+# Add the conditional edge from Alex
 workflow.add_conditional_edges(
     "Alex",
-    lambda x: x["next"],
+    route_next,
     conditional_map
 )
 
-# Finally, add entrypoint
+# Add the entry point
 workflow.add_edge(START, "Alex")
 
 graph = workflow.compile()
+
 
 problem = """Your company has decided to enter the smart home device market. 
 Your team's mission is to develop and launch a new smart home product that will stand out in the competitive market and meet evolving consumer needs. 
@@ -192,10 +210,11 @@ Your objective is to create a comprehensive proposal for this new smart home dev
 The proposal should demonstrate the product's innovation, market potential, and alignment with the company's goals."""
 
 initial_state = {
-    "messages": [HumanMessage(content=problem)]
+    "messages": [HumanMessage(content=problem)],
+    "lean_startup_phase": "Start",
 }
 
-for s in graph.stream(initial_state):
+for s in graph.stream(initial_state, {"recursion_limit": 50}):
     if "__end__" not in s:
         print(s)
         print("----")

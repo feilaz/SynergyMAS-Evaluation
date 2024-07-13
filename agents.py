@@ -5,6 +5,7 @@ from langchain_core.messages import HumanMessage, BaseMessage
 from typing import Annotated
 from langgraph.graph.message import add_messages
 from typing import Sequence, TypedDict
+from typing import List
 
 def create_agent(llm: ChatOpenAI, tools: list, system_prompt: str):
     # Each worker node will be given a name and some tools.
@@ -29,3 +30,4 @@ def agent_node(state, agent, name):
 class AgentState(TypedDict):
     messages: Annotated[Sequence[BaseMessage], add_messages]
     next: str
+    lean_startup_phase: str
