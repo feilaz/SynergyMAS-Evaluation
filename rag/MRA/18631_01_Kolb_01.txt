@@ -1,0 +1,771 @@
+1
+Kolb-01.indd 1
+
+Introduction to
+Uses and Methods
+of Marketing
+Research
+
+2/7/2008 6:10:15 PM
+
+Kolb-01.indd 2
+
+2/7/2008 6:10:16 PM
+
+1
+
+Introduction to
+Marketing Research
+Learning Objectives
+
+1
+2
+3
+4
+5
+
+Recognize that research is an integral component of marketing strategy
+Define marketing research
+Describe the development of marketing research as a profession
+Explain how marketing research is incorporated into the marketing plan
+Discuss the importance of conducting ethical research
+
+WHAT MOTIVATES YOUNG PEOPLE TO BUY? AUTOMAKERS
+NEED TO KNOW!
+Surprisingly 6 per cent of all US car sales are made to people 16 to 24 years old. Because
+this is a sizeable target market segment, automobile companies have spent millions on
+design and advertising trying to win this segment’s brand loyalty. However, the distinctive stylish designs created for the Pontiac Aztek, Chrysler PT Cruiser and Toyota Echo
+failed to interest young potential auto buyers.
+Why did the cars fail to attract buyers? CNW Marketing Research studied young auto
+buyers to learn what really motivates them to purchase. They found that the average price
+of autos purchased by this group was only $15,000. The research found that young people
+were interested in style, but first wanted low price, good value and long warranties.
+Was the research correct? The South Korean company Hyundai Motors produced two
+cars that offered these benefits. When the automaker introduced the Accent (priced at
+$10,000) and the Elantra (priced at $13,000) they were immediately popular with young
+people. In fact they were so popular with the target market segment of young consumers
+that the overall average age of all buyers was only 24. Hyundai was successful in reaching
+the target market of young consumers because not only were the cars relatively inexpensive compared with other vehicles, they also came with long warranties – and they looked
+good.
+
+Kolb-01.indd 3
+
+2/7/2008 6:10:16 PM
+
+(Continued)
+Then other automakers started to consider how they could market to younger consumers. General Motors conducted their research by interviewing minority journalists about
+urban and hip-hop culture. As the result of the research General Motors now uses hip-hop
+music and musicians in their ads. They also learned that the way to reach young urban
+car buyers was to feature Buicks at car accessory and customization shows. Rather than
+assuming they know what consumers want, a company is smart to invest in research. In
+fact, the money spent on research will actually save money that would otherwise be spent
+on wasted efforts.
+Question: How do the mistakes that companies make, because they do not conduct
+research, cost them money?
+Source: Welch, 2004; Chon, 2007
+
+1.0 Research and Marketing Strategy
+Marketing is a new field of academic study in comparison to subjects such as chemistry or philosophy. However, marketing is not a new human activity. People have always produced goods
+that they wished to barter or sell for either another needed product or money. To do so they
+need to find a buyer. The field of marketing simply takes this basic human behavior and plans
+its strategic implementation.
+While there are many definitions of marketing, the definition used by the American Marketing
+Association on their website (www.marketingpower.com) describes marketing as:
+
+Marketing Research
+
+Marketing is an organizational function and a set of processes for creating, communicating, and delivering value to customers and for managing customer relationships in ways
+that benefit the organization and its stakeholders.
+The definition describes marketing as an exchange that satisfies both the seller (organization)
+and the individual (buyer). Marketing is sometimes misunderstood as only selling, with the organization convincing the buyer to purchase something they don’t want or need. While selling is
+an important part of promotion, there would be no long-term gain for any organization to focus
+only on selling their product. Even if they could use high pressure sales techniques to convince
+buyers to purchase, business success relies on repeat customers. Such customers would most
+likely feel manipulated and be unlikely to purchase again. The definition also states that an organization should only provide products that fulfill its goals. Thus the organization has a mission
+and a strategic plan and marketing exists to help the organization meet both, while at the same
+time meeting the needs of customers.
+Therefore, marketing is much more than just the promotion of a product. The field can be
+described as a circle with the customer in the middle surrounded by the four ‘Ps’ of promotion,
+price, product and place. All four of these components of marketing must provide the customer
+with a wanted or needed product at an acceptable price, in an appropriate place, and with
+
+4
+
+Kolb-01.indd 4
+
+2/7/2008 6:10:16 PM
+
+effective promotion. However, to accomplish this goal the organization must first listen to the
+customer’s wants and needs.
+
+1.1 Stages of marketing development
+Marketing has developed and evolved as social and business conditions have changed. An early
+approach to marketing was focused only on the production of goods. When consumer goods
+became more plentiful, the approach changed to selling as a means of convincing consumers to buy.
+Although these two approaches still exist in some industries, the current recommended approach is
+the marketing concept that instructs companies to first focus on consumer wants or needs.
+Companies using the production concept will emphasize the most efficient way to produce
+products that provide high quality and low price. When using this approach companies see
+the marketplace of consumers as a single group with similar needs who will purchase any well
+made, reasonably priced product. When Isaac Singer invented the home sewing machine there
+was a great need for his product. Its successful introduction to the marketplace is an example
+of the production approach (see the case study below). The problem with this approach today
+is that people can choose from so many products with high quality and low price. Therefore,
+consumers also want the products they purchase to provide additional benefits. The production
+approach does not address this issue. To determine what additional benefits are desired, it is
+necessary to conduct product research.
+
+It is easy to take for granted that in the present day people have the availability to purchase more products then they can possible need or use. This has not always been true as
+there was a time when mass produced goods were uncommon. For example, in the first
+half of the nineteenth century all of the family’s clothing had to be handmade. Unless
+wealthy enough to employ a seamstress, a woman would arduously produce all her family’s clothes by hand using a needle and thread. This task was in addition to all her other
+household chores.
+The Singer Company’s introduction in 1858 of the first lightweight home sewing
+machine, the ‘Grasshopper’, changed the way clothing was produced. The machine was
+inexpensive and allowed women to greatly lighten their workload. For this reason the
+machine was immediately popular. Within five years sales had reached 20,000 machines
+annually.
+Source: Singerco.com, 2006
+
+The sales concept focuses on using the right sales technique. When companies were able to
+produce more mass-produced goods then were immediately needed by consumers, they started
+
+Introduction to Marketing Research
+
+THE PRODUCTION CONCEPT AND THE INVENTION OF THE
+SEWING MACHINE
+
+5
+
+Kolb-01.indd 5
+
+2/7/2008 6:10:16 PM
+
+to focus on how to sell products. A company using this approach will assume that customers will
+not purchase their product without considerable persuasion. This approach is still used today in
+certain industries. For example, life insurance is a product that is needed but that consumers do
+not usually enjoy buying. A salesperson needs considerable skill in sales techniques to overcome
+this resistance. If the sales concept is used consumer research is still needed to determine which
+approach will be most successful. Even with research, the sales concept usually does not lead to
+repeat purchases and therefore is generally not recommended for consumer goods.
+The marketing concept starts by taking into consideration what benefits consumer desires,
+and whether the approach is recommended by most marketing experts. This is recommended
+because there are now so many products available in the marketplace that only those products
+that provide consumers with the benefits they desire will be purchased.
+For example, the Toyota Sienna minivan is one of many minivans on the market targeted at families.
+To differentiate their vehicle from the competition’s, Toyota conducted research to find what features
+would make traveling with children easier. As a result they included such features as a passenger-side
+power sliding door and a rear seat DVD entertainment system. The research succeeded, as Consumer
+Reports rates the Sienna as having the most family-friendly features (CR Quick Take, 2004).
+The marketing concept, where the needs and desires of the consumer are taken into consideration when the product is designed, is considered the best approach to marketing. However,
+in order to follow this concept an organization must know what consumers need and desire.
+In fact marketing research is needed equally by both those businesses that sell tangible goods
+and those companies that sell intangible services. An example of how a financial institution can
+use research is given in the box below. Once again, the only way for companies to know what
+consumers desire is through marketing research. For this reason research can no longer be considered an optional activity which the organization engages in if it has the time and money. If
+research is not conducted, there is a good possibility that the time and money an organization
+does have will be wasted.
+
+Marketing Research
+
+SERVICE BUSINESSES CAN ALSO USE MARKETING RESEARCH
+Companies that provide services can also use marketing research to provide information
+on consumer wants and needs, Research can also provide organizations with information
+on the consumer segments to target with their services and their competitors’ actions.
+Credit unions are financial institutions that find new customers by offering membership
+to employees of other companies or organizations. The following research questions were
+suggested as ways that credit unions could use research to increase membership:
+Who are our potential members and where do they work?
+What products do they need that they are not getting from their current financial
+institution?
+What potential companies could we target for membership?
+What products are offered by those competing credit unions that are successful in
+recruiting new members?
+Source: Freeborn, 2004
+
+6
+
+Kolb-01.indd 6
+
+2/7/2008 6:10:16 PM
+
+1.2 Defining Marketing Research
+The official definition of marketing research, according to the American Marketing Association,
+can be found on the website www.marketingpower.com.
+Marketing research is the function which links the consumer, customer, and public to
+the marketer through information – information used to identify and define marketing
+opportunities and problems; generate, refine and evaluate marketing actions; monitor
+marketing performance; and improve our understanding of marketing as a process.
+Marketing research specifies the information required to address these issues, designs
+the method for collecting information, manages and implements the data collection
+process, analyzes the results, and communicates the findings and their implications.
+This definition may be meaningful to a marketing professional but equally may be difficult for
+someone studying marketing to understand. The definition is easier to comprehend if the four
+ways research can be used are explained individually:
+1. ‘Identify and define marketing opportunities and problems’ means using research to explore
+the external environment.
+2. ‘Generate, refine and evaluate marketing actions’ means using research to determine whether
+the company is meeting consumer needs.
+3. ‘Monitor marketing performance’ means using research to confirm whether the company is
+meeting the goals it has set.
+4. ‘Understanding marketing as a process’ means using research to learn to market more
+effectively.
+
+Introduction to Marketing Research
+
+Although the AMA definition is a useful summary of all that marketing research can accomplish,
+a simpler definition can be constructed. According to the dictionary, the word ‘research’ means
+to search or investigate exhaustively or in detail. The thesaurus gives as a synonym for ‘research’
+the word ‘inquiry’, which means the act of seeking truth, information or knowledge. So market
+research can be defined as a detailed search for the truth. Marketing has always had the function of connecting the internal structure of the organization with the external world. Marketing
+research is a formalization of this role.
+Research that is conducted can be divided into two types. Basic, or pure research, is
+conducted to discover new knowledge. When the research is planned and conducted, its
+application or how the knowledge might be used is not of major importance. What is important is that new information is discovered. After the research has been conducted, how the
+information can be used is then considered. Universities or very large corporations conduct
+most basic marketing research.
+In applied research, the research is planned so that the findings can be used to solve a specific problem. This is the type of research conducted by marketing professionals working either
+within an organization or for an external marketing research provider. After all, if a business is
+paying for research to be conducted, it needs results that will show how to solve a problem. Most
+businesses do not have the time or money to pay for basic research. The box below provides
+additional information on the differences between basic and applied research.
+
+7
+
+Kolb-01.indd 7
+
+2/7/2008 6:10:16 PM
+
+BASIC VS. APPLIED RESEARCH: WHAT’S THE DIFFERENCE?
+An example of a journal that contains basic research is the Journal of Marketing Research.
+The American Marketing Association (AMA) which publishes the journal states it ‘is written for those academics and practitioners of marketing research who need to be in the
+forefront of the profession and in possession of the industry’s cutting-edge information’.
+In the November 2006 issue are such articles as:
+‘Optimal Pricing Strategies’
+‘Brand Association Maps: A Methodology for Identifying Brand Association
+Networks’
+‘The Role of Relational Embeddedness in Retail Buyers’ Selection of New Products’
+An example of a journal that contains applied research is the Journal of Marketing. Also
+published by the AMA, it is ‘to lead in the development, dissemination, and implementation of marketing concepts, practice and information and to prove and promote the use
+of marketing concepts by businesses, not-for-profits, and other institutions for the betterment of society’. In the October 2006 issue you can find such articles as:
+‘Achieving Marketing Objectives Through Social Sponsorships’
+‘Upgrades and New Purchases’
+‘Influence Tactics for Effective Adaptive Selling’
+
+Marketing Research
+
+Source: AMA, The Information Source, 2006
+
+The important fact to remember about applied research is that the information gathered will be
+used to assist in making decisions. The decision might be critical and costly, such as which new
+product to introduce. Or the decision might be of lesser importance, such as what color should
+be used in a brochure. Whatever the decision, the rationale of all applied marketing research is
+to help organizations to limit risk, because making mistakes is expensive.
+Decisions that carry a great deal of risk, such as new product introduction, will require a great
+deal of research. In fact a full-scale research project combining more than one research method
+and a large number of participants may be needed. Conducting the research will be costly but
+the expense is acceptable because making the wrong decision will result in a very expensive
+mistake. A small decision, such as what color to use in a brochure, still needs marketing research
+to eliminate risk – but the research can be on a much smaller scale because the risk, which here
+is only the cost of reprinting the brochures, is less.
+
+1.3 The Development of Marketing Research as
+a Profession
+At the beginning of the twentieth century there was a growth both in the number of universities
+and also in the number of academic fields being taught. These new academic subjects, including
+
+8
+
+Kolb-01.indd 8
+
+2/7/2008 6:10:16 PM
+
+1.3.1 Marketing research today
+Students who have studied marketing research are often employed in the marketing departments
+of large companies. Specialized marketing research firms also employ marketing research professionals. These firms contract to provide market research for businesses and nonprofit organizations that do not have the employees to conduct their own. The box below shows two job
+advertisements and what qualifications are needed.
+
+Introduction to Marketing Research
+
+psychology and sociology, were interested in applying scientific methods to social problems in
+ways that would help to explain human behavior. However, this interest in applying scientific
+methods did not apply to purchase behavior and there is, as yet, no academic area of study
+called ‘marketing’ or ‘marketing research’.
+Yet during the same time span in the business world, marketing research became a recognized
+professional field. Throughout this period of economic history businesses were starting to grow
+from small local or regional companies to larger national companies. Since they were now selling
+their products over a wider geographic area it became more difficult for companies to identify
+and understand their customers.
+Such an early marketing problem was faced by auto manufactures. Once people who had
+the desire and money to purchase cars had done so, the manufacturers needed to know
+how to use advertising to reach additional consumers. As a result, the research method of
+surveying was borrowed from the social sciences. However, early research survey studies
+confronted the key problem of identifying the appropriate consumers to include as participants. So once again researchers turned to scientific method and researchers adopted
+sampling to identify the appropriate consumers to include in studies. This new method was
+useful when the potential consumer group was large in number, which was indeed the case
+for auto manufacturers. However, the research conducted was limited to focusing on finding customers for existing products rather than finding out about the consumer desire to
+improve products.
+Market researchers soon discovered that besides surveying and sampling, they could also
+borrow additional techniques from the social sciences. In 1931 a manual for marketers,
+Marketing Research Technique, described not only how to use surveys but also discussed
+interviewing and focus groups as ways of conducting marketing research. Because of the
+successful use of these new techniques, interest in marketing research continued to grow
+during the 1930s.
+After the end of World War II, there was a pent-up demand from people for the consumer
+goods they could not purchase during the war years. However, once production caught up with
+demand, companies realized their need to learn sales techniques. When such sales techniques
+did not sell enough products, they then tried to find additional customers and so started to focus
+on meeting consumer desires for products. Marketing research was now needed to determine
+these desires and specialized marketing firms developed to provide marketing research services
+to companies. As a result, universities started to teach marketing research as an academic field to
+provide the necessary professionals.
+Academic research continues to play a role in the development of marketing science to solve
+management problems. In fact as marketing, including marketing research, is becoming more
+common in emerging markets, academic researchers have proposed new models that will help
+businesses gain needed information (Burgess et al., 2006).
+
+9
+
+Kolb-01.indd 9
+
+2/7/2008 6:10:16 PM
+
+I WANT THE JOB!
+Below are two job descriptions that give some idea of the range of duties and responsibilities that a market researcher may perform:
+Marketing Research Professional within a Corporate Marketing Department
+The person will design and execute project plans for market research studies, including customer satisfaction and market awareness, design surveys, analyze results and prepare concise reports that communicate research findings. They must also be able to conduct analyses,
+trending, and interpretation of data for use by the sales division. He or she will work closely
+with the sales force to communicate critical market research findings. The person hired must
+have strong analytical and communications skills, be skilled in quantitative and qualitative
+research methods, survey design, statistical analysis, and data collection techniques.
+Marketing Research Planner in a Specialized Market Research Firm
+
+Marketing Research
+
+The person hired will assume responsibility for managing all aspects of client research
+projects. This will include designing and managing focus groups and surveys; analyzing the
+resulting data, presenting results, and making recommendations to the client to help them
+make critical decisions. The person will also work in cooperation with other staff members
+in marketing research projects to new clients. Thorough knowledge of marketing research
+methods is essential along with excellent leadership, analytical, and presentation skills. The
+ability to independently manage marketing research projects is a must.
+
+Marketing research responsibilities with corporate marketing departments or with specialized
+firms include conducting studies using methods that gather statistical information (quantitative
+studies). Other professionals conduct studies that gather verbal and other types of data (qualitative). Most marketing research jobs require skills in conducting both types of research.
+Job responsibilities within a marketing research firm or department at the lowest level include
+tabulating results and assisting in preparing final reports. Positions with more authority would include
+analysts who plan research projects, analyze data and write the reports. Specialized responsibilities
+would include people trained to conduct the research, such as focus group moderators and statisticians who can use computers to work with large volumes of data. Above everyone would be
+a research director who would report to the client who hired the research firm or, if the research
+department is in a large firm, to upper management. However, today all business people should learn
+marketing research skills because they are critical to successfully managing a business.
+
+1.4 Marketing Research and the Development of
+the Marketing Plan
+Research is too often thought of as only being useful in answering specific marketing questions. It is true that research is needed to answer such questions as what types of new products
+
+10
+
+Kolb-01.indd 10
+
+2/7/2008 6:10:16 PM
+
+Table 1.1 Components of a marketing plan
+Traditional
+
+New
+
+Statement of Organizational Mission
+↓
+Environmental Analysis
+↓
+Competitor Analysis
+↓
+Buyer Motivation
+↓
+Segmentation
+↓
+Research Plan
+↓
+Product Analysis
+↓
+Distribution Analysis
+↓
+Pricing Options
+↓
+Promotional Plan
+
+Statement of Organizational Mission
+↓
+Environmental Analysis – Research
+↓
+Competitor Analysis – Research
+↓
+Buyer Motivation – Research
+↓
+Segmentation – Research
+↓
+Product Analysis – Research
+↓
+Distribution Analysis – Research
+↓
+Pricing Options – Research
+↓
+Promotional Plan – Research
+↓
+
+Introduction to Marketing Research
+
+consumers might want or what new market segments to target for an existing product? However,
+it is better to conceptualize marketing research as a tool that should be used on a continual basis
+for finding new opportunities and solving problems. In fact marketing research needs to be
+regarded as an ongoing marketing activity.
+Research plays a critical role in the development of a marketing plan for all types of businesses
+and organizations, both large and small and for profit and nonprofit. Marketing research has
+traditionally been seen as just one component in the marketing plan, but it is better to consider
+research as part of the entire process of developing the marketing plan and not as a single step
+(see Table 1.1). In fact the field of marketing research is being changed by new technologies.
+The marketing researcher is now seen as a consultant who can either conduct the research themselves or help organizations learn how to use the new online tools so they can conduct their own
+research (Siesfeld, 2005).
+Rather than see research as only one step in the process of developing a marketing plan, it
+should be seen as essential to the entire process. After all, research is the only way a company
+can conduct environmental and competitor analysis. The research conducted may involve a
+large-scale study or be as simple as visiting a competitor’s store and reading the local business
+news. Research is also the only means marketers can use to understand buyer motivation. This
+research may consist of a large formal survey, informal interviews, or both. First, the proper target market segment cannot be chosen without researching the demographics of the consumer
+marketplace. Next, additional consumer research will be needed to determine what a target segment needs and wants. Finally, decisions about product, distribution, pricing and promotion can
+only be successfully answered after conducting marketing research. The researchers may find
+that there is a need for a new product category, such as sleep, that was never thought of before
+(see box below).
+
+11
+
+Kolb-01.indd 11
+
+2/7/2008 6:10:16 PM
+
+CAN YOU MARKET SLEEP? CERTAINLY!
+Not too long ago the idea of selling water to people who already had healthy water coming
+out of their kitchen taps might have seemed far fetched. Of course, today many people
+take the idea of buying bottled water for granted.
+Well, sleep is now being marketed to busy professionals and students at new sleep
+salons. If you get too tired, and can’t make it home for a nap, at these salons you can rent
+an hexagonal pod with a leather recliner, a relaxing soundtrack and a cashmere blanket.
+Who will want to sleep at home anymore?
+Source: Singer, 2007
+
+Marketing Research
+
+1.4.1 The relationship between data, information and knowledge
+The purpose of research is to provide the knowledge needed to solve a problem and not just to
+answer a question as to the cause of the problem. Too often researchers lose sight of this simple
+fact. Instead they view research simply as a means of collecting data. As a result a complex
+research study is designed that gathers a great amount of data about a problem. These data are
+then bound with a strikingly designed cover and given to management – along with a large bill
+for the service. It is then assumed that management will be able to turn such data into the answer
+they need to solve their problem.
+While the research process might have been rewarding for researchers, those managing the
+organization will be left dissatisfied. Managers need more than raw data. They need information that explains the causes of a problem and then the knowledge that provides answers to
+the problem. The analysis of the data is just as important as its collection. This relationship is
+demonstrated in Table 1.2 below.
+It might be helpful to use physical illness and the patient-doctor relationship as an example
+in explaining the relationship between data, information and knowledge. For example, a patient
+may go to the doctor because they are having a problem sleeping at night. After questioning the
+patient, the doctor will order tests (research) to confirm the diagnosis. The doctor could then
+hand over the test results to the patient in raw data form as they were received from the lab, but
+this would be totally confusing to most patients and therefore of little assistance.
+The doctor could go one step further and provide information to their patient by explaining
+the cause and diagnosis of the problem. The patient now has information and a name for what
+is wrong. However, what the patient really needs is the knowledge of how to solve the problem.
+The patient needs to know more than what is wrong – he or she wants the answer to the question ‘How can I get to sleep?’ Researchers should use their skill and experience to analyze the
+data to provide understandable information and then use the information to provide knowledge
+about the solution to the problem.
+
+1.5 Ethics in Marketing Research
+Ethics provides a system that helps a person to determine what is right and good from what
+is wrong and bad. Ethics also provides an individual with guidelines that will help in making
+decisions. The ethical system a person uses for making decisions in his or her personal life most
+
+12
+
+Kolb-01.indd 12
+
+2/7/2008 6:10:16 PM
+
+Table 1.2 The relationship between data and knowledge
+→
+
+Data
+Raw facts
+
+Analysis
+
+→
+
+Information
+
+→
+
+What the facts mean
+
+Analysis
+
+→
+
+Knowledge
+
+What should be done
+
+likely is the result of family or educational influence, or both of these. However, the ethical
+behavior of people continues to be shaped by their environment, even as adults. This includes
+the environment in which they work (Barnett and Valentine, 2004).
+An ethical system that exists for employees of an organization is often called a code of conduct.
+If a company employs a researcher and does not have a code of ethical contact, the researcher can
+use a code produced by a research association or society. A code of conduct is important because
+research is the search for true information. To knowingly conduct research that is biased is harmful
+to both the individual researcher and the field of research as a whole. With the renewed emphasis on
+corporate ethics (or the lack of them), marketing research ethical issues should not be taken lightly.
+It is sometimes said that any actions internal to a company that are not against the law should be
+allowed. However, just because something is legal this does not make it ethical.
+
+1.5.1 Ethical research issues
+
+PROTECTING CHILDREN
+Special care needs to be taken when conducting marketing research with children. Parents, research organizations and the general public all have a stake in ensuring the protection of children. Below are two of the suggested guidelines from The World Association
+of Opinion and Marketing Research Professionals (ESOMAR):
+The welfare of the children and young people must always come first. They should
+experience no harmful effects from participating in research.
+The researcher should communicate to the parents or guardians the safeguards that
+are in place.
+The general public must be confident that the children will be protected and there is
+no possibility of abuse.
+Source: World Association of Research Professionals, 2006
+
+Introduction to Marketing Research
+
+The first issue where the researcher may encounter an ethical dilemma is if the purpose of the research
+itself is conducted unethically. It is the researcher’s responsibility to ensure that the research study is not
+designed to obtain predetermined results. After all, by manipulating who is asked and the way questions are phrased it is possible, to design a study so that it will obtain predetermined answers. Sometimes
+the organization commissioning the research may have the desire to have a particular outcome. This
+can be communicated to the researchers by stressing that obtaining the contract for research may hinge
+on ensuring the desired research findings. It is better for the reputation of a researcher if the research
+is never undertaken than to report results that are knowingly misleading. By participating in this study,
+not only is a researcher acting unethically, they are making all future research efforts suspect. Sometimes
+researchers will work with groups that are particularly vulnerable, such as children. Extra care must be
+taken that they are not harmed during the research process (see box below).
+
+13
+
+Kolb-01.indd 13
+
+2/7/2008 6:10:16 PM
+
+Marketing Research
+
+Another guideline in conducting research ethically is always to be honest with the participants.
+For this reason, research participants should always be told who is conducting the research, what
+methods will be used and the amount of the time that will be necessary. Participants should also
+be informed of how the data collected will be used. Finally, if deception is necessary as part
+of the study, the participants should be informed that the true topic of the research will not be
+revealed until after the research is conducted. After providing this information, the researcher
+should answer any questions the participants may have.
+For example, in qualitative research indirect methods are often used to obtain information – say
+perhaps when conducting observational research at an airport, researchers may appear to be fellow travelers. In focus groups, the clients commissioning the research may watch the participants
+from behind a screen or one-way window. Sometimes participants in an interview may be told
+that the subject to be discussed is different from the real topic. Although some of this deception
+is necessary in the research process, nevertheless this does not mean that the researcher does
+not need to consider ethical issues.
+If at all possible, researchers should present themselves accurately and be honest with participants as to the purposes and methods of the research. If this is not possible because of the
+research design, the participants should be informed at the start of the research that they are not
+being provided with all the relevant information. This information should then be provided at
+the conclusion of the research.
+A third ethical issue relevant to market researchers is to avoid any harm to the participants.
+Market researchers may borrow research tools from the social sciences, such as the field of psychology, but are not trained as social scientists or psychologists. Therefore, marketing researchers must be very careful not to cause participants any emotional distress. A researcher for a
+product such as intruder alarms may legitimately want to know how safe people feel in their
+own homes and what would make them feel safer. Factual questions such as ‘Has your home
+ever been broken into?’ are a necessary part of finding and interviewing a potential target market
+segment. However, market researchers must be extremely careful to avoid such questions as ‘Will
+you tell me how your felt when you were attacked?’ These questions can open a floodgate of
+emotions to which the researcher is not trained to respond.
+The emotional wellbeing of participants in focus groups and interviews should also be
+respected. While follow-up questions are a legitimate part of the process, participants should not
+be pushed to respond to questions when they feel uncomfortable or evidence distress with the
+topic. Researchers cannot know the personal history of participants. A question about flashlight
+or torch use may ask ‘How do you feel when the power fails and you are left in the dark?’ This
+might trigger an unpleasant or troubling memory for participants. A better question, which is
+designed to elicit facts and not emotions, would be ‘What do you do when the power fails?’
+
+Guidelines for conducting ethical research
+• Never conduct research where the search for truth is compromised
+• Always be honest with research participants
+• At all times protect participants from harm
+Below is one example showing the statement of ethical principles for the Marketing Research
+Society. Even for someone who does not belong to the Society these are still excellent principles
+to follow.
+
+14
+
+Kolb-01.indd 14
+
+2/7/2008 6:10:16 PM
+
+MARKETING RESEARCH SOCIETY: ETHICAL PRINCIPLES
+The Market Research Society, with over 8,000 members in more than 50 countries, is the
+world’s largest international membership organization for professional researchers and
+others engaged or interested in market, social and opinion research. The Society’s Code of
+Conduct starts with a statement of general principles:
+Market researchers will conform to all relevant national and international laws.
+Market researchers will behave ethically and will not do anything which might
+damage the reputation of market research.
+Market researchers will take special care when carrying out research among children
+and other vulnerable groups of the population.
+Respondents’ cooperation must be voluntary and must be based on adequate, and not
+misleading, information about the general purpose and nature of the project.
+The rights of respondents as private individuals will be respected by market researchers and they will not be harmed or disadvantaged as the result of cooperating in a
+marketing research project.
+Market researchers will never allow personal data they collect for a research project
+to be used for any purpose other than market research.
+Market researchers will ensure that projects and activities are designed, carried out,
+reported and documented accurately, transparently, objectively and to the appropriate quality.
+Market researchers will conform to the accepted principles of fair competition.
+The Society then provides a list of participants’ rights which can be summarized as
+follows:
+
+Source: Market Research Society, 2006
+
+Summary
+1 Marketing research is the planned and systematic search for the truth on how to
+meet consumer desires and needs. Marketing started with a production concept
+where the goal was to make goods cheap and easy to purchase. Once a sufficient
+flow of consumer goods was being produced the emphasis switched to a sales
+approach. Today research is necessary if any type of organization is going to follow
+the marketing concept of putting consumer needs and desires first.
+
+Introduction to Marketing Research
+
+Participation must be voluntary.
+Participants’ anonymity must be protected.
+Participants, especially children and young people, must be protected from harm.
+Participants must be told of any duplicitous methods that will be used.
+Participants should be able to easily verify the researcher’s identity and credentials.
+
+15
+
+Kolb-01.indd 15
+
+2/7/2008 6:10:16 PM
+
+2 Marketing research can be defined as a means of gaining information on marketing
+problems and opportunities. Marketing research is used to answer organizational
+questions in an effort to reduce risk and therefore reduce expensive mistakes.
+Research can be used by large corporations, but also by small businesses and
+community organizations.
+3 Marketing research developed as a separate professional field when businesses
+started to grow from local to national companies. Owners of larger businesses
+could no longer know their customers personally. These business owners needed
+to use research to discover their customers’ needs and desires. Today marketing
+research professionals can work in the marketing departments of large companies or
+specialized research firms.
+4 The traditional process for developing a marketing plan lists marketing research as
+a distinct step. It is better to think of marketing research as a tool that is helpful in
+every step of the marketing process. The research process creates data. It is the
+researcher’s responsibility to turn this data into useful information that provides the
+knowledge to solve problems.
+5 Ethics form a system that helps to determine what is right and good from what is
+wrong and bad. When ethics are applied to daily life they can be used as guidelines
+on how to act. A code of conduct is a formal statement by an organization of which
+actions are allowed and which are prohibited. Ethical standards are important
+in marketing research to protect the integrity of the field and also to protect
+participants, especially children, from harm.
+
+Key Terms
+applied research research conducted to solve an immediate problem
+code of conduct official list of standards of what is acceptable and unacceptable behavior
+
+Marketing Research
+
+ethics set of beliefs used to distinguish what is right and good from wrong and bad and that
+result in a duty or obligation to act in a certain way
+marketing concept philosophy that states the purpose of marketing is to provide consumers
+with products they either need or desire
+marketing plan description of how a company plans to meet consumer needs by targeting a
+specific market segment with a needed product at the right price, sold at the correct place and
+promoted effectively
+marketing research ongoing process of gathering accurate information from the external
+environment and consumers to assist the company in implementing the marketing concept
+observational research methodology where information is gathered by watching participants
+and recording their actions
+
+16
+
+Kolb-01.indd 16
+
+2/7/2008 6:10:16 PM
+
+production concept marketing philosophy that states that the company’s decision on what to
+produce should be determined by what product can be produced best at the lowest price
+qualitative research research based on social science principles used when the problem is
+still vague or when information is sought on feelings, beliefs and attitudes
+quantitative research research based on scientific principles used when proof of a fact is
+needed or when the research question deals in descriptive facts such as who or how many
+research proposal written plan of action that describes why and how the research will be
+conducted and also how the resulting information will be analyzed and reported
+sales concept philosophy that states the most important function of marketing is sales and
+that consumers can be convinced to buy a product if the right sales strategy is followed
+
+Discussion Questions
+
+Recommended Reading
+Andreasen, Alan R. (2002) Marketing Research that Won’t Break the Bank: A Practical Guide to
+Getting the Information You Need. San Francisco, CA: Jossey-Bass. An easy to read book aimed
+at the owners and managers of small businesses. This book has examples of how research techniques can be used easily and inexpensively.
+Bartels, Robert (1988) The History of Marketing Thought. Columbus, OH: Publishing Horizons.
+While currently out of print, this book is worth finding in the library for the information it
+provides on the early development of marketing as a business and academic discipline.
+
+Introduction to Marketing Research
+
+1 Why is research considered an integral part of the marketing department’s
+responsibility and without which the company cannot succeed?
+2 Why is marketing research necessary for a company that is planning to open a
+retail shoe store and wants to implement the marketing concept?
+3 Provide your own definition for marketing research.
+4 What is the difference between pure and applied research? Can you give an
+example?
+5 Why should even nonprofit community organizations use marketing research?
+6 Can you provide an example of an organization at your school that could use
+marketing research?
+7 Why did marketing research develop as a profession just when businesses
+grew and had customers all over the country?
+8 What type of marketing research job would you find interesting? Why?
+9 Why is it important to understand the distinction between data, information
+and knowledge?
+10 What ethical issues should be of concern to researchers?
+
+17
+
+Kolb-01.indd 17
+
+2/7/2008 6:10:16 PM
+
+Hunt, Shelby D. (1993) Controversy in Marketing Theory: For Reason, Realism, Truth, and Objectivity. Armonk, NY: Sharpe, M.E. Inc. A book that covers marketing theory as compared to other
+theories, beginning with Plato and through to scientific realism. Specifically discusses arguments
+on the effectiveness of marketing research.
+Malhotra, Naresh K. (ed.) (2007) Review of Marketing Research, Volume Three. Armonk, NY:
+Sharpe, M.E. Inc. Seven long articles by leading experts on the latest issues in marketing research,
+including searching for information via the internet and the adoption of other technologies.
+
+Marketing Research
+
+Murphy, Patrick (ed.) (2005) Ethical Marketing. Upper Saddle River, NJ: Pearson Prentice Hall.
+The book first covers all major ethical theories and then applies them to the field of marketing.
+Ethical issues when conducting marketing research are specifically addressed.
+
+18
+
+Kolb-01.indd 18
+
+2/7/2008 6:10:16 PM
+
+

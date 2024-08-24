@@ -1,0 +1,61 @@
+Many decision-making frameworks aim to help leaders use objective information to mitigate bias, operate under time pressure, or leverage data. But these frameworks tend to fall short when it comes to decisions based on subjective information sources that suggest conflicting courses of action. And most complex decisions fall into this category.
+
+Specifically, every complex leadership decision must balance three subjective dimensions:
+
+Ethics, or context-specific principles around what is acceptable in your organization or society.
+Morals, or your own internal sense of what is right and wrong, shaped by upbringing, family, community, identity, faith, etc.
+Role responsibilities, or your understanding of the responsibilities associated with your role in the organization.
+Unsurprisingly, these considerations often come into conflict. When this happens, there are no easy answers — but by carefully interrogating these three dimensions, leaders can move forward with confidence that the decisions they make reflect the best possible balance among their different principles.
+
+Consider a CEO facing the decision of whether or not to lay off employees during a recession. Filtered through the lens of morality, she might feel that taking away an individual’s livelihood in such a hard time would be immoral. Ethics, however, demand that leaders weigh the tradeoff between the wellbeing of a smaller number of individuals and the potential for risk to the entire organization. And if she believes her role requires her to protect the interests of as many of the organization’s key stakeholders as possible — including shareholders, employees, customers, and community members — then she may conclude that her job demands that she lay off employees to protect the majority of the organization. This suggests that the requirements of her role align with her ethics but conflict with her personal morality. This simplifies the decision down to a choice between 1) attempting to persuade key stakeholders to align the expectations of her role with her personal morality; or 2) sacrificing her individual views for the greater good.
+
+Adding further complexity to difficult decisions like this one is the fact that none of the three dimensions are static. As recently as 2014, for example, an apolitical approach was broadly perceived as the right ethical framework for leaders; today, many employees and consumers demand that leaders take a strong stance on social issues. Leaders must continuously update their understanding of the ethical framework demanded by their current context.
+
+Staying abreast of these ethical shifts — and understanding the rationales behind them — may inspire leaders to investigate and adapt their own views accordingly as well. In particular, surrounding yourself with a diverse team that elicits different perspectives based on different experiences, values, or education will help you to continuously refine your own moral code.
+
+Finally, your role (and your understanding of that role) is likely to change many times over the course of your career. Are you obligated to all stakeholders equally? What results do different stakeholders expect and whose expectations are most important? Should employees, customers, and communities be treated with the same regard as owners and investors? These are all questions that will have to be evaluated and reevaluated as your roles evolves.
+
+Learning to recognize and balance these dynamic priorities is key to leading with integrity. There aren’t any shortcuts, but actively investigating your own values and seeking — or driving — alignment between at least two of the three corners of the morals-ethics-role triangle will give you the tools you need to make the difficult decisions that all leaders face. Below, I offer five sets of questions to ask yourself that will help you better understand, develop, and articulate your ethical, moral, and role responsibilities.
+
+1. Clarify your current worldview.
+Without judgment, only observation, ask yourself:
+
+How do I want to be perceived as a leader? What do I want to stand for?
+What do I think is the purpose of business in general? Is it to maximize shareholder value and, by extension, to improve communities by increasing collective wealth? Is it to improve communities and the world regardless of creating wealth? Some combination of the two? Something entirely different?
+What do I think is the purpose of our business? Is it the same as my view of business at large or is there some nuance based on our size, location, or services?
+What is my role within our business? What are my obligations, and to whom do I hold them?
+What am I willing to sacrifice in service of a desired goal? What am I never willing to sacrifice?
+For example, the CEO grappling with laying off employees during a downturn might articulate her desire to be experienced as both savvy and compassionate, her belief that business exists to generate wealth for individuals and communities, her view that the purpose of her specific business is to improve people’s quality of life, and her understanding that fulfilling these goals requires the business to be profitable.
+
+2. Choose a recent major decision and evaluate it against the observations you just made.
+Again, without judgment, only observation, ask yourself:
+
+How did this decision align with the ethical, moral, and role responsibilities I’ve identified for myself? Where was this decision misaligned? What was the reason for the misalignment?
+If I were to make this decision over again and attempt to fully align with my ethical, moral, and role responsibilities, what would I do differently?
+Is there anything I need to adjust about my understanding of my own moral and ethical frameworks and/or my understanding of my role responsibilities in light of these observations?
+After embracing her desire to be experienced as both compassionate and savvy, the CEO might recognize that there have been some situations in the past where she asserted one characteristic more than the other. This reflection could lead her to conclude that she actually values one of those traits more than the other, or it could lead her to conclude that her past actions have been inconsistent with her morals, ethics, and/or role responsibilities, and that future actions should align more closely with these values.
+
+3. Next, look at a decision you’ll have to make soon.
+Consider the following:
+
+If I want to make this decision in a way that is completely aligned with my personal moral framework, my society’s ethical framework, and my role responsibilities, what should I do?
+If it is very difficult or impossible to make this decision in a way that aligns all of these, what am I willing to compromise?
+In the case of the layoffs decision, the CEO can see that the expectations of her role are aligned with her ethical context, but she is unable to reconcile this with her personal moral code. She is therefore left with a small range of options: ignore her role responsibilities (a choice she can make only once, as it’s likely to lead to her removal as CEO); sacrifice her morality (a descent into hypocrisy which few can stomach); attempt to influence key stakeholders to shift their expectations of her role to align with her morality; or recalibrate her understanding of her own morality to align with her role responsibilities and ethics.
+
+4. Develop a plan to communicate the decision.
+Consider the following:
+
+Will it be difficult to communicate this decision in a way that reflects the moral and ethical frameworks that underpin it? How might someone with an alternate perspective or lived experience interpret the decision differently than intended?
+What can I do to increase the likelihood that the decision will be interpreted the way it was intended?
+No decision exists in a vacuum. Is there anything the organization has recently done — or not done — that might be seen as contradicting the message I want to send? How can I acknowledge and address any potential inconsistencies when I communicate the current decision?
+In these situations, nuance does not work to your advantage. It’s natural to have mixed emotions, but as a leader, you must send a clear, consistent message. Articulate what you stand for with clarity, and people will understand the decision — even if they don’t like it. Even if the CEO genuinely feels sadness, anger, or disappointment at the prospect of laying off her employees, she must avoid a defensive focus on her own feelings and instead center her communication around the reasons for the decision and how they align with the morals, ethics, and role responsibilities she has always held.
+
+5. Engage in rigorous self-reflection.
+This is the hardest part. Now that you’ve completed the exercise, ask yourself:
+
+Was I being completely honest with myself in my earlier articulation of my values?
+What values do I give precedence to? Why? And at whose expense?
+To reconcile any inconsistencies, do I need to adjust my articulation of my moral, ethical, and role responsibilities to match how I actually act, or do I need to adjust my actions to make sure that what I do matches what I say matters to me?
+This process isn’t easy. In fact, research has demonstrated that people with a weaker sense of morality tend to have an easier time reconciling these high-stakes dilemmas, potentially helping to explain the prevalence of leaders with psychopathic tendencies. But that’s all the more reason to invest in understanding and cultivating your own values, ensuring that you serve as a force for good in an arena rife with less-than-moral players.
+
+The more you explore your own decision-making framework in the abstract, the better equipped you will be to make tough calls when the job requires it. Each of these decisions will help you further sharpen your understanding of your underlying morals, the role that you are fulfilling, and the ethical context in which you are operating — just in time to make your next difficult choice.

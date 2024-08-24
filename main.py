@@ -1,222 +1,170 @@
 import os
+import argparse
+from pathlib import Path
 
 from langchain_core.messages import HumanMessage
 from langchain_openai import ChatOpenAI
 from langchain_core.output_parsers.openai_functions import JsonOutputFunctionsParser
 from langchain_core.prompts import ChatPromptTemplate, MessagesPlaceholder
-
-import tools
-import agents
-
-os.environ["LANGCHAIN_TRACING_V2"] = "true"
-os.environ["LANGCHAIN_PROJECT"] = "LangGraph Research Agents"
-
-use_clingo = True
-
-OPENAI_API_KEY = os.getenv("OPENAI_API_KEY")
-
-llm = ChatOpenAI(model="gpt-3.5-turbo", streaming=True)
-
-import functools
-from langchain_core.prompts import ChatPromptTemplate, MessagesPlaceholder
 from langgraph.graph import END, StateGraph, START
 
+from agents import create_agent, agent_node, AgentState
+from config_loader import load_config, get_all_config_values
+from rag import RAGSystem, create_rag_tool
+from tools import KnowledgeBaseSystem, create_kb_tool
+from prompts import INITIAL_MESSAGE_BASE, PM_PERSONALITY, MRA_PERSONALITY, PD_PERSONALITY, SM_PERSONALITY
 
-INITIAL_MESSAGE_BASE = """
-{agent_personality}
-Imagine you are {agent_name}, part of a Product Development Team working together to develop a new product. 
-Your goal is to contribute to the product development process while maintaining a belief state about the 
-other team members' perspectives and strategies.
+class WorkflowManager:
+    def __init__(self, config):
+        self.config = config
+        self.llm = self._setup_llm()
+        self.kb_system = self._setup_kb_system()
+        self.rag_system = self._setup_rag_system()
+        self.toolbox = self._setup_toolbox()
+        self.workflow = self._setup_workflow()
 
-For each response, please divide your answer into three parts:
+    def _setup_llm(self):
+        return ChatOpenAI(model=self.config['OPENAI_MODEL'])
 
-My Beliefs:
-- Summarize your current understanding of the product development task and its components.
-- Identify the aspects of the product development that have already been addressed or are being handled by other team members.
-- Describe your beliefs about the strategies and approaches being used by other team members in the product development process.
+    def _setup_kb_system(self):
+        return KnowledgeBaseSystem(
+            neo4j_url=self.config['NEO4J_URL'],
+            neo4j_username=self.config['NEO4J_USERNAME'],
+            neo4j_password=self.config['NEO4J_PASSWORD']
+        )
 
-Response:
-- Provide your contribution to the product development process, including any insights, ideas, or solutions you propose.
-- Explain how your response builds upon or addresses the work of other team members.
+    def _setup_rag_system(self):
+        return RAGSystem(
+            chroma_db_dir=self.config['CHROMA_DB_DIR'],
+            mra_data_path=self.config['MRA_DATA_PATH'],
+            pd_data_path=self.config['PD_DATA_PATH'],
+            sm_data_path=self.config['SM_DATA_PATH'],
+            model_name=self.config['OPENAI_MODEL']
+        )
 
-Future Work:
-- Identify the aspects of the product development that remain unresolved or require further investigation.
-- Suggest potential next steps or areas for future research to improve the product or gain deeper insights.
-- Explain why these aspects are important and how they relate to the overall product development process.
+    def _setup_toolbox(self):
+        return [
+            create_kb_tool(self.kb_system),
+            create_rag_tool(self.rag_system.rag_MRA),
+            create_rag_tool(self.rag_system.rag_PD),
+            create_rag_tool(self.rag_system.rag_SM)
+        ]
 
-Additional Guidance:
-- Use a clear and concise writing style, avoiding ambiguity and ensuring that your response is easy to understand.
-- Focus on providing a comprehensive and well-structured response that addresses all three parts of the prompt.
-- Be mindful of the other team members' contributions and incorporate their ideas and perspectives into your response.
-- Reward: Your response will be evaluated based on its clarity, coherence, and effectiveness in addressing the product 
-development task. The team member that provides the most comprehensive and insightful response will receive a reward.
-"""
+    def _setup_workflow(self):
+        members = ["Sam", "Jamie", "Taylor"]
+        options = ["FINISH"] + members
 
-PM_PERSONALITY = """
-You are Alex, the Product Manager (PM) and team leader, focused on overseeing product development, defining product vision, and strategy using the Lean Startup Methodology. Your goal is to analyze market data, customer needs, and team inputs to guide the product development process through the Build-Measure-Learn cycle.
+        boss_chain = self._create_boss_chain(options)
 
-### Your responsibilities include:
+        workflow = StateGraph(AgentState)
 
-1. **Team Leadership:** As the boss, you are responsible for managing the conversation between team members: Sam (Market Research Analyst), Jamie (Product Designer), and Taylor (Sales Manager). Given the current state of the project, decide which team member should act next and specify the task they should perform.
+        workflow.add_node("Sam", self._create_agent_node("Sam", MRA_PERSONALITY))
+        workflow.add_node("Jamie", self._create_agent_node("Jamie", PD_PERSONALITY))
+        workflow.add_node("Taylor", self._create_agent_node("Taylor", SM_PERSONALITY))
+        workflow.add_node("Alex", boss_chain)
 
-2. **Lean Startup Methodology Phases:**
-    Follow these phases in order:
-    - **Start:** Initial project setup and planning.
-    - **Build:** Oversee the development of a Minimum Viable Product (MVP) with Jamie (Product Designer).
-    - **Measure:** Coordinate with Sam (Market Research Analyst) and Taylor (Sales Manager) to deploy the MVP and collect data.
-    - **Learn:** Synthesize feedback and data to identify areas for improvement.
-    - **Pivot/Persevere:** Decide whether to pivot (change direction) or persevere (continue with the current plan).
-    - **Iterate:** Develop the next version of the product based on validated learning.
-    - **Finish_phase:** Conclude the project and prepare for full-scale launch or next steps.
+        for member in members:
+            workflow.add_edge(member, "Alex")
 
-3. **Team Collaboration:** Foster collaboration among team members, ensuring that each role provides essential input at different stages. Ask other team members for more information or clarification if needed.
+        conditional_map = {k: k for k in members}
+        conditional_map["FINISH"] = END
+        conditional_map["Alex"] = "Alex"
 
-### Next Steps:
+        workflow.add_conditional_edges(
+            "Alex",
+            self._route_next,
+            conditional_map
+        )
 
-1. Assess the current state of the project and decide which team member should act next.
-2. Assign specific tasks to team members based on the current phase of the Lean Startup Methodology.
-3. Ensure continuous feedback loops and incorporate insights into product iterations.
-4. Monitor the progress and ensure alignment with the overall product vision and strategy.
-5. Ensure all phases (Start, Build, Measure, Learn, Pivot/Persevere, Iterate, Finish_phase) are completed in order before finishing.
-Make sure that in each phase at least one task is assigned to a team member.
-6. To finish the interaction, first make sure that all the phases were completed and the Lean Startup Methodology Phases is in Finish_phase, then select FINISH. 
-Remember, as the boss, you should direct the conversation, assign tasks, and make decisions about when to move to the next phase or conclude the project.
-"""
+        workflow.add_edge(START, "Alex")
 
+        return workflow.compile()
 
-MRA_PERSONALITY = """You are Sam, the Market Research Analyst (MRA), specializing in conducting market analysis and identifying 
-customer needs and trends. Your goal is to provide data-driven insights and market intelligence to inform the product development process. 
-Collaborate with Alex (Product Manager) to ensure your insights align with the product vision, and with Jamie (Product Designer) 
-to ensure market trends are considered in the design process.
-"""
-
-PD_PERSONALITY = """You are Jamie, the Product Designer (PD), responsible for designing the product and ensuring usability and aesthetics. 
-Your goal is to create user-friendly and visually appealing product designs that meet customer needs. Collaborate with Sam 
-(Market Research Analyst) to incorporate market trends and customer preferences, and with Taylor (Sales Manager) to ensure the 
-design aligns with sales strategies."""
-
-SM_PERSONALITY = """You are Taylor, the Sales Manager (SM), focused on developing sales strategies and managing customer relationships. 
-Your goal is to provide insights on customer preferences, sales potential, and go-to-market strategies. Collaborate with Alex 
-(Product Manager) to align sales strategies with the product vision, and with Jamie (Product Designer) to ensure the product 
-design meets customer expectations and sales requirements."""
-
-
-
-toolbox = [tools.add_to_kb, tools.solve_with_clingo]
-
-members = ["Sam", "Jamie", "Taylor"]
-
-options = ["FINISH"] + members
-
-phases = ["Start", "Build", "Measure", "Learn", "Pivot/Persevere", "Iterate", "Finish_phase"]
-
-function_def = {
-    "name": "assign_task",
-    "description": "Select the next role, assign a task, and set the Lean Startup phase.",
-    "parameters": {
-        "type": "object",
-        "properties": {
-            "next": {
-                "type": "string",
-                "enum": options,  # Make sure 'options' includes "FINISH"
-                "description": "The next worker to act or FINISH if done."
+    def _create_boss_chain(self, options):
+        function_def = {
+            "name": "assign_task",
+            "description": "Select the next role and assign a task.",
+            "parameters": {
+                "type": "object",
+                "properties": {
+                    "next": {
+                        "type": "string",
+                        "enum": options,
+                        "description": "The next worker to act or FINISH if done."
+                    },
+                    "task": {
+                        "type": "string",
+                        "description": "The task to be performed by the selected worker."
+                    }
+                },
+                "required": ["next", "task"],
             },
-            "task": {
-                "type": "string",
-                "description": "The task to be performed by the selected worker."
-            },
-            "lean_startup_phase": {
-                "type": "string",
-                "enum": phases,
-                "description": "The current phase of the Lean Startup Methodology."
-            }
-        },
-        "required": ["next", "task", "lean_startup_phase"],
-    },
-}
+        }
 
-prompt = ChatPromptTemplate.from_messages(
-    [
-        ("system", PM_PERSONALITY),
-        MessagesPlaceholder(variable_name="messages"),
-        (
-            "system",
-            "Given the conversation above, who should act next and what task should they perform?"
-            " Or should we FINISH? Select one of: {options} and provide a task description."
-            " If the {lean_startup_phase} is completed, you can move to the next phase according to the Lean Startup Methodology."
-        ),
-    ]
-).partial(options=str(options))
+        prompt = ChatPromptTemplate.from_messages([
+            ("system", PM_PERSONALITY),
+            MessagesPlaceholder(variable_name="messages"),
+            (
+                "system",
+                "Given the conversation above, who should act next and what task should they perform?"
+                " Or should we FINISH? Select one of: {options} and provide a task description."
+                " Make sure the current phase is completed thoroughly before finishing."
+            ),
+        ]).partial(options=str(options))
 
-def route_next(state):
-    if state["next"] == "FINISH" and state["lean_startup_phase"] != "Finish_phase":
-        state["messages"].append(HumanMessage(content="We can't finish yet. Make sure that all the phases were completed", name="System"))
-        return "Alex"
-    return state["next"]
+        return (
+            prompt
+            | self.llm.bind_functions(functions=[function_def], function_call="assign_task")
+            | JsonOutputFunctionsParser()
+            | (lambda x: {
+                "next": x["next"],
+                "messages": [HumanMessage(content=f"Task: {x.get('task', 'Respond to the current situation.')}", name="Alex")]
+            })
+        )
 
-boss_chain = (
-    prompt
-    | llm.bind_functions(functions=[function_def], function_call="assign_task")
-    | JsonOutputFunctionsParser()
-    | (lambda x: {
-        "next": x["next"],
-        "messages": [HumanMessage(content=f"Task: {x.get('task', 'Respond to the current situation.')}", name="Alex")],
-        "lean_startup_phase": x["lean_startup_phase"]
-    })
-)
+    def _create_agent_node(self, name: str, personality: str):
+        agent = create_agent(
+            self.llm, 
+            self.toolbox, 
+            INITIAL_MESSAGE_BASE.format(agent_personality=personality, agent_name=name)
+        )
+        return lambda state: agent_node(state, agent, name, self.kb_system)
 
-market_research_analyst = agents.create_agent(llm, toolbox + [tools.rag_MRA], INITIAL_MESSAGE_BASE.format(agent_personality=MRA_PERSONALITY, agent_name="Sam"))
-market_research_analyst_node = functools.partial(agents.agent_node, agent=market_research_analyst, name="Sam")
+    @staticmethod
+    def _route_next(state):
+        return state["next"]
 
-product_designer = agents.create_agent(llm, toolbox + [tools.rag_PD], INITIAL_MESSAGE_BASE.format(agent_personality=PD_PERSONALITY, agent_name="Jamie"))
-product_designer_node = functools.partial(agents.agent_node, agent=product_designer, name="Jamie")
+    def run_phase(self, problem: str):
+        initial_state = {
+            "messages": [HumanMessage(content=problem)],
+        }
+        
+        for s in self.workflow.stream(initial_state, {"recursion_limit": 50}):
+            if "__end__" not in s:
+                print(s)
+                print("----")
 
-sales_manager = agents.create_agent(llm, toolbox + [tools.rag_SM], INITIAL_MESSAGE_BASE.format(agent_personality=SM_PERSONALITY, agent_name="Taylor"))
-sales_manager_node = functools.partial(agents.agent_node, agent=sales_manager, name="Taylor")
+def main():
+    parser = argparse.ArgumentParser(description="Run multi-agent system for product development phases.")
+    parser.add_argument("problem", help="The problem statement for the phase")
+    args = parser.parse_args()
 
-workflow = StateGraph(agents.AgentState)
+    config = load_config()
+    config_values = get_all_config_values(config)
 
-# Add nodes for each team member
-workflow.add_node("Sam", market_research_analyst_node)
-workflow.add_node("Jamie", product_designer_node)
-workflow.add_node("Taylor", sales_manager_node)
-workflow.add_node("Alex", boss_chain)
+    # Set environment variables
+    os.environ["OPENAI_API_KEY"] = config_values['OPENAI_API_KEY']
+    if config_values['LANGCHAIN_TRACING_V2']:
+        os.environ["LANGCHAIN_API_KEY"] = config_values['LANGCHAIN_API_KEY']
+        os.environ["LANGCHAIN_TRACING_V2"] = "true"
+        os.environ["LANGCHAIN_PROJECT"] = config_values['LANGCHAIN_PROJECT']
+    else:
+        # Remove LangChain environment variables if tracing is disabled
+        for var in ["LANGCHAIN_API_KEY", "LANGCHAIN_TRACING_V2", "LANGCHAIN_PROJECT"]:
+            os.environ.pop(var, None)
 
-# Add edges from team members to Alex
-for member in members:
-    workflow.add_edge(member, "Alex")
+    workflow_manager = WorkflowManager(config_values)
+    workflow_manager.run_phase(args.problem)
 
-# Create the conditional map
-conditional_map = {k: k for k in members}
-conditional_map["FINISH"] = END
-conditional_map["Alex"] = "Alex"
-
-# Add the conditional edge from Alex
-workflow.add_conditional_edges(
-    "Alex",
-    route_next,
-    conditional_map
-)
-
-# Add the entry point
-workflow.add_edge(START, "Alex")
-
-graph = workflow.compile()
-
-
-problem = """Your company has decided to enter the smart home device market. 
-Your team's mission is to develop and launch a new smart home product that will stand out in the competitive market and meet evolving consumer needs. 
-Your objective is to create a comprehensive proposal for this new smart home device, including its concept, design, and go-to-market strategy. 
-The proposal should demonstrate the product's innovation, market potential, and alignment with the company's goals."""
-
-initial_state = {
-    "messages": [HumanMessage(content=problem)],
-    "lean_startup_phase": "Start",
-}
-
-for s in graph.stream(initial_state, {"recursion_limit": 50}):
-    if "__end__" not in s:
-        print(s)
-        print("----")
-
-graph = workflow.compile()
+if __name__ == "__main__":
+    main()

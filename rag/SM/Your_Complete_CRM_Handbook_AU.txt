@@ -1,0 +1,473 @@
+Your Complete
+CRM Handbook
+
+Introduction >
+
+Chapter 1: CRM Needs >
+
+Chapter 2: CRM Productivity >
+
+Chapter 3: CRM Strategy >
+
+Chapter 4: CRM ROI >
+
+Conclusion >
+
+Introduction
+
+Introduction
+Chapter 1: Signs You REALLY Need a CRM
+
+What is CRM?
+CRM is much more than a buzzy acronym that’s been tossed around
+the business and sales world for the past decade or so.
+
+C-R-M stands for “Customer Relationship Management.”
+
+Chapter 2: How CRM Improves Productivity
+Chapter 3: How to Craft a CRM Strategy
+Chapter 4: Maximising Your CRM ROI
+Conclusion
+
+With a CRM application, there’s no secret formula. It simply manages
+most of your critical customer information so that you can see it all
+in one place. Without leaving the app, you can view contact info,
+follow up via email or social media, manage tasks, and track your
+performance, among other benefits. Implementing the right CRM can
+increase sales efficiency. You can close more deals, boost sales, and
+improve forecast accuracy.
+
+Is it time for your company to invest in a CRM?
+The contents of this ebook will help you determine that.
+Over the next four chapters, we will examine the following topics:
+• Signs your business needs a CRM
+• How CRM can improve your sales and productivity
+• Building your CRM strategy
+• How to maximise your ROI
+First up, the 7 signs your business needs a CRM.
+
+Introduction >
+
+Chapter 1: CRM Needs >
+
+Chapter 2: CRM Productivity >
+
+Chapter 3: CRM Strategy >
+
+Chapter 4: CRM ROI >
+
+Conclusion >
+
+Chapter 1: Signs You REALLY Need a CRM
+Small businesses typically begin with a basic relationship of seller-to-customer — simple.
+In such an early stage, it might be fine to just maintain an Excel spreadsheet or jot down
+notes about customers and incoming orders. But as your business grows, this sort of record
+keeping simply can’t do what you need anymore.
+Here are some warning signs it’s time to trade in those old ways and start managing your
+customer relationships more effectively:
+
+1. There’s no single source for info.
+Storing your customer and order info in more than one location, such as a spreadsheet or
+notes stuck to your computer, puts your sales team at a disadvantage. They lack a single
+view of every customer’s contact info, orders, and interactions.
+
+2. There’s little or no visibility.
+Not only do you lack visibility into how your customers are connecting with employees, you
+also lack insight into what your sales people are doing. This makes it difficult to help them be
+successful -- and keep them accountable.
+
+3. Reports are tedious and painful.
+Generating reports and analytics of your sales team’s monthly progress against their
+quota would be ideal. But creating reports manually is cumbersome, often resulting in
+no tracking at all.
+
+Share this
+
+Guided Tour
+
+Watch Salesforce in Action
+
+Contact us
+
+Introduction >
+
+Chapter 1: CRM Needs >
+
+Chapter 2: CRM Productivity >
+
+Chapter 3: CRM Strategy >
+
+Chapter 4: CRM ROI >
+
+Conclusion >
+
+Chapter 1: Signs You REALLY Need a CRM
+4. You are losing data.
+It’s hard for you to schedule follow-ups with customers and prospects. Great meetings
+happen on the road, but the sales teams don’t always transfer their notes and important
+details get lost, especially if an employee leaves the company.
+
+5. It’s hard to stay in touch on the go.
+Your sales reps are out in the field, meeting prospects and discovering valuable info. But all
+this new data gets stored on handwritten notes or in files on personal computers, instead of
+being shared with the team.
+
+6. Every customer is treated the same.
+You don’t target prospects based on their value to the business. Rather, you are sending the
+same types of offers and messages to customers and prospects in very different stages of
+the buying process, as well as in different industries or geographies.
+
+7. You lack a plan to scale fast.
+What if your business grew from 20 to 200 this year? Are you confident that your current
+processes will scale? If you know that you are going to grow, are you worried about keeping
+productivity up while scaling up?
+If any of these apply to you or your team, don’t despair. These are exactly the issues that a
+CRM system can address.
+Next up, let’s take a look at how a CRM can make your business more productive.
+
+Share this
+
+Guided Tour
+
+Watch Salesforce in Action
+
+Contact us
+
+Introduction >
+
+Chapter 1: CRM Needs >
+
+Chapter 2: CRM Productivity >
+
+Chapter 3: CRM Strategy >
+
+Chapter 4: CRM ROI >
+
+Conclusion >
+
+Chapter 2: How CRM Improves Productivity
+You probably know the old saying, “there never seems to be enough hours in the day.” This
+is especially true in the sales world, where time truly is money. According to a study by
+Mavenlink, two out of five small business owners rank time as their most valuable asset, and
+a quarter of those would pay $500 for just one extra hour in the day.
+The more effectively and efficiently you use your time, the better results to your bottom line.
+Small businesses grow faster by getting better at providing a steady flow of new prospects,
+increasing time spent selling, and arming their sales reps with the info they need to close
+deals more quickly. That is where a CRM application comes in.
+
+Pipeline
+Finding time to bring in a steady flow of new customers can be quite the challenge for a
+small business sales team. This is often caused by issues such as:
+•
+•
+•
+•
+
+Inability to route leads to the appropriate sales rep
+Lack of information on potential clients
+Inadequate knowledge about a prospect before calling
+Poor visibility and forecasting of future pipeline
+
+A CRM app allows sales reps to store the data on prospects so the information’s ready at
+each interaction. Plus, it quickly provides metrics related to visibility and forecasting.
+
+Share this
+
+Guided Tour
+
+Watch Salesforce in Action
+
+Contact us
+
+Introduction >
+
+Chapter 1: CRM Needs >
+
+Chapter 2: CRM Productivity >
+
+Chapter 3: CRM Strategy >
+
+Chapter 4: CRM ROI >
+
+Conclusion >
+
+Chapter 2: How CRM Improves Productivity
+Selling Time
+Obviously, representatives need time to sell. Some of the time traps faced by salespeople are
+hard to overcome, but others can be easily fixed:
+• Communication is always a huge challenge for a sales team on the go, but surprisingly
+few take advantage of smartphones and tablets, which eliminate downtime and increase
+communication.
+• Automation of repetitive tasks gives salespeople more time to concentrate on closing.
+• Providing one channel for reps to share information and connect eliminates endless email
+loops and phone tag.
+The right CRM system syncs with mobile devices anywhere, anytime via the cloud, so the entire
+team is on the same page and has the most current information at their fingertips.
+
+Knowledge
+For successful prospecting and pitching, you must gather vital information on potential clients.
+But finding time to do that can be hard when you’re also trying to make your month.
+CRMs help solve this problem by collecting valuable customer data, including:
+• Client history
+• Current client preferences
+• Client social media presence
+• Past interactions with a client
+• Client infrastructure details
+• Client social media presence
+• Past sales interactions
+Now that you’ve seen the value of a CRM system, let’s investigate best practices
+for getting a CRM strategy in place.
+Share this
+
+Guided Tour
+
+Watch Salesforce in Action
+
+Contact us
+
+Introduction >
+
+Chapter 1: CRM Needs >
+
+Chapter 2: CRM Productivity >
+
+Chapter 3: CRM Strategy >
+
+Chapter 4: CRM ROI >
+
+Conclusion >
+
+Chapter 3: How to Craft a CRM Strategy
+Building a successful CRM system isn’t just about choosing the right technology, as significant
+as that is. You also need the right plan in place from a business perspective. Here are seven basic
+steps to build a winning plan:
+
+1. Define Your Vision
+Some people dismiss vision statements as a waste of time, but successful sales leaders know the
+value of having a clear, repeatable, action-oriented vision that your team can rally around. Your
+vision can be many things, from becoming market leader for sales in your region, to redefining
+customer service within your industry. Make it both aspirational enough to have an impact, and
+clear enough that the entire organisation can understand it.
+
+2. Define Your Strategy
+Strategy is what makes your vision achievable. Say you want to be market leader for sales. Do you
+do this by competing on price, or by offering different products, or by emphasising your great
+after-sales service?
+
+3. Define Your Business Objectives
+Business objectives are where vision and strategy get translated into the day-to-day work. A
+common mistake when implementing a new CRM system is to replicate in it all the old business
+objectives and processes, complete with their inefficiencies. Instead, view your implementation
+as an opportunity to review and optimise how you work.
+
+Share this
+
+Guided Tour
+
+Watch Salesforce in Action
+
+Contact us
+
+Introduction >
+
+Chapter 1: CRM Needs >
+
+Chapter 2: CRM Productivity >
+
+Chapter 3: CRM Strategy >
+
+Chapter 4: CRM ROI >
+
+Conclusion >
+
+Chapter 3: How to Craft a CRM Strategy
+4. Get Your Team On Board
+Executive sponsorship is vital for your CRM vision, strategy and business objectives, and for a
+successful rollout. A lack of executive sponsorship is one of the top five contributing factors
+to CRM failure.
+
+5. Identify the Metrics
+“You can’t manage what you can’t measure” is an adage attributed to many business
+thinkers. Metrics should be visible to everyone, and this means creating dashboards for all
+levels of the organisation, from sales reps and managers, to the executive team.
+
+6. Prioritise Your Initiatives
+You’re not going to get everything done at once, so decide what’s most important to deliver
+first. Training is often the priority, so everyone is ready to use the new CRM system as soon as
+it is available.
+
+7. Define Your Roadmap
+You shouldn’t look at building an effective CRM system as a “big bang” event. Yes, a
+successful rollout is vital, but being able to deliver enhancements and new features after you
+go live is equally important. Plan beyond launch day and consider what other capabilities
+you need to deliver for the business.
+Now that your CRM system and strategy are in place, it’s time to see the best ways to
+measure and maximise the technology.
+
+Share this
+
+Guided Tour
+
+Watch Salesforce in Action
+
+Contact us
+
+Introduction >
+
+Chapter 1: CRM Needs >
+
+Chapter 2: CRM Productivity >
+
+Chapter 3: CRM Strategy >
+
+Chapter 4: CRM ROI >
+
+Conclusion >
+
+Chapter 4: Maximising Your CRM ROI
+CRM applications have a proven track record of increasing:
+• Sales by up to 29%.
+• Sales productivity by up to 24%.
+• Forecast accuracy by 42%.
+In addition, a study by Nucleus Research found that the average CRM return on investment
+(ROI) is $5.60 for every dollar spent.
+Here are several best practices to remember when working to maximise your ROI, from CRM
+Search’s Karen D. Schwartz:
+
+Choose a Cloud-Based CRM Solution
+All major CRM vendors offer cloud versions of their apps. Choosing this software as a service
+(SaaS) model means companies no longer have to deal with things like servers, software
+issues, and new version upgrades, that on-premise CRM apps demand.
+
+Integrate with Applications that Provide Value
+Take advantage of the new business and social applications that are out there, and integrate
+them with your CRM system. These include marketing automation and accounting software,
+plus key social tools, which allow your company to follow people, information, and groups
+on social networks, and capture real-time data.
+
+Share this
+
+Guided Tour
+
+Watch Salesforce in Action
+
+Contact us
+
+Introduction >
+
+Chapter 1: CRM Needs >
+
+Chapter 2: CRM Productivity >
+
+Chapter 3: CRM Strategy >
+
+Chapter 4: CRM ROI >
+
+Conclusion >
+
+Chapter 4: MaximiSing Your CRM ROI
+Allow for Mobile Integration
+Make everything accessible on mobile devices for your salespeople on-the-go, so they
+can work on the road — things like reviewing correspondence, managing contacts, and
+reviewing accounts. The integration should also ideally work with back-office systems, social
+networks, and web conferencing.
+And so you are fully covered, here are some practices to avoid when working to maximise
+your CRM ROI, from CRM Buyer’s Christopher Bucholtz:
+
+Infighting Between Sales & Marketing
+CRM data is valuable when used to qualify leads for the sales department and to show
+which marketing campaigns lead to closed sales. But these insights can be missed if sales
+and marketing don’t work together. Before you do anything else, get both departments in a
+room to map out common goals, and to discuss how to use the data.
+
+Generating Reports for the Sake of It
+The right CRM application can present data in an almost effortless preformatted report. But
+this analysis will do you no good if it is ignored. Take the time to not only read the reports,
+but to understand and act on them when needed.
+
+Building “Relationships” with Customers
+CRMs are an excellent tool to connect with your customers and build relationships that grow
+over time. But don’t just assume that everything is fine and well. Be aware that customers
+evolve and change, and your business may need to change with them.
+
+Share this
+
+Guided Tour
+
+Watch Salesforce in Action
+
+Contact us
+
+Introduction >
+
+Chapter 1: CRM Needs >
+
+Chapter 2: CRM Productivity >
+
+Chapter 3: CRM Strategy >
+
+Chapter 4: CRM ROI >
+
+Conclusion >
+
+Conclusion
+Any successful enterprise should start with a foundation of great customer relationships,
+with you the seller, connecting with people who need your product or service.
+As your company expands, these connections become more sophisticated. It’s not just a
+transaction between the buyer and seller. You also need to share information across various
+teams within your own organisation who are making contact with the same customers. A
+CRM system can serve as a vital nerve center to manage the many connections needed in a
+growing business.
+In a world where the most successful companies are customer-focused, CRM apps make the
+customer king. In short, CRM apps are how businesses truly become “customer companies.”
+
+Share this
+
+Guided Tour
+
+Watch Salesforce in Action
+
+Contact us
+
+SALES SOLUTIONS THAT WILL MAKE
+YOUR BUSINESS MORE PRODUCTIVE
+If you want to grow your sales and establish a transparent sales process, you
+need an easy-to-use Customer Relationship Management system. Salesforce
+allows you to store customer and prospect contact information, accounts,
+leads, and sales opportunities in one central location.
+
+See DemoSee Demo
+
+26%
+improved
+win rate
+
+Guided
+Tour
+Free
+Trial
+
+36%
+increased
+sales
+productivity
+
+Contact Me
+
+28%
+increase
+in sales
+
+Source: Salesforce.com Customer Relationship Survey conducted March 2013, by an independent third-party,Confirmit Inc., on 5,200+ customers randomly selected.
+
+Blog
+
+Facebook
+
+Twitter
+
+Follow Salesforce and stay up-to-date with the latest thought leadership.
+
+LinkedIn
+
+

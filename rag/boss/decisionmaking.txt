@@ -1,0 +1,2907 @@
+Understanding the Dynamics of Decision-Making and Choice:
+A Scoping Study of Key Psychological Theories to Inform
+The Design and Analysis of the Panel Study
+
+Bryony Beresford and Tricia Sloper
+DHP 2215 January 2008
+
+© Social Policy Research Unit, University of York 2008
+
+All rights reserved. Reproduction of this report by photocopying or electronic means for noncommercial purposes is permitted. Otherwise, no part of this report may be reproduced,
+adapted, stored in a retrieval system or transmitted by any means, electronic, mechanical,
+photocopying, or otherwise without prior written permission of the Social Policy Research
+Unit, University of York.
+
+ISBN 978-1-871713-24-4
+A CIP catalogue record for this report is available from the British Library.
+
+Further copies of this report or any other Social Policy Research Unit publication can be
+freely obtained by visiting our website:
+www.york.ac.uk/spru
+Paper copies can be obtained from:
+The Publications Office
+Social Policy Research Unit
+University of York
+Heslington
+York
+YO10 5DD
+
+Understanding the Dynamics of Decision-making and
+Choice: A scoping study of key psychosocial theories to
+inform the design and analysis of the Panel Study
+Abstract
+At the heart of SPRU’s DH-funded programme of research is a qualitative
+longitudinal Panel Study that aims to examine the choices that older people, disabled
+young people, disabled adults and their carers make about their services and
+support; how these choices change over time; and the implications for their
+experience of independence.
+To inform the Panel Study and drawing mainly on psychological research, we
+conducted a review of the main theoretical models of decision-making and choice.
+Unlike systematic reviews, the review did not set out to identify and evaluate the
+existing evidence base. Instead the review identifies the main areas of psychological
+theory and research relevant to choices about welfare services; and assesses the
+implications of these for the design and analysis of the Panel Study.
+The review covers the main theories of judgement, decision-making and choice; the
+factors such as emotion, which affect choice and decision-making; and evidence on
+specific decision-making situations, including joint decision-making with another
+person, making choices on behalf of someone else and decision-making within close
+relationships.
+
+CONTENTS
+Section 1
+
+Introduction
+The process of choice
+
+1
+2
+
+Section 2
+
+Theories of Judgement, Decision-making and Choice
+The information processing approach to decisions
+research
+The adaptive Decision-Maker Framework
+Use of different choice strategies
+The role of emotion and other goals in the
+choice-making process
+The dual process views of thinking
+The usefulness of the decision-maker framework for
+the panel study
+Other heuristic models
+Making decisions involving risk or uncertainty: prospect
+theory
+Risk and uncertainty
+Prospect theory
+How risky are we?
+Framing
+Further loss aversion effects
+How people structure decisions
+Implications for the panel study
+Decision-making: the relationships between attitudes
+and behaviour
+Theory of Reasoned Action
+Theory of Planned Behaviour
+Relevance to panel study
+
+3
+
+Section 3
+
+Factors which Affect Choice or Decision-making
+Emotion and choice
+The role of affect in decision-making
+Emotion-specific influences on decision-making
+The role of anticipated emotion
+Decision generated emotion
+Emotion in temporally extended choice
+Individual differences in emotionality and effects on
+decision-making
+Implications for the panel study
+
+i
+
+3
+4
+7
+7
+9
+11
+12
+14
+15
+15
+15
+16
+18
+19
+19
+20
+20
+20
+21
+
+25
+25
+26
+27
+29
+30
+31
+32
+32
+
+Individual differences and choice/decision-making
+Personality and choice/decision-making
+Choice and cognitive capacity
+Implications for the panel study
+
+Section 4
+
+Appendix
+
+33
+33
+34
+37
+
+Specific Decision-making Situations
+Making decisions on behalf of someone else
+Capacity and the law
+Research on surrogate decision-making
+Research on parent decision-making
+Implications for the panel study
+Shared decision-making
+Shared decision-making: advice seeking
+Implications for the panel study
+Decision-making within close relationships
+The relevance of research on group decisionMaking
+Dyadic decision-making: the relationship factor
+Decision-making between intimate couples
+Implications for the panel study
+
+39
+39
+39
+41
+43
+46
+47
+47
+49
+50
+
+Identifying the Literature
+
+55
+
+References
+
+50
+50
+51
+54
+
+57
+
+ii
+
+Understanding the Dynamics of Decision-making and
+Choice: A scoping study of key psychosocial theories to
+inform the design and analysis of the Panel Study
+Section 1:
+
+Introduction
+
+This paper provides an overview of some of the main psychological models of
+decision-making and choice and assesses their relevance to disabled and
+chronically ill young people and adults, older people and carers, and to the choices
+they make about social care and related support services. It addresses three
+questions:
+•
+What are the processes by which people make choices, and what constraints
+shape these processes?
+•
+What are the personal and environmental preconditions for exercising choice
+and how do these conditions affect choice?
+•
+How far are these insights relevant to choices about social care and related
+support services on the part of people with impairments or disabilities and their
+carers?
+The purpose of conducting this review was to inform aspects of research design and
+the analysis of data collected during the DH funded Panel Study on ‘Choice and
+Change Across the Lifecourse’.
+The paper is divided into three sections:
+•
+Descriptions of key theoretical models (Section 2);
+•
+Discussion of factors which affect choice or decision-making: emotion,
+personality, and cognitive capacity (Section 3);
+•
+An examination of what is understood about some specific decision-making
+situations: making decisions on behalf of someone else; shared decisionmaking; and decision-making in close relationships (Section 4).
+A number of theoretical approaches were explored with regard to their potential
+usefulness to the panel study (details of the methods are contained in the Appendix).
+From that preliminary exploration, three theoretical models will be examined in
+Section 2, all of which are concerned with choice or decision-making situations which
+are pertinent to the panel study and the above questions:
+•
+The Information-Processing Approach, in which we focus mainly on the
+Adaptive Decision Maker Framework which is concerned with how people
+choose between alternatives when none is clearly the ‘best option’. In this
+section we also report other bodies of research on the heuristics or strategies
+
+1
+
+•
+•
+
+we use to make decisions; and describe what is understood about the role of
+unconscious thought processes in decision-making.
+Prospect Theory, which is concerned with making decisions involving risk or
+uncertainty.
+Theory of Reasoned Action and Theory of Planned Behaviour, which are both
+concerned with the relationship between attitudes and behaviours in the context
+of making choices.
+
+The process of choice
+Choice is the outcome of a process which involves assessment and judgement; that
+is, the evaluation of different options and making a decision about which option to
+choose. In order for these processes to take place and a choice to be made, there
+need to be two or more alternatives from which to choose. In addition, these
+alternatives should have some positive value; in this sense a 'choice' between
+something which is definitely desired and something which is definitely not desired is
+not a true choice. The processes entailed in choice all involve cognition, and
+psychological theories concentrate on explaining how people make choices, in
+particular the cognitive processes that underlie choice. Empirical research on how
+people make decisions and choices covers a range of different people in different
+situations, for example from clinicians treating patients or investors and financial
+experts, to students taking part in psychological experiments. However, it suggests
+that different people in different situations frequently think about decisions in the
+same way, reflecting the fact that human beings have a common set of cognitive
+skills (Hastie and Dawes, 2001). These cognitive skills and their limitations are also
+influential in constraining choices so that choice making in reality varies from what
+may be seen as ideal and logical.
+
+2
+
+Section 2:
+
+Theories of Judgement, Decision-making
+and Choice
+
+Theories regarding judgement, decision making and choice generally fall into two
+categories: normative theories of cognition and descriptive theories of cognition.
+Normative theories are concerned with 'how we should or ought to reason, make
+judgements and take decision' (Over, 2004). Theories falling into this category
+include formal logic, probability theory, and decision theory. Descriptive theories set
+out to describe how people actually think when making decisions and have empirical
+evidence to support them. It is this latter set of theories that we are concerned with in
+this paper, in order to inform our aim of exploring the processes through which
+people make choices.
+
+The Information Processing Approach to decision research (Payne
+and Bettman, 2004)
+The Information Processing Approach to decision research can be traced back to
+Simon (1955) and the notion of bounded rationality, that is, humans are 'bounded' by
+constraints in the environment (for example, information costs), and in the mind (for
+example, limited memory); these constraints shape people's behaviour. Research
+taking this approach initially focused on cognitive aspects of decision-making; more
+recently it has expanded to include emotional and ‘ease of justification’ aspects of
+decision-making.
+The approach is based on the following assumptions:
+•
+We are highly selective about what information we attend to and how it is used.
+•
+Acquiring and processing information has cognitive and/or emotional costs.
+•
+We use simplification mechanisms (heuristics) to select and process
+information: lots of different heuristics have been identified.
+•
+Heuristics are chosen on the basis of the nature of the task problem.
+•
+Beliefs and preferences are often constructed/generated through the process of
+decision-making, as opposed to individuals having known, well-defined
+preferences which they bring to a decision-making situation.
+The approach is primarily concerned with understanding controllable, conscious
+processes1 (System 2 thinking). However, it has recently been acknowledged that
+more work is needed to understand the interaction/impact of System 1 thinking on
+System 2 thinking in decision-making. Within this approach is the Adaptive Decision
+1
+
+Thinking can be conceived as being on a continuum – intuitive, relatively unconscious (System 1)
+through to analytic, controllable, conscious (System 2). See page 9 for further details.
+
+3
+
+Maker Framework, which is concerned with choice among alternative courses of
+action.
+The Adaptive Decision-Maker Framework
+The Adaptive Decision-Maker Framework is an example of the Information
+Processing Approach to decision-making. It is concerned with how individuals
+choose between different courses of action, in particular, in choice situations where
+no single alternative (or option) is best on all attributes (or qualities, features). These
+sorts of decisions are known as preferential choice problems.
+The Adaptive Decision-Maker Framework argues that preferential choice problems
+are generally solved through a process of information acquisition and evaluation
+about the alternatives and their attributes. The attributes by which the different
+options are defined will vary according to:
+•
+their desirability to the decision-maker;
+•
+the uncertainty of actually receiving the attribute value;
+•
+the willingness of the decision-maker to accept a loss on one attribute for gain
+on another attribute.
+The following example illustrates the role of attributes in the decision-process put
+forward by the Adaptive Decision-Maker Framework.
+
+4
+
+Figure 1:
+
+An illustration of the role of attributes in the decision process
+
+An individual is weighing up the merits of various holiday destinations.
+The desirability of the attributes to the decision-maker
+The following attributes are important to this individual:
+• Weather: very warm and sunny
+• Culture: unspoilt, not touristy
+• Journey time: no more than 10 hours
+• Personal safety: holidaying alone, wants to feel safe
+• Location: seaside but near mountains.
+• Language: native language must be Spanish or English widely spoken.
+Other attributes of these destinations (for example, type of local cuisine,
+opportunities for shopping) are not important to this individual. In addition, two of
+the destinations have ‘unique’ desired attributes not shared with the other options
+(one offers the opportunity of visiting a country never visited before, another has
+relatives living in the vicinity thus affording the chance to visit them).
+The uncertainty of actually receiving the attribute value
+Some of the desired attributes are more certain than others. Thus the location and
+language of the various destinations can be carefully researched in advance and
+the individual can be certain about these. There is less certainty with respect to
+other attributes and the level of certainty may vary between alternatives. Thus,
+whilst for one destination there is 90% certainty that it will be 750F and will have 8
+hours sunshine each day, another destination may be warmer and sunnier but the
+weather is less predictable and there is only a 75% chance of temperatures of at
+least 800F and 10 hours sunshine per day. Another source of uncertainty in this
+situation is that the individual is somewhat dependent on other people’s
+judgements as to how ‘touristy’ each destination is.
+Willingness to accept loss on one attribute for gain on another
+Finally, in making a decision, this individual is prepared to forgo a journey time of
+less than 10 hours in order to gain a greater guarantee of personal safety.
+
+Theorists argue that there are ranges of strategies (heuristics) someone might use
+for solving a multi-attribute choice problem. The strategy chosen will depend on the
+demands of the task (for example, the number of alternatives to be considered), how
+accurate the decision has to be, and individual differences. In other words, different
+individuals will chose different strategies, and this will also vary according to the
+importance of the choice-making situation to that individual (Beach and Mitchell,
+1978; Payne, 1976).
+Some strategies will use all relevant information, others will use information in a
+more limited and often very selective fashion. Some strategies focus on the
+
+5
+
+alternatives and process each one in turn, other strategies are more attributefocused (that is, the values of several alternatives on a single attribute are examined
+before information on another attribute is considered).
+Simpler decision processes (heuristics) save on cognitive effort by only processing
+some of the decision-relevant information. In experimental conditions they have been
+shown to work less and less well the greater the number of important attributes.
+Researchers have identified and named different types of heuristics.
+•
+Lexographic strategy (LEX): here the strategy is to identify and chose the
+alternative with the best value on the most important attribute.
+•
+Satisficing Strategy for Decisions (SAT) (Simon, 1955): this heuristic involves
+each attribute’s value for the alternative/option currently under consideration
+being compared to a pre-determined cut-off level for that attribute. If any
+attribute fails to meet the cut-off level, the option is rejected and the next option
+considered. Once a satisfactory alternative has been identified, that alternative
+is chosen (so it might not be the ‘best’). If no option passes the cut-off, the
+levels can be relaxed and the process repeated.
+•
+Elimination By Aspects (EBA) (Tversky, 1972): this is a commonly used
+heuristic containing elements of LEX and SAT. EBA eliminates options that do
+not meet a minimum cut-off value for the most important attribute or do not have
+a desired aspect for the most important attribute. The elimination process is
+repeated for the second most important attribute and continues until a single
+option remains. The order in which attributes are considered reflects the
+decision-maker’s basic values. Theorists argue that ‘decision accuracy’ is
+affected by the attributes used (for example, selectively attending to irrelevant,
+or relatively irrelevant, attributes).
+Researchers have also shown that decision-makers may combine choice strategies.
+A typical combined strategy might involve elimination of some alternatives in an
+initial ‘broad brush’ viewing of the options, followed by a second phase in which the
+remaining options are analysed in more detail.
+Laboratory-based research on the effectiveness/accuracy of heuristics has shown
+that heuristics can result in highly accurate/high quality decisions with substantial
+savings in cognitive effort. However, no single heuristic does well across all
+environments and people therefore need a repertoire of heuristics. Researchers
+have also shown that, in cases of substantial time pressure, the simple LEX rule is
+often best in terms of maintaining decision accuracy. That is, it is best to examine
+some, albeit limited, information about each option under severe time pressure than
+to examine some options in depth and not examine others at all.
+
+6
+
+Use of different choice strategies
+There has been a lot of research looking at how we use or choose different choice
+strategies. Key (relevant) findings from this work are as follows:
+•
+People process information quite differently if faced with many alternatives (four
+or more) than if faced with just two or three alternatives.
+•
+
+People have a repertoire of decision strategies and sometimes plan in advance
+how to solve a problem (based on the evidence of what the task involves).
+However, sometimes strategy selection is bottom-up, with little or no
+constructive awareness of a strategy being selected.
+
+•
+
+Furthermore, people adjust their processing during the course of solving a
+problem in an “opportunistic” fashion as they learn more about the structure of
+the decision.
+
+•
+
+Decision strategies with high cognitive effort are more likely to be used when
+decision accuracy is prioritised over saving cognitive effort.
+
+•
+
+In laboratory-based simulations, people who shift strategies in response to the
+demands of the decision or time constraints perform better.
+
+•
+
+Time pressure (that is, a decision must be made by a certain point in time) has
+been shown to be one of the most important decision task variables. Errors in
+judgement can be made from either deciding too soon (rush-to-judgement) or
+from delaying decisions too long.
+
+•
+
+Individual differences in values will define what constitutes an accurate or high
+quality decision (that is, whether or not an individual is happy/satisfied with the
+decision made). It is also likely that we adjust our ‘quality standards’ as a
+function of task demands (such as time pressure, complexity of the decision).
+
+The role of emotion and other goals in the choice-making process
+The majority of research and theorising on decision-making has very much been
+approached in terms of understanding decision-quality (or accuracy) and minimising
+cognitive effort. More recently, the Adaptive Decision-Maker Framework has been
+extended to include emotion and other goals for a decision because it is clear that
+strategy selection and other aspects of decision behaviour are not just determined by
+cognitive effort and decision accuracy. The other goals (or desired outcomes of a
+decision) are often developed constructively ‘on the spot’ and can affect the
+processes of the decision and the products of the decision.
+
+7
+
+The Choice Goals Framework for Decision-making
+Bettman et al. (1998) developed a choice goals framework for decision-making. In
+addition to maximising decision quality and minimizing cognitive effort, they argued
+there were two further meta-goals for choice namely:
+•
+Minimizing the experience of negative emotion while making the decision and
+afterwards;
+•
+Maximising the ease of justification of a decision to oneself and to others.
+The relative importance of these meta-goals, and other goals, will vary according to
+the specific choice-making situation. It would appear that factors such as the
+importance and irreversibility of the decision affect the way these meta-goals are
+prioritised. Minimising negative emotion and ease of justification are clearly
+potentially salient issues for the Panel Study. In terms of the latter, Bettman et al.,
+1998 argues that needing to justify a decision may lead to the use of decision
+strategies which are based on easily seen and communicable relationships among
+options (relational heuristics). Work on the impact of minimising negative emotion
+within the decision-making process is more developed and draws on other preexisting theories and research on how negative emotion impacts on cognitive
+processing and how humans cope with negative emotion. These are described
+below.
+Minimising negative emotion
+Not all decisions evoke emotional responses, but sometimes people face emotionladen choices.
+There are contrasting views on the potential impact of negative emotion on the
+decision-making process:
+•
+Hancock and Warm (1989) argue that emotion interferes with decision
+processes and degrades cognitive performance (observable in increased time
+to make a decision and more negative error). This argument would suggest that
+decision situations where negative emotions are aroused are, in a sense,
+analogous to highly complex decision situations. One would therefore expect
+individuals to adapt to them in the same way as they adapt to complex decision
+situations, that is by shifting to simpler, easier to implement decision strategies
+(Payne and Bettman, 2004).
+•
+An alternative view draws on coping theory, which argues that people directly
+adapt to the negative emotion in one of two ways (Folkman and Lazarus, 1988):
+a. Problem-focused coping. Adopting this strategy will mean the person tries
+to solve the problem as well as possible, with the negative emotion being
+seen to indicate the importance of the decision to the individual.
+b.
+
+Emotion-focused coping. This way of managing negative emotion will
+mean action is taken directly to minimise emotion by changing the amount
+or content of thought about the decision. This could be achieved in a
+8
+
+variety of ways: refusing to make any decision (Anderson, 2003); letting
+another person make the decision for you; showing an increased
+preference for the status quo option or any other related option that is
+easier to justify to oneself (Luce, 1998); not avoiding the decision
+altogether but instead avoiding whatever aspects of the decision one finds
+most distressing.
+One type of decision which has the potential to arouse negative emotions are when
+trade-offs have to be made between two highly valued things. An example of an
+emotionally difficult trade-off is life sustaining, but invasive and possibly painful,
+treatment versus quality of life. Tetlock (2002) talked about sacred versus profane
+tradeoffs and noted that some tradeoffs are taboo – people just do not go there.
+Because making trade-offs can generate negative emotions, individuals may cope
+with emotion-laden decisions by avoiding strategies which use trade-offs (of one
+attribute against another) and instead use non-compensatory strategies.
+The negative emotions experienced while making a choice involving difficult tradeoffs have been shown to impact on strategy selection and decision-making. For
+example, research has found that emotion-laden choices are characterised by
+increased amounts of processing and avoidance of trade-offs. In addition, evidence
+suggests that decision-makers tend to confront between-attribute trade-offs explicitly
+when attributes are relatively low in emotional trade-off difficulty, but they avoid these
+explicit trade-offs when attributes are higher in emotional trade-off difficulty.
+The role of emotion in making choices will be further discussed in Section 3.
+The dual process views of thinking
+The dual process views of thinking are another extension of the information
+processing perspective. A number of researchers have argued that there are two
+modes of thinking (Hogarth, 2001; Kahnemann and Frederick, 2002; Sloman, 1996):
+System 1 thinking (intuitive) and System 2 thinking (analytical). Rather than being
+distinct, it is thought they probably represent the ends of a continuum (Hammond,
+1996). Simon (1983) also argued that any kind of serious, complex thinking employs
+both analytical and intuitive thought.
+System 1 thinking is relatively unconscious, relatively independent of language and
+generates a feeling of certitude. It is related to intuition and allows rapid, automatic
+and relatively effortless decision-making (Slovic et al., 2002). In contrast, System 2
+thinking is controllable, conscious, constrained by working memory, rule-based,
+serial, develops with age and is vulnerable to aging, is related to language and is
+less characterised by feelings of certitude. It is commonly called analytic thinking.
+
+9
+
+While System 2 thinking covers the higher level cognitive, attention-demanding,
+information processing activities that characterise much decision-making (and which
+have been the main focus of research), there is a growing awareness that
+information processing below the level of consciousness (that is, System 1 thinking)
+may have far greater impact on judgements and choices than previously realized
+(Bargh and Chartrand, 1999; Hogarth, 2001).
+There are a number of hypotheses about how System 1 and System 2 thinking
+interact. The Correction model proposes that an initial judgement is quickly arrived at
+via System 1 and that this judgement may then either be expressed immediately, or
+confirmed and corrected by more effortful, conscious System 2 processing (for
+example, Cobos et al., 2003). Some argue that System 2 thinking is only used to
+deal with more unusual cases. Hogarth (2001) argues that a mark of intelligence is
+learning when intuition (System 1) is erroneous and how to use deliberate (System 2)
+thought appropriately to make correct judgements.
+Others have suggested that System 2 thinking is used in situations either where the
+individual cannot rely on past experience or with respect to events happening in the
+future. In contrast, Gilbert and Gill (2000) argue that the mode of information
+processing is selected on the basis of factors such as cognitive load or time pressure;
+System 1 thinking is selected when cognitive load is high or time is short.
+Research has compared the efficacy of these two ways of thinking in decisionmaking. Dijksterhuis (2004) reports a set of experiments testing two hypotheses:
+•
+When making complex decisions, a brief period of unconscious thought will lead
+to a better decision compared with conditions under which unconscious thought
+is prevented.
+•
+When making complex decisions, conscious thought is inferior relative to
+unconscious thought.
+The results confirmed the hypotheses, showing that participants in the unconscious
+thought condition (performing a distracter task before making the decision) generally
+performed better than those in the conscious thought condition (asked to think very
+carefully about the information they had been given before making a decision).
+Dijksterhuis then proposed that unconscious thought is active: it organises
+information in the memory by polarising the alternatives and/or by clustering pieces
+of information that relate to the same alternative. Two further experiments tested this
+hypothesis and found evidence for both these processes under the unconscious
+thought condition, but less evidence under the conscious thought condition. Indeed
+conscious thought seemed to prevent almost completely meaningful clustering.
+In these experiments, participants were told that they had to decide between various
+alternatives before they engaged in conscious or unconscious thought. It may be that
+this is crucial to ensuring that unconscious thought is directed at the particular task.
+10
+
+These findings have relevance to the conditions under which users and carers make
+choices. How much information do they have? Do they try to think through and weigh
+up all the information? Is this possible, given limited processing capacity? Do they
+come to decisions after stepping back from the information and thinking about
+something else? How do circumstances affect decision making (for example, limits
+on capacity through stress and emotion or an inability to step back)?
+The usefulness of the decision-maker framework for the Panel Study
+This is a model which would appear to be highly relevant to the project as it is
+concerned with choices between courses of action where none of the options is
+optimal in terms of all its attributes. Furthermore, proponents of this approach
+suggest it is particularly relevant with respect to unusual situations, where the
+individual cannot ‘go’ on past experience, and with regard to decisions re future
+events. Finally, there appears to be relatively robust evidence to support the
+framework.
+•
+
+The approach is primarily concerned with cognitive processes and raises
+questions about the impact of learning difficulties/cognitive impairment/memory
+impairment and ability/quality/accuracy of decision-making. This will be an issue
+for the Panel Study in situations where there is a decline or loss of cognitive
+abilities: how do individuals involved in those situations try to support continued
+involvement in decision-making (for example, by changing the amount and way
+information is provided); how are judgements made about someone’s ability to
+take decisions; whether certain decisions are judged too complicated etc.
+
+•
+
+The recent shift to considering issues of negative emotion and ‘ease of
+justification’ on the process and outcomes of decision-making suggests the
+importance of exploring those issues with Panel Study participants. For
+example, do people avoid certain pieces of information in making a decision
+because they are too emotionally difficult? To what extent does the notion of
+‘ease of justification’ impact on the decision process, bearing in mind that many
+of the decisions we will be exploring are relatively ‘public’ (if not in the decision
+process itself, then in terms of the outcome of a decision)? It is important that
+we explore these other meta-goals in the interviews.
+
+•
+
+Another interesting research finding is that which suggests people’s
+preferences for/beliefs about things are often constructed (not merely revealed)
+in the course of decision-making. Perhaps this is particularly relevant where
+entirely novel situations are being encountered (for example, through sudden
+onset or degenerative conditions). It would also be good to explore the way
+decision-making means that the beliefs/views which people hold in quite an
+
+11
+
+objective sense might be challenged and changed during a decision-making
+episode.
+•
+
+The emphasis on information raises issues about access to information, the
+way information is provided and how that may skew a decision. The
+phenomenon of ‘framing’ (a key aspect of Prospect Theory that we discuss later
+in this paper) links nicely to this.
+
+•
+
+Finally, the decision-maker framework acknowledges numerous sources of
+individual difference to account for differences in the way individuals make a
+decision and in the decision made (for example, cognitive ability; choice of
+heuristics; preferred styles of coping with negative emotion; social context in
+which having to justify oneself).
+
+Other heuristic models
+The purpose of a heuristic model is to describe the actual process of decision
+making; observational and empirical evidence on how people make decisions
+underlies these models. The models specify a process rule; the capacities the rule
+exploits to be simple; and the kinds of problems the heuristic can solve. Common
+models are recognition heuristics, heuristics based on reasons, and social heuristics.
+The basis of heuristics is that we don't know the optimal solution to problems but can
+use heuristics (or mental short cuts) to find good enough solutions. Gigerenzer (2004)
+states that heuristics are:
+•
+Simple relative to human capacities, allow fast and frugal judgements, can be
+easily understood and taught to a novice and can be generalised to new
+situations.
+•
+To some degree specific to particular environments and types of problems.
+The recognition heuristic
+This heuristic builds on the human capacity for recognition, for example of faces,
+voices, names. It shows that when trying to judge between options, where one option
+is recognised and another is not, people will infer that the recognised option has the
+higher value. For example, American and German students were asked which city
+had the bigger population - San Diego or San Antonio (Goldstein and Gigerenzer,
+2002). 100 per cent of German students answered correctly (San Diego – they
+chose the city whose name they recognised). Only two-thirds of Americans
+answered correctly – they had heard of both cities so had too much information.
+Similar results have been found for judgements about the excellence of colleges and
+sports teams. This heuristic is successful when recognition is strongly related to the
+criteria on which the choice is being made, and in these circumstances the 'less is
+
+12
+
+more' effect applies – that is, more knowledgeable groups make worse inferences
+than less knowledgeable groups.
+The social heuristic
+The social heuristic uses human capacities for social learning and imitation. In brief,
+this heuristic is based on choosing what the majority of one's peers are choosing (for
+example, thinking of getting married when most others in one’s social group do).
+Emotional processes can also be key building blocks of social heuristics, the prime
+example being falling in love as a stopping rule in the search for a partner.
+Heuristics based on reasons
+Another set of heuristics comes into operation when recognition is not a valid
+response or when people know too much to take such short cuts. People then
+search for cues or reasons for action. However often they do not go systematically
+through all cues and add and weight them. Rather, short cuts are taken to reach a
+decision based on one-reason decision-making ('Take the Best'), or adding up cues
+until a threshold is reached (the 'tallying heuristic'). Each of these strategies
+comprises i) a search rule; ii) a rule for stopping; and iii) decision-making.
+For Take the Best the process involves: i) look up cues with the highest validity first;
+ii) if one object has a positive cue value and the other does not then stop the search.
+If not, exclude this cue and continue to search on the next most valid cue; iii) predict
+that the object with the positive cue value has a higher value on the criterion and
+therefore choose this option.
+For the ‘tallying heuristic’ the strategy is: i) search through cues in random order and
+look up values for each cue, either all cues or a predefined number; ii) then stop the
+search and determine which cue has most positive values; iii) predict that the object
+with the highest number of positive cue values has the higher value on the criterion
+and therefore choose this option.
+There are a considerable number of empirical studies that have looked at use of
+Take the Best, but there is comparatively little empirical work on tallying. One-reason
+(‘Take the Best’) decision-making has been observed in magistrates making bail
+decisions on the basis of one reason (Dhami, 2003); GPs prescribing lipid-lowering
+drugs (Dhami and Harries, 2001); and parents deciding which doctor to take their
+child to (Scott, 2002). However, this type of decision-making is not used by all
+participants in these studies. In a series of experimental studies, Newell and Shanks
+(2003) and Newell et al. (2003) found that only around 60 per cent of subjects
+adopted heuristics strategies, with around a third conforming to all three TTB rules.
+However, taking each rule separately, between 75 and 92 per cent of subjects
+adhered to TTB search, stop or decision rules. Newell et al., found no effect of
+
+13
+
+complexity of task on whether or not TTB rules were used and suggest that
+personality factors may influence strategies used.
+Implications of heuristics for understanding decision-making
+The implications to be drawn from heuristic models are that more information and
+more choice is not always better. There is considerable empirical evidence on this
+(for example, Schwartz, 2004); experts usually base their judgements on a few
+pieces of information (Shanteau, 1992), and shoppers buy more when there are
+fewer varieties (Iyengar and Lepper, 2000).
+A concept which can be seen to be related to use of heuristics is that of 'satisficing'
+as opposed to 'maximizing' (Simon 1957, 1982). Satisficing refers to satisfying
+ourselves while falling short of maximizing goal satisfaction. Heuristics are satisficing
+procedures for making inferences and decisions. Interestingly, satisficers have been
+found to be more optimistic and have higher life satisfaction than maximizers, who
+are more depressed and show more regret and self-blame (Schwartz et al., 2002).
+Relevance of heuristics to Panel Study
+Heuristics have been used to make decision trees, for instance in clinical decisionmaking (Green and Mehr, 1997; Fischer et al., 2002). We might want to think about
+producing decision trees from analysis of the study data. In relation to choices about
+support services, the ideas put forward in fast and frugal heuristics can provide a
+basis for exploring the processes by which service users and carers make choices.
+What are the important cues they use? How much information do they have? How
+much information do they actually use in making the decision? What sort of
+information assumes greatest importance? In what circumstances do people use
+more or less information? What happens if the cues used by user and carer or by
+users and professionals are different?
+
+Making decisions involving risk or uncertainty: prospect theory
+Most decisions involve risk and there is a substantial body of work on risky decisionmaking dating back to the 1920’s. This has been inter-disciplinary, with economics
+and psychology as the key players. Other disciplines (business, law, medicine,
+political science and public policy) have applied the principles and models
+developed. As with other areas of decision-making research, two key questions
+have been addressed:
+•
+How should individuals behave when faced with a risky choice (normative)?
+•
+How do individuals behave when faced with a risky choice (descriptive)?
+A further approach (prescriptive) is more recent and is concerned with how to get
+people to act more normatively. This area of work is called decision-analysis.
+
+14
+
+Risk and uncertainty
+Within scholarly work, a clear distinction has been made between risk and
+uncertainty (Knight, 1921). Risky decisions are those decisions where the
+probabilities of the various possible outcomes are objective or known (for example,
+gambling on the flip of a coin, a roulette wheel). Uncertainty occurs where the
+decision-maker has to estimate or infer the probabilities of the various outcomes
+happening (for example, placing a bet on a racehorse or the chances of the weather
+being sunny for a barbecue at the weekend). Most of the important decisions we
+make involve uncertainty rather than risk. Our understanding of decisions involving
+uncertainty is much less advanced than our understanding of risky decision-making.
+However, it is argued that models of risky decision-making can be extended to
+decision-making involving uncertainty and there is a sizeable body of research to
+support this argument (Wu et al., 2004).
+Prospect theory
+In 1979, two economists (Kahnemann and Tversky) published a paper ‘Prospect
+Theory: an analysis of decision under risk’. This paper identified the inadequacies of
+previous descriptive models of risky decision-making (notably Expected Utility
+Theory (Friedmann and Savage, 1948; von Neumann and Morgenstern, 1947) and
+Subjective Expected Utility (Savage, 1954)). Prospect theory is acknowledged to be
+the best descriptive model of risky decision-making. Since 1979, Prospect Theory
+has been developed and modified, with two parallel streams of work going on:
+economists have been striving to refine the mathematics of the model, while
+psychologists have been more interested in exploring the underlying psychological
+processes (for example, cognitive processes, personality and motivational factors).
+This work (primarily the economic aspects) has resulted in an evolved form of the
+model known as Cumulative Prospect Theory (Tversky and Kahnemann, 1992). An
+important aspect of its development has been to incorporate decision-making
+involving uncertainty.
+In essence, Prospect Theory is a mathematical model which predicts or explains
+decision-making. Fortunately it is not necessary to explain the mathematics in order
+to identify some key principles which are important to our understanding of decisionmaking in situations of uncertainty. These principles will now be described.
+How risky are we?
+Before Prospect Theory it was assumed that people are risk averse – that is, they
+will always choose the least risky option. However, it is not as simple as that. In fact,
+we are both risk seeking and risk averse. The way in which the options (or attributes
+of options) under consideration are perceived (or presented) in terms of whether they
+are gains or losses is the primary influence on whether, in a particular situation, we
+15
+
+are risk seeking or risk averse. Key research findings with respect to risk-seeking
+and risk aversion are as follows:
+•
+Losses ‘loom larger’ than corresponding gains. For example, for equal stakes,
+most people often won’t bet on a coin toss.
+•
+People will take greater risks to avoid loss than they will to achieve a gain.
+•
+Gains and losses are not (necessarily) absolute but also include changes to the
+existing state. So a loss of £100 is more serious for someone with £200 in their
+pocket compared to £1000 in their pocket.
+•
+People are averse to sacrificing a certainty for the chance of getting a slightly
+better outcome.
+•
+Loss aversion means that people favour the status quo over other options. A
+simple example here is an experiment by Knetsch (1989). In this study students
+were randomly given a gift of either a mug or a bar of chocolate and then
+allowed to trade. One might have expected a considerable amount of trading
+given that the gifts were free and randomly assigned. However, around 90 per
+cent of students chose not to trade and kept the gift they were given.
+•
+People will pay a large premium to avoid the small chance of receiving nothing
+(for example, insurance).
+•
+Options (or the attributes of options) are evaluated as losses or gains relative to
+a point/points of reference. These points of reference reflect the nature of the
+choice to be made. So, a person with a limited income going about choosing a
+car might use fuel economy and purchase cost as points of reference. (Other
+points of reference might also creep in, such as the ‘look’ of the car, and
+personal views about a particular type, for example, petrol versus diesel).
+•
+Points of reference which are relevant to a decision are based on individual
+beliefs and values which are salient/relevant to the particular decision. So,
+going back to the car example, environment-friendly credentials might be the
+key reference point for one person while ‘pose value’ will be the key reference
+point for another.
+•
+It is possible to manipulate the way information relevant to a decision is valued
+or perceived. A simple example is provided by Levin’s work on people’s choices
+of food. Levin (1987) showed that people change in the way they perceive a
+food according to whether the fat content is described in positive (for example,
+90 per cent fat free) or negative (for example, 10 per cent fat) terms.
+Framing
+A key finding from (or aspect of) the Prospect Theory approach is that, when faced
+with a decision problem, people form a mental representation of that problem (Figure
+2).
+
+16
+
+Figure 2:
+
+The role of mental representation in judgment and decisionmaking
+
+Context
+
+Decision
+problem
+
+Information
+about the
+problem
+
+Mental
+representation
+of a problem
+
+Judgement
+
+Decision/
+choice
+
+Individual
+differences
+
+(adapted from: Soman, 2004, p 380)
+The mental model (or framing) of a problem includes both information about the
+decision problem and the context of the decision problem (for example, time
+constraints, emotional aspects etc.). Individual differences in the way information is
+perceived, organised and interpreted, and differences in context, mean that the
+decision or choice made about the same decision problem will vary between
+individuals and across different contexts (Kahnemann and Tversky, 1984;
+Shoemaker and Russo, 2001). As Soman (2005) points out:
+The implication of a personal and situation specific mental model is that
+two individuals who might be presented with the same problem stimulus
+might actually be solving different ‘mental’ problems.
+(p380: our emphasis)
+Framing is a subconscious activity but can be manipulated deliberately by the
+individual making the decision or by other individuals, as has been extensively
+demonstrated in laboratory experiments (Kahnemann and Tversky, 1979; Tversky
+and Kahnemann, 1981). For example, researchers have shown that manipulation of
+the way outcomes are described (in terms of loss or gain) results in completely
+different decisions being made. What is also interesting is that in these experiments
+subjects did not try to reframe the information given to them. Even the researchers
+conducting these experiments found the strength of the ‘framing effect’ striking: ‘We
+were surprised by how easy it was to construct different versions of a decision
+problem that were transparently equivalent when considered together but evoked
+different preferences when considered separately’ (Kahnemann, 2000). The notion
+
+17
+
+that the way that decision-related information is perceived and processed is critical to
+decision-making points us to the information processing models of decision-making
+described above.
+Further loss aversion effects
+There are other ways in which our aversion to loss has been shown to affect
+decision-making. These include:
+The sunk-cost effect
+It has been shown that the greater the price paid for a product, the more likely
+people are to use or consume it, even in the face of risk or adversity (Arkes and
+Blumer, 1985). Thaler (1980) gives the following example: ‘A man joins a tennis club
+and pays $300 yearly membership fee. After two weeks of playing he develops a
+tennis elbow. He continues to play (in pain) saying ‘I don’t want to waste the $300!’’.
+Here the loss of a past investment drives the decision to continue to play despite
+considerable pain.
+Advantages and disadvantages in choice
+Researchers have shown that the extent of difference between two options will be
+viewed as greater if framed as a difference between two disadvantages, compared
+to a difference between two advantages. Thus the way information about options or
+attributes of options (as advantages versus disadvantages, or losses versus gains
+with respect to a reference point) is presented will affect the decision made.
+A reluctance to choose
+This is observed in situations where someone is having to make a choice between
+two options. One of these options is better with respect to one attribute while the
+other option is better with respect to another attribute. As long as the person is still in
+the process of making the choice, they have not experienced a loss in terms of either
+attribute. Once an option is chosen, the person then experiences a loss. At this
+stage, the rejected option might start feeling more valuable and lead to regret about
+the decision made (Carmon, Wertenbroch and Zeelenberg, 2003). For example, for
+someone choosing a home two key attributes might be the number of bedrooms and
+being on a quiet street. One house (Option A) under consideration has 4 bedrooms
+but is on a street which is noisy during the rush hour periods, the other (Option B)
+only has 3 bedrooms but is quietly situated. By choosing Option A the person feels
+they have lost living on a quiet street and this might then become a more important
+attribute than the number of bedrooms and they then regret the decision to buy
+Option A.
+
+18
+
+How people structure decisions
+Prospect theorists argue that people can both consider (and compare) all options at
+once or consider options sequentially (for example, Read et al., 1999). This
+phenomenon appears similar to the different types of heuristics described in the
+information processing approach above.
+Implications for the Panel Study
+One of the key implications of Prospect Theory for the panel study is that it is
+possible (intentionally and unintentionally) to externally manipulate a person’s
+decision by the way a decision problem is presented and associated information
+provided. This could happen in situations where a professional is presenting
+options/choices and also within close relationships (mother/child; partner/partner),
+where one of the individuals in the relationship holds more information relevant to the
+choice. It is important we explore and identify this as there are clear policy/practice
+implications.
+In situations of joint-decision making, Prospect Theory argues that the same
+decision-problem might be being framed differently by the two people involved, either
+because they hold different values/attitudes or because the outcome will have
+different impacts on the two individuals involved (for example, a decision about
+moving an older person into residential care could be framed by the person to be
+moved as loss of independence, but by their partner as removal of a significant care
+burden or a way of improving the quality of care received). This would suggest that it
+is important for the Panel Study to ascertain people’s representations of the
+decisions they are making (an ostensibly identical decision may well be framed
+differently by different people), and also to explore the information they are
+presented with.
+In addition, framing effects might be an important phenomenon to explore in
+situations where people change their minds or choices have to be revisited due to
+changing circumstances; the choice problem may have been reframed, or
+values/attitudes revised as a result of changes in the condition or other
+circumstances.
+Finally, Prospect Theory also provides a framework by which we can understand the
+seemingly ‘irrational’ decisions being made by participants.
+
+19
+
+Decision-making: the relationships between attitudes and
+behaviour
+Theory of Reasoned Action
+The Theory of Reasoned Action (TRA) (Ajzen and Fishbein, 1980) is particularly
+influential in the field of decision-making regarding health-related behaviour. It builds
+on theories regarding relationships between attitudes and behaviour. Its basic
+assumption is that in most cases individuals can choose whether or not to perform a
+behaviour. TRA states that the primary determinant of behaviour is the person’s
+intention – given the appropriate opportunity to perform a behaviour, intentions will
+guide behaviour. Ajzen and Fishbein propose that intentions are derived from two
+cognitive processes: the person’s attitude towards the behaviour and his/her
+perceived social norms regarding the behaviour – termed ‘subjective norm’.
+Attitude is assumed to be determined by the person’s belief about, and evaluation of,
+the outcomes of an action. TRA recognises that behaviour occurs in the context of
+social influences which exert pressure to perform or not perform a particular
+behaviour. A further influence on intention is the subjective norm, which is a
+combination of the person’s belief that people who are important to him/her think that
+s/he should or should not perform the behaviour, and the person’s motivation to
+comply with these opinions.
+Theory of Planned Behaviour
+TRA originally assumed that most behaviours of interest are those where the person
+has the resources, skills and opportunities to engage in their desired action.
+However, recognising that this is often not the case, Ajzen (1988) proposed an
+extension of TRA – the Theory of Planned Behaviour (TPB). This added a further
+dimension to TRA – that of perceived control over the intended behaviour. Perceived
+behavioural control is influenced by internal factors (skills, ability, information,
+emotions) and external factors (opportunity to engage in the behaviour and the
+extent to which performing the behaviour depends on the cooperation of others). A
+person’s perceived behavioural control reflects his/her beliefs about factors that may
+inhibit or promote the performance of the behaviour. Perceived behavioural control is
+posited to have a causal influence on intentions, but actual behavioural control also
+has a direct influence on behaviour (see Figure 3 below).
+Meta-analyses of studies applying TPB conclude that it accounts for considerable
+proportions of the variance in intentions across a range of behaviours (39-41 per
+cent) and a somewhat lower proportion of variance in behaviour (27-34 per cent)
+(Armitage and Connor, 2001; Godin and Kok, 1996 – cited in de Wit and Stroebe,
+2004). TRA and TPB have been applied to a wide range of decisions about
+
+20
+
+behaviours (for example, dealing in stocks and shares, smoking initiation, shoplifting,
+condom use, oral contraception, participation in exercise).
+Relevance to Panel Study
+The components of these theories (TRA and TPB) have a number of implications for
+how we look at choice and decision making. The concept of subjective norm can be
+seen to have relevance to many instances of decision making where the attitudes of
+key people, such as relatives and professionals, and the importance users and
+carers attach to these, are likely to influence decisions. For instance, one study
+found that parents felt under pressure from family and/or health professionals to
+make a particular decision about gastrostomy for their child (Guerriere et al., 2003).
+It will be important to explore in interviews who are the people who are important in
+any decision, what their attitudes towards the decision are or were and what weight
+users/carers placed on this. Similarly, we should explore people’s beliefs about, and
+evaluations of, the outcomes of a chosen action and how these influence the choice
+made.
+Research on adaptation in families with disabled or chronically ill children points to
+the importance of family values and beliefs in adaptation and resilience (for example,
+Summers et al., 1989). There is also evidence that having a disabled child can spur
+parents to examine their own beliefs and their assumptions about their social
+environment. In a small qualitative study of parents of children with Down's
+syndrome or an autistic spectrum disorder, King et al. (2006) found that parents
+became more aware of their beliefs. They felt that it was important to be clear about
+their values because these affected their priorities for the child, and thus the
+supports and opportunities they provided and sought for the child and the goals they
+worked towards. As this quote from a parent illustrates, these values play a key role
+in seeking and making choices:
+I think that, as a family with a child who has a disability, we have to be
+very clear on priorities because often we have to present those
+priorities . . . to professionals, to teachers, but sometimes even to family
+members and neighbours because we are often challenged on what those
+priorities are. . . . Often people don’t accept the fact that we know best, so
+we have to be very clear about those priorities and, even though they
+change at times, we have to make those decisions. And if we don’t make
+those decisions, we don’t have clear choices for our children, for our
+families. Then we are just sort of nudged into what is out there and the
+world is taking control really. If we don’t put our priorities straight then we
+don’t get real choices.
+(King et al., 2006. p.359)
+
+21
+
+Figure 3:
+
+The theories of Reasoned Action and Planned Behaviour
+
+Belief about
+outcomes
+
+x
+
+Evaluation
+of outcomes
+
+Attitudes towards
+behaviour
+
+Normative
+beliefs
+
+x
+
+Motivation
+to comply
+
+Subjective norm
+
+x
+
+Perceived
+facilitating/
+inhibiting power
+
+Perceived control
+
+Perceived
+Likelihood of
+occurrence
+
+From Bennett and Murphy (1997)
+
+22
+
+Behavioural
+intention
+
+Behaviour
+
+The study also suggests that these families may be clearer about their beliefs and
+priorities than families with non-disabled children, as they are called on to articulate
+them more often to justify decisions. This indicates that it will be important in the
+Panel Study to examine individuals' beliefs, values and priorities and how these
+affect choice making; how such beliefs may have changed and continue to change
+with changes in the adult or young person's condition; and how these changes
+impact on choices. In particular, TRA and TPB point to the importance of exploring
+the effects when changes in beliefs are in an opposite direction to normative social
+influences. Research on families with disabled/chronically ill children points to a
+number of ways in which families' re-evaluation of values may result in a devaluing of
+some common social values, such as achievement, material values and income (for
+example, King et al., 2006; Sloper, 1996).
+The issue of perceived control is also clearly important in the decisions users and
+carers make. For example, parents’ and young people’s perceptions of their abilities
+to deal with the technology of gastrostomies or assisted ventilation will influence their
+decision about instituting this technology (Miller et al., 1990).
+
+23
+
+24
+
+Section 3:
+
+Factors Which Affect Choice or DecisionMaking
+
+Emotion and choice
+Choice making has both cognitive and emotional components. At a general level,
+emotion and cognition are both types of information processing, but they have
+different functions. Many theorists see emotion as alerting individuals to important
+features of a situation and providing direction for cognitive processes and behaviour
+(Lemerise and Arsenio, 2000). In relation to choice, people think about the options
+and the likely consequences of choosing an option, but in addition there are strong
+emotional factors in play. People have feelings about the decision and expectations
+about feelings that might result from choosing different options. (The emotions
+actually experienced as a result of the outcome of a choice may or may not concur
+with earlier expectations). These emotions help to prioritise between different options
+and reduce the amount of information to be processed. It has been argued that
+emotions are particularly likely to play a role in conditions of uncertainty and
+incomplete knowledge which characterise many decisions, as they reduce
+information processing (Lemerise and Arsenio, 2000). Affective reactions are often
+the first reactions to stimuli and may then guide processing and judgement; in some
+cases individuals may choose things they find attractive and then justify choices with
+reasons (Zajonc, 1980). The mechanisms by which emotion informs choice are
+known as ‘somatic markers’; for example when a negative outcome becomes linked
+with a specific thought or behaviour, a negative ’somatic’ or gut feeling is
+experienced which adaptively can protect against future losses and narrow down the
+field of alternatives to choose from. This mechanism is usually adaptive, but can
+produce bias which is maladaptive (Damasio, 1994).
+Evidence for the centrality of emotion in decision making is provided by studies of
+people with neurological damage which interferes with the processing of emotional
+signals but not basic cognitive functions. Such damage leads to impairments in
+decision-making processes (Behara, 2004). An extensive and growing body of
+research has examined the effects of emotion, affect and mood on information
+processing, judgement and decision-making1. Some studies have focused on
+‘integral’ affect, that is feelings experienced about a particular stimulus (or choice),
+whilst others seek to understand the influence on decision-making of ‘incidental’
+1
+
+Generally ‘affect’ refers to traits which are pervasive and broad and have longer duration, such as
+good or bad feelings, 'emotions' are narrower and refer to particular states (for example, anger, fear,
+happiness). The term ‘mood’ refers to a feeling that is low in intensity but has no specific object
+(Finucane et al., 2003). Sometimes the terms affect or emotion are used to encompass all these
+states.
+
+
+25
+
+affect, that is feelings such as mood states that are independent of the stimulus but
+can influence the decision process.
+The role of affect in decision-making
+Peters et al. (2006) argue that both integrated and incidental affect have four
+different roles in judgement and decision-making:
+•
+
+Affect can act as information – feelings about a choice are information that
+guides decision-making and can shape the value of an alternative. These
+feelings can be based on prior experiences or thoughts relevant to the choice
+option and/or can be the result of a less relevant current state of emotion or
+mood. Schwartz (2000) also notes that individuals are more likely to recall
+information from memory that is congruent with their current feelings. Thus
+feelings influence the information brought to bear on the decision.
+
+•
+
+By translating more complex thoughts into simpler affective evaluations of
+choice options, people can compare good and bad feelings rather than
+attempting to integrate a mass of conflicting logical reasons in more complex
+decisions. Thus affective information may be more easily integrated into
+judgements than non-affective information and act as a heuristic. Emotional
+processes are faster than cognitive processes, so if an individual is under
+increased pressure of time to make a choice, affect may have greater influence
+than cognitive processes (Svenson, 2003). However, mood also influences
+estimates of the outcome of a choice (Schwartz, 2000). Happy mood results in
+overestimating the likelihood of positive outcomes and underestimating the
+likelihood of negative outcomes and sad mood has the opposite effect. In this
+way, affect may influence evaluations of all alternatives (Svenson, 2003).
+
+•
+
+Affect can act as a ‘spotlight’ – the extent or type of affective feelings focuses
+the decision maker on new information and this new information is used to
+guide the judgement.
+
+•
+
+Affect can be a motivator of information processing and behaviour. Affect is
+linked to approach and avoidance behaviour; moreover, people tend to act to
+maintain or attain positive mood states.
+
+Finucane et al. (2003) put forward the Affect Heuristic theory, based on existing
+empirical evidence on affect and decision-making. This suggests that positive and
+negative feelings become attached to 'images'2 through learning. The pool of
+affective feelings related to particular 'images' then serves as a cue for judgement
+2
+
+'Images' are defined as sounds, smells, visual impressions, ideas, words to which positive and
+negative feelings have been attached through learning.
+
+26
+
+and decision-making. Using an affective impression can be easier and more efficient
+than weighing up the pros and cons of various choices and thus can form a mental
+short cut or heuristic, which guides reason and assigns priorities between goals.
+Svenson (2003) posits the Diff Con Theory, based on the observation that a 'decision
+maker must find or create an alternative that is sufficiently superior to its
+competitor(s)' (p.290). Differentiation is the process by which a superior alternative is
+identified and involves evaluation of the alternatives and changes in the
+representation of the decision problem to increase the distance between alternatives.
+Consolidation maintains this differentiation post-decision and protects against regrets.
+Within this theory, both affect and cognitive processes are involved. Affect influences
+both the way information is processed and the attractiveness of the information. In
+addition, decision problems can also influence affect, for example having to decide
+between a set of bad alternatives can induce negative mood.
+Incidental affect is also linked to the extent of processing in decision-making.
+Investigations of incidental affect have generally found that people engage in more
+systematic processing when in negative emotional states or moods, whereas people
+in positive states or moods engage in more heuristic processing (Tiedens and Linton,
+2001).
+Emotion-specific influences on decision-making
+A number of writers have moved beyond investigation of valence (positive or
+negative feelings), which suggests that all positive affect would lead to optimistic
+judgements whereas all negative affect would lead to pessimistic judgements, to look
+at emotion-specific influences on judgement and choice. Studies have found
+differential effects for specific emotions. Lerner and Keltner (2000) found that the
+negative emotions of fear and anger have different influences on judgement. They
+found that fearful people made higher risk assessments, whereas angry people
+made lower risk assessments. Other studies have found that sadness promotes
+systematic processing, whereas anger encourages heuristic processing
+(Bodenhausen, 1993; Lerner at al., 1998). Lerner and Tiedens (2006) reviewed
+research on the impact of anger on judgement and decision-making, concluding that
+anger has specific impacts leading to selective processing of information, increased
+risk-taking and optimism.
+Tiedens and Linton (2001) suggest that the effects of specific emotions on
+processing are related to the certainty appraisal of these emotions. Studies of
+emotion-appraisal associations show that specific emotions are reliably associated
+with particular sets of appraisals, for example anger is associated with unpleasant
+situations but certainty about what is happening; in contrast fear is also associated
+with unpleasantness but with uncertainty about what has happened or will happen.
+These patterns are consistent across a range of populations and using a range of
+27
+
+research methods. Tiedens and Linton concentrate on certainty and uncertainty –
+anger, disgust, happiness, contentment are associated with certainty; hope, surprise,
+fear, worry and, to an extent, sadness are associated with uncertainty. Empirical
+work by Tiedens and Linton suggests that in decision-making, certainty-associated
+emotions result in less substantive and more heuristic processing, whereas
+uncertainty-associated emotions produce more thorough processing.
+Lerner and Keltner (2000) explored both the certainty/uncertainty and individual
+control/lack of control appraisals associated with specific emotions and suggested
+that these influence judgements of risk, as they are ‘cognitive metafactors’ identified
+in the risk literature as reliably determining risk assessment. These metafactors are
+the level of ‘unknown risk’ – defined at its highest level as hazards judged to be
+uncertain; and level of ‘dread risk’, defined at its highest level as perceived lack of
+individual control (for example, McDaniels et al., 1997; Slovic, 1987). Fear involves
+appraisals of low certainty and low individual control whereas anger involves
+appraisals of high certainty and high individual control. If these appraisal tendencies
+influence judgement, then fear should lead to pessimistic risk assessments and
+anger should lead to optimistic risk assessments. On the other hand if valence is
+more important, both fear and anger would lead to pessimistic assessments. Lerner
+and Keltner’s (2000) study of 97 students found, as noted above, that fearful people
+made higher risk assessments whereas angry people made lower risk assessments.
+Their measures related to dispositional fear and anger, but they also found that
+dispositional emotions predicted current state (momentary) emotions. They suggest
+that the effects of dispositional emotions and momentary emotions will be similar but
+may differ in magnitude, with dispositional emotions having greater effects. This is
+likely because momentary emotions are likely to be consciously linked to a specific
+cause and this should reduce the effect on judgements of other events. In contrast,
+dispositions emerge early in life; remain stable over the life course (Helson and
+Klohnen, 1998); are reflected in stable differences in underlying neurochemical
+systems (Davidson, 1998); and are thought to focus as ongoing schemas for
+organising and interpreting events (for example, Gasper and Clore, 1998).
+An emotion that has received a considerable amount of attention in decision-making
+research is regret. Connolly and Reb (2005) identify three types of regret:
+•
+Outcome regret – the target of regret is the outcome of the decision;
+•
+Option regret – the target of regret is the option chosen;
+•
+Process regret – here the target is the way in which the decision was made (for
+example, too hasty, ill-informed).
+Decision Justification Theory (Connolly and Zeelenberg, 2002) posits two
+components of decision-related regret: one associated with evaluation of the
+outcome of the decision, the other with self-blame for having made a poor (that is,
+unjustified) choice. These two components do not necessarily occur together – an
+
+28
+
+individual can regret an outcome but feel that the decision process was justified, or
+alternatively a good outcome can result from a poor decision. A number of empirical
+studies illustrate this. For example, Clark et al. (2001) found that among men treated
+for metastatic prostate cancer, those who expressed more regret about treatment
+decisions were more dissatisfied with the decision-making process; they thought
+they had received less information and were more likely to feel that they did not have
+much of a choice.
+Early studies (for example, Kahnemann and Tversky, 1982) indicated that a bad
+outcome resulting from action seemed to engender more regret than the same bad
+outcome resulting from inaction. However, findings on concurrent regret have been
+contradictory. There is some evidence that people may regret inactions more than
+actions in the short term, and this pattern was also shown in a series of studies
+looking at real life retrospective regrets. In these circumstances, people tended to
+recall more omissions than commissions, the opportunities they had passed up
+rather than the actions they had taken (Gilovich and Medvec, 1995).
+Lerner and Keltner (2000) suggest that there are boundaries to the influence of
+emotion on judgement and choice and that people do make judgements independent
+of their emotions in certain conditions. It is suggested that emotion-related appraisals
+are automatic (for example, Lazarus, 1991) but are deactivated when individuals
+become aware of their own judgement process, so conscious monitoring leads them
+to focus on judgement-relevant information and downplay emotion. Several studies
+support this – in particular, when people expected to be accountable for their
+judgements, they examined the relevance of cues more carefully and current
+feelings became less important (Lerner and Tetlock, 1999; Lerner et al., 1998).
+The role of anticipated emotion
+There is also evidence that decisions are influenced by anticipation of regret
+(Zeelenberg, 1999). However, a number of studies suggest that people's ability to
+predict future emotional states, including regret, is often poor. It is likely that in
+temporally extended sequences of decisions, complex interactions will occur
+between anticipated regret that influenced earlier decisions, experience of actual
+regret resulting from these decisions, and anticipation of regret during subsequent
+decisions. It is therefore important to explore decision makers' predictions of regret
+before making a choice and before the outcomes of that choice are known, as well
+as experienced regret after the consequences of the choice are apparent. It is also
+important to distinguish between process, option and outcome regret.
+Empirical research also indicates that subjects asked to think about the regret they
+might experience after making a choice predominantly choose the safest option over
+a potentially better but more risky option – it appears that thinking about regret leads
+people to look for justifications for their choice (Simonson, 1992). In general people
+29
+
+are regret-averse and in many cases this results in risk-averse choices. However,
+research also shows that anticipated regret may result in risk-seeking tendencies in
+certain circumstances which relate to the likelihood of feedback on the different
+options; that is, when there will always be feedback on the riskier option but only on
+the safer option if chosen. This means that if choosing the safer option, the individual
+risks finding out that the riskier option was better, but not vice versa (for example,
+lotteries). Overall therefore, research shows that people are motivated to make
+choices that protect them from post-decision feedback which will lead to regret about
+foregone choices. Anticipated regret also seems to promote decision-aversion, that
+is, a tendency to delay or avoid decisions (for example, Beattie et al., 1994).
+Although anticipated regret has received the most attention in the literature as an
+influence on choice, other emotions may play similar roles. Mellers et al. (1999)
+suggest that people will choose the option with the greater subjective expected
+pleasure, and Connolly and Butler (2006) found that a number of anticipated
+emotions (regret, disappointment, rejoicing and elation) about the outcomes of
+choice guide choice and predict choice behaviour. However, they also found that
+these specific emotions did not predict choice more than general clusters of positive
+and negative emotions.
+Decision-generated emotion
+It will be apparent from the discussion above that decisions can often be stressful
+and therefore people need to deal with decision-generated negative emotion. A
+decision situation presumes the existence of more than one, and often multiple,
+options and there is therefore a need for trade-offs prioritising some goal(s) over
+others. Luce (2005) puts forward a model of Emotional Trade-off Difficulty (ETD),
+highlighting that two important coping motivations often co-exist. These are
+motivation to work harder to successfully solve the choice problem and identify the
+best option; and motivation to avoid particularly distressing decision operations, such
+as explicit trade-offs between attributes. The ETD model proposes that this tension is
+resolved by:
+•
+Making trade-offs implicitly rather than explicitly; focusing on only one, or a
+subset of, attribute(s); and not addressing between-attribute trade-offs.
+•
+Preferring choices that are recommended by reasons independent of the
+characteristics of the alternatives, for example, focusing on a doctor's
+recommendation.
+Efforts to cope with negative emotion in decision-making can thus affect the
+decision-making process.
+The ETD model has particular relevance to decisions regarding health conditions,
+which are often characterised by difficult trade-offs. Efforts to minimise negative
+emotion may result in avoidance of such trade-offs regardless of available
+30
+
+information. Indeed the provision of information relevant to trade-offs or the explicit
+ceding of control over decisions to the patient may increase decision-related
+negative emotion. This has implications for policies on patient involvement, choice
+and control because where positive outcomes are not certain, patient control over a
+decision may heighten stress by reducing the individual’s ability to cope by avoiding
+decision trade-offs (Folkman, 1984). In addition, the key role of emotion in decisionmaking suggests that patients/service users would benefit from emotional as well as
+informational decision support. Work on the information needs of children and young
+people with chronic conditions and parents with disabled children (Beresford and
+Sloper, 2003; Mitchell and Sloper, 2001) indicates the importance of such support in
+using information.
+Emotion in temporally extended choice
+Temporally extended choice refers to choices that must be made repeatedly and
+have consequences that change depending on what is chosen at each point. In this
+situation, what is best at one point can be in conflict with what is best overall. People
+often act as if choices only had immediate effects, but optimal choice in these
+circumstances requires combining options across time to achieve the best overall
+outcome. Much decision-making involves temporally extended choice – for example,
+avoiding back pain requires many choices relating to physiotherapy exercises and
+lifting behaviour to be made over time. In any one situation, the immediate choice
+may be to carry out a task such as lifting a cared-for person, which may be of no
+obvious immediate consequence; but the cumulative effects of such choices can be
+very costly. Different processes may be involved in these situations. A motivational
+dilemma may involve weighing the short-term and long-term alternatives; on the
+other hand, many temporally extended choice situations may not involve high level
+decision-making processes or even be perceived as choices.
+Gray (1999) hypothesised that threat-related negative emotional states, including
+stress, result in a bias to choose the alternatives that are most advantageous in the
+short-term, even if those choices incur long-term costs. Empirical studies with
+students supported his hypothesis, indicating that negative emotions (both taskrelated and more general emotions) biased people towards favouring immediate
+consequences, despite costs to longer-term goals. Gray suggested that this may be
+an effect of framing, depletion of cognitive resources or narrowing of attention, or a
+combination of these factors. A framing account suggests that in negative emotional
+states people frame a series of choices as an unrelated series of items, rather than
+seeing the bigger picture. A cognitive resource account suggests that cognitive load
+from the emotional state could disrupt implicit learning about the temporally extended
+contingencies. Focusing of attention often occurs in emotionally arousing situations,
+suggesting that this may also be a factor affecting narrowing of temporal attention.
+
+31
+
+Individual differences in emotionality and effects on decision-making
+People differ in both their emotionality (that is, the intensity with which they
+experience and express emotions) and their ability to regulate their emotions, and
+these differences are related to the development of social competence (for example,
+Eisenberg et al., 1997). It is suggested that children who are high in emotionality and
+poor at regulating emotion will show deficits in social information processing
+(Lemerise and Arsenio, 2000) and this then affects judgement and choice.
+Implications for the Panel Study
+Clearly decision-making is strongly influenced by emotional factors. Some of the
+issues that will be important to be aware of and/or explore are:
+•
+The feelings individuals attach to different choice options and the role of past
+experience in this, for example it is often suggested that parents’ own
+experience of school affects their choices of school for their children.
+•
+The decision maker’s mood at the time of making choices – this is likely to
+influence both information processing and the way in which options are viewed
+– particularly in relation to perceived risks and optimism\pessimism about
+options.
+•
+The role of regret – both about the outcome of a decision and the process by
+which the decision was made. It will be important to explore this over time. How
+does regret about an earlier decision influence a later decision?
+•
+There is considerable potential for anticipated emotions, particularly anticipated
+regret but also anticipated pleasure, in the situations of choice that we will be
+looking at. We might explore how people’s judgements of how different options
+would make them feel influenced the choices they made. Also how did this
+affect the decision-making process itself; for example, in situations where
+anticipated regret is high, does this lead people to delay/avoid decisions?
+•
+The process of decision-making can itself be stressful. Do people experience
+stress by having to make choices? Does this lead to a narrowed focus on option
+attributes and more reliance on professionals’ judgement? What are the longerterm consequences of this? How does this affect what choices people do/do not
+want to make? A key factor may be what emotional support people receive
+when making the decision. Who provides this? Do professionals see this as part
+of their role?
+•
+Many situations we look at may be ones of temporally extended choices. How
+do people think about these choices? How do they balance short-term and
+longer-term considerations? Do they treat each choice as if it would only have
+immediate effects or do they consider the longer-term effects? How do current
+emotions, particularly stress, influence this? What are the characteristics/
+situations of those who take the longer-term or short-term view?
+
+32
+
+•
+•
+
+Individual differences in emotionality are likely to influence choices. We need to
+be aware of this but we can’t directly investigate it in the study.
+The finding that conscious monitoring of decision-making leads people to focus
+more on information and downplay emotion has considerable implications for
+the study. Will being involved in the study lead people to focus more
+consciously on their decision-making processes? How do we avoid this? Can
+we avoid it or do we just accept and acknowledge the possibility of
+contamination of the sample? If we can’t avoid it, how do we monitor it?
+
+Individual differences and choice/decision-making
+Personality and choice/decision-making
+Whilst it is acknowledged that personality factors will affect choice-making, this is not
+an area which has been systematically examined. Personality research is a vast and
+disparate literature with numerous models and theories and, similar to the decisionmaking literature, there is no over-arching model or set of principles. As a result
+there are discrete pockets of research which have looked one particular facet of
+personality (for example, locus of control, risk taking) and its impact on decisionmaking; or have approached the issue from a particular theoretical standpoint (for
+example, trait theory).
+However, drawing both on theories of choice and decision-making and our
+understanding of personality, it is possible to draw up some general principles about
+the way personality will affect choice-making. What is clear is that personality factors
+influence all aspects of the choice-making process, including:
+•
+The way a situation/problem is perceived;
+•
+The extent to which a person wants to take control of making a decision;
+•
+The extent to which a person uses/seeks out information;
+•
+The desire to involve others in the decision-making process;
+•
+The person’s preferred decision-making style;
+•
+The type of decision they made;
+•
+The extent to which a person feels the need to justify their decision to others.
+Different personality theories have alternative views on the way that personality
+factors will interact and affect these various stages and processes. In addition, there
+is a further body of research looking at the impact of personality on the development
+of beliefs, attitudes and coping styles, all of which have been implicated in theories of
+decision-making.
+Implications for the Panel Study
+It is important to bear in mind that differences in personality are likely to impact on
+joint-decision-making situations. There is clearly potential for differences in
+
+33
+
+personality to interfere and disrupt the shared decision-making processes, including
+expert and non-expert decision-making situations (Clack et al., 2004). In addition, the
+effectiveness of professional support in decision-making would, to some extent,
+appear to be dependent on the extent to which that support is sensitive to, and can
+be tailored to, differences in personality. Finally, in relation to the groups represented
+in the panel study, it will be important to bear in mind the evidence on the adverse
+effect of the experience of disability on internal psychological factors such as selfefficacy, self-esteem and locus of control (for example, Hirst and Baldwin, 1986).
+For this project it is important to be aware that factors such as personality influence
+the decision-making process. It will not be possible to explore this issue per se within
+the project, however.
+Choice and cognitive capacity
+The psychological theories of choice and decision-making described earlier highlight
+the fact that making choices can be highly costly in terms of the cognitive effort
+associated with gathering and then assessing and comparing information. Not
+unsurprisingly, therefore, within psychological research on choice/decision-making
+theory there is a body of work on the impact of ‘cognitive capacity’ on choice-making.
+This includes work on the effect of drugs (for example, opiates), personality
+disorders and other mental health problems, neurodegenerative disease, brain injury,
+ageing and learning disabilities on the decision-making process and decision-making
+efficacy. In addition, there has been work which has looked at ‘softer’ differences in
+cognitive capacity (such as numeracy skills) and their impact on performance in
+decision tasks. All this work is based on the notion that impairments of, or limitations
+in, cognitive capacity will impact on choice/decision-making ability.
+In some cases the purpose of the research has been to shed further light on the
+cognitive processes underlying decision-making. Other research is more concerned
+with the way that impairments in cognitive capacity may affect people’s ability to
+make choices about treatments or health care, their participation in research, and to
+manage everyday life decisions (for example, financial management). It is this notion
+of capacity that is reflected in the Mental Capacity Act (2005) and we explore this
+issue below on making decisions on behalf of someone else.
+There is, in addition, a separate body of literature on the meaning of choice and the
+exercise of choice by disabled people (for example, Wre, 2004; Harris, 2003;
+Lancioni et al., 1996). Within this literature there is some resistance to the emphasis
+on cognitive capacity as the sole indicator of a person’s ability to take decisions. It is
+argued that social and environmental factors also have significant roles to play in
+developing decision-making skills and facilitating and supporting decision-making
+among people with learning difficulties (for example, Suto et al., 2005; Harris, 2003).
+This is also reflected in the Mental Capacity Act, with its emphasis on provision of
+34
+
+support and information in appropriate and simple forms; and its recognition that
+decision-making capacity should be assessed for particular decisions, and not seen
+as a general characteristic of the individual.
+In the following sections we review the findings from research on the impact of
+specific impairments in cognitive capacity on decision-making processes. A lot of this
+research has been carried out on specific populations or on particular conditions. We
+have endeavoured from this to extract key, over-arching issues.
+Cognitive ability
+In laboratory experiments, general measures of cognitive ability have been found to
+be associated with decision-making performance, with performance being adversely
+affected with increasing decision task complexity (for example, Gonzalez et al.,
+2005). There is a body of more applied research which has shown that impaired
+cognitive abilities (for example, as a result of learning difficulties, ageing) affect
+decision-making abilities in general. This research is based on, as opposed to testing,
+the assumption that decision-making is a complex and cognitively demanding activity
+which requires certain cognitive skills and capacities. Such work does not tend,
+however, to explore the ways different aspects of the decision-making processes are
+or may be affected by impaired cognitive ability(ies).
+Memory
+Impairments in memory, particularly working memory, have been found to affect
+decision-making capacity (Stroup et al., 2005). Working memory refers to the
+structures and processes used for temporarily storing and manipulating information.
+Other researchers have found that the decision-making strategies used, and the
+extent to which individuals are able to shift to more effective strategies, are related to
+working memory capacity.
+Numeracy
+Research suggests that numeracy per se (as opposed to being used as an indicator
+of general intelligence) is an important factor in decision-making (Peters et al., 2006).
+Numeracy skills have been found to influence the types of decision strategies used
+to compare different options and, overall, this is thought to be beneficial.
+The pre-frontal region of the brain
+The pre-frontal region of the brain is the area of the brain which supports reasoning
+and decision-making. In the absence of any other cognitive impairment, damage to
+this region (through, for example, traumatic brain injury, neurodegenerative disease)
+has been found to affect decision-making ability (Denburg et al., 2005; Fellows and
+Farah, 2005; Brand et al., 2004; Fellows., 2004; Stout et al., 2001).
+
+35
+
+Choice and decision making by people with severe and profound
+developmental disabilities
+In 1996, Lanciono et al. published a review of evidence on choice research with
+people with severe and profound developmental disabilities. It should be emphasised
+that the research they identified was concerned with experiments which explored
+choice and preferences in relation to familiar and concrete objects and/or activities.
+With respect to these, Lanciono et al. concluded that, when presented in an
+accessible way, most people with severe or profound developmental disabilities can
+make choices and express preferences about food and drink items, types of
+stimulation (for example, music, rocking) and activities. Laciono et al’s. review also
+highlighted the importance of the environment and access to technologies to
+facilitate the expression of choice or preference. Developing the ability to make these
+sorts of choices may require practice. It may also demand specific skills on the part
+of professionals and/or family members in order to understand both an individual’s
+possibly idiosyncratic way of communication and the context in which a
+communication behaviour is observed. As Ware (2004) observes, sometimes a
+behaviour indicating a preference will be observed (for example, a smile, relaxation
+of muscles) but it will not have been intentionally communicated by the person.
+What is significant here is that none of the evidence reviewed by Lanciono et al.
+(1996) or subsequent research (for example, Schepis et al., 1996) has concerned
+choices between events which will be on-going (that is, where a choice fixes what
+will happen next week or month) or future events (Ware, 2004). Such choices or
+decisions, Ware notes, require a ‘relatively advanced level of cognitive development’
+(p.177) and cannot be made by people with severe and profound developmental
+disabilities. Ware concludes:
+This is not to suggest that the task of trying to ascertain the views of
+people with profound and multiple learning disabilities should be
+abandoned. Rather we need to be realistic about the extent to which it is
+possible to ascertain the views of those with the most complex needs
+about complex issues. We need, on the one hand, to see the task of
+enabling someone to express their views as a learning/teaching task
+which may be very long-term, and on the other, when major decisions
+need to be taken about their future, we need to work out how best to take
+account of their likes, dislikes, strengths and needs.
+(p.178)
+Clearly, proxies need to be involved in these situations. However, evidence suggests
+the use of proxies is not without its own issues. Cummins' (2002) review of research
+which has looked at proxies’ abilities to judge the well-being of people with learning
+difficulties concluded that proxies with the closest relationships with the individual are
+the most reliable proxies; however, their own values and attitudes bias the
+inferences they draw. Additionally, the use of proxies is most likely to be problematic
+
+36
+
+in situations where the individual has extremely limited communication. The issue of
+proxies (or surrogate decision-makers) is discussed further below.
+Implications for the Panel Study
+The brief overview provided above reiterates the fact that making complex decisions
+is cognitively demanding. There may be instances in the ‘sudden onset’ group that
+we recruit people who have experienced an abrupt and significant change in their
+cognitive abilities and who are now struggling to make decisions or who are being
+excluded, or only peripherally included, in decision-making. It will also be interesting
+to explore/describe the strategies professional and family members use to support
+decision-making by those with cognitive impairments.
+In terms of individuals with severe or profound learning difficulties or substantial
+cognitive impairment following brain trauma, questions need to be addressed about
+whether, how, and the rationale of, including these individuals in this project.
+Furthermore, if the decision is taken to include them then the issues explored with
+the carers/professionals involved may need to be modified to explore issues such as
+feelings and experiences of acting as proxies; confidence in understanding what the
+individual is communicating; and beliefs about the individual’s choice- or decisionmaking capacities. These questions are explored further in the next section.
+
+37
+
+38
+
+Section 4:
+
+Specific Decision-Making Situations
+
+Making decisions on behalf of someone else
+Literature on decision-making on behalf of another person centres around ‘proxy’ or
+‘surrogate’ decision makers3 and parents making decisions on behalf of their children.
+The situation is different for each of these groups. As far as surrogates are
+concerned, their role is to make a decision on behalf of someone who lacks capacity
+to do this themselves. They may be relatives, friends, carers or professionals, and
+may or may not have been designated by the person concerned as their surrogate.
+Much of the literature focuses on consent to health care treatment, including end-oflife decision-making. A key issue is establishing capacity and there are legal
+standards on consent capacity (see below). In contrast, parents already have legal
+responsibility for making decisions on behalf of their children (under 16 years).
+However, the role of children and young people in decision-making is increasingly
+being recognised and promoted. The United Nations Convention on the Rights of the
+Child (1989) Article 12 emphasises children's rights to express their views on matters
+that affect them and to have these views given 'due weight'. In addition, the National
+Service Framework for Children, Young People and Maternity Services states that
+services are required to 'give children, young people and their parents increased
+information, power and choice over the support and treatment they receive, and
+involve them in planning their care and services' (DH/DfES, 2004: p.9). Whilst it is by
+no means universal that children are consulted when decisions are made on their
+behalf, children’s participation is becoming more common (Cavet and Sloper, 2004a).
+Nevertheless, disabled children are less likely to be involved in decisions than their
+non-disabled peers (Cavet and Sloper, 2004b). In addition, with the presumption of
+parental responsibility, less attention is focused on establishing a child’s capacity
+than is the case for adults.
+Capacity and the law
+In England, the most recent legislation dealing with decision-making capacity is the
+Mental Capacity Act 2005. This states key principles:
+A person must be assumed to have capacity unless it is established that
+he lacks capacity.
+A person is not to be treated as unable to make a decision unless all
+practicable steps to help him to do so have been taken without success.
+
+3
+
+These terms appear to be used interchangeably but surrogate is slightly more common, and will be
+used in this document.
+
+39
+
+A person is not to be treated as unable to make a decision merely
+because he makes an unwise decision.
+Before the act is done, or the decision is made, regard must be had to
+whether the purpose for which it is needed can be as effectively achieved
+in a way that is less restrictive of the person's rights and freedom of action.
+The Act also defines the meaning of lacking capacity:
+For the purposes of this Act, a person lacks capacity in relation to a
+matter if at the material time he is unable to make a decision for himself in
+relation to the matter because of an impairment of, or a disturbance in the
+functioning of, the mind or brain.
+It does not matter whether the impairment or disturbance is permanent or
+temporary.
+A lack of capacity cannot be established merely by reference to:
+(a) a person's age or appearance, or
+(b) a condition of his, or an aspect of his behaviour, which might lead others to
+make unjustified assumptions about his capacity.
+The Act specifically excludes people under 16.
+In deciding how to establish whether a person is unable to make decision for
+him/herself, the Act states that lack of capacity should be decided ‘on the balance of
+probabilities’ and sets out the following criteria. The person should be unable to:
+•
+Understand the information relevant to the decision;
+•
+Retain the information;
+•
+Use or weigh that information as part of the process of making the decision; or
+•
+Communicate the decision (whether by talking, using sign language or any
+other means).
+A person should not be regarded as unable to understand information if s/he is able
+to understand an explanation of it in a form appropriate to him/her (for example,
+simple language, visual aids etc). The fact that someone is only able to retain
+information relevant to a decision for a short period does not prevent him/her from
+being regarded as able to make the decision. Information relevant to a decision
+includes information about the foreseeable consequences of deciding one way or
+another or failing to make the decision.
+These provisions are decision-specific – that is, what should be assessed is the
+person’s capacity to take a particular decision at a particular time.
+Legal scholars in the US identify similar standards for capacity (Allen and Shuster,
+2002): the ability to communicate a choice; the ability to appreciate the
+
+40
+
+consequences of the choice; the ability to understand relevant information; and the
+ability to rationally manipulate the information and give reasons for one’s choice. It is
+clear from the above that these standards focus on the process of decision-making
+rather than the final decision made. Indeed, whilst some authors add to these
+conditions that individuals also make the most reasonable choice (for example,
+Marson et al., 1996), this is specifically excluded in the Mental Capacity Act. This
+focus on process highlights the importance of cognitive abilities. Whilst simple
+cognitive abilities may provide the capacity to state a choice, higher order abilities
+are needed to manipulate information, appreciate consequences and be able to give
+reasons for a choice (Allen and Shuster, 2002).
+If lack of capacity is established, then someone else must make the decision on
+behalf of the individual. This must be done in the person’s best interests and the
+Mental Capacity Act provides a checklist of factors to use in establishing best
+interests. This includes what the person’s views would be – sometimes known as
+‘substituted judgement’. However, empirical research has shown that here are
+considerable difficulties with predicting what people’s decisions might have been.
+Research on surrogate decision-making
+There have been a number of empirical studies on surrogate decision-making.
+These appear to be largely atheoretical and concentrate on assessing how
+accurately surrogates reflect their relatives’ views. A systematic review (Shalowitz et
+al., 2006) identified 16 eligible studies involving 2595 surrogate-patient pairs, and
+19526 paired patient-surrogate responses, which provided empirical data on how
+accurately surrogates predict patients’ treatment preferences. In these studies, which
+used 151 hypothetical scenarios, surrogates were instructed to make the treatment
+decision the patient would have made if able. The studies sampled a range of
+different populations; terminally ill, outpatients, chronic disease, women aged over
+70. The review found that overall surrogates predicted patients’ treatment
+preferences with 68 per cent accuracy (95 per cent CI, 63-72). They were most
+accurate in scenarios involving patients’ current health (79 per cent) and use of
+antibiotics (72 per cent), and least accurate in scenarios involving dementia (58 per
+cent) and stroke (58 per cent).
+The review also looked at results from two types of interventions to improve
+surrogate decision-making. Five studies compared asking patients to designate their
+own surrogate versus assigning surrogates based on a legal hierarchy. Two further
+studies asked patients to discuss their values and treatment preferences with
+potential surrogates. There was no difference in accuracy between patientdesignated surrogates and legally assigned surrogates, and the surrogate’s
+relationship with the patient was not significantly related to accuracy. Of the two
+studies assessing the impact of discussion of patients’ treatment preferences, one
+
+41
+
+found no difference and the other found a slight but significant worsening of
+surrogate accuracy after discussion.
+Despite these somewhat negative results, four studies included in Shalowitz et al’s
+(2006) review found that surrogates predict patients’ preferences more accurately
+than physicians.
+These findings are not surprising as, in general, social psychological research
+indicates that people overestimate the extent to which their own opinions and
+choices are shared by others – they ‘project’ their own characteristics on to others.
+Similarly, Fagerlin et al. (2001) found that sons’ and daughters’ predictions more
+closely resembled their own preferences than those of their parents, as did those of
+surrogates chosen by adults aged 65+. However these ‘projective’ predictions were
+not less accurate than counter projective predictions. In the absence of other
+information, projection can be a reasonable strategy and may operate as a
+judgement heuristic.
+The literature focuses mainly, but not wholly, on surrogates’ predictions in life-saving
+situations, so may not reflect accuracy in non-life-saving situations. All the studies
+used hypothetical scenarios and it is not clear what impact this has on accuracy. The
+fact that greatest accuracy was achieved in scenarios about current health may
+suggest that surrogate decision-making would be more accurate in real life. On the
+other hand, the stress of real life situations may have the opposite effect. Decisionmaking may increase stress for surrogates when they are not confident about what
+the patient would have wanted or do not themselves fully understand the risks and
+benefits of treatment (Allen and Shuster, 2002). The difficulty of predicting patients’
+preferences is also highlighted by Hiltunen et al’s. (1999) study of end-of-life
+treatment decisions, which found that vacillation in decisions was common for both
+patients and surrogates.
+We have not been able to find many studies on other factors that influence surrogate
+decision-making, although one study investigated ethnic differences in end-of-life
+decision making by proxies (Hopp and Duffy, 2000). The study interviewed 540
+relatives about advanced care planning and end-of-life decisions for their family
+member who died. The study found that treatment decisions for white people were
+more likely to involve limiting care in some situations and withholding treatment
+before death, completing living wills and designating power of attorney for health
+care. Treatment decisions for black people were more likely to be based on the
+desire to provide all care possible to prolong life. These differences were significant
+even after controlling for socio-demographic factors.
+
+42
+
+Research on parent decision-making
+There are a number of studies focusing on parents making decisions for and with
+their children, covering a range of decision-making scenarios. These studies are
+mainly descriptive and few are based on theoretical frameworks. Most studies focus
+on medical decisions: insertion of gastrostomy tubes (Guerriere et al., 2003); surgery
+(leg lengthening - Daniel et al., 2005, hand surgery - Bradbury et al., 1994, cardiac
+transplantation - Higgins and Kayser-Jones, 1996); cancer treatment (Ruccione et al.,
+1991; Hinds et al., 1997); life-sustaining treatment (Kirschbaum, 1996);
+immunizations (Wroe et al., 2004); psychotherapy (Gustafson et al., 1994). A few
+focus on other situations, including choice of child care (Fulmer, 1997) and
+disclosure to a child of the child’s HIV status (Lester et al., 2002). They include
+qualitative, quantitative and multi-method studies. In contrast to the literature on
+surrogates, most of these studies focus on real life decision-making, although two
+(child care and psychotherapy decisions) used hypothetical situations.
+Key factors identified as influencing parents’ decision-making are:
+•
+Parents’ emotional response. This includes anxiety at the time; anticipated
+regret; and feelings of responsibility if harm occurs to the child as a result of the
+decision or if parents don’t give the child a chance for treatment, even though
+the odds of success may be low (Daniel et al., 2005; Wroe et al., 2004;
+Guerriere et al., 2003; Higgins and Kayser-Jones, 1996; Bradbury et al., 1994;
+Ruccione et al., 1991):
+If we’d done it and failed, well, we’d have to live with that…but not to
+have tried at all, then I think we would have been failing her and
+ourselves’.
+(Bradbury et al., 1994: p.24)
+Anticipated regret also included the fear that the child would later criticise the
+parent for the decision they took (Bradbury et al., 1994).
+Interestingly, attitudes towards action versus inaction and anticipated regret
+were found to be important in Wroe et al's. study of decisions regarding early
+childhood immunization. In this study 195 mothers completed questionnaires
+antenatally on perceptions of risk and benefits of immunization and then were
+contacted later (when the baby was 10 weeks old) about whether the child had
+been immunized. Non-immunizers had higher antenatal ratings of anticipated
+responsibility for harm that occurs following action and greater anticipated
+regret of that action. Immunizers had higher anticipated responsibility for harm
+that occurs following inaction and greater anticipated regret of that inaction.
+These emotional factors were better predictors of the likelihood of immunizing
+their child than perceptions of physical risks and benefits.
+
+43
+
+The effects of emotion on information processing and recall are indicated by
+Ruccione et al's. (1991) finding that parents with higher levels of anxiety were
+more likely to believe that the risks of treatment for their child's cancer were not
+explained clearly.
+•
+
+Responsibility as parents, both for the child concerned and for the rest of the
+family. Parents distinguished between their child’s and their own interests and
+tried to balance the child’s best interests with their own needs, as well as needs
+of other family members (Daniel at al., 2005; Higgins and Kayser-Jones, 1996;
+Kirschbaum, 1996; Bradbury et al., 1994). For example, in the case of lifesustaining treatment, parents wanted their child to have more time to
+experience life and they wanted more time for themselves with their child.
+However, this had to be balanced against the child’s suffering and quality of life.
+When parents decided that this was not a life the child would wish for they
+sought to withdraw treatment (Kirschbaum, 1996). Parents also considered the
+anticipated effects on the family of their decisions about the care of their ill child
+(Kirschbaum, 1996).
+
+•
+
+The child’s involvement in decision-making. In the case of all but very young
+children (around age six), parents believed that their role was to help the child
+make the decision that was right for the child (Daniel et al., 2005; Kirschbaum,
+1996; Hinds et al., 1997; Bradbury et al., 1994). Similarly, in the case of
+disclosure to the child of HIV status (Lester et al., 2002), children aged six and
+over had a key influence on parents’ decision to disclose because of their
+questions and their ability to participate (or not) in treatments. Where parents
+were not able to involve the child in decision-making, they were concerned to
+respect the best interests of the child and to try to project what the child might
+want (Kirschbaum, 1996). As noted above, this included distinguished the
+child's own interests from their 'selfish needs' as parents.
+
+•
+
+Information from and trust in professionals. The role of professionals in
+information provision is highlighted in a number of studies (Guerriere et al.,
+2003; Hinds et al., 1997; Higgins and Kayser-Jones, 1996; Bradbury et al.,
+1994). In addition, needs for different kinds and sources of information are
+highlighted in Guerriere et al's. (2003) study of decisions about gastrostomy
+tube insertion. Twenty (out of 50) mothers in this study felt that they did not
+have an adequate amount of, and/or the right type of, information before
+making the decision. Information from other mothers whose children had had
+the procedure was lacking but felt to be potentially a valuable aid in decision
+making. Parents used information to inform them about the gains and losses
+that would be associated with the decision alternatives, but studies indicate that
+use of information is by no means straightforward. Studies show that parents
+include both reasons inconsistent with evidence-based information and
+
+44
+
+emotional reasons in their decision-making (Wroe et al., 2004; Higgins and
+Kayser-Jones, 1996; Gustafson et al., 1994) and that emotional factors were
+more important in the decision than informational factors. Kirschbaum (1996)
+suggests that parents' beliefs about spiritual/supernatural versus natural
+reasons for why their child had a life-threatening illness partly shaped whether
+their decision-making was guided mostly by faith and hope or by information
+seeking and mastery. In addition, trust in the person who provided the
+information and the quality of communication and interaction with the person
+providing the information was found to be more influential than the information
+itself (Hinds et al., 1997; Bradbury et al., 1994).
+•
+
+Uncertainty about outcome is a key factor in the decisions studied and a small
+number of studies examined the effects of personal variables in decisionmaking strategies used by parents in these situations. Fulmer (1997) identified
+two major strategies in parents' decisions regarding child care (in a hypothetical
+situation). These strategies were:
+a) 'compensatory' – involves high levels of information processing in which
+the maximum amount of information is accessed; and weighing of
+alternatives against each other on all dimensions deemed relevant.
+b) 'non-compensatory' – involves reduced processing and less cognitive
+effort, accomplished by employing rules by which an alternative can be
+accepted or rejected quickly after only an incomplete search of its
+dimensions. There is no attempt to weigh an advantage on one dimension
+with a disadvantage on another. This strategy implies use of 'skilled
+omission' and is deemed to be more cognitively efficient (Ettenson et al.,
+1987).
+Fulmer found that parents with more years of formal education and higher
+levels of parental awareness (understanding of child behaviour, child
+development and their role as a parent) used less information (noncompensatory strategies) and more variable patterns in searching for
+information.
+Ruccione et al. (1991), in a study of parents making decisions about consent to
+treatment for childhood cancer, found that parents with higher levels of
+education were more likely to think that risks had been explained clearly but
+also that they had not been given enough time to make the decision.
+
+•
+
+Pressure from people or time. One study (Guerriere et al., 2003) explored
+whether parents felt under pressure to make a particular decision. Half the
+parents in the study reported feeling pressure from health professionals and
+family members (12 reported pressure to refuse gastrostomy and 13 to agree).
+Another study (Fulmer, 1997) investigated the effects of time pressure on
+
+45
+
+decision-making strategies but found no differences in strategies employed with
+and without time pressure and the personal factors influencing these.
+•
+
+Spontaneous v logical decision-making. Spontaneous decision-making has
+been defined as an instantaneous choice without a process of deliberation. One
+explanation of this is that it avoids pre-decision conflict. Higgins and KayserJones (1996) found that five out of 15 parents making decisions about cardiac
+transplantation made spontaneous decisions (four chose transplant, one no
+treatment). The remaining 10 used logical decision-making behaviours (six
+chose transplant, three palliative surgical intervention and one no treatment).
+Logical decision makers preferred to have more autonomy and participation in
+decisions and spontaneous decision makers preferred less autonomy and
+wanted to be guided completely by the physician's recommendations.
+Kirschbaum (1996) suggests that the timing of decisions in relation to the
+course of the child's illness was important in the type of decision-making used.
+Early in the course of the illness, when there was urgency to decide, parents
+were likely to make a choice based on one key consideration – that the child
+should live - and did not deliberate when faced with giving consent to an
+intervention. When there was less urgency and they had time to consider
+alternatives, parents were more likely give weight to projected quality of life in
+their decision.
+
+Implications for the Panel Study
+The literature on parent and surrogate decision making highlights the need for us to
+clarify who we focus on in the panel study as this will influence sample selection
+criteria and interviewing strategies. There are three decision-making situations that
+could be included:
+•
+The person making a decision for themselves.
+•
+The person making a decision jointly with a parent(s) or carer(s).
+•
+Surrogate(s) or parent(s) making a decision on behalf of a disabled person who
+lacks capacity to make the decision.
+We will include the first two situations and the third may occur during the study if
+people's capacity changes. However, we can also include people who lack capacity
+at the recruitment stage. We should be aware that the sorts of choices we are
+looking at go beyond the simple capacity to state a choice and require higher order
+abilities to understand and process information and be able to reason and predict/
+appreciate consequences. On this basis, there are a considerable number of young
+people (particularly those with central nervous system disorders) and adults with
+impairments such as stroke, who fall into the category of lacking capacity.
+
+46
+
+The topics we might focus on in interviews with surrogates/parents include:
+•
+Any previous discussions with the disabled adult/young person that have
+informed their current choices.
+•
+Their level of confidence about what the person would have wanted and how
+this affects decision-making.
+•
+The role of the surrogate/parent’s emotional state (both current and anticipated)
+in decision-making.
+•
+How surrogates/parents balance the disabled child/adult's interests with their
+own interests and those of other family members.
+•
+How they involve adults/young people who have limited capacity in the
+decisions.
+•
+Other factors (for example, cultural, familial, level of understanding of
+information) that affect the surrogate’s/parent’s decisions.
+•
+Influence of anticipated regret (see also Section 3 on emotion and decisionmaking).
+•
+The role of information from and trust in professionals and others.
+•
+Perception of pressure from others.
+•
+Perception of time pressure and urgency of decisions.
+•
+The way in which information is used.
+•
+How the process of making the decision takes place, in particular which
+decisions are spontaneous without a process of deliberation, and which
+decisions are the outcome of a process of deliberation and why. What type of
+decision-making do they prefer?
+
+Shared decision-making
+Shared decision-making: advice seeking
+Shared decision-making (SDM) is the main term used to describe decision-making
+between a professional (typically a doctor) and a lay person (patient or other service
+user). There is an enormous literature on shared decision-making addressing
+questions such as: Why it is important? What is needed to achieve it? Does it really
+happen? What is it like to experience it? What are the outcomes of SDM?
+Whilst shared decision-making is not the main focus of the panel study, the research
+will involve interviews with key individuals who have been involved in/supported
+decision-making. Jungerman and Fischer (2005) provide a useful model of
+understanding the dynamics of this particular joint decision-making situation,
+focusing particularly on whether or not expert advice is accepted or rejected. They
+suggest that ‘informational asymmetry’ characterises expert - non-expert decisionmaking situations (see Figure 4).
+
+47
+
+Figure 4:
+
+Differences in knowledge between advisor and client
+
+Advisor
+1. Generalized knowledge about
+client’s problems.
+
+Client
+1. Individual knowledge about
+personal problem.
+
+2. Extensive knowledge about
+relevant facts.
+
+2. Little knowledge about relevant
+facts.
+
+3. Statistical knowledge about
+client’s goals and values.
+
+3. Limited awareness about
+personal goals and values.
+
+4. Professional experience with
+decision outcomes, coping
+behaviours, and client’s biases.
+
+4. Little, if any, experience with
+problem-related decision
+consequences, coping
+possibilities, and judgemental
+demands.
+
+5. Explicit knowledge of decision
+strategies, implicit decision
+competence and routines.
+
+5. No explicit procedural expertise,
+implicit (unrelated) competence.
+
+6. Professional expertise with
+client’s decision-making
+behaviour.
+
+6. Little, if any, experience with
+advisor’s decision strategies
+
+(Jungerman and Fischer, 2005, p.159)
+Jungerman and Fischer argue that this asymmetry prevents decision-making
+occurring according to traditional theories of decision-making and leads to different
+decision-making strategies being adopted. The ‘uninformed client’ does not have the
+access to information to weigh up options and, in a sense, is wanting to short cut that
+process by seeking expert advice. The expert, through their experience of being
+involved in numerous similar decisions, does not undertake an analytic examination
+of the options but instead the decision about which advice to give and which
+recommendations to make is rapid, using established heuristics. In essence,
+therefore, the two individuals involved in the decision-making process are using
+different strategies to achieve a decision. In addition, Jungerman and Fischer argue
+that the advisor (and not just the information they are imparting) plays a significant
+role in the decision taken, see Figure 5.
+
+48
+
+Figure 5:
+
+Difference in decision-making strategies between advisor and
+client
+
+Advisor
+1. Is aware of client’s
+(in)competence, relies on
+experience and routines.
+
+Client
+1. Cannot and does not want to
+explore all the options, asks for
+advice.
+
+2. Knows that a recommendation is
+expected, is prepared to explain
+and justify.
+
+2. Expects a recommendation (and
+is willing to pay for it).
+
+3. Applies particular heuristics.
+
+3. Directs attention to recommended
+option, searches and stores
+information selectively.
+
+4. Focuses on clients and their
+features, categorizes clients.
+
+4. Focuses on advisors and their
+features, evaluate their credibility.
+
+5. Decision: recommendation of the
+matching option(s).
+
+5. Decision: acceptance or rejection
+of the advice.
+
+(Jungerman and Fischer, 2005, p.161)
+Jungermann and Fischer (2005) proposed that four factors influence whether or not
+an individual accepts advice:
+•
+The judgement of the advisor regarding the recommended option;
+•
+The judgement of the client regarding the recommended option;
+•
+The advisor’s credibility and extent to which the client trusts the advisor;
+•
+The client’s confidence in his/her own judgement.
+Research evidence produced by Jungermann and Fischer (2005) and others
+supports this model (for example, Sniezek and Buckley, 1995; Harvey et al., 2000;
+Harvey and Fischer, 1997). For example, Oehler (1995) found that the quality of the
+advisors in a bank was rated as more important by customers than the bank’s
+conditions and offers. Interestingly, perceived credibility of the institution in which the
+expert works can also affect whether or not advice is accepted (Sniezek and Buckley,
+1995).
+Implications for the Panel Study
+Jungerman and Fischer’s model provides a useful way of understanding how people
+involved in the panel study may use experts to assist with decision-making. It flags
+up the differences between this and other joint decision-making situations. In relation
+49
+
+to the interviews with key individuals planned for the study, it would be interesting to
+explore with them their judgements and reasoning (specific to the person/family in
+question) in relation to the information and advice they provided and the strategies
+they used to support decision-making.
+In relation to participants, issues of trust and credibility would be interesting to
+explore, especially where decisions were made against professional advice. Finally,
+this model assumes relative naivety. However, it could be argued that the people in
+the study are, or become during the course of the study, less naïve and more expert
+and perhaps more confident in their own judgements – it would be interesting to
+explore whether this happens over the duration of the project.
+
+Decision-making within close relationships
+Theoretical models of decision-making do not yet properly explain or take account of
+decision-making in close relationships. In trying to understand this particular
+decision-making context we have therefore had to turn towards empirical research.
+The (potentially) relevant literature is a relatively diverse and difficult to identify. We
+summarise below some of the key approaches and areas of work which are likely to
+be of interest to the panel study.
+The relevance of research on group decision-making
+There is a large literature on group decision-making and this has been used to
+inform the development of theories of group decision-making and problem solving.
+However, most of this work is based on research which has used groups formed
+expressly for the purposes of a piece of research. In contrast, couples and families
+bring, amongst other things, pre-existing roles; a knowledge of each others' values,
+aspirations and expectations; and a history of joint decision-making to each decisionmaking situation. In addition, the relationship that exists between the two decisionmakers will have a significant impact on the decision-making process. These key
+differences between ‘experimental groups’ and family units are clear obstacles to
+generalising from research on group decision-making to decision-making within
+families.
+Dyadic decision-making: the relationship factor
+Joint decision-making is a central feature of any close relationship. As Kirchler et al.
+(2001) note: ‘decisions determine the quality of the relationship, and [that] conversely,
+the kind of decision-making process is determined by relationship quality’ (p.227).
+Dyadic decision-making is the term used to refer to decision-making within the
+context of a pre-existing, close relationship. Researchers argue that dyadic decision-
+
+50
+
+making is distinctly different to other ‘configurations’ of decision-making. The
+relationship between the two decision-makers is not only something that has to be
+taken account of within the decision making processes, but also impacts on the way
+decisions are achieved.
+Summarising the findings of research (Kenny and Acitelli, 1989; Poole and
+Billingsley, 1989; Sillars and Kalhbesch, 1989), Cicirelli (2006) noted that the
+features of dyadic decision-making ‘involved implicit understandings, limited
+discussion, abbreviated comments, mental shortcuts in thinking, and brief
+conversations to reach a quick decision rather than a long deliberation… [and that]
+decision-making was facilitated or hindered depending on the quality or closeness of
+the relationship between the two decision-makers’ (p.209). Poole and Billingsley
+(1989) also found that maintaining the relationship could be as important (to one or
+both of the decision-makers) as making an effective decision (see also Kirchler et al.,
+2001). Finally, findings from research suggest that the decision-making process is
+dominated by the dyad member with the greater power in the relationship, with that
+power arising from greater expertise, authority or interpersonal skills (March, 1994;
+Poole and Billingsley, 1989).
+The relative importance of the relationship: an issue of power
+It has been argued that within the parent-child relationship, the importance vested in
+the relationship by the two parties changes and develops over the life course: the socalled notion of ‘developmental stake’ (Bengston and Kuypers, 1971; Fingerman,
+2001). Cicirelli (2006) suggests that among adult children and their elderly parents,
+adult children hold greater power because they have less vested in the relationship
+than the parent who may be dependent on them for care, social contact and so on.
+The impact of this power imbalance was observed by Cicirelli with respect to
+(hypothetical) dyadic care-giving decision situations. The adult child dominated the
+decision-making and, in situations of conflict, parents were significantly more likely to
+capitulate or compromise than the adult children (Cicirelli, 2006).
+Decision-making between intimate couples
+As well as more general research on dyadic decision-making, there are further
+bodies of research on decision-making between couples. This is neither cohesive
+nor consistently based on a set of theoretical frameworks. It tends to be located
+within specific topics and, with the exception of consumer behaviour research, is
+generally descriptive as opposed to theory-generating. It covers the following areas:
+•
+
+Therapeutic research: typically focusing either on the way that inequities of
+power within the decision-making relationship can lead to relationship difficulties,
+or on interventions to improve negotiation and decision-making in relationships.
+This work is based on theoretical models of marital negotiation (for example,
+Godwin and Scanzoni, 1989).
+51
+
+•
+
+Sexual decision-making: there is a distinct body of work which examines
+contraceptive choice and other aspects of sexual decision-making (for example,
+Zak et al., 1998; Miller and Pasta, 2001; Harvey et al., 2003; Ko and Mueke,
+2005). One of the key themes of this work has been to explore cultural
+differences in terms of perceived roles and issues of power and how that relates
+to joint or sole decision-making with respect to sexual behaviours.
+
+•
+
+Prenatal genetic testing and fertility treatments: this is another significant body
+of research (for example, van Balen, 1997; Anderson, 1998; Sandelowski and
+Jones, 1996; Browner and Preloran, 1999; Kenen et al., 2000). Almost all of it is
+descriptive, often retrospective, work and has typically been carried out with the
+purpose of informing good practice in counselling and information provision. In
+some cases, the male partner is cast in a supportive role as opposed to being
+seen as a joint player in the decision process. Interestingly (based on the
+outputs from the searches we conducted) there appears to be an absence of
+work on conflict reflecting, perhaps, that the research has captured the final
+decision and couples’ feelings about and justifications for the decision, as
+opposed to exploring the decision process itself.
+
+•
+
+Work/life balance and location: recent years has seen a growth of research in
+the way couples negotiate where they live and how they manage their work and
+family obligations. Within this body of work, decisions are sometimes
+‘rebranded’ as compromises and research has tracked the way compromises
+are developed and achieved (for example, Challiol and Mignonac, 2005;
+Hardhill, 2002). Work in this area has also highlighted the emotional aspects of
+the decisions being made and the fact that, typically, other parties are involved
+in the decision-making process (for example, Adams, 2004).
+
+•
+
+Consumer behaviour: over the years there has been quite a lot of research
+looking at how couples go about making purchasing decisions. This has been
+explored both with respect to low cost (for example, restaurants/films) as well
+as higher cost (cars, houses) decisions. Some of the findings from this work
+would be appear to be relevant to our programme of work. Early work identified
+specialisation within couples with regard to purchasing decisions, depending on
+what was being purchased. Thus respective roles played in purchasing
+decisions were classified as husband dominant, wife dominant, syncratic (or
+shared), or autonomic. Davis and Rigaux (1974) refined this further by looking
+at marital roles at different phases of the decision-making process (that is,
+problem recognition, search for information, and final decision). They found that
+both men and women perceived their roles in the decision-making process to
+have been more specialised during the information-seeking stage, compared to
+the stages when a decision problem is first identified and when the final
+decision is taken. Thus, one partner might take the lead role (perhaps on the
+
+52
+
+basis of fore-knowledge, previous experience or availability of resources such
+as time) in refining the decision problem and collecting relevant information, but
+the actual decision is a shared one. More recent research has highlighted the
+cultural influences on decision-making roles. For example, husband dominance
+in decision-making prevails to a greater extent in less egalitarian societies
+(Green and Cunningham, 1980; Ford et al., 1995).
+•
+
+Naturalistic research: Kirchler et al., (2001) used the daily diary entries of 40
+couples written over the course of a year and retrospective interviews to explore
+joint decision-making in everyday family life. They observed the process of
+decision-making by couples as being typically incremental: ‘Partners move
+repeatedly from a desire, via discussions and evaluations, postponement and
+renewed discussion of a topic, to arrive at a decision. Sometimes, in the course
+of reaching a decision, one goal becomes lost in favour of another one’ (p.235).
+What is interesting is that, when interviewed, the participants’ descriptions of
+the decision process was much more simple and linear and they did not recount
+the deviations and circuitous routes by which the decision was achieved. In
+addition, they found differences between partners’ accounts of a decision
+process.
+
+Kirchler et al. (2001) also paint a vivid picture of decision-making in the context of
+everyday routines and activities. Couples reported that discussions (or arguments)
+about impending decisions typically took place in the course of carrying out everyday
+routines and activities (as opposed to discussions only taking place at a fixed or
+particular time/place and isolated from other aspects of family life). In addition a
+number of issues were typically being decided on during the same time period.
+They conclude: ‘Decisions are not isolated events, but are bound up in the
+complexities of everyday life. Whilst a financial decision is being taken, various other
+differences of opinion are also being played out, and other everyday tasks
+repeatedly force their way to the forefront of discussions’ (p.229). In addition, Kirchler
+et al. describe the concurrent (and sometimes conflicting) goals of wanting to
+achieve a particular outcome from a decision problem and wanting to achieve a
+decision that will preserve the relationship. Thus there are short and longer term
+goals of decision-making.
+Kirchler et al’s. findings support the idea that specialist knowledge or a relative
+interest in a particular topic influences the level of influence each partner brings to a
+decision situation. However, Kirchler et al. also found that the views or desires of the
+less influential partner can prevail where the decision relates to something of special
+importance to them. In addition, Kirchler et al. also found that past decisions could, in
+situations of conflict or an incongruence of views, affect the decision taken. They
+found what could be described as ‘turn-taking’ in who had the final say over a
+decision. This was interpreted by Kirchler et al. as a means by which equality within
+the relationship was maintained over time.
+53
+
+Implications for the panel study
+This is a fascinating area but, as yet, unlinked to theories of decision-making.
+However, there are clear links between the findings of the research reported above
+and the aspects of some of the decision theories we have described earlier (for
+example, the information processing approach and prospect theory).
+The way the relationship itself becomes an important player (in a number of different
+ways) in the decision-making process is interesting and we need to make sure our
+topic guides and analysis allow for that to be properly explored. The research also
+flags up the fact that individuals’ accounts of the same decision process may differ –
+perhaps a framing effect? We need to make sure our analytic approach can ‘cope’
+with that.
+The longitudinal nature of the project would allow us to explore the phenomenon of
+‘turn-taking’ in decisions, changes and evolutions in what people have vested in their
+relationships, and how that affects decision-making.
+The issue of dominance/specialisation in the information-seeking phase of decision
+making is interesting. The sorts of questions we might want to ask are: What
+happens when the person previously dominant in certain decision areas (for example,
+finances) is no longer able to/or is no longer around to lead on those decisions –
+what does the partner do, is the ‘quality’ of the decision-making jeopardised? Do
+other family members move in – perhaps those who specialise in that area within
+their own marriage/partnership (for example, the son, who leads in financial decisionmaking in his own marriage/partnership, taking over financial decision-making for
+parents after his father’s severe stroke). A different set of questions would be: why,
+with respect to what sorts of decisions, and how, is dominance/specialism developed
+or assumed when a couple encounters an issue which is totally novel/new to their
+relationship (for example, medical treatment, entry to residential care)?
+Finally, it is important to note Kirchler et al’s. finding that recollections of a decisionprocess do not accurately reflect the actual process – we need to get behind the
+simplistic accounts and this requires finding ways of facilitating people to recall more
+accurately the decision process they went through.
+
+54
+
+Appendix:
+
+Identifying the Literature
+
+A search on the PsycInfo biographic database, using terms 'choice' and 'decision
+making', but restricted to humans and English language and publications from 1985
+onwards, identified over 55,000 publications. An initial scan of these references
+showed that it would be difficult to realistically limit the search using conventional
+literature search and review strategies. We then met with Dr Dawn Dowding from the
+University of York’s Department of Health Sciences whose field of expertise is
+theories of decision-making. She confirmed that this field is not one where a
+literature search of the conventional type is likely to be the best way to identify the
+key theories and the empirical literature supporting them. Much of the literature is in
+the form of books, as our initial search had shown (PsycInfo lists books and chapters
+as well as journal articles). Dr Dowding pointed us in the direction of the main
+theories and key texts and authors. In addition, we identified a scoping review of
+patient choice recently carried out for the NHS Service Development and
+Organisation (SDO) Research and Development programme (Fotacki et al., 2005).
+As part of this review, the authors also carried out a comprehensive search on
+theories of choice. Their results and the results of our reading of key texts concur in
+identifying the key theories relevant to decision-making and choice within the context
+of the Panel Study. We then read and summarised these and identified topics for
+further, more focused, searches. We also traced relevant empirical evidence related
+to these theories.
+In addition, using PsycInfo, we carried out specific searches of the literature for
+research on the following topics which are pertinent to the Panel Study:
+•
+the impact of emotion on choice/decision-making
+•
+shared choice/decision-making
+•
+cognitive capacity and choice/decision-making
+•
+personality and choice/decision-making
+•
+surrogate choice/decision-making
+•
+parent choice/decision-making.
+
+55
+
+56
+
+References
+Adams, J. (2004) ‘This Is Not Where I Belong!’ The emotional, ongoing and
+collective Aspects of Couple’s Decision Making about where to live. Journal of
+Comparative Family Studies, 35, 3, 459-484.
+Ajzen, I. and Fishbein, M. (1980) Understanding Attitudes and Predicting Social
+Behaviour. Englewood Cliffs, NJ: Prentice-Hall.
+Ajzen, I. (1988) Attitudes, Personality and Behaviour. Buckingham: Open University
+Press.
+Allen, R.S. and Shuster, J.L. (2002) The role of proxies in treatment decisions:
+evaluating functional capacity to consent to end-of-life treatments within a family
+context. Behavioral Sciences and the Law, 20, 235-252.
+Anderson, C.J. (2003) The psychology of doing nothing: forms of decision avoidance
+result from reason and emotion. Psychological Bulletin, 129, 139-167.
+Anderson, G. (1998) Creating moral space in prenatal genetic services. Qualitative
+Health Research, 8, 2, 168-187.
+Arkes, H. and Blumer, C. (1985) The psychology of sunk cost. Organisational
+Behaviour and Human Decision Processes, 35, 1, 124-140.
+Armitage, C.J. and Connor, M. (2001) Efficacy of the theory of planned behaviour: a
+meta-analytic review. British Journal of Social Psychology, 40, 471-499.
+Bargh, J.A. and Chartrand, T.L. (1999) The unbearable automaticity of being.
+American Psychologist, 54, 462-479.
+Beach, L.R. and Mitchell, T.R. (1978) A contingency model for the selection of
+decision strategies. Academy of Management Review, 3, 439-449.
+Beattie, J., Baron, J., Hershey, J.C. and Spranca, M.D. (1994) Psychological
+determinants of decision attitude. Journal of Behavioral Decision Making, 7, 129-144.
+Behara, A. (2004) The role of emotion in decision making: evidence from
+neurological patients with orbitofrontal damage. Brain and Cognition, 55, 30-40.
+Bengston, V. and Kupyers, J. (1971) Generational difference and the developmental
+stake. Aging and Human Development, 2, 249-260.
+
+57
+
+Bennett, P. and Murphy, S. (1997) Psychology and Health Promotion. Buckingham:
+Open University Press.
+Beresford, B. and Sloper, P. (2003) Chronically ill adolescents' experiences of
+communicating with doctors: a qualitative study. Journal of Adolescent Health, 33,
+172-179.
+Bettman, J.R., Luce, M.F. and Payne, J.W. (1998) Constructive consumer choice
+processes. Journal of Consumer Research, 25, 187-217.
+Bodenhausen, G.V. (1993) Emotions, arousal and stereotypic judgements: a
+heuristic model of affect and stereotyping, in D.M. Mackie and D.L. Hamilton (eds),
+Affect, Cognition and Stereotyping: Interactive processes in group perception,
+Academic Press, San Diego, CA, pp. 13-38.
+Bradbury, E.T., Kay, S.P.J., Tighe, C. and Hewison, J. (1994) Decision-making by
+parents and children in paediatric hand surgery. British Journal of Plastic Surgery, 47,
+324-330.
+Brand, M., Labudda, K., Kalbe, K., Hilker, R., Emmans, D., Fuchs, G., Kessler, J.
+and Markowitsch, H. (2004) Decision-making impairments in patients with
+Parkinson’s disease. Behavioural Neurology, 15, 77-85.
+Broder, A. (2003) Decision making with the "adaptive toolbox": influence of
+environmental structure, intelligence and working memory load. Journal of
+Experimental Psychology: Learning, Memory and Cognition, 29: 611-625.
+Browner, C.H. and Preloran, H. (1999) Male partners’ role in Latinas amniocentesis
+decisions. Journal of Genetic Counselling, 8, 2, 85-108.
+Carmon, Z., Wertenbroch, K. and Zeelenberg, M. (2003) Option attachment: when
+deliberating makes choosing feel like losing. Journal of Consumer Research, 30,
+3,15-29.
+Cavet, J. and Sloper, P. (2004a) The participation of children and young people in
+decisions about UK service development. Child: Care, Health and Development, 30,
+613-621.
+Cavet, J. and Sloper, P. (2004b) Participation of disabled children in individual
+decisions about their lives and in public decisions about service development.
+Children and Society, 18, 278-290.
+Challiol, H. and Mignonac, K. (2005) Journal of Organizational Behaviour, 26, 3, 247274.
+58
+
+Cicirelli, V. (2006) Caregiving decision making by older mothers and adult children:
+process and expected outcome. Psychology and Aging, 21, 2, 209-211.
+Clack, G.B., Allen, J., Cooper, D. and Head, J.O. (2004) Personality differences
+between doctors and their patients: implications for the teaching of communication
+skills. Medical Education, 38, 2, 177-186.
+Clark, J.A., Wray, N.P. and Ashton, C.M. (2001) Living with treatment decisions:
+regrets and quality of life among men treated for metastatic prostrate cancer. Journal
+of Clinical Oncology, 19: 72-80.
+Cobos, P.L., Almaraz, J. and Garcia-Madruga, J.A. (2003) An associative framework
+for probability judgement: an application to biases. Journal of Experimental
+Psychology: Learning, Memory and Cognition, 29, 80-96.
+Connolly, T. and Butler, D. (2006) Regret in economic and psychological theories of
+choice. Journal of Behavioral Decision Making, 19, 139-154.
+Conolly, T. and Reb, J. (2005) Regret in cancer-related decisions. Health
+Psychology, 24, S29-S34.
+Connolly, T. and Zeelenberg, M. (2002) Regret in decision making. Current
+Directions in Psychological Science, 11, 212-216.
+Cummins, R. (2002) Proxy responding for subjective well-being: a review, in N. Ellis,
+N. Bray and L. Gidden (eds), International Review of Research in Mental Retardation,
+Academic Press, San Diego.
+Damasio, A.R. (1994) Descartes’ Error: Emotion, Reason and the Human Brain,
+Avon Books, New York.
+Daniel, E., Kent, G., Binney, V. and Paglin, J. (2005) Trying to do my best as a
+mother: decision-making in families of children undergoing elective surgical
+treatment for short stature. British Journal of Health Psychology, 10, 101-114.
+Davidson, R. (1998) Affective style and affective disorders: perspectives from
+neuroscience. Cognition and Emotion, 12: 307-330.
+Davis, H. and Rigaux, B.P. (1974) Perception of marital roles in decision processes.
+Journal of Consumer Research, 1, 51-62.
+Denburg, N., Tranel, D. and Bechara, A. (2005) The ability to decide advantageously
+declines prematurely in some normal older persons. Neuropsychologia, 43, 10991106.
+59
+
+Department of Health/Department for Education and Skills (2004) National Service
+Framework for Children, Young People and Maternity Services: Core Standards.
+Department of Health, London.
+Dhami, M.K. (2003) Psychological models of professional decision-making.
+Psychological Science, 14, 175-180.
+Dhami, M.K. and Harries, C. (2001) Fast and frugal versus regression models in
+human judgement, Thinking and Reasoning, 7, 5-27.
+Dijksterhuis, A. (2004) Think different: the merits of unconscious thought in
+preference development and decision making, Journal of Personality and Social
+Psychology, 87, 586-598.
+Eisenberg, N., Fabes, RA., Shepard, SA., Murphy, BC., Guthrie, IK., Jones, S. et al.
+(1997) Contemporaneous and longitudinal prediction of children’s social functioning
+from regulation and emotionality. Child Development, 68: 642-664.
+Ettenson, R., Shanteau, J. and Krogstad, J. (1987) Expert judgement: is more
+information better? Psychological Reports, 60, 227-238.
+Fagerlin, A., Ditto, P.H., Danks, J.H., Houts, R.M. and Smucker, W.D. (2001)
+Projection in surrogate decisions about life-sustaining medical treatments. Health
+Psychology, 20, 166-175.
+Fellows, L. (2004) The Cognitive Neuroscience of human decision-making: a review
+and conceptual framework. Behavioural and Cognitive Neurosciences Reviews, 3,
+159-172.
+Fellows, L. and Farah, M. (2005) Different underlying impairments in decisionmaking following ventromedial and dorsolateral frontal lobe damage in humans.
+Cerebral Cortex, 15, 58-63.
+Fingerman, K. (2001) Aging Mothers and Their Adult Children: A study in mixed
+emotions. Springer, New York.
+Finucane, M., Peters, E. and Slovic, P. (2003) Judgement and decision making: the
+dance of affect and reason, in S.L. Scheider and J. Shanteau (eds), Emerging
+Perspectives on Judgement and Decision Research, Cambridge University Press,
+Cambridge, pp. 327-364.
+
+60
+
+Fischer, J.E., Steiner, F., Zucol, F., Berger, C., Martignon, L., Bossart, W. et al.
+(2002) Use of simple heuristics to target macrolide prescription in children with
+community-acquired pneumonia, Archives of Pediatrics and Adolescent Medicine,
+156, 1005-1008.
+Folkman, S. (1984) Personal control and stress and coping processes: a theoretical
+analysis. Journal of Personality and Social Psychology, 46, 839-852.
+Folkman, S. and Lazarus, R. (1988) Coping as a mediator of emotion. Journal of
+Personality and Social Psychology, 54, 466-475.
+Ford, J.B., LaTour, M. and Henthorne, T.L. (1995) Perception of marital roles in
+purchase decision processes: a cross-cultural study. Journal of the Academy of
+Marketing Science, 23, 2, 120-131.
+Fotaki, M., Boyd, A., Smith, L., McDonald, R., Roland, M., Sheaff, R., Edwards, A.
+and Elwyn, G. (2005) Patient Choice and the Organisation and Delivery of Health
+Services: Scoping Review. http://www.sdo.lshtm.ac.uk/files/project/80-final-report.pdf
+(26 November 2007).
+Friedman, M. and Savage, L.J. (1848) The utility analysis of choices involving risk.
+Journal of Political Economy, 56, 279-304.
+Fulmer, K.A. (1997) Parents’ decision-making strategies when selecting child care:
+effects of parental awareness, experience, and education. Child and Youth Care
+Forum, 26, 391-409.
+Gasper, K. and Clore, G.L. (1998) The persistent use of negative affect by anxious
+individuals to estimate risk. Journal of Personality and Social Psychology, 74, 13501363.
+Gigerenzer, G. (2004) Fast and frugal heuristics: the tools of bounded rationality, in
+D.J. Koehler and N. Harvey (eds), Blackwell Handbook of Judgement and Decision
+Making, Blackwell, Oxford, pp. 62-88.
+Gilbert, D.T. and Gill, M.J. (2000) The momentary realist. Psychological Science, 11,
+394-398.
+Gilovich, T. and Medvec, V.H. (1995) The experience of regret: what, when and why.
+Psychological Review, 102, 379-395.
+Godin, G. and Kok, G. (1996) The theory of planned behaviour: a review of its
+applications to health related behaviour. American Journal of Health Promotion, 11,
+87-97.
+
+61
+
+Godwin, D. and Scanzoni, J. (1989) Couple consensus during marital joint decisionmaking: a context, process, outcome model. Journal of Marriage and the Family, 51,
+943-956.
+Goldstein, D.G. and Gigerenzer, G. (2002) Models of ecological rationality: the
+recognition heuristic. Psychological Review, 109, 75-90.
+Gonzalez, C., Thomas, R. and Vanyukov, P. (2005) The relationships between
+cognitive ability and dynamic decision-making. Intelligence, 33, 2, 169-186.
+Gray, J.R. (1999) A bias toward short-term thinking in threat-related negative
+emotional states. Personality and Social Psychology Bulletin, 25, 65-75.
+Green, L. and Mehr, D.R. (1997) What alters physicians' decisions to admit to the
+coronary care unit? The Journal of Family Practice, 45, 291-226.
+Green, R. and Cunningham, I. (1980) Family purchasing roles in two countries.
+Journal of International Business Studies, 11, 1, 92-96.
+Guerriere, D.N., McKeever, P., Llewellyn-Thomas, H. and Berall, G. (2003) Mothers’
+decisions about gastrostomy tube insertion in children: factors contributing to
+uncertainty. Developmental Medicine and Child Neurology, 45, 470-476.
+Gustafson, K.E., McNamara, J.R. and Jensen, J.A. (1994) Parents’ informed consent
+decisions regarding psychotherapy for children: consideration of therapeutic risks
+and benefits. Professional Psychology: Research and Practice, 25. 16-22.
+Hammond, K.R. (1996) Human Judgement and Social Policy: Irreducible uncertainty,
+inevitable error, unavoidable justice, Oxford University Press, New York.
+Hancock, P.A. and Warm, J.S. (1989) A dynamic model of stress and sustained
+attention, Human Factors, 31, 519-537.
+Hardhill, I. (2002) Gender, Migration and Dual-Career Households.
+Harris, J. (2003) Time to make up your mind: why choosing is difficult. British Journal
+of Learning Disabilities, 31, 3-8.
+Harvey, N. and Fischer, I. (1997) Taking advice: accepting help, improving
+judgement and sharing responsibilities. Organizational Behaviour and Human
+Decision Processes, 70, 117-133.
+Harvey, N., Harries, C. and Fischer, I. (2000) Using advice and assessing its quality.
+Organisational Behaviour and Human Decision Processes, 81, 252-273.
+
+62
+
+Hastie, R. and Dawes, R.J. (2001) Rational Choice in an Uncertain World: The
+psychology of judgement and decision making. Sage, Thousand Oaks, CA, US.
+Hogarth, R.M. (2001) Educating Intuition. University of Chicago Press, Chicago.
+Helson, R. and Klohnen, E.C. (1998) Affective coloring of personality from young
+adulthood to midlife. Personality and Social Psychology Bulletin, 24, 241-252.
+Higgins, S.S. and Kayser-Jones, J. (1996) Factors influencing parent decision
+making about pediatric cardiac transplantation. Journal of Pediatric Nursing, 11, 152160.
+Hiltunen, E.F., Medich, C., Chase, S., Peterson, L. and Forrow, L. (1999) Familydecision-making for end-of-life treatment: the SUPPORT nurse narratives. Study to
+understand prognoses and preferences for outcomes and risks of treatment. Journal
+of Clinical Ethics, 10, 126-134.
+Hinds, P.S., Oakes, L., Furman, W., Foppiano, P., Olson, MS., Quargnenti, A.,
+Gattuso, J., Powell, B., Srivastava, D.K., Jawawardene, D., Sandlund, J.T. and
+Strong, C. (1997) Decision making by parents and healthcare professionals when
+considering continued care for pediatric patients with cancer. Oncology Nursing
+Forum, 24, 1523-1528.
+Hirst, M. and Baldwin, S (1994) Unequal opportunities: growing up disabled. HMSO,
+London, UK.
+Hopp, F.P. and Duffy, S.A. (2000) Racial variations in end-of-life care. Journal of the
+American Geriatrics Society, 48, 658-663.
+Iyengar, S.S. and Lepper, M.R. (2000) When choice is demotivating: can one desire
+too much of a good thing? Journal of Personality and Social Psychology, 79, 9951006.
+Jungermann, H. and Fischer, K. (2005) Using expertise and experience for giving
+and taking advice, in T. Betsch, and S. Haberstroh (eds), The Routines and Decision
+Making, Lawrence Erlbaum, Mahwah.
+Kahnemann, D. (2000) Prefaces to choices, values and frames, in D. Kahnemann
+and A. Tversky (eds), Choices, Values and Frames, Russell Sage Foundation and
+Cambridge University Press, New York.
+Kahnemann, D. and Frederick, S. (2002) Representativeness revisited: attribute
+substitution in intuitive judgement, in T. Gilovich, D. Griffin, and D. Kahenmann (eds),
+Heuristics and Biases: The Psychology of Intuitive Judgements, Cambridge
+University Press, Cambridge.
+63
+
+Kahnemann, D. and Tversky, A. (1979) Prospect theory: an analysis of decision
+under risk. Econometrica, 47, 263-291.
+Kahneman, D. and Tversky, A. (1982) The psychology of preferences. Scientific
+American, 246, 160-173.
+Kenen, R., Smith, A.C., Watkins, C., Zuber-Pittore, C. (2000) To use or not to use:
+male partners’ perspectives on decision-making about prenatal diagnosis. Journal of
+Genetic Counselling, 9, 1, 33-45.
+Kenny, D. and Aticelli, L. (1989) The role of the relationship in marital decisionmaking, in D. Brinberg and J. Jaccard (eds), Dyadic Decision-Making, SpringerVerlag, New York.
+King, G.A., Zwaigenbaum, L., King, S., Rosenbaum, P. and Bates, A. (2006) A
+qualitative investigation of changes in the belief system of families of children with
+autism or Down syndrome. Child: Care, Health and Development, 32, 353-369.
+Kirchler, E., Rodler, C., Holzl, E. and Meier, K. (2001) Conflict and Decision-Making
+in Close Relationships: love, money and daily routines. European Monographs in
+Social Psychology. Psychology Press, Hove.
+Kirschbaum, M.S. (1996) Life support decisions for children: what do parents value
+most? Advanced Nursing Science, 19, 51-71.
+Knetsch, J. (1989) The endowment effect and the evidence of nonreversible
+indifference curves. American Economic Review, 79, 1277-84.
+Knight, F.H. (1921) Risk, Uncertainty, and Profit. Houghton Mifflin, New York.
+Lazarus, R.S. (1991) Emotion and Adaptation. Oxford University Press, New York.
+Ko, N. and Muecke, M. (2005) Reproductive decision-making among HIV positive
+couples in Taiwan. Journal of Nursing Scholarship, 37, 1, 41-47.
+Lancioni, G.E., O’Reilly, M. F. and Emerson, E. (1996) A review of choice research
+with people with severe and profound developmental disabilities. Research in
+Developmental Disabilities, 17, 5, 391-411.
+Lemerise, E.A. and Arsenio, W.F. (2000) An integrated model of emotion processes
+and cognition in social information processing. Child Development, 71, 107-118.
+Lerner, J.S., Goldberg, J.H. and Tetlock, P.E. (1998) Sober second thought: the
+effects of accountability, anger and authoritarianism on attributions of responsibility.
+Personality and Social Psychology Bulletin, 24, 563-574.
+64
+
+Lerner, J.S. and Keltner, D. (2000) Beyond valence: toward a model of emotionspecific influences on judgement and choice. Cognition and Emotion, 14, 473-493.
+Lerner, J.S., and Tetlock, P.E. (1999) Accounting for the effects of accountability.
+Psychological Bulletin, 125, 255-275.
+Lerner, J.S. and Tiedens, L.Z. (2006) Portrait of the angry decision maker: how
+appraisal tendencies shape anger's influence on cognition. Journal of Behavioral
+Decision Making, 19, 115-137.
+Lester, P., Chesney, M., Cooke, M., Whalley, P., Perez, B., Petru, A., Dorenbaum, A.
+and Wara, D. (2002) Diagnostic disclosure to HIV-infected children: how parents
+decide when and what to tell. Clinical Child Psychology and Psychiatry, 7, 85-99.
+Levin, I. (1987) Associative effects of information framing. Bulletin of Psychonomics
+Society, 25, 85-86.
+Luce, M.F. (1998) Choosing to avoid: coping with negatively emotion-laden
+consumer decisions. Journal of Consumer Research, 24, 409-433.
+Luce, M. (2005) Decision making as coping. Health Psychology, 24, S23-S28.
+March, J. (1994) A Primer on Decision-Making: how decisions happen. Free Press,
+New York.
+McDaniels, T.L., Axelrod, L.J., Cavanagh, N.S. and Slovic, P. (1997) Perception of
+ecological risk to water environments. Risk Analysis, 17, 341-352.
+Mellers, B., Schwatrz, A. and Ritov, I. (1999) Emotion-based choice. Journal of
+Experimental Psychology: General, 128, 332-345.
+Mental Capacity Act (2005) The Stationery Office Limited, London.
+Miller, G.A. (1956) Information theory. Scientific American, 195, 42-46.
+Miller, J.R. et al. (1990) Ventilator dependency: decision making, daily functioning
+and quality of life for patients with muscular dystrophy. Developmental Medicine and
+Child Neurology, 32, 1078-1086.
+Miller, W.B. and Pasta, D. (2001) Motivational antecedents to contraceptive method
+change following a pregnancy scare: a couple analysis. Social Biology, 48, 256-277.
+Mitchell, W. and Sloper, P. (2001) User-friendly Information for Families with
+Disabled Children. York Publishing, York.
+65
+
+Newell, B.R., Weston, N.J. and Shanks, D.R. (2003) Empirical tests of a fast-andfrugal heuristic: not everyone "takes-the-best". Organizational Behavior and Human
+Decision Processes, 91, 82-96.
+Newell, BR. and Shanks, DR. (2003) Take-the-best or look at the rest? Factors
+influencing 'one reason' decision making. Journal of Experimental Psychology:
+Learning, Memory and Cognition, 29, 53-65.
+Oehler, A. (1995) The Explanation of Private Investigators’ Behaviour. Schaffer
+Poeschel Verlag, Stuttgart.
+Over, D. (2004) Rationality and the normative/descriptive distinction, in D.J. Koehler
+and N. Harvey (eds), Blackwell Handbook of Judgement and Decision Making,
+Blackwell, Oxford pp. 3-18.
+Payne, J.W. (1976) Task complexity and contingent processing in decision making:
+an information search and protocol analysis. Organization Behavior and Human
+Performance, 16, 366-387.
+Payne, J.W. and Bettman, J.R (2004) Walking with the scarecrow: the informationprocessing approach to decision research, in D.J. Koehler and N. Harvey (eds),
+Blackwell Handbook of Judgement and Decision-Making, Blackwell, Oxford pp.110132).
+Peters, E., Vastfjall, D., Garling, T. and Slovic, P. (2006) Affect and decision making:
+a "hot" topic. Journal of Behavioral Decision Making, 19, 79-85.
+Peters, E., Vastfjall, D., Slovic, P., Mertz, C., Mazzocco, K. and Dickert, S. (2006)
+Numeracy and decision-making. Psychological Science, 17, 5, 407-413.
+Poole, M. and Billingsley, J. (1989) The structuring of dyadic decisions, in D.
+Brinberg and J. Jaccard (eds), Dyadic Decision-Making. Springer-Verlag, New York.
+Read, D., Loewenstein, G. and Rabin, M. (1999) Choice bracketing. Journal of Risk
+and Uncertainty, 19, 171-197.
+Ruccione, K., Kramer, R.F., Moore, I.K. and Perin, G. (1991) Informed consent for
+treatment of childhood cancer: factors affecting parents’ decision making. Journal of
+Pediatric Oncology Nursing, 8, 112-121.
+Sandelowski, M. and Jones, L.C. (1996) ‘Healing Fictions’: stories of choosing in the
+aftermath of the detection of foetal abnormalities. Social Science and Medicine, 42, 3,
+353-361.
+
+66
+
+Savage, L. (1954) The Foundations of Statistics. John Wiley and Sons, New York.
+Schepis, M., Reid, D. and Behrman, M. (1996) Acquisition and functional use of
+voice output communication by persons with profound multiple disabilities. Behaviour
+Modification, 20, 451-468.
+Schoemaker, P. and Russo, J. (2001) Managing frames to make better decisions, in
+S. Hoch and H. Kunreuther (eds), Wharton on Making Decisions, John Wiley and
+Sons, New York.
+Schwartz, B. (2004) The Paradox of Choice. Harper Collins, New York.
+Schwartz, B., Ward, A., Monterosso, J., Lyubomirsky, S., White, K. and Lehman, D.R.
+(2002) Maximizing versus satisficing: happiness is a matter of choice. Journal of
+Personality and Social Psychology, 83, 1178-1197.
+Schwartz, N. (2000) Emotion, cognition and decision making. Cognition and Emotion,
+14, 433-440.
+Scott, A. (2002) Identifying and analysing dominant preferences in discrete choice
+experiments: an application in health care. Journal of Economic Psychology, 23,
+383-398.
+Shalowitz, D.I, Garrett-Mayer, E. and Wendler, D. (2006) The accuracy of surrogate
+decision makers: a systematic review. Archives of Internal Medicine, 166, 493-497.
+Shanteau, J. (1992) How much information does an expert use? Is it relevant? Acta
+Psychologica, 81, 75-86.
+Sillars, A. and Kahlbesch, P. (1989) Implicit and explicit decision-making styles in
+couples, in D. Brinberg and J. Jaccard (eds), Dyadic Decision-Making. SpringerVerlag, New York.
+Simon, H.A. (1955) A behavioural model of rational choice. Quarterly Journal of
+Economics, 69, 99-118.
+Simon, H.A. (1957) Models of Man: Social and rational. Wiley, New York.
+Simon, H.A. (1983) Reason in Human Affairs. Stanford University Press, Stanford,
+CA.
+Simonson, I. (1992) The influence of anticipating regret and responsibility on
+purchasing decisions. Journal of Consumer Research, 19, 105-118.
+
+67
+
+Sloman, S.A. (1996) The empirical case for two systems of reasoning. Psychological
+Bulletin, 119, 3-22.
+Sloper, P. (1996) Needs and responses of parents following the diagnosis of
+childhood cancer. Child: Care, Health and Development, 22, 187-202.
+Slovic, P. (1987) Perception of risk. Science, 236, 280-285.
+Slovic, P., Finucane, M., Peters, E. and MaGregor, D.G. (2002) The affect heuristic,
+in T. Gilovich, D. Griffin, and D. Kahnemann (eds), Heuristics and Biases: The
+Psychology of Intuitive Judgement, Cambridge University Press, Cambridge, pp.397420.
+Sniezek, J. and Buckley, T. (1995) Cueing and cognitive conflict in judge-advisor
+decision making. Organisational Behaviour and Human Decision Processes, 62,
+159-174.
+Soman, D. (2004) Framing, loss aversion and mental accounting, in D.J. Koehler
+and N. Harvey (eds), Blackwell Handbook of Judgement and Decision Making,
+Blackwell Publishing, Malden.
+Stout, J., Rodawalt, W. and Siemers, E. (2001) Risky decision making in
+Huntington’s disease. Journal of the International Neuropsychological Society, 7, 92101.
+Stroup, S., Appelbaum, P., Swartz, M., Mukesh, P. et al. (2005) Decision-making
+capacity for research participation among individuals in the CATIE schizophrenia trial.
+Schizophrenia Research, 80, 1, 1-8.
+Summers, J.A., Behr, S.K., and Turnbull, A.P. (1989) Positive adaptation and coping
+strengths of families who have children with disabilities, in G.H.S. Singer and L.K.
+Irvin, Support for Caregiving Families: Enabling positive adaptations to disability, pp.
+27-40. Paul Brookes, Baltimore.
+Suto, W., Clare, I., Holland, H. and Watson, P. (2005) Capacity to make decisions
+among people with mild intellectual disabilities. Journal of Intellectual Disability
+Research, 49, 3, 199-209.
+Svenson, O. (2003) Values, affect and processes in human decision making: A
+differentiation and consolidation theory perspective, in S.L. Scheider, and J.
+Shanteau (eds), Emerging Perspectives on Judgement and Decision Research.
+Cambridge University Press, Cambridge, pp. 287-326.
+
+68
+
+Tetlock, P.E. (2002) Social functionalist frameworks for judgement and choice:
+intuitive policians, theologians and prosecutors. Psychological Review, 109, 451-471.
+Thaler, R. (1980) Toward a positive theory of consumer choice. Journal of Economic
+Behaviour and Organization, 1, 39-60.
+Tiedens, L.Z. and Linton, S. (2001) Judgement under emotional certainty and
+uncertainty: the effects of specific emotions on information processing. Journal of
+Personality and Social Psychology, 81, 973-988.
+Tversky, A. (1972) Elimination by aspects: a theory of choice. Psychological Review.
+79, 281-299.
+Tversky, A. and Kahnemann, D. (1981) The framing of decisions and the psychology
+of choice. Science, 211, 4481, 453-458.
+Tversky, A. and Kahnemann, D. (1992) Advances in prospect theory: cumulative
+representation of subjective probability. Journal of Risk and Uncertainty, 5, 297-323.
+Van Balen, F., Verdurmen, J., Ketting, E. (1997) Choices and motivations of infertile
+couples. Patient Education and Counseling, 31, 1, 19-27.
+Von Neumann, J. and Morgenstern, O. (1947) Theory of Games and Economic
+Behaviour. (2nd edition), Princeton University Press, Princeton.
+Ware, J. (2004) Ascertaining the views of people with profound and multiple learning
+disabilities. British Journal of Learning Disabilities, 32, 175-179.
+de Wit, J. and Stroebe, W. (2004) Social cognition models of health behaviour, in A.
+Kaptein, and J. Weinmann (eds), Health Psychology, British Psychological Society
+and Blackwell Publishing, Oxford, pp. 52-83.
+Wroe, A.L., Turner, N. and Salkovis, P.M. (2004) Understanding and predicting
+parental decisions about early childhood immunizations. Health Psychology, 23, 3341.
+Wu, G., Zhang, J. and Gonzalez, R. (2004) Decision under risk, in D.J. Koehler and
+N. Harvey (eds), Blackwell Handbook of Judgement and Decision Making, Blackwell
+Publishing, Malden.
+Zajonc, R.B. (1980) Feeling and thinking: preferences need now inferences.
+American Psychologist, 35, 151-175.
+
+69
+
+Zak, A., Collins, C., Harper, L. and Masher, M. (1998) Self-reported control over
+decision-making and its relationship to intimate relationships. Psychological Reports,
+82, 2, 560-562.
+Zeelenberg, M. (1999) Anticipated regret, expected feedback and behavioral
+decision making. Journal of Behavioral Decision Making, 12, 93-106.
+
+70
+
+

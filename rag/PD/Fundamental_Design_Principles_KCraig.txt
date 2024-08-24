@@ -1,0 +1,1637 @@
+Fundamental Principles of
+Mechanical Design
+
+Mechanical Design Fundamentals
+
+K. Craig 1
+
+References
+• Precision Machine Design, A. Slocum, 1992.
+• Exact Constraint Design: Machine Design Using Kinematic
+Principles, D. Blanding, 1999.
+• The Elements of Mechanical Design, J. Skakoon, 2008.
+• Design Principles for Precision Mechanisms, H. Soemers, 2010.
+• Mechanical Engineering Design, J. Shigley and C. Mischke, 5th
+Edition, 1989.
+• Detailed Mechanical Design: A Practical Guide, J. Skakoon, 2000.
+• Fundamentals of Design, A. Slocum, 2007.
+• Universal Principles of Design, W. Lidwell, K. Holden, & J. Butler,
+2003.
+• Mechatronics and Machine Design Notes, S. Awtar, U. Michigan.
+Mechanical Design Fundamentals
+
+K. Craig 2
+
+Introduction
+• Precision machines are essential elements of an industrial
+society.
+• A precision machine is an integrated system that relies on
+the attributes of one component to augment the
+weaknesses of another component.
+• Here we emphasize the design of mechanical and structural
+precision machine components and their integration with
+sensor, actuator, and control systems to maximize
+performance.
+• Design is a mixture of analysis and creative thought.
+• Good designs are based on excellent concepts and properly
+designed details.
+Mechanical Design Fundamentals
+
+K. Craig 3
+
+• Design engineers must be more creative than their
+competition and more observant of the world around them.
+• Analogous to physical exercise, analysis is a form of mental
+exercise that trains the mind to be strong and swift. Many
+designs would never have even been conceived of if the
+design engineer did not understand the basic physics
+behind the process or machine that prompted the need for a
+new design.
+• Design engineers must be good at identifying problems.
+Once a problem is identified, it will usually yield to an
+unending barrage of creative thought and analysis.
+• In addition to identifying and solving problems, the design
+engineer must also learn to identify what the customer really
+needs, which is not necessarily what the customer thinks
+that he or she needs.
+Mechanical Design Fundamentals
+
+K. Craig 4
+
+Fundamental Principles
+• Understand them. Associate images with them.
+• When you look at a machine or structure, try to see
+the fundamental principles in either action or
+missing.
+• With a deep knowledge of these fundamental
+principles, one can rapidly generate strategies and
+concepts with the greatest viability.
+• With a deep understanding of fundamental
+principles, one can critically evaluate other
+machines and components.
+Mechanical Design Fundamentals
+
+K. Craig 5
+
+• Occam’s Razor
+– Keep things simple to start and add detail as the design
+develops.
+• Simplicity vs. Complexity
+– Create designs that are explicitly simple. Keep
+complexity intrinsic.
+• Laws of Nature
+– Fundamental Laws of Nature – the basics come before
+the details!
+– Newton’s Laws, Laws of Thermodynamics, Maxwell’s
+Equations
+• Saint-Venant’s Principle
+– When an object is to be controlled, sketch it being held
+at points several characteristic dimensions apart.
+Mechanical Design Fundamentals
+
+K. Craig 6
+
+• Golden Rectangle
+– Don’t know what size it should be? Start with a ratio of
+about 1.6:1.
+• Independent Functions
+• Keep the functions of a design independent from one
+another.
+• Abbe’s Principle
+– Small angular deflections are amplified by distance to
+create large linear displacements.
+• Maxwell & Reciprocity
+– Uncomfortable with a design? Try inverting it, or turning
+it on its side.
+
+Mechanical Design Fundamentals
+
+K. Craig 7
+
+• Self-Principles
+– Use an object’s geometry or other property to prevent a
+problem.
+• Stability
+– Stable, neutrally stable, and unstable effects can help or
+hurt. Some things can be made neutrally stable and
+fast, while vibration can induce instability. Beware of
+buckling of compression members.
+• Symmetry
+– Try a design that is symmetric, and then impose
+reciprocity to consider a design that is not symmetric.
+• Parallel Axis Theorem
+– Add mass away from the neutral axis to increase
+strength and stiffness.
+Mechanical Design Fundamentals
+
+K. Craig 8
+
+• Accuracy, Repeatability, and Resolution
+– Make your machine repeatable first, then tune for
+accuracy if you have fine enough resolution. Tell the
+same story each time, the correct story, and with
+enough detail so people can understand it.
+• Sensitive Directions and Reference Features
+– Why pay for performance in a direction that is not
+needed? Establish reference datums from which you
+measure critical parameters.
+• Triangulate for Stiffness
+– Triangulate parts and structures to make them stiffer.
+
+Mechanical Design Fundamentals
+
+K. Craig 9
+
+• Load Paths
+– Plan the load paths in parts, structures, and assemblies.
+– Draw a line through the path that forces follow, and seek
+to minimize its length. If the path and shape changes
+significantly as the machine moves, then the machine will
+have limited accuracy and may have limited repeatability.
+• Avoid Bending Stresses
+– Prefer tension and compression.
+• Manage Friction
+– Avoid sliding friction. Use rolling element bearings.
+• Free Body Diagrams & Superposition
+– To analyze a complex object, separate it into parts and
+label the forces and moments on each part that are
+imposed by other parts.
+Mechanical Design Fundamentals
+
+K. Craig 10
+
+• Preload
+– Loose fits between objects mean you cannot predict
+where one object will be with respect to the other.
+Apply loads between the objects as part of
+manufacturing and assembly to take out the slack in
+the system.
+• Centers of Action
+– If forces are applied through the centers of mass,
+stiffness, and friction, there will be no moments and
+hence minimal errors.
+• Exact Constraint Design
+– The number of points at which a body is held or
+supported should be equal to the number of degrees
+of freedom that are to be constrained.
+Mechanical Design Fundamentals
+
+K. Craig 11
+
+• Elastically Averaged Design
+– Hold or support a body with ten times (or more)
+compliant points than there are degrees of freedom to
+be restrained, such that the errors in the compliant
+support points will average out.
+• Stick Figures
+– Initially sketch an idea using simple stick figures,
+which also denote where major coordinate systems
+are located in the design. The coordinate systems
+are to be used for modeling individual modules, e.g.,
+for creating an error budget to predict a machine’s
+repeatability and accuracy.
+
+Let’s discuss these in more detail!
+Mechanical Design Fundamentals
+
+K. Craig 12
+
+Occam’s Razor
+• William of Occam (1284-1347) – English philosopher
+and theologian
+• “Plurality should not be assumed without necessity.”
+• A problem should be stated in in its most basic and
+simplest terms.
+• The simplest theory that fits the facts of a problem is the
+one that should be selected.
+• Limit Analysis should be used to check ideas.
+• Use fundamental principles as catalysts to help keep
+things simple.
+Mechanical Design Fundamentals
+
+K. Craig 13
+
+• Complexity is to be minimized in both design and
+manufacturing. A careful systems approach is required.
+• Opportunities to Keep Things Simple
+– Overall Design Strategy
+– Design Concept
+– Formation of Modules
+• Modules have to be assembled and interfaced to
+each other.
+– Design and Selection of Components
+• Detailed design gets done at the component level.
+• Keep functional requirements of the design in
+mind.
+• Keep implied functional requirements of the
+components in mind.
+Mechanical Design Fundamentals
+
+K. Craig 14
+
+– Goal is to minimize the number of components (which
+may lead to the specification of a few highly complex
+components) and balance component complexity with
+the number and complexity of the manufacturing
+processes and the quantity to be manufactured.
+
+Mechanical Design Fundamentals
+
+K. Craig 15
+
+Simplicity vs. Complexity
+• Create designs that are explicitly simple. Keep
+complexity intrinsic.
+• What makes a design simple? Can your intuition alone
+judge simplicity? Will you know it when you see it?
+• The less thought and less knowledge a device requires
+for production, testing, and use, the simpler it is.
+• How much thought? How much knowledge? Judge best
+by comparing one solution to another.
+• Of course, it may take lots of thought and knowledge to
+get to a design requiring little of either – that is design!
+
+Mechanical Design Fundamentals
+
+K. Craig 16
+
+• What a simple design means is that everyone involved
+with its production and use sees nothing that looks
+complicated from his or her own perspective or
+convention.
+• Complexity is buried and invisible. There is a heirarchy
+for knowledge and thought. Each hierarchical level may
+be intrinsically complex, yet the device remains simple if
+the complexity resides only within its own level.
+– Screw threads have abundant scientific and
+manufacturing complexity, yet that complexity is
+invisible to the designer. We just say ¼ -20.
+• Complex geometry no longer implies a complicated
+design. A part’s geometry may be complicated, yet its
+production and use may be no more difficult than for one
+with much simpler geometry.
+Mechanical Design Fundamentals
+
+K. Craig 17
+
+• Simplicity can be subtle. Design symmetry into
+components. If a part is asymmetric, knowledge and
+thought are needed to orient it for either the assembly or
+the use. Assembling or using symmetrical parts requires
+less knowledge and thought than asymmetric parts.
+• Simplicity can be paradoxical. Symmetry adds
+information to the component part, thus adding cost to
+manufacture, but makes the part simpler to use e.g., the
+double-sided key.
+• Two common techniques for keeping things simple by
+keeping complexity hidden are:
+– Purchasing rather than making components
+– Specifying components by standards
+
+Mechanical Design Fundamentals
+
+K. Craig 18
+
+Mechanical Design Fundamentals
+
+K. Craig 19
+
+Laws of Nature
+• To develop a physical model of an existing system or of
+a system concept, we use engineering judgment and
+make simplifying assumptions.
+• To develop a mathematical model, a model that can
+predict system dynamic behavior, we apply the Laws of
+Nature to the physical model.
+• Drop a strong cylindrical magnet down a copper pipe
+with plenty of clearance between the magnet and the
+pipe wall. What happens? How many Laws of Nature
+are illustrated?
+– Newton’s 2nd Law, Newton’s Law of Gravitation,
+Ampere’s Law, Faraday’s Law, Lenz’s Law
+Mechanical Design Fundamentals
+
+K. Craig 20
+
+Mechanical Design Fundamentals
+
+K. Craig 21
+
+Saint-Venant’s Principle
+• Saint-Venant was a strong proponent of coordinating
+experimental and practical work with theoretical study. His
+greatest contribution to engineering is his approach to
+modeling practical problems.
+• The principle says that several characteristic dimensions
+away from an effect, the effect is essentially dissipated. Or if
+an effect is to dominate a system, it must be applied over 3-5
+characteristic dimensions of the system.
+– Local effects of loading do not effect global strains.
+– For example, the bending strains at the root of a cantilever
+beam are not influenced by the local deformations of a
+point load applied to the end of a cantilever beam.
+Mechanical Design Fundamentals
+
+K. Craig 22
+
+Saint-Venant’s Principle
+
+≈3
+
+Mechanical Design Fundamentals
+
+φ
+
+K. Craig 23
+
+• The engineering applications of this observation are
+profound for the development of conceptual ideas and initial
+layouts of designs.
+– To not feel something’s effects, be several characteristic
+dimensions away.
+– To dominate and control something, apply constraints
+over several characteristic dimensions.
+• Application of Saint-Venant’s Principle
+– When mounting bearings to support a shaft, the bearings
+should be spaced 3-5 shaft diameters apart if the
+bearings are to effectively resist moments applied to the
+shaft.
+
+Mechanical Design Fundamentals
+
+K. Craig 24
+
+– In machine tool structure, if one is to minimize
+bending, the length of the structure should be no
+more than 3-5 times the depth of the beam.
+– When bolting components together, in order to make
+the bolted joint act almost as it were welded together,
+the bolts’ strain (stress) cones should overlap. The
+strain cone emanates from 45° to 60° under the bolt
+head. The strain cones typically overlap if the bolts
+are spaced less than 3-5 bolt diameters apart.
+
+Mechanical Design Fundamentals
+
+K. Craig 25
+
+Golden Rectangle
+• The Golden Rectangle, discovered by Pythagoras, is a
+rectangle whose sides are in proportion such that when a
+square is cut from the rectangle, the remaining rectangle
+has the same proportions as the original rectangle, i.e., a/b
+= 1.618
+
+• If the pattern of subtracting squares continues and a spiral
+curve is drawn by linking together circular arcs whose
+centers are the corners of the squares, the spiral continues
+to infinity.
+Mechanical Design Fundamentals
+
+K. Craig 26
+
+• The Golden Rectangle can help the engineer initially
+sketch concepts that have a greater chance of being
+realizable. When designing a machine, one can either:
+– start from the outside and work inwards, which might
+force the inner workings to be cramped and lead to
+degradation of performance, or
+– start from the inside with a critical module and design
+outwards, which might result in a machine that is too
+spacious.
+• A compromise from the beginning can be achieved with
+either method by initially sketching concepts while
+keeping the proportions of the Golden Rectangle in
+mind. Saint-Venant’s principle should also be
+considered when laying out proportions and spacing of
+machine elements.
+Mechanical Design Fundamentals
+
+K. Craig 27
+
+Independent Functions
+• Keep the functions of a design independent from one
+another.
+• During the concept development stage of the design
+process, you will decompose a device or system into
+basic functions. Keep those functions separate!
+• This is not as easy as it sounds. There will
+be temptations to combine functions and
+features and thus compromise the design.
+Consider the ball-and-socket tripod
+head for a camera. There is no
+functional independence of positioning
+and locking.
+Mechanical Design Fundamentals
+
+K. Craig 28
+
+This is an improvement in separating
+functions. Here tightening the nut
+creates no rotational friction between
+nut and ball, but at a cost in
+manufacturing.
+
+Multi-axis pan head camera mount has
+functional independence of all three
+rotational locking and positioning
+functions.
+
+Mechanical Design Fundamentals
+
+K. Craig 29
+
+• Accept that everything in design, including independence
+of function, is a compromise. You need not take an
+unyielding posture to any rule of design, but always
+understand how and why you yield.
+Seek independence of the
+functions of a device, but
+do not preclude combining
+functions within parts.
+Here, the handles are
+used for two functions,
+positioning and locking.
+Combined adjustment and
+locking functionality
+reduces part count and
+operates intuitively.
+Mechanical Design Fundamentals
+
+K. Craig 30
+
+Abbe’s Principle
+• The amplification of angular motion to create large
+translational motions is one of the foremost principles in
+the design of precision and robust machines.
+• The Abbe Principle (Dr. Ernst Abbe 1840-1905) resulted
+from observations about measurement errors in the
+manufacture of microscopes.
+– If errors in parallax are to be avoided, then the
+measuring system must be placed coaxially with the
+axis along which the displacement is to be measured
+on the workpiece.
+
+Mechanical Design Fundamentals
+
+K. Craig 31
+
+• When an angular error is amplified by a distance, e.g., to
+create an error in a machine’s position, the strict
+definition of the error is a sine or cosine error.
+
+• The implications of this observation on the design of
+instruments and machines are profound:
+– Always try to place the measurement system as close
+to the line of action (the process) as possible.
+– Always try to place bearings and actuators as close to
+the line of action (the process) as possible.
+Mechanical Design Fundamentals
+
+K. Craig 32
+
+• The philosophy of Abbe’s Principle also extends to other
+types of measurements.
+– When measuring temperature, it is important to place
+the temperature sensor as close as possible to the
+process to be measured.
+– The idea is the same for pressure, flow, voltage,
+current, etc.
+– In each case, the farther away you are from the
+process to be measured, the greater the chance for
+errors to reduce the accuracy of the measurement.
+• Note that a small angular deflection in one part of a
+machine quickly grows as subsequent layers of a
+machine are stacked upon it.
+
+Mechanical Design Fundamentals
+
+K. Craig 33
+
+Mechanical Design Fundamentals
+
+K. Craig 34
+
+Maxwell & Reciprocity
+• James Clerk Maxwell’s (1831-1879) theory of reciprocity
+is commonly applied to mechanics and precision
+measurement systems, and philosophically to how
+difficult problems can be creatively solved.
+• Let A and B be any two points of an elastic system. Let
+the displacement of point B in any direction U due to a
+force P acting in any direction V at A be u. Let the
+displacement of A in the direction of V due to a force Q in
+the direction U at B be v. Then Pv = Qu.
+Reversal
+Critical Thinking
+
+1
+= opportunity
+problem
+
+Mechanical Design Fundamentals
+
+K. Craig 35
+
+Self Principles
+• Self principles utilize the phenomena the machine is trying
+to control to help control the phenomena.
+• There are four basic types of self principles: self-help, selfbalancing, self-protecting, and self-checking.
+• Self-Help Systems
+– Self-help systems use the phenomena to be controlled
+as a means for controlling the phenomena. For example,
+some airplane door mechanisms swing the door out
+when opened, yet the door acts as a self-sealing tapered
+plug when closed. The modern tubeless tire is a result of
+careful structural design that utilizes the elastic nature of
+the tire to make a seal that allows the tire to be inflated.
+Mechanical Design Fundamentals
+
+K. Craig 36
+
+– Forces applied to a structure or mechanism are used
+to great advantage when they:
+• Create new, useful forces
+• Transform or redirect themselves
+• Balance either themselves or existing loads
+• Help to distribute loads
+– Self-help that Creates Forces
+• Pressure-formed seals such as O-rings and
+internally-mounted doors use self-help to create
+robust seals.
+• The capstan and windlass use self-help to pull in
+boat anchors by creating and multiplying friction
+through several turns of chain.
+Mechanical Design Fundamentals
+
+K. Craig 37
+
+– Self-help that Redirects Forces
+• Left-handed scissors have little to do with how
+thumb and fingers fit, and lots to do with how hand
+action naturally forces the blades’ cutting edges
+together.
+• Left- and right-handed scissors are mirror images
+of each other, improving the scissors’ shearing
+action for either user.
+
+Self-Help in Scissors
+
+Mechanical Design Fundamentals
+
+K. Craig 38
+
+– Self-help that Balances Forces
+• Self-help can balance or neutralize, at least
+partially, an undesirable effect, e.g.,
+counterweights on draw and lift bridges and in
+cable-operated elevators.
+A balanced door with an articulated
+hinge exhibits self-help. Wind will
+not open this door, yet it opens and
+closes easily in strong winds.
+The hinge point, rather than being at
+an outer edge, is inboard when the
+door is closed. Wind pressure on the
+door face is balanced on either side
+of the hinge axis. As the door opens,
+the pivot axis slides by mechanical
+action to the side to open the door
+fully.
+Mechanical Design Fundamentals
+
+K. Craig 39
+
+– Self-help that Distributes Loads
+• In this case, the load path changes with
+deformation, thereby improving performance.
+• In Hertzian contact stress, the larger the load, the
+larger the contact area.
+
+• Structures can also be designed to stiffen or
+strengthen with deflection. For example, beams
+become much stiffer with large deflections (if they
+don’t yield) as the bending progresses to tension.
+Mechanical Design Fundamentals
+
+K. Craig 40
+
+• Self-Balancing Systems
+– Self-balancing systems utilize geometry to reduce an
+undesirable effect such as high stress.
+– An example of this is the leaning of turbine blades.
+As the turbine spins, the shape of the blade pumps air
+through the turbine and creates large bending
+stresses on the blade. If the blade is tilted so that its
+length axis is not along a radius of the turbine,
+centrifugal forces can be used to create a bending
+moment opposite to that caused by the airflow. In this
+manner, cyclic tensile stresses can be minimized.
+
+Mechanical Design Fundamentals
+
+K. Craig 41
+
+• Self-Protecting Systems
+– Self-protecting systems utilize passive elements to
+ensure that the system is not overloaded to the point
+of permanent deformation. They do this by providing
+additional force transmission paths after a
+predetermined elastic deformation occurs.
+– However, in protecting one component the design
+engineer must make sure that the effect does not
+ripple through the system and damage other
+components.
+– Usually, self-protected systems can return to their
+normal operating range unaffected by overloads.
+– The most common example of self-protecting systems
+are found in spring-actuated mechanisms.
+Mechanical Design Fundamentals
+
+K. Craig 42
+
+• Self-Checking Systems
+– Self-checking systems utilize the concept of symmetry
+to ensure geometric accuracy. This involves turning
+the device through 180° and comparing the
+measurements to the first set.
+– For example, if a coordinate measuring machine
+(CMM) is very repeatable but not accurate, it can still
+be used to measure the straightness of a
+straightedge. The edge of the straightedge is placed
+vertical so that gravity does not create an error. The
+straightedge is measured with the CMM and then the
+straightedge is rotated 180° and measured again.
+The measurements are subtracted from each other,
+which cancels out the straightness error in the CMM.
+Mechanical Design Fundamentals
+
+K. Craig 43
+
+Stability
+• Stability is of utmost importance in the design of structures,
+actuators, bearings, and control systems.
+• All systems are either stable, marginally stable, or unstable.
+
+Mechanical Design Fundamentals
+
+K. Craig 44
+
+Symmetry
+• Can symmetry help or hurt a design?
+• In general, symmetry is a good thing in a system, and thus a
+good starting point in a design.
+• Symmetry is a principle that is closely related to stability.
+Symmetry can sometimes provide stability, sometimes not.
+• In structures, symmetry may exist on an overall scale, such
+as between two sides of a machine, but within each side of
+the machine, symmetry takes second place to the desired
+formation of triangles so as to make a system well-braced
+and resistant to shearing.
+• Structures are often symmetric to take loads from either side.
+Mechanical Design Fundamentals
+
+K. Craig 45
+
+• In bearings, it is often the opposite, where on an overall
+scale one side of the system has bearings configured
+and mounted to restrain five degrees of freedom of a
+shaft, and at the other end of the shaft, the bearings only
+prevent radial motion of the shaft.
+• List what is symmetric and what is not symmetric about
+each potential concept. Ask if symmetry helps or hurts.
+Study what would happen if what was symmetric was
+made non symmetric, and vice versa.
+
+Mechanical Design Fundamentals
+
+K. Craig 46
+
+Parallel Axis Theorem
+• The Parallel Axis Theorem is a very powerful tool for
+calculating the area moments of inertia for complex
+objects.
+– Starting with basic shapes, whose areas and area
+moments of inertia about their local neutral axes are
+known, a design engineer first finds the location of the
+neutral axis of the composite structure, and then uses
+the parallel axis theorem to determine the area
+moment of inertia for the composite structure.
+
+Mechanical Design Fundamentals
+
+K. Craig 47
+
+Accuracy, Precision, & Resolution
+• A good machine designer understands and has
+developed an intuitive feeling for the factors that affect
+machine performance. Equally important, the design
+engineer must also understand the basic physics that
+characterize a machine component or system. This
+knowledge is essential for the development of good
+designs and the proper selection of components.
+• The design of quality precision machines depends
+primarily on the ability of the design and manufacturing
+engineers to predict how the machine will perform before
+it is built.
+Mechanical Design Fundamentals
+
+K. Craig 48
+
+• The most important factors affecting the quality of a
+machine are the accuracy, precision (repeatability), and
+resolution of its components and the manner in which they
+are combined. These factors are critical because they
+affect every one of the parts that will be manufactured
+using the machine.
+• Minimizing machine cost and maximizing machine quality
+mandate predictability of accuracy, repeatability, and
+resolution. This allows the design engineer to optimize the
+choice of components and to specify manufacturing
+tolerances.
+• Designing a machine that has good accuracy, repeatability,
+and resolution is not a black art. It appears to be a black
+art only when the observer lacks the time or resources to
+use scientific principles to discover the true nature of the
+phenomena.
+Mechanical Design Fundamentals
+
+K. Craig 49
+
+• In the context of taking a deterministic approach to
+design, it is very important to understand the rules of the
+game. There are three basic definitions to remember
+with respect to how well a machine tool can position its
+axes: accuracy, precision (repeatability), and resolution.
+• The diagram on the next slide represents these
+concepts.
+
+• Accuracy is the ability to tell the truth.
+• Precision is the ability to tell the same
+story over and over again.
+• Resolution is how detailed your story is.
+• These three concepts are often improperly used, so
+let’s discuss them.
+Mechanical Design Fundamentals
+
+K. Craig 50
+
+Accuracy, Precision (repeatability), and Resolution
+
+Marksman’s Target
+Mechanical Design Fundamentals
+
+K. Craig 51
+
+• Accuracy is the ability of system to tell the truth.
+– Accuracy is a measure of how well a system can
+achieve or measure a state that is traceable to a
+national or international standard.
+– If one were to use a device to make multiple
+measurements of a known standard, the difference
+between the known measurement and the average of
+all measurements taken is the accuracy of the
+measurement.
+– Accuracy is the maximum translational or rotational
+error between any two points in the machine’s work
+volume.
+– Accuracy can be represented as the difference
+between the root mean square radius of all the bullet
+holes in a target and the radius of the bull’s eye.
+Mechanical Design Fundamentals
+
+K. Craig 52
+
+– Linear, planar, and volumetric accuracy can all be
+similarly defined for a machine.
+– Accuracy is affected by the shape and size of
+components, as well as thermal growth, backlash,
+wear, friction, deformations, and sensor and control
+system accuracy.
+
+Mechanical Design Fundamentals
+
+K. Craig 53
+
+• Repeatability (precision) is the ability to tell the
+same story over and over again.
+– Repeatability tells how well a system can achieve or
+measure the same state each time.
+– Repeatability is the error between a number of successive
+attempts to move the machine to the same position.
+– If one were to use a device and make multiple
+measurements of a known standard, the standard
+deviation of the measurements would be the repeatability
+of the measurement, and the number of standard
+deviations would give a confidence level about the
+repeatability.
+– Repeatability is affected by thermal growth, backlash,
+wear, friction, deformations, and sensor and control
+system repeatability.
+Mechanical Design Fundamentals
+
+K. Craig 54
+
+– Repeatability can be represented by the diameter of
+the circle which contains N% of the bullet holes in the
+target.
+– Bidirectional repeatability is the repeatability achieved
+when the point is approached from two different
+directions.
+– For a set of N data points with a normal (Gaussian)
+distribution the mean xmean and standard deviation σ
+are defined as:
+
+1 N
+1 N
+2
+x mean
+xi
+=
+=
+σ
+( x i − x mean )
+∑
+∑
+N i 1=
+N −1 i 1
+=
+– The standard deviation is used in the determination of
+the probability of occurrence of an event in a system
+that has a normal distribution.
+Mechanical Design Fundamentals
+
+K. Craig 55
+
+– The percent chance of a value
+occurring within a number of
+standard deviations k of its
+expected value is given in the table.
+– The probabilistic approach to a
+problem is only a tool to allow us to
+deal with variables that are too
+numerous or expensive to sort out
+properly by common sense and
+good metrology. Required use of
+this tool might be an indication that
+it is time to take a closer look at the
+system and see if the system can
+be changed to make it deterministic
+and therefore more controllable.
+Mechanical Design Fundamentals
+
+k
+1.0
+2.0
+3.0
+4.0
+5.0
+6.0
+
+N%
+68.2689
+95.4500
+99.7300
+99.9937
+99.9999
+100.0000
+
+K. Craig 56
+
+– Often the key to repeatability is not within the
+machine itself, but in isolating the machine from
+variations in the environment.
+
+Mechanical Design Fundamentals
+
+K. Craig 57
+
+• Resolution is how detailed your story is.
+– Resolution is the ability of a system to tell the fine details
+of the story or what is the minimum increment that can be
+detected or moved.
+– If one were to try and move to a desired position, and
+then measure the error, and then correct the position by
+the smallest achievable amount, it would be limited by the
+resolution of the system.
+– Resolution is the larger of the smallest programmable
+step or the smallest mechanical step the machine can
+make during point-to-point motion.
+– Resolution is important because it gives a lower bound on
+the repeatability that one could obtain if one really tried.
+– Resolution is affected by friction and also the resolution of
+the measurement and control system.
+Mechanical Design Fundamentals
+
+K. Craig 58
+
+• General Comments
+– Of primary concern is the certainty of the
+measurements themselves used to characterize the
+accuracy, precision, and resolution of a machine, and
+what parameters these measurements themselves
+are functions of.
+– Classify each of the motions your concepts require in
+terms of the required accuracy, repeatability, and
+resolution.
+– How can the concepts be optimized to minimize
+required accuracy and instead rely more on
+repeatability?
+– Can you minimize friction so as to likely increase
+resolution?
+Mechanical Design Fundamentals
+
+K. Craig 59
+
+• Accuracy, Repeatability, & Resolution Mapping
+– Mapping is the ability to measure or predict the
+repeatability or accuracy of a machine, and then use
+this knowledge of the error to compensate for it.
+– Thus, repeatability can sometimes substitute for
+accuracy. In the static sense, this means that if parts
+cannot be machined accurate enough to ensure that
+their assembly has the desired accuracy, then
+assemble them into the machine and then map the
+machine’s performance. The machine’s control
+system can use the map to compensate for the errors.
+
+Mechanical Design Fundamentals
+
+K. Craig 60
+
+Sensitive Directions
+• Always identify the directions in which accuracy and
+repeatability are most important. These are the sensitive
+directions in a machine.
+• In addition to the sensitive directions, there are also key
+features (real or virtual), which will not change even
+though many other features in the design change as it
+evolves.
+• Put a lot of effort into accuracy for the directions in which
+you need it. Always be careful to think about where you
+need precision.
+
+Mechanical Design Fundamentals
+
+K. Craig 61
+
+Triangulate for Stiffness
+• Triangulate parts and structures to make them stiffer.
+• Triangulation applies to structures and structural
+elements. When components or structures need to be
+stiff, create triangles.
+Consider a swinging fence gate.
+Triangulating members prevent, or
+correct, sagging. A tensile cable
+connects the lower outer corner to
+the upper inner corner, and
+transmits load to the gatepost.
+Alternately, a compression brace
+can be added to the diagonal to
+transmit the load to the gatepost.
+Mechanical Design Fundamentals
+
+K. Craig 62
+
+• Ribs are common in molded and cast parts. They
+efficiently stiffen the structure by using thin braces ,
+which are required by many manufacturing processes.
+Triangulating ribs in a molded part
+
+• The three-dimensional equivalent of a triangle is a
+tetrahedron. Four triangles give three-dimensional
+rigidity.
+A tetrahedron:
+three-dimensional
+triangulation
+Mechanical Design Fundamentals
+
+K. Craig 63
+
+• Elements that triangulate are webs, truss members, ribs,
+and flanges. All are tensile or compressive load-carrying
+members in the plane of deflection.
+• To triangulate, first identify the plane in which the load
+and the undesirable stress or deflection lie, then add
+integrally attached ribs, webs, flanges, or truss elements
+in that plane.
+• But beware! Stiffer does not always mean stronger or
+more robust. Stiffening transfers loads to a different
+place, a place that might be weaker or more susceptible
+to fracture, fatigue, corrosion, or whatever else leads to
+failure.
+
+Mechanical Design Fundamentals
+
+K. Craig 64
+
+Triangulate for Stiffness
+
+Ribbed holes maintain strength, while
+providing uniform wall thickness
+=> less cycle time + material, fewer defective
+parts during manufacturing
+
+Mechanical Design Fundamentals
+
+K. Craig 65
+
+Load Paths
+• Plan the load paths in parts, structures, and assemblies.
+• Whenever you design a part or assembly, you should
+clearly define the paths of applied and internal loads.
+• You want the load path to be:
+– Short
+– Direct
+– In a line or, barring that, in a plane
+– Symmetric
+– Non-redundant, or, barring that, elastic
+– Locally closed
+– Easily analyzed
+Mechanical Design Fundamentals
+
+K. Craig 66
+
+• The first step in planning the load path is visualizing it.
+Load paths through a pinned
+clevis connection
+
+In the pull-lever style, load
+transfers through a lever stop,
+the housing, a wall plate, screws,
+wall anchors, and the wall. The
+push-type dispenser transfers
+the load more directly to the
+wall and over a large area, a
+much better load path.
+Mechanical Design Fundamentals
+
+Wall-mounted liquid soap dispensers
+K. Craig 67
+
+• Locally-closed paths are especially preferred. Usercentered design benefits from locally-closed load paths.
+Always consider how user-generated forces are
+opposed.
+Bicycle hand brakes are a common
+example. A bicycle handbrake is
+squeezed rather than pulled or
+pushed. The load path is locally
+closed. Pulling, rather than
+squeezing the brake lever, would
+give a load path through the rider’s
+arm and body, to the seat, through
+the frame, and, finally, to the
+handlebar. This load path is
+unstable and perilous.
+
+Mechanical Design Fundamentals
+
+K. Craig 68
+
+Avoid Bending Stresses
+• Avoid bending stresses. Prefer tension and compression.
+• As we have seen, triangulating members typically have
+tension and compression loads rather than bending loads.
+Bending produces stress
+distributions that vary from zero
+to some maximum.
+
+Pure tension or compressive
+members have constant stress
+throughout.
+All material
+contributes
+to carry
+load.
+
+Material is unstressed and contributes nothing to rigidity
+or strength.
+K. Craig 69
+Mechanical Design Fundamentals
+
+Shear stress distributions in
+solid and hollow torsion shafts
+are shown. Material near the
+center of a solid shaft carries
+no load. Material in a thin,
+hollow shaft has nearly constant
+shear.
+
+• In bending and torsion, much of the material contributes
+nothing to carrying load. The highly stressed areas fail
+even while the neutral axis material remains unloaded.
+Clearly, bending and torsion loads are inefficiently born
+by structural elements, whereas uniformly-loaded
+elements use material quite efficiently.
+
+• Design to get uniform stress.
+Mechanical Design Fundamentals
+
+K. Craig 70
+
+• I-beams are a practical way to use material efficiently to
+support bending deflections. Most of the material is at
+the maximum possible distance from the centroid. Thus,
+the material in an I-beam is nearly uniformly loaded, and
+at the maximum stress.
+• Also note that the vertical portion of an I-beam is a
+triangulating shear web.
+
+Mechanical Design Fundamentals
+
+K. Craig 71
+
+• Of course, you will sometimes want to take advantage of
+bending and non-uniform torsion.
+• For example, torsional springs are cantilever beams
+loaded in bending.
+• Consider snap-fit features; these are cantilever beams
+loaded in bending.
+So an advantage of
+non-uniform stress
+is flexibility.
+Any time you seek flexibility in
+a part or structure, bending or
+non-uniform torsional loads are
+the better answer.
+Mechanical Design Fundamentals
+
+Cantilever Snap-Fit
+
+K. Craig 72
+
+Manage Friction
+• Manage friction in mechanisms.
+• The only thing certain about friction in mechanical design is
+that you will have it. How much, and its consequences, are
+uncertain.
+• Never trust friction – manage it.
+• Avoid Sliding Friction
+– Designers avoid sliding friction whenever possible.
+– Managing sliding friction is difficult: stick-slip behavior
+owing to the difference between static and dynamic
+friction, wide variation in friction coefficients, uncontrolled
+lubrication status, variable surface finishes, surface
+damage, and wear.
+Mechanical Design Fundamentals
+
+K. Craig 73
+
+– If you do select sliding elements, select suitable
+materials, carefully design the guiding system, test
+beyond reason, and expect the worst.
+• Maximize the Length of Linearly-Guided Components
+– Linearly-guided components jam when the insertion
+force is inadequate to overcome the friction of the
+guides’ contacts.
+Short, wide systems are
+especially susceptible not
+only because of the
+length-to-width ratio, but
+because the insertion
+force is too easily applied
+off center.
+Mechanical Design Fundamentals
+
+Short, wide
+sticky drawer
+
+K. Craig 74
+
+– A good minimum rule-of-thumb for length-to-width and
+for length-to-load arm is 1.5 to 1. And your design
+must guarantee contact only at the ends and not in
+the middle of the moving component.
+– Also note that linear systems rigidly guided on two
+separate axes are over-constrained. These will jam
+and stick and wear out and be difficult to manufacture.
+
+Eliminate the fixed centerto-center distance in either
+the carriage or the rails, or
+expect trouble.
+
+Over-constrained
+Mechanical Design Fundamentals
+
+K. Craig 75
+
+• Select Rotary Motion over Linear Motion
+– The journal bearing is why rotary motion is so much
+better than linear motion.
+W = load
+The moment
+M to turn the
+axle is given
+by: M = R × r × sin φ = F × r
+While φ is governed
+by the coefficient of
+friction and the use of
+lubricants, to reduce
+friction, use small
+diameter axles.
+Mechanical Design Fundamentals
+
+axle
+journal
+bearing
+
+K. Craig 76
+
+– Consider the caged roller bearing. Roller and ball
+bearings have advantageous rolling friction rather
+than sliding friction (unless the rollers or balls touch
+each other). A cage separates the rolling elements in
+modern bearings.
+
+Rotational sliding friction
+between cage and roller is
+still unavoidable, but the
+miniature axles on the rollers
+manage friction by using the
+power of small radius.
+
+Mechanical Design Fundamentals
+
+K. Craig 77
+
+– Rotary motion is a much better selection over linear
+motion in mechanical design. Linear motion works
+with proper guiding and with good linear bearings.
+Also you need space, and lots of it, for linear
+guidance.
+– Rotating bearings, of whatever form, offer stable,
+compact guidance to the moving components of a
+mechanism in a minimum space.
+Plunger-style vs. lever-style
+soap dispenser. The leverstyle has a natural
+advantage for managing
+friction.
+
+Mechanical Design Fundamentals
+
+K. Craig 78
+
+• Use Rolling Element Bearings Whenever Possible.
+– A reliable way to manage friction is to use rolling
+element bearings. Rolling elements also often
+eliminate wear.
+– A great advantage of rolling element bearings is that
+they help to keep it simple. The complexity of ball
+bearings is intrinsic and doesn’t normally concern
+engineers.
+– However, with bearings you are walking a tightrope
+above over-constraint. Simple ball bearings have the
+inherent advantage of small rotational degrees of
+freedom to accommodate some misalignment.
+Beyond that, keep a watchful eye out for overconstraint and mitigate with self-aligning and
+adjustable features.
+Mechanical Design Fundamentals
+
+K. Craig 79
+
+• Use Flexures to Eliminate Friction.
+– For a completely frictionless system, you cannot do
+better than flexures.
+– They are uncommon and are typically reserved for
+precision instruments.
+– Nevertheless, consider using flexures for precise,
+frictionless motion over a limited deflection.
+– The lack of friction means that flexure-defined motion
+is predictable and reliable.
+Triple spiral frictionless
+flexure for guiding axial
+displacement
+
+Mechanical Design Fundamentals
+
+K. Craig 80
+
+Preload
+• Components that move relative to one another generally
+have tolerances that leave clearances between their mating
+features. These clearances result in backlash which is
+difficult to control.
+• There are two strategies that can be used to limit or prevent
+backlash.
+– Increase the accuracy of components and decrease
+clearances. This can increase system accuracy, but will
+increase cost and can decrease system robustness.
+– Preload components against each other. This is not
+difficult to accomplish, increases system reliability, and is
+very robust.
+Mechanical Design Fundamentals
+
+K. Craig 81
+
+• Preload involves using a spring, or compliance in the
+mechanism itself, to force components together so there is
+no clearance between elements.
+• However, the compliance in the preload method itself must
+be chosen such that it locally can deform to accommodate
+component errors without causing large increases in the
+forces between components.
+• The challenge to the design engineer is to develop clever
+methods of creating a compliant member which deforms
+when subject to local distortions while not introducing
+undesirable deflections in other directions.
+• Also, to reduce the variation in the preload force on the
+system, the amount of deflection used to create the
+preload by compressing the compliant element should be
+substantially larger than any expected local deformation.
+Mechanical Design Fundamentals
+
+K. Craig 82
+
+Centers of Action
+• Minimizing moments on a system minimizes angular
+motion, which minimizes sine errors and thus has the
+potential to enhance the robustness of a design.
+• Centers of Action are virtual points within a body such
+that forces applied through these points generate no
+moments on the body.
+– Center of Mass
+– Center of Stiffness
+– Center of Friction
+– Center of Thermal Expansion
+Mechanical Design Fundamentals
+
+K. Craig 83
+
+Exact Constraint Design
+• Use exact constraint when designing structures and
+mechanisms – never over-constrain a design.
+• If you rigidly constrain a component at more places than
+are needed, you will start a fight between these places.
+This is over-constraint.
+• Exactly constrained designs are statically determinate,
+whereas over-constrained or under-constrained designs
+are statically indeterminate.
+• Exact constraint means applying just enough constraints
+to define a position or motion – no more, no less.
+
+Mechanical Design Fundamentals
+
+K. Craig 84
+
+• Three bearings on one shaft do not work. It is not luck you
+need in trying to fit the shaft through three bearings, it’s
+sympathy – it won’t go!
+3 bearings on one shaft:
+an over-constrained design
+
+• Strictly speaking, even two rigidly-fixed ball bearings on
+one shaft is an over-constraint if the shaft cannot slide
+axially in one or the other inner races.
+• Advantages of exactly constrained designs compared to
+over-constrained designs are: no binding, no play,
+repeatable position, no internal stress, lose-tolerance parts,
+easy assembly, and robustness to wear and environment.
+Mechanical Design Fundamentals
+
+K. Craig 85
+
+• Basic Theory of Exact Constraint
+– A three-dimensional object has 6 degrees of freedom: 3
+translations and 3 rotations. Selectively constrain these
+degrees of freedom to obtain the desired motion or
+structure.
+– The degrees of freedom is the number of independent
+coordinates needed to completely specify the motion of
+a mechanical system. This depends on the system itself
+and is independent of the coordinate system chosen.
+
+Six degrees of freedom
+
+Mechanical Design Fundamentals
+
+K. Craig 86
+
+• A common example for illustrating exact constraint is a
+kinematic connection which clearly shows all six
+constraints.
+The first three constraints
+come from sphere 1 contacting
+three surfaces in a trihedral
+receptacle. These are the three
+translation constraints. The Vshaped groove with sphere 2
+supplies two rotational
+constraints, and the plate
+surface with sphere 3, the final.
+You also need a nesting force,
+the plate’s weight, for example.
+Remove the plate and it returns
+to the base in exactly the same
+position. No precision
+dimensions are required.
+Mechanical Design Fundamentals
+
+A kinematic connection:
+perfect 3D constraint
+K. Craig 87
+
+• Precision (of position), also called repeatability, is the
+degree to which a part, or feature on a part, will return to
+exactly the same position time after time. When a machine
+is designed so that its parts are exactly constrained,
+extraordinary precision is automatically obtained.
+• Accuracy (of position) is the degree to which the location of
+a part or feature exactly coincides with its desired or
+intended location.
+• In general, precision is achievable without accuracy, but
+accuracy is not achievable without precision. By designing
+exactly constrained connections, we can achieve highprecision machines using ordinary low-cost, inaccurate
+parts. Then, through the use of adjustments or fixturing
+techniques, accuracy can be achieved.
+Mechanical Design Fundamentals
+
+K. Craig 88
+
+• Exact Constraint in Two Dimensions
+– Exact constraint is easier to picture in two dimensions
+than three. The principles are the same, but in two
+dimensions there are three degrees of freedom: two
+translation and one rotation.
+– A constraint is a point of contact maintained by a
+nesting force wherein the nesting force vector goes
+through the contact point normal to the surface of
+contact.
+one constraint:
+x motion
+
+Mechanical Design Fundamentals
+
+K. Craig 89
+
+– Two posts can be used to constrain against
+translation in two dimensions or rotation and one
+translation.
+
+two constraints:
+x motion and rotation
+
+Mechanical Design Fundamentals
+
+two constraints:
+x motion and y motion
+
+K. Craig 90
+
+– Add a third post, and the plate has a single,
+unambiguous position in 2D space. The nesting
+force, of course, has to be able to resist any applied
+forces.
+plate fully constrained
+in two dimensions
+
+Mechanical Design Fundamentals
+
+K. Craig 91
+
+Two-dimensional constraint condition examples
+Mechanical Design Fundamentals
+
+K. Craig 92
+
+• Nesting Forces
+– You cannot just replace the nesting force with a fourth
+post. Dimensions are never perfect, and the post
+either interferes with or does not touch the plate.
+– Nesting forces (one for each contact point) can be
+combined vectorially into a single force.
+– In practice, nesting forces are created, for example,
+by weight, cams, wedges, springs, and screws, and
+counteract externally applied loads.
+A fourth post is overconstrained
+and does not replace the
+nesting force.
+Mechanical Design Fundamentals
+
+K. Craig 93
+
+– There is a nesting force “window” outside of which
+any nesting force will tumble the component out of the
+stable, nested position.
+
+Mechanical Design Fundamentals
+
+K. Craig 94
+
+• Constraint Theory in Practice
+– If materials were inelastic and unyielding, and,
+therefore, components neither deformed nor failed,
+we could design everything with perfect exact
+constraint. But they are not, so we compromise.
+– Never over-constrain a design, unless you know how.
+– Two examples are curvature matching and elastic
+constraint design.
+The trihedron receptacle exactly
+constrains three translations, but creates
+infinite stresses at points of contact.
+Instead, use a conical hole for circle
+contact to better distribute the load and
+for ease of machining. Curvature or
+surface matching compromises exact
+constraint, but improves load-carrying.
+Mechanical Design Fundamentals
+
+K. Craig 95
+
+– To use elastic constraint, combine a flexing feature
+with the proper nesting forces, and the redundant
+constraint then also contacts its mating surface.
+– If you must overconstrain a design to increase loadcarrying or improve stability, you must mitigate that
+over-constraint with elastic deformation.
+– Increase rigidity by adding flexibility? What? But you
+apply the flexibility only in the direction needed to take
+up variations such as manufacturing tolerances.
+Office chairs never have just three
+casters. Recent popular designs have
+five which adds stability and makes
+them safe to lean back in. Despite the
+pedestal arrangement, the feet flex
+enough for all five to contact the
+floor.
+Mechanical Design Fundamentals
+
+K. Craig 96
+
+– Combine surface matching and elastic constraint
+design and you get a bolted flange joint, which is a
+frictional constraint.
+– Large clearance holes avoid obvious over-constraint,
+even with multiple bolts, and manufacturing the two
+flat surfaces to adequate accuracy is not difficult. The
+bolts easily draw in any inaccuracy.
+
+Flanged joint: an elastic, surfacematching, frictional constraint
+
+Mechanical Design Fundamentals
+
+K. Craig 97
+
+• Real-World Example
+– Linear drives for scanning often consist of a motor attached to a
+leadscrew, which in turn drives the scanning carriage. The first
+design (figure, left) showed a cyclic error in the linear motion.
+More accurate machining, better part alignment, and a more
+expensive leadscrew were all tried with no success. A constraint
+analysis then showed that the design was over-constrained. With
+the motor rigidly attached to the leadscrew, the motor requires only
+a single constraint, i.e., prevent rotation of its housing. The
+compound flexure (figure, right) eliminated the problem; the
+expensive leadscrew, accurate machining, and assembly steps
+were unnecessary.
+
+Mechanical Design Fundamentals
+
+K. Craig 98
+
+Elastically Averaged Design
+• Controlled Compliance can make an over-constrained
+four- or five-legged chair not wobble. Elastic deformation
+compensates for geometric errors. However, the forces
+are managed so yielding does not occur.
+• When there are many compliant elements, each of which
+locally deforms to accommodate an error, in total they can
+form a very rigid and accurate system.
+The red arrow shows the minimum
+radius from the chair center of
+stiffness to the edge of the supports
+for stability – the chair will tip if the
+CG shifts outside this radius. All the
+legs have to be compliant.
+Mechanical Design Fundamentals
+
+K. Craig 99
+
+Mechanical Design Fundamentals
+
+K. Craig 100
+
+Exact Constraint Design
+dictates the use of only
+two balls between the
+Inner Race and Outer Race
+to constrain the two inplane translations.
+Elastic Averaging enables
+the use of multiple balls,
+thus greatly improving load
+bearing characteristics.
+This places greater
+emphasis on manufacturing
+uniformity.
+
+Mechanical Design Fundamentals
+
+K. Craig 101
+
+Gears, bearings,
+screws, flexures all
+make use of elastic
+averaging.
+
+Mechanical Design Fundamentals
+
+K. Craig 102
+
+

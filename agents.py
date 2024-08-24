@@ -5,10 +5,8 @@ from langchain_core.messages import HumanMessage, BaseMessage
 from typing import Annotated
 from langgraph.graph.message import add_messages
 from typing import Sequence, TypedDict
-from typing import List
 
 def create_agent(llm: ChatOpenAI, tools: list, system_prompt: str):
-    # Each worker node will be given a name and some tools.
     prompt = ChatPromptTemplate.from_messages(
         [
             (
@@ -23,8 +21,9 @@ def create_agent(llm: ChatOpenAI, tools: list, system_prompt: str):
     executor = AgentExecutor(agent=agent, tools=tools)
     return executor
 
-def agent_node(state, agent, name):
+def agent_node(state, agent, name, kb_system):
     result = agent.invoke(state)
+    kb_system.add_to_kb(result["output"])
     return {"messages": [HumanMessage(content=result["output"], name=name)]}
 
 class AgentState(TypedDict):

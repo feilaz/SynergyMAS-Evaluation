@@ -1,0 +1,2504 @@
+The Basics of User
+Experience Design
+BY
+INTERACTION DESIGN FOUNDATION
+
+The Basics of User Experience (UX) Design by the Interaction Design Foundation
+
+Preface
+
+Preface
+If you're looking to gain an introduction into the world of user experience (UX) design—or maybe
+even freshen up your knowledge of the ﬁeld—then this UX design book is the ideal place to start.
+The sheer number of topics covered in UX design is mind-boggling: there’s interaction design (the
+psychology of motion and feedback), design thinking (an iterative, empathy-based problem-solving
+process), and usability (how easily a product can be used), just to name a few. That’s what makes
+the ﬁeld so fascinating to so many people. Whether you are a business manager working on a new
+product, or an aspiring designer wanting to learn about user-centered design, the ﬁeld of UX design
+has something to teach you.
+On top of that, UX design is a booming industry worldwide. Job opportunities are increasing for UX
+designers like never before—an estimated 13% increase from 2010 to 2020. UX designer pays are
+also moving up, upwards of $110k in cities such as San Francisco and New York.
+That’s why we, at the Interaction Design Foundation, put together this ebook. In nine highly readable
+chapters, we’ll cover a wide range of topics that everyone starting out in UX design should know.
+Each chapter acts as a mini crash course, introducing key concepts, best practices, and guidelines.
+At the end of each chapter, we’ll summarize the key learning points in a section called “The Take
+Away”.
+If we’ve done a good job, each chapter should pique your interest in a speciﬁc topic under the giant
+umbrella of UX design. I hope you’ll enjoy this short but informative ebook, and that this will be the
+beginning of a wondrous and never-ending journey of learning.
+
+Mads Soegaard
+Founder, Interaction Design Foundation
+
+INTERACTION-DESIGN.ORG
+
+The Basics of User Experience (UX) Design by the Interaction Design Foundation
+
+Table of Contents
+
+Table of Contents
+1. A Brief Introduction to User Experience (UX) Design
+
+04
+
+2. What is Design Thinking and Why Is It So Popular?
+
+10
+
+3. The 7 Factors that Influence User Experience
+
+21
+
+4. An Introduction to Usability
+
+28
+
+5. How to Conduct User Interviews
+
+36
+
+6. 7 Great, Tried and Tested UX Research Techniques
+
+43
+
+7. What is Interaction Design?
+
+52
+
+8. Mobile Web UX Design: Some Simple Guidelines
+
+58
+
+9. Information Visualization – A Brief Introduction
+
+65
+
+INTERACTION-DESIGN.ORG
+
+UX DESIGN
+
+CHAPTER 1
+
+A Brief Introduction to User
+Experience (UX) Design
+3 min read
+User experience (UX) design can be a complicated and overwhelming ﬁeld for newcomers, as it
+encompasses a wide range of topics (from accessibility to wireframing). Some of these topics
+overlap, while some of them complement one another. Therefore, it's important to come to a
+common and basic understanding of what the term “user experience” means in a design context.
+
+Complexity and Perception
+User experience design, as its name suggests, is about designing the ideal experience of using a
+service or product. As such, it can involve all types of products and services—think, for instance,
+about the design involved in a museum exhibition. However, in the main, the term user experience
+design is used in relation to websites, web applications and other software applications.
+Since the second half of this century’s ﬁrst decade, technologies have become increasingly
+complex, and the functionality of applications and websites has become far broader and far more
+intricate. Early websites were simple static pages that served up information to feed curious
+searchers; however, a few decades later, what we can ﬁnd a wealth of online are sites that are
+interactive and offer a much richer feel for users.
+
+INTERACTION-DESIGN.ORG
+
+4
+
+The Basics of User Experience (UX) Design by the Interaction Design Foundation
+
+1. A Brief Introduction to User Experience (UX) Design
+You can add all the features and functionality that you like to a site or application, but the success
+of the project rides on a single factor: how the users feel about it.
+“Humans have always been emotional and have always reacted to the artifacts in their world
+emotionally.”
+—Alan Cooper, President of Cooper
+The questions that we as UX designers are concerned with are these:
+•
+
+Does the site or application give the user value?
+
+•
+
+Does the user ﬁnd the site or application simple to use and navigate?
+
+•
+
+Does the user actually enjoy using the site or the application?
+
+A UX designer can say he's or she’s doing a good job when the answer is "Yes!" to all of the above.
+
+What is User Experience (UX)?
+In general, user experience is simply how people feel when they use a product or service. In most
+cases, that product will be a website or an application of some form. Every instance of
+human-object interaction has an associated user experience, but, in general, UX practitioners are
+interested in the relationship between human users and computers and computer-based products,
+such as websites, applications and systems.
+
+What is a UX Designer?
+A UX designer is someone who investigates and analyzes how users feel about the products he or
+she offers them. UX designers then apply this knowledge to product development in order to
+ensure that the user has the best possible experience with a product.
+UX designers conduct research, analyze their ﬁndings, inform other members of the development
+team of their ﬁndings, monitor development projects to ensure those ﬁndings are implemented,
+and do much more.
+
+INTERACTION-DESIGN.ORG
+
+5
+
+The Basics of User Experience (UX) Design by the Interaction Design Foundation
+
+1. A Brief Introduction to User Experience (UX) Design
+
+Why Does UX Matter?
+In times gone by, product design was simple; designers built stuff they thought was cool and that
+they hoped their clients would like. Unfortunately, there are two problems with that approach. The
+ﬁrst is that, back then, there was far less competition for people's attention online. The second is
+that there's no consideration for the user of the product at all in that approach—the success or
+failure of a development project was down to luck as much as it was down to the judgement of the
+design team.
+Focusing on UX enables design to focus on the user. It increases the chances of a project's
+success when it ﬁnally comes to market, not least because it doesn’t gamble on the faith of users
+in taking to a product just because it’s a brand name.
+
+Where Can UX Design be Found?
+UX Design can be found in a variety of project environments today, including:
+•
+
+Complex projects — the more complicated the project, the more essential UX design is. Too
+many features handled the wrong way can deter users like nothing else.
+
+•
+
+Startups — you may not ﬁnd dedicated UX teams in a startup, but UX is always part of the
+objective. High-tech startups developing innovative projects need to understand how their users
+feel even more than established companies do.
+
+•
+
+Projects with decent budgets — UX tends to get skipped in low-value projects, but any
+development project team with a decent budget will tend to allocate some of their ﬁnancial
+resource to UX so as to ensure that the budget brings a return on investment.
+
+•
+
+Long projects — the longer the project, the more resources it consumes; thus, UX becomes ever
+more important to delivering a return on the investment.
+
+What's the Main Methodology for UX?
+The main methodology used to guarantee the user experience in most projects is user-centered
+design. Simply put, user-centered design is all about designing with the users’ needs and expected
+behaviors in mind. It's important for us as UX designers to remember that user-centered design is a
+
+INTERACTION-DESIGN.ORG
+
+6
+
+The Basics of User Experience (UX) Design by the Interaction Design Foundation
+
+1. A Brief Introduction to User Experience (UX) Design
+means of achieving good UX—and not the only methodology or tool that one can use to ensure
+optimal UX in a project.
+
+The Take Away
+UX design is all about guiding product development to shape how users feel when using our
+products. It's not a perfect method; sometimes, even with all the UX design know-how in the world
+behind it, a product will still fail. However, the appropriate use of UX design does offer a much
+higher chance that a product will be successful for our clients than products developed without the
+application of UX design principles.
+Want to avoid the common pitfalls of UX design? Our course “Become a UX Designer from
+Scratch” will guide you—claim your spot now!
+
+Become a UX Designer from Scratch
+Beginner course
+If you want to join one of the most rapidly growing ﬁelds in design, then look no further—Become a
+UX Designer from Scratch is the course for you. You’ll learn the skills required to assist companies
+in delivering the right UX for their products through being taught tried-and-tested, industry standard
+techniques. You’ll also discover how to create various UX deliverables with the help of
+downloadable templates. From customer journey maps to paper prototypes, this course will show
+you how to make use of such templates when creating your UX portfolio—something that will truly
+make an impact on your UX job applications. What’s more, you’ll gain access to video interviews
+with senior UX hirers and experts from companies such as Google and SAP—providing you insight
+into what skills and attributes will give you an advantage over fellow candidates during the UX
+hiring process. Wait no longer to kick-start your professional UX career!
+Learn more about this course
+
+∠
+
+INTERACTION-DESIGN.ORG
+
+7
+
+The Basics of User Experience (UX) Design by the Interaction Design Foundation
+
+1. A Brief Introduction to User Experience (UX) Design
+
+How Course Takers Have Benefited
+“The lessons are clear and easy to understand. The content in the lessons are
+thoroughly explained, and there's a good balance between video content vs. text
+content. This really is an intro or UX 101 course, which I really appreciated.”
+Seth Lemon, United States
+“The strength of this course is its content and the way all the lessons are
+organized. The experience the instructors possess is also a huge advantage to
+the course and its members in understanding the design methods effectively.”
+Prudhvi Raj Midasala, India
+“The course has given me a great overview of the foundation of UX design, the
+processes, players and understanding of the expectations of / on designers.”
+Barbara-Anne Tane, Australia
+
+View the course curriculum
+
+∠
+
+INTERACTION-DESIGN.ORG
+
+8
+
+The Basics of User Experience (UX) Design by the Interaction Design Foundation
+
+About the Interaction Design Foundation
+
+About the Interaction Design
+Foundation
+
+We thought this would be a good time to properly introduce ourselves, now that you’ve had a taste
+of what our ebook has to offer!
+Founded in 2002, the Interaction Design Foundation (IDF) is on a mission to provide accessible and
+affordable design education to people across the world, through open-source educational materials
+as well as online, self-paced UX Design courses.
+By taking our courses, you'll beneﬁt from educational materials developed by leading practitioners
+and academics from top-tier universities like Stanford and MIT. Our course certiﬁcates will
+therefore help you land your next job in design through being recognized by industry-leading
+corporations.
+We also provide the opportunity to network with fellow designers through our Local Groups
+initiative — with meet-ups in over 84 countries across the globe! You can ﬁnd out more about us
+and our mission if you’re interested.
+Because you’ve downloaded our ebook, we’re going to give you a special offer: 3 months of free
+membership. Become a member of the Interaction Design Foundation, receive all the beneﬁts
+mentioned above, and start advancing your career today!
+
+INTERACTION-DESIGN.ORG
+
+9
+
+Empathise
+
+Define
+
+Ideate
+
+Prototype
+
+Test
+
+CHAPTER 2
+
+What is Design Thinking and
+Why Is It So Popular?
+9 min read
+Design thinking is not an exclusive property of designers—all great innovators in literature, art,
+music, science, engineering, and business have practiced it. So, why call it ‘design thinking’? What’s
+special about design thinking is that designers’ work processes can help us systematically extract,
+teach, learn and apply these human-centered techniques to solve problems in a creative and
+innovative way — in our designs, in our businesses, in our countries, in our lives.
+Some of the world’s leading brands, such as Apple, Google, Samsung and GE, have rapidly adopted
+the design thinking approach. What’s more, design thinking is being taught at leading universities
+around the world, including d.school, Stanford, Harvard and MIT. Even so, do you know what design
+thinking is, and why it’s so popular? Here, we’ll cut to the chase and tell you what it is and why it’s
+so popular.
+
+What is Design Thinking?
+Design thinking is an iterative process in which we seek to understand the user, challenge
+assumptions, and redeﬁne problems in an attempt to identify alternative strategies and solutions
+that might not be instantly apparent with our initial level of understanding. At the same time, design
+thinking provides a solution-based approach to solving problems. It is a way of thinking and
+working as well as a collection of hands-on methods.
+
+INTERACTION-DESIGN.ORG
+
+10
+
+The Basics of User Experience (UX) Design by the Interaction Design Foundation
+
+2. What is Design Thinking and Why Is It So Popular?
+Design thinking revolves around a deep interest in developing an understanding of the people for
+whom we’re designing the products or services. It helps us observe and develop empathy with the
+target user. Design thinking helps us in the process of questioning: questioning the problem,
+questioning the assumptions, and questioning the implications. Design thinking is extremely useful
+in tackling problems that are ill deﬁned or unknown, by re-framing the problem in human-centric
+ways, creating many ideas in brainstorming sessions, and adopting a hands-on approach in
+prototyping and testing. Design thinking also involves ongoing experimentation: sketching,
+prototyping, testing, and trying out concepts and ideas.
+
+Design Thinking’s Phases
+There are many variants of the design thinking process in use today, and they have from three to
+seven phases, stages, or modes. However, all variants of design thinking are very similar—they all
+embody the same principles, which were ﬁrst described by Nobel Prize laureate Herbert Simon in
+The Sciences of the Artiﬁcial in 1996. Here, we will focus on the ﬁve-phase model, which the
+Hasso-Plattner Institute of Design at Stanford (aka ‘d.school’) proposed. We’ve chosen d.school’s
+approach because they’re at the forefront of applying and teaching design thinking. The ﬁve phases
+of design thinking, according to d.school, are as follows:
+•
+
+Empathize – with your users
+
+•
+
+Deﬁne – your users’ needs, their problem, and your insights
+
+•
+
+Ideate – by challenging assumptions and creating ideas for innovative solutions
+
+•
+
+Prototype – to start creating solutions
+
+•
+
+Test – solutions
+
+It is important to note that the ﬁve phases, stages, or modes are not always sequential. They do not
+have to follow any speciﬁc order. What’s more, they can often occur in parallel and repeat
+iteratively. As such, you should not envision the phases as a hierarchal or step-by-step process.
+Instead, you should understand it as an overview of the modes or phases that contribute to an
+innovative project, rather than sequential steps.
+
+INTERACTION-DESIGN.ORG
+
+11
+
+The Basics of User Experience (UX) Design by the Interaction Design Foundation
+
+2. What is Design Thinking and Why Is It So Popular?
+
+The Problem with Ingrained Patterns of Thinking
+Sometimes, the easiest way to understand something intangible, such as design thinking, is by
+understanding what it is not.
+Humans naturally develop patterns of thinking modelled on the repetitive activities and commonly
+accessed knowledge. These assist us in quickly applying the same actions and knowledge in
+similar or familiar situations, but they also have the potential to prevent us from quickly and easily
+accessing or developing new ways of seeing, understanding, and solving problems.
+These patterns of thinking are often referred to as schemas, which are organized sets of
+information and relationships between things, actions, and thoughts that are stimulated and
+initiated in the human mind when we encounter some environmental stimuli. A single schema can
+contain a vast amount of information. For example, we have a schema for dogs which
+encompasses the presence of four legs, fur, sharp teeth, a tail, paws, and a number of other
+perceptible characteristics. When the environmental stimuli match this schema—even when there
+is a tenuous link or only a few of the characteristics are present—the same pattern of thought
+enters the mind.
+As these schemas are stimulated automatically, this process can obstruct a more ﬁtting
+impression of the situation or prevent us from seeing a problem in a way that will enable a new
+problem-solving strategy. Rising above this ‘fog’, or—more aptly—floating up and away from this
+conﬁning compartment, calls for us to be innovative in our approach. Unsurprisingly, innovative
+problem solving is also known as ‘thinking outside of the box’.
+
+An Example of Problem solving: The Encumbered
+Vs. The Fresh Mind
+Thinking outside of the box can provide an innovative solution to a sticky problem. However,
+thinking outside of the box can be a real challenge as we naturally develop patterns of thinking that
+are modelled on the repetitive activities and commonly accessed knowledge we surround
+ourselves with. It takes something to break away from a situation where we’re too closely involved
+
+INTERACTION-DESIGN.ORG
+
+12
+
+The Basics of User Experience (UX) Design by the Interaction Design Foundation
+
+2. What is Design Thinking and Why Is It So Popular?
+to be able to ﬁnd better possibilities. Still, that is what we must do.
+To illustrate how a fresh way of thinking can create unexpectedly good solutions, let’s look at a
+famous story. Some years ago, an incident occurred where a truck driver had tried to pass under a
+low bridge. Alas, he failed, and the truck became ﬁrmly lodged under the bridge. The driver was
+unable to continue driving through or reverse out.
+The story goes that as the truck became stuck, it caused massive trafﬁc problems, which resulted
+in emergency personnel, engineers, ﬁreﬁghters, and truck drivers gathering to negotiate various
+solutions so as to dislodge the truck.
+Emergency workers were debating whether to dismantle parts of the truck or chip away at parts of
+the bridge. Each spoke of a solution which ﬁtted within his or her respective level of expertise. In
+the heat of the emergency, all parties carried on with their ways of viewing the problem, including
+the truck driver, whose initial dismay over a scraped roof had turned into a deeper concern.
+A boy walking by and witnessing the intense debate looked at the truck, at the bridge, then looked
+at the road and said nonchalantly, "Why not just let the air out of the tires?" to the absolute
+amazement of all the specialists and experts trying to unpick the problem.
+When the solution was tested, the truck was able to drive free with ease, having suffered only the
+damage caused by its initial attempt to pass underneath the bridge. Whether or not the story
+actually happened in real life, it symbolizes the struggles we face where oftentimes the most
+obvious solutions are the ones hardest to come by because of the self-imposed constraints we
+work within.
+Challenging our assumptions and everyday knowledge is often difﬁcult for us humans, as we rely
+on building patterns of thinking in order not to have to learn everything from scratch every time. We
+rely on doing everyday processes more or less unconsciously—for example, when we get up in the
+morning, eat, walk, and read—but also when we assess challenges at work and in our private lives.
+Especially experts and specialists rely on their solid thought patterns, patterns that serve them well
+in their respective ﬁelds, not to mention the people to whom they deliver their skills. Even so, it can
+
+INTERACTION-DESIGN.ORG
+
+13
+
+The Basics of User Experience (UX) Design by the Interaction Design Foundation
+
+2. What is Design Thinking and Why Is It So Popular?
+be very challenging and difﬁcult for experts to start questioning their knowledge. Pride aside, it can
+prove more than a little disconcerting to think that many years of education and practical
+experience can hinder rather than help in dealing with a problem.
+
+Author/Copyright holder: Daud. Copyright terms and licence: CC BY
+
+The freshness of a child’s perspective, untainted by professional specialization, can save the day when a problem gets as
+big as the one above. Happily, getting that freshness doesn’t involve something as drastic as trying to become a child
+again.
+
+Design Thinking or 'Outside the Box' Thinking
+Design thinking is often referred to as ‘outside the box’ thinking, as designers are attempting to
+develop new ways of thinking that do not abide by the dominant or more common problem-solving
+methods.
+At the heart of design thinking is the intention to improve products by analysing and understanding
+how users interact with products and investigating the conditions in which they operate. At the
+heart of design thinking lies also the interest and ability to ask signiﬁcant questions and challenge
+assumptions. One element of outside the box thinking is to falsify previous assumptions, i.e., to
+make it possible to prove whether they are valid or not. Once we have questioned and investigated
+the conditions of a problem, the solution-generation process will help us produce ideas that reflect
+the genuine constraints and facets of that particular problem. Design thinking offers us a means of
+
+INTERACTION-DESIGN.ORG
+
+14
+
+The Basics of User Experience (UX) Design by the Interaction Design Foundation
+
+2. What is Design Thinking and Why Is It So Popular?
+digging that bit deeper; it helps us do the right kind of research and to prototype and test our
+products and services so as to uncover new ways of improving the product, service, or design.
+Grand Old Man of User Experience, Don Norman, who also coined the very term User Experience,
+explains what Design thinking is and what’s so special about it:
+“…the more I pondered the nature of design and reflected on my recent encounters with engineers,
+business people and others who blindly solved the problems they thought they were facing without
+question or further study, I realized that these people could beneﬁt from a good dose of design
+thinking. Designers have developed a number of techniques to avoid being captured by too facile a
+solution. They take the original problem as a suggestion, not as a ﬁnal statement, then think
+broadly about what the real issues underlying this problem statement might really be (for example
+by using the ’Five Whys’ approach to get at root causes).”
+– Don Norman, Rethinking Design Thinking
+
+Design Thinking is an Essential Tool—and A Third
+Way
+The design process often involves a number of different groups of people in different departments;
+for this reason, developing, categorizing, and organizing ideas and problem solutions can be
+difﬁcult. One way of keeping a design project on track and organizing the core ideas is with a
+design thinking approach.
+Tim Brown, CEO of the celebrated innovation and design ﬁrm IDEO, shows in his successful book,
+Change by Design that design thinking is ﬁrmly based on generating a holistic and emphatic
+understanding of the problems that people face, and that it involves ambiguous or inherently
+subjective concepts such as emotions, needs, motivations, and drivers of behaviors. This contrasts
+with a solely scientiﬁc approach, where there’s more of a distance in the process of understanding
+and testing the user’s needs and emotions—e.g., via quantitative research. Tim Brown sums up that
+design thinking is a third way: design thinking is essentially a problem-solving approach,
+crystallized in the ﬁeld of design, which combines a holistic user-centered perspective with rational
+
+INTERACTION-DESIGN.ORG
+
+15
+
+The Basics of User Experience (UX) Design by the Interaction Design Foundation
+
+2. What is Design Thinking and Why Is It So Popular?
+and analytical research with the goal of creating innovative solutions.
+
+Science and Rationality in Design Thinking
+Some of the scientiﬁc activities will include analyzing how users interact with products and
+investigating the conditions in which they operate: researching user needs, pooling experience from
+previous projects, considering present and future conditions speciﬁc to the product, testing the
+parameters of the problem, and testing the practical application of alternative problem solutions.
+Unlike a solely scientiﬁc approach, where the majority of known qualities, characteristics, etc. of the
+problem are tested so as to arrive at a problem solution, design thinking investigations include
+ambiguous elements of the problem to reveal previously unknown parameters and uncover
+alternative strategies.
+After arriving at a number of potential problem solutions, the selection process is underpinned by
+rationality. Designers are encouraged to analyze and falsify these problem solutions so that they
+can arrive at the best available option for each problem or obstacle identiﬁed during each phase of
+the design process.
+With this in mind, it may be more correct to say that design thinking is not about thinking out of the
+box, but on its edge, its corner, its flap, and under its bar code, as Clint Runge put it. (Clint Runge is
+Founder and Managing Director of Archrival, a distinguished youth marketing agency, and adjunct
+Professor at University of Nebraska-Lincoln.)
+
+INTERACTION-DESIGN.ORG
+
+16
+
+The Basics of User Experience (UX) Design by the Interaction Design Foundation
+
+2. What is Design Thinking and Why Is It So Popular?
+
+Author/Copyright holder: Interaction Design Foundation. Copyright terms and licence: CC BY-NC-SA 3.0.
+
+Wise words—whatever helps you gain that needed perspective, assume that position.
+
+Generating Creative Ideas and Solutions by Holistically
+Understanding Humans
+With a solid foundation in science and rationality, design thinking seeks to generate a holistic and
+emphatic understanding of the problems that people face. Design thinking tries to empathize with
+human beings. That involves ambiguous or inherently subjective concepts such as emotions,
+needs, motivations, and drivers of behaviors. The nature of generating ideas and solutions in
+design thinking means this approach is typically more sensitive to and interested in the context in
+which users operate and the problems and obstacles they might face when interacting with a
+product. The creative element of design thinking is found in the methods used to generate problem
+solutions and insights into the practices, actions, and thoughts of real users.
+
+INTERACTION-DESIGN.ORG
+
+17
+
+The Basics of User Experience (UX) Design by the Interaction Design Foundation
+
+2. What is Design Thinking and Why Is It So Popular?
+
+Design Thinking is an Iterative and Non-linear
+Process
+Learn about users
+through testing
+
+Tests create new
+ideas for the project
+
+Empathise to help
+deﬁne the problem
+
+Empathise
+
+Define
+
+Ideate
+
+Prototype
+
+Test
+
+Learn from
+prototypes to spark
+new ideas
+
+Tests reveal insights that
+redeﬁne the problem
+Author/Copyright holder: Teo Yu Siang and Interaction Design Foundation. Copyright terms and licence: CC BY-NC-SA 3.0
+
+As you can see, there’s plenty of flow between the steps.
+
+Design thinking is an iterative and non-linear process. This simply means that the design team
+continuously use their results to review, question, and improve their initial assumptions,
+understandings and results. Results from the ﬁnal stage of the initial work process inform our
+understanding of the problem, help us determine the parameters of the problem, enable us to
+redeﬁne the problem, and, perhaps most importantly, provide us with new insights so we can see
+any alternative solutions that might not have been available with our previous level of
+understanding.
+
+INTERACTION-DESIGN.ORG
+
+18
+
+The Basics of User Experience (UX) Design by the Interaction Design Foundation
+
+2. What is Design Thinking and Why Is It So Popular?
+
+Design Thinking is for Everybody
+Tim Brown believes that design thinking techniques and strategies of design belong at every level
+of business. Design thinking is not only for designers but also for creative employees, freelancers,
+and leaders who seek to infuse design thinking into every level of an organization, product, or
+service in order to drive new alternatives for business and society.
+Design thinking is essentially a problem-solving approach, crystallized in the ﬁeld of design, which
+combines a user-centered perspective with rational and analytical research with the goal of
+creating innovative solutions.
+
+The Take Away
+Design thinking is essentially a problem-solving approach speciﬁc to design, which involves
+assessing known aspects of a problem and identifying the more ambiguous or peripheral factors
+that contribute to the conditions of a problem. This contrasts with a more scientiﬁc approach
+where the concrete and known aspects are tested in order to arrive at a solution. Design thinking is
+an iterative process in which knowledge is constantly being questioned and acquired so it can help
+us redeﬁne a problem in an attempt to identify alternative strategies and solutions that might not
+be instantly apparent with our initial level of understanding. Design thinking is often referred to as
+‘outside the box thinking’, as designers are attempting to develop new ways of thinking that do not
+abide by the dominant or more common problem-solving methods – just like artists do. At the
+heart of design thinking is the intention to improve products by analyzing how users interact with
+products and investigating the conditions in which they operate. Design thinking offers us a means
+of digging that bit deeper to uncover ways of improving user experiences.
+Companies are facing ill-deﬁned and complex problems every day—and bringing design thinking
+into your workplace can be a game changer. Our online course “Design Thinking: The Beginner’s
+Guide” is one of our most popular (and as a result, gets fully booked really quickly!), because the
+iterative, empathy-based process translates so well into so many problems. Make sure you don't
+miss out on our next intake!
+
+INTERACTION-DESIGN.ORG
+
+19
+
+The Basics of User Experience (UX) Design by the Interaction Design Foundation
+
+2. What is Design Thinking and Why Is It So Popular?
+
+Design Thinking: The Beginner’s Guide
+Beginner course
+The world’s leading companies, such as Apple, Google and Samsung, are already using the design
+thinking approach—because they know it’s the way forward when it comes to innovation and
+product success. Through Design Thinking: The Beginner’s Guide, you will deep dive into the ﬁve
+phases of this paradigm-shifting approach to problem-solving—empathize, deﬁne, ideate, prototype,
+and test. By receiving detailed guidance on problem-solving activities ranging from ideation
+techniques—such as brainstorming and using analogies—to ways of gathering feedback from your
+prototypes, you’ll be able to download many templates involved and effectively use them in your
+work. Get ready to unpack, explore, and master design thinking—using it to set yourself apart and
+unlock the next stage of your professional life.
+Learn more about this course
+
+∠
+
+How Course Takers Have Benefited
+“The course is very comprehensive and offers a good balance of mediums to
+learn from.”
+Reid Dickson, United States
+“I enjoyed all of the tools available for download. It helped me easily share this
+information with others who were interested in design thinking.”
+Jenna Franklin, United States
+“There were lots of real world examples particularly from the instructors’ work.”
+Gillian Tyler, Australia
+
+View the course curriculum
+
+∠
+
+INTERACTION-DESIGN.ORG
+
+20
+
+USEFUL
+CREDIBLE
+
+USABLE
+
+DESIRABLE
+
+FINDABLE
+
+ACCESSIBLE
+
+VALUABLE
+
+CHAPTER 3
+
+The 7 Factors that Influence
+User Experience
+
+4 min read
+User Experience (UX) is critical to the success or failure of a product in the market, but what do we
+mean by UX? All too often, UX is confused with usability, which describes how easy a product is to
+use. While it is true that UX as a discipline began with usability, UX has grown to accommodate
+much more than usability, and paying attention to all facets of UX in order to deliver successful
+products to market is vital.
+“To be a great designer, you need to look a little deeper into how people think and act.”
+— Paul Boag, Co-Founder of Headscape Limited
+There are seven factors that describe user experience, according to Peter Morville, a pioneer in the
+UX ﬁeld who has written several best-selling books and advises many Fortune 500 companies on
+UX. Morville arranged the seven factors into the ‘User Experience Honeycomb’, which became a
+famous tool from which to understand UX design.
+
+INTERACTION-DESIGN.ORG
+
+21
+
+The Basics of User Experience (UX) Design by the Interaction Design Foundation
+
+3. The 7 Factors that Influence User Experience
+The 7 factors are:
+1. Useful
+
+Useful
+Accessible
+
+Usable
+
+3. Findable
+
+Valuable
+Desirable
+
+2. Usable
+
+4. Credible
+Findable
+
+Credible
+
+5. Desirable
+6. Accessible
+7. Valuable
+
+Let’s take a look at each factor in turn and what it means for the overall user experience:
+
+1. Useful
+If a product isn’t useful to someone, why would you want to bring it to market? If it has no purpose,
+it is unlikely to be able to compete for attention alongside a market full of purposeful and useful
+products. It’s worth noting that ‘useful’ is in the eye of the beholder, and things can be deemed
+‘useful’ if they deliver non-practical beneﬁts such as fun or aesthetic appeal.
+Thus, a computer game or sculpture may be deemed useful even if neither enables a user to
+accomplish a goal that others ﬁnd meaningful. In the former case, a teenager may be using the
+game to vent angst after a hard exam at college; in the latter, an art gallery visitor may ‘use’ the
+sculpture to educate herself on the artist’s technique or tradition, gaining spiritual pleasure at the
+same time from viewing it.
+
+2. Usable
+Usability is concerned with enabling users to achieve their end objective with a product effectively
+and efﬁciently. A computer game which requires three sets of control pads is unlikely to be usable
+as people, for the time being at least, only tend to have two hands.
+Products can succeed if they are not usable, but they are less likely to do so. Poor usability is often
+associated with the very ﬁrst generation of a product—think the ﬁrst generation of MP3 players,
+
+INTERACTION-DESIGN.ORG
+
+22
+
+The Basics of User Experience (UX) Design by the Interaction Design Foundation
+
+3. The 7 Factors that Influence User Experience
+which have since lost their market share to the more usable iPod. The iPod wasn’t the ﬁrst MP3
+player, but it was the ﬁrst—in a UX sense, at least—truly usable MP3 player.
+
+3. Findable
+Findable refers to the idea that the product must be easy to ﬁnd, and in the instance of digital and
+information products, the content within them must be easy to ﬁnd, too. The reason is quite simple:
+if you cannot ﬁnd the content you want in a website, you’re going to stop browsing it.
+If you picked up a newspaper and all the stories within it were allocated page space at random,
+rather than being organized into sections such as Sport, Entertainment, Business, etc., you would
+probably ﬁnd reading the newspaper a very frustrating experience. The same is true of hunting
+down LPs in a vintage music store—while some may ﬁnd rifling through randomly stocked racks of
+assorted artists’ offerings part of the fun and ritual, many of us would rather scan through
+alphabetically arranged sections, buy what we want, get out and get on with our day. Time tends to
+be precious for most humans, thanks largely to a little factor called a ‘limited lifespan’. Findability is
+thus vital to the user experience of many products.
+
+4. Credible
+Twenty-ﬁrst-century users aren’t going to give you a second chance to fool them—there are plenty
+of alternatives in nearly every ﬁeld for them to choose a credible product provider. They can and will
+leave in a matter of seconds and clicks unless you give them reason to stay.
+Credibility relates to the ability of the user to trust in the product that you’ve provided—not just that
+it does the job it is supposed to do, but also that it will last for a reasonable amount of time and
+that the information provided with it is accurate and ﬁt-for-purpose.
+It is nearly impossible to deliver a user experience if the users think the product creator is a lying
+clown with bad intentions—they’ll take their business elsewhere instead, very quickly and with very
+clear memories of the impression that creator left in them. Incidentally, they may well tell others,
+either in passing or more intentionally, in the form of feedback, so as to warn would-be customers,
+or ‘victims’ as they would view them.
+
+INTERACTION-DESIGN.ORG
+
+23
+
+The Basics of User Experience (UX) Design by the Interaction Design Foundation
+
+3. The 7 Factors that Influence User Experience
+
+5. Desirable
+Skoda and Porsche both make cars. Both brands are, to some extent, useful, usable, ﬁndable,
+accessible, credible and valuable—but Porsche is much more desirable than Skoda. This is not to
+say that Skoda is undesirable; they have sold a lot of cars. However, given a choice of a new
+Porsche or Skoda for free, most people will opt for the Porsche.
+Desirability is conveyed in design through branding, image, identity, aesthetics, and emotional
+design. The more desirable a product is, the more likely it is that the user who has it will brag about
+it and create desire in other users. Yes, we’re talking about envy here; whilst we can salute Skoda’s
+indomitable spirit—not least for having made very innovative strides and made the most of
+resources behind the Iron Curtain—we’ll tend to yearn after the other car here, the one that screams
+‘Look at me!’ and is pure power and affluence on four wheels.
+
+Author/Copyright holder: slayer. Copyright terms and licence: CC BY 2.0
+
+Porsche, founded in 1931, is synonymous with power and style. As a brand, it embodies opulence and glamour,
+commanding heads to turn on chic, urban streets. Skoda, despite having a nearly 40-year head start in the business,
+doesn’t pluck the same chord in the popular psyche.
+
+INTERACTION-DESIGN.ORG
+
+24
+
+The Basics of User Experience (UX) Design by the Interaction Design Foundation
+
+3. The 7 Factors that Influence User Experience
+
+6. Accessible
+Sadly, accessibility often gets lost in the mix when creating user experiences. Accessibility is about
+providing an experience which can be accessed by users with a full range of abilities—this includes
+those who are disabled in some respect, such as the hearing, vision, motion, or learning impaired.
+Designing for accessibility is often seen by companies as a waste of money—the reason being the
+enduring misconception that people with disabilities make up a small segment of the population. In
+fact, according to the census data in the United States, at least 19% of people had a disability in
+2010, and it is likely that this number is higher in less developed nations.
+That’s one in ﬁve people in the audience for your product who may not be able to use it if it’s not
+accessible—or 20% of your total market!
+It’s also worth remembering that when you design for accessibility, you will often ﬁnd that you
+create products that are easier for everyone to use, not just those with disabilities. Don’t neglect
+accessibility in the user experience; it’s not just about showing courtesy and decency—it’s about
+heeding common sense, too!
+Finally, accessible design is now a legal obligation in many jurisdictions, such as the EU. Failure to
+deliver accessibility in designs may result in ﬁnes. Sadly, this obligation is not being enforced as
+often as it should be; all the same, the road of progress lies before us.
+
+7. Valuable
+Finally, the product must deliver value. It must deliver value to the business which creates it and to
+the user who buys or uses it. Without value, it is likely that any initial success of a product will
+eventually corrode as the realities of natural economics start to undermine it.
+As designers, we should bear in mind that value is one of the key influences on purchasing
+decisions. A $100 product that solves a $10,000 problem is one that is likely to succeed; a $10,000
+product that solves a $100 problem is far less likely to do so.
+
+INTERACTION-DESIGN.ORG
+
+25
+
+The Basics of User Experience (UX) Design by the Interaction Design Foundation
+
+3. The 7 Factors that Influence User Experience
+
+The Take Away
+The success of a product depends on more than utility and usability alone. Products which are
+usable, useful, ﬁndable, accessible, credible, valuable, and desirable are much more likely to
+succeed in the market place.
+Now that you know the 7 factors that influence user experience, how do you then optimise your
+product or service to create the best user experience? Learn how to offer a competition-beating
+user experience by taking our course “User Experience: The Beginner’s Guide”.
+
+User Experience: The Beginner’s Guide
+Beginner course
+User experience, or UX, has been a buzzword since about 2005—and customer intelligence agency
+Walker predicts that it will overtake price and product as the key brand differentiator by 2020.
+Chances are, you’ve heard of the term, or even have it written somewhere on your portfolio. But
+there’s also a good chance that you occasionally feel unsure of what the term “user experience”
+actually encompasses. Through User Experience: The Beginner’s Guide, you will gain a thorough
+understanding of the various design principles that come together to create a user’s experience
+when using a product or service. You’ll learn the value UX design brings to a project, and what
+areas you must consider when you want to design outstanding user experiences. This course is a
+great introduction to the ever-evolving and growing ﬁeld of user experience, and a fantastic way to
+start the next chapter of your career progression.
+Learn more about this course
+
+∠
+
+How Course Takers Have Benefited
+“I learnt a good deal from various lesson items and design examples. I also
+appreciate how repeating key topics helped me memorise them and kept me
+well involved. Thank you.”
+Veena Sankaranarayanan, Australia
+
+INTERACTION-DESIGN.ORG
+
+26
+
+The Basics of User Experience (UX) Design by the Interaction Design Foundation
+
+3. The 7 Factors that Influence User Experience
+“Perfect balance between knowledge, capacity to transmit the knowledge and
+sense of humor.”
+Juan Xabier Monjas Campandegui, Spain
+
+“I liked how the instructors were able to link what they are saying to real life
+scenarios, it helped to consolidate learning for me.”
+Prince Onyeabor, Nigeria
+
+View the course curriculum
+
+∠
+
+INTERACTION-DESIGN.ORG
+
+27
+
+CHAPTER 4
+
+An Introduction to Usability
+
+5 min read
+Usability and user experience (UX) are not the same thing: the usability of a product is a crucial part
+that shapes its UX, and hence it falls under the umbrella of UX. While many might think that
+usability is solely about the ‘ease of use’ of a product, it’s actually more than that.
+The ISO 9421-11 standard on usability describes it as: “The extent to which a product can be used
+by speciﬁed users to achieve speciﬁed goals, with effectiveness, efﬁciency and satisfaction in a
+speciﬁed context of use.” Usability is hence more than just about whether users can perform tasks
+easily (ease of use); it’s also concerned with user satisfaction—for a website to be usable, it has to
+be engaging and aesthetically pleasing, too.
+
+Why Does Usability Matter?
+Before we delve deeper into what usability entails, addressing the importance of usability is vital.
+Usability matters because if users cannot achieve their goals efﬁciently, effectively and in a
+satisfactory manner, they are likely to seek an alternative solution to reach their goals. Moreover,
+for websites and apps, alternative solutions are abundant and easy to ﬁnd. Quite simply: if your
+product is not usable, its UX will be bad, and users will leave you for your competitors. As designers
+who are looking to develop products with longevity, we need to ensure that those products are
+usable; otherwise, we’ll risk losing users to our competitors.
+In fact, a 2015 joint research by Huff Industrial Marketing, KoMarketing and BuyerZone on B2B
+
+INTERACTION-DESIGN.ORG
+
+28
+
+The Basics of User Experience (UX) Design by the Interaction Design Foundation
+
+4. An Introduction to Usability
+web users showed that 46% of users leave a website because they can’t tell what the company
+does (i.e., a lack of effective messaging), 44% of users leave due to lack of contact information,
+and 37% of users leave due to poor design or navigation. This goes to show the potential harm bad
+usability can bring to your website.
+“We tend to be distracted by the voices in our own heads telling us what the design should look
+like.”
+— Michael Bierut, Partner at Pentagram Design
+Usability is the outcome of a user-centered design process. That is a process which examines how
+and why a user will adopt a product and seeks to evaluate that use. That process is an iterative one
+and seeks to improve following each evaluation cycle continuously.
+
+The 5 Characteristics of Usable Products
+Whitney Quesenberry, the UX and Usability Expert and former President of the Usability
+Professional’s Association (UXPA), offers 5 criteria that a product must meet so as to be usable:
+1. Effectiveness
+2. Efﬁciency
+3. Engagement
+4. Error Tolerance
+5. Ease of Learning
+
+1. Effectiveness
+Effectiveness is about whether users can complete their goals with a high degree of accuracy.
+Much of the effectiveness of a product comes from the support provided to users when they work
+with the product; for example, ﬁxing a credit card ﬁeld so that it only accepts a valid credit card
+number entry can reduce data entry errors and help users perform their task correctly. There are
+many different ways to provide support—the key is to be as informative as possible in a meaningful
+way to the user.
+
+INTERACTION-DESIGN.ORG
+
+29
+
+The Basics of User Experience (UX) Design by the Interaction Design Foundation
+
+4. An Introduction to Usability
+
+In our payment form, we restrict the number of digits you can enter into the credit card number ﬁeld so as to reduce data
+entry errors.
+
+You might also want to examine the language used in your product—the clearer and simpler that
+language is (ideally 6th-grade level), the more likely that your information will have the right impact
+on the user. This doesn’t mean dumbing down your language gratuitously so as to patronize your
+users; it just means keeping an appropriate style that errs on the simpler side for clarity’s sake.
+Using the right level of technicality—for example, reducing the number of technical coding terms for
+a design-focused website—also helps make your messages clearer and meaningful to users. Want
+to know how simple your copy is? Check out Hemingway App, a useful tool that analyzes your text
+and assesses its readability. If in doubt, keep it simple and direct; unless you’re actually selling a
+ghost-writing service, you will not win over users with ‘impressive’ prose.
+Redundancy in navigation can sometimes be beneﬁcial; if users have multiple paths to their
+objective, they are more likely to get there. This may reduce the overall efﬁciency of the process,
+however. So, always consider the frustration of a user who can’t ﬁnd the way forward, and strike a
+balance between that and the ‘overkill’ of several alternatives.
+
+2. Efficiency
+Effectiveness and efﬁciency have come to be blurred in the mind. They are, however, quite different
+from a usability perspective. Efﬁciency is all about speed. How fast can the user get the job done?
+You’ll want to examine the number of steps (or indeed clicks/keystrokes) needed to achieve the
+objective; can they be reduced? This will help develop efﬁcient processes. Clearly labeled
+navigation buttons with obvious uses will also help, as will the development of meaningful
+
+INTERACTION-DESIGN.ORG
+
+30
+
+The Basics of User Experience (UX) Design by the Interaction Design Foundation
+
+4. An Introduction to Usability
+shortcuts (for instance, think about the number of hours you’ve saved using Ctrl+C and Ctrl+V to
+copy and paste text).
+So as to maximize efﬁciency, you need to examine how your users prefer to work—are they
+interacting via a smartphone or a desktop computer with a large keyboard and mouse? The two
+require very different approaches to navigation.
+
+3. Engagement
+Engagement is a bit of a buzzword, but if you cut through the fluff, you’ll ﬁnd that engagement
+occurs when the user ﬁnds the product pleasant and gratifying to use. Aesthetics matter here, and
+it’s why many companies invest a small fortune in graphic design elements—but they’re not the only
+factors in engagement.
+Engagement is not only about looking nice but also about looking right. Proper layouts, readable
+typography and ease of navigation all come together to deliver the right interaction for the user and
+make it engaging. Looking nice isn’t everything, as Wikipedia (famous for its ultra-basic design)
+proves.
+
+Wikipedia’s iconic layout may not win over some aestheticists, but one reason for its success is its readability, thus
+satisfying curious e-navigators who want to get the lowdown on a subject without being slowed down by art-saturated,
+scenic ‘detours’.
+
+INTERACTION-DESIGN.ORG
+
+31
+
+The Basics of User Experience (UX) Design by the Interaction Design Foundation
+
+4. An Introduction to Usability
+
+4. Error Tolerance
+It seems unlikely that, given the need to gain any degree of sophistication or complexity, you can
+completely eliminate errors in products; in particular, digital products may be error prone because
+of the ecosystem in which they dwell—an ecosystem which is beyond the designer’s control.
+However, the next best thing is to minimize errors from occurring and to ensure that your users can
+easily recover from an error and get back to what they are doing. This is what we call ‘error
+tolerance’.
+Promoting error tolerance, according to Whitney Quesenberry, requires:
+•
+
+Restricting opportunities to do the wrong thing. Make links/buttons clear and distinct; keep
+language clear and simple; don’t use jargon unless absolutely necessary, and keep
+dependencies in forms or actions together. Also, limit options to correct choices if you can, and
+give examples and support when asking people to provide data.
+
+•
+
+Offering the opportunity to ‘redo’. Give users a way to reset what they’ve just done and go back
+and start again. Similarly, provide a clearly visible ‘undo’ function. Consider the amount of data a
+user stands to lose by inadvertently deleting items. That ‘railing’ or ‘safety ledge’ will keep users
+from panicking.
+
+•
+
+Assuming everyone is going to do things you don’t expect them to do. Then, either facilitate that
+or offer advice/support to get back on the right path. This sort of recovery measure also makes
+your site appear more human and trustworthy in that it shows you appreciate the human
+tendency to make mistakes and empathize with your users.
+
+Dropbox has an undo function, in case users accidentally delete items in their folders. This is the sort of safety ledge that
+catches human nature just in time before users go into panic mode.
+
+INTERACTION-DESIGN.ORG
+
+32
+
+The Basics of User Experience (UX) Design by the Interaction Design Foundation
+
+4. An Introduction to Usability
+
+5. Ease of learning
+If you want a product to be used regularly, then you want users to be able to learn their way around
+that product easily—to the extent that it comes as second nature when they use it again.
+You also need to accommodate ease of learning when releasing new functionality and features;
+otherwise, a familiar and happy user may quickly become frustrated with your latest release. This is
+something that tends to happen a lot on social networks; whenever a new set of features is
+released, they tend to be greeted with howls of outrage from comfortable users. And this is true
+even when the new features are easy to learn. A classic case occurred in early 2012, when
+Facebook’s Timeline format became the new standard for user proﬁles. Although hordes of users
+bemoaned the change—which to many of them seemed needless—Facebook wisely phased in the
+introduction so that users had plenty of time to switch over.
+The best way to support ease of learning is to design systems that match a user’s existing mental
+models. A mental model is simply a representation of something in the real world and how it is
+done from the user’s perspective. It’s why virtual buttons look a lot like real buttons – we know that
+we push buttons; therefore, we tap virtual ones on touchscreens or mouse-click them. The form
+elicits the appropriate action in the user, hence making it easy to learn.
+
+Utility + Usability = Usefulness
+When you’re designing for usability, thinking about utility is important, too. While usability is
+concerned with making functions easy and pleasant to use, utility is about providing functions that
+users need in the ﬁrst place.
+Only when usability is combined with utility do products become useful to users. A mobile payment
+app could provide the most usable feature of adding the people around you on Facebook;
+nevertheless, because most users of that app wouldn’t need that feature, it’s going to be useless to
+them. All your effort towards building the most user-friendly feature could go to waste if that
+feature isn’t needed.
+
+INTERACTION-DESIGN.ORG
+
+33
+
+The Basics of User Experience (UX) Design by the Interaction Design Foundation
+
+4. An Introduction to Usability
+
+The Take Away
+Usability is more than just ease of use. You need to ensure designs are efﬁcient, effective,
+engaging, easy to learn and error tolerant if you want them to succeed. Of course, there are
+limitations on the value of usability. For example, sometimes you will have to make trade-offs so as
+to ensure economic viability. However, when there is no such conflict, usability should be the
+priority. Combining usability with utility will make your offering useful, in theory; all the same, you
+should pay careful attention to what the users actually need, as opposed to what you think might
+be an attractive feature for them to enjoy.
+Want to learn the best practices in usability? You won’t want to miss our course “The Practical
+Guide to Usability”—enroll now before it closes!
+
+The Practical Guide to Usability
+Beginner course
+We all know that every product or website should be simple and pleasurable to use… but this is
+easier said than done—designing an effective, efﬁcient, and enjoyable product is unfortunately not
+achieved by good intentions alone. In our course, The Practical Guide to Usability, you will learn
+some of the most important concepts, methods, best practices and theories from successful
+designers in our industry. By immersing yourself in the “how” of designing products with good
+usability, you’ll come out the other side being able to design products that blend your good
+intentions with awesome usability, helping you to unlock greater user growth, retention and
+satisfaction.
+Learn more about this course
+
+∠
+
+INTERACTION-DESIGN.ORG
+
+34
+
+The Basics of User Experience (UX) Design by the Interaction Design Foundation
+
+4. An Introduction to Usability
+
+How Course Takers Have Benefited
+“Enjoyed the rigorous of this course and it showed more bridging of ideas and
+theories than I expected to see which was great.”
+Matthew Worner, Malta
+“The whole concept of integrating testing with production, and, in particular, the
+idea of testing early, is a key insight. Speciﬁcally calling out the techniques of
+agile development, and the use of prototypes, is also good exposure for the
+methods used in day-to-day product production.”
+David Calabrese, United States
+“Amazing experience while taking the course , great learning and wish that I will
+get to implement all of these in my future projects.”
+Sarang Sudhir Pitale, India
+
+View the course curriculum
+
+∠
+
+INTERACTION-DESIGN.ORG
+
+35
+
+CHAPTER 5
+
+How to Conduct User
+Interviews
+
+5 min read
+User interviews can be a great way to extract information from users so as to understand their user
+experience as well as the product’s usability and the design ideation. They are cheap and easy to
+conduct. Better still, anyone who is able to ask questions and record the answers can conduct
+them.
+Before we look at how to conduct user interviews, we need to examine some of the drawbacks of
+interviewing:
+•
+
+Interviews, even if they are contextual (i.e., based on observing the interviewee using the
+product prior to interview), tend to give insights into what people say they will do, and this is
+sometimes (often even) not the same as what they actually do.
+
+•
+
+Human beings have memory issues and can often not recall details as clearly as they would like.
+Unfortunately, it is a human tendency to try and create these details (this is not even a
+conscious process) and to tell a story the way we think something happened rather than how it
+happened.
+
+•
+
+Users aren’t designers. Interviewers should stick to concrete examination of what is happening
+and how the users feel. We should not try and get them to create their ideal product or to
+suggest improvements.
+
+INTERACTION-DESIGN.ORG
+
+36
+
+The Basics of User Experience (UX) Design by the Interaction Design Foundation
+
+5. How to Conduct User Interviews
+It’s important to keep these drawbacks in mind when designing your interview questions (or when
+making up interview questions on the spot while examining what you have observed the user
+doing). You should also take them into account when evaluating a group of user interviews —
+interview data gives you a starting point to examine problems but rarely a ﬁnishing point which
+delivers 100% certainty as to what to do next.
+“Know thy user, and you are not the user.”
+— Arnie Lund, the author of User Experience Management
+
+What is a User Interview?
+User interviews are where a researcher asks questions of, and records responses from, users. We
+can use these to examine the user experience, the usability of the product or to flesh out
+demographic or ethnographic data (for input into user personas), among many other things.
+
+Author/Copyright holder: Liz Danzico. Copyright terms and licence: Fair Use.
+
+These three components make up effective notetaking. Deducing the reasons behind a user’s actions involves such
+a process.
+
+INTERACTION-DESIGN.ORG
+
+37
+
+The Basics of User Experience (UX) Design by the Interaction Design Foundation
+
+5. How to Conduct User Interviews
+The ideal interview takes place with two UX researchers and one user. The ﬁrst UX researcher
+focuses on asking questions and guiding the interviewee through the interview. The second takes
+notes. If a second researcher is unavailable for this, then videoing or audio recording an interview
+can be a good way to record the information elicited. If the researcher asking questions takes
+notes, there’s a good chance that the interview will be derailed and become hard to manage. So, if
+you are working alone, don’t look on reviewing the recording of the interview as double-handling; it’s
+really the only way to capture and condense what you need into a workable format.
+Typical topics covered within user interviews include:
+•
+
+Background (such as ethnographic data)
+
+•
+
+The use of technology in general
+
+•
+
+The use of the product
+
+•
+
+The user’s main objectives and motivations
+
+•
+
+The user’s pain points
+
+Don’t feel limited to these topics. If there’s something you need to know that you can learn by
+asking your users (as long as it’s not offensive or threatening), you can ask a question about it.
+There is also a special type of user interview known as ‘the contextual interview’. This is an
+interview which is conducted after (or during) the observation of a user using the actual product.
+It’s an interview ‘in context’ with usage. These are very common in usability testing and
+assessment of products and even in information visualization. Unsurprisingly, the insights you can
+gain from ﬁrst-hand, ‘live’ user experience can prove very valuable, not least because you can
+almost guarantee responses that are totally accurate and earnest.
+
+Preparing for User Interviews
+Preparation for user interviews begins with recruitment. In order to capture an accurate picture of
+your usership, you will want to ensure that you recruit a representative sample of users for your
+interviews.
+Then you will need to create a script from which to ask questions (unless you are doing a
+
+INTERACTION-DESIGN.ORG
+
+38
+
+The Basics of User Experience (UX) Design by the Interaction Design Foundation
+
+5. How to Conduct User Interviews
+contextual interview, in which case you may still create a script but are likely to wander off-piste
+from that script a lot during the interview).
+Some tips for your script include:
+•
+
+Make sure you begin by explaining the purpose of the interview – what are you trying to
+achieve?
+
+•
+
+Also explain how the person’s data and any data you collect will be used from the interview.
+
+•
+
+Try to keep leading questions to a minimum. A good question is “Do you use instant
+messaging?” rather than “How often do you use Snapchat?”— The former lets you explore what
+users actually do. The latter presupposes that users are using Snapchat and that’s the extent of
+their instant messaging activity.
+
+•
+
+Keep it reasonably short. If you read the script aloud and it takes more than 10 minutes to read…
+it’s probably too long. Interviews should, ideally, be less than one hour long, and the majority of
+the time spent should involve the interviewee talking while you listen.
+
+Don’t forget that scripts are a guide, not a bible. If you ﬁnd something interesting takes place in an
+interview and there are no questions, on the script, to explore that idea… explore it anyway.
+Similarly, if an unforeseen topic has arisen that you need to explore, do so before you lose track of
+its relevance. Feel free to amend the script for future uses.
+When scheduling your interviews, leaving 30 minutes or so between each interview is a good idea.
+That way, you’ll have time to make additional notes and compile your thoughts while everything is
+still fresh in your mind.
+
+How to Conduct a User Interview
+Conducting an interview is simply a question of running through your script or asking the questions
+you have. However, there are some tips to make this more useful as a process:
+•
+
+Make your interviewees comfortable – dress in a manner similar to them (your being in a suit
+while they’ve dressed in tracksuits is going to make it feel like a job interview rather than a user
+test); make sure they understand you are testing a product or an idea and not them as users
+(apart from anything else, people tend to act differently if they feel they’re under a microscope);
+
+INTERACTION-DESIGN.ORG
+
+39
+
+The Basics of User Experience (UX) Design by the Interaction Design Foundation
+
+5. How to Conduct User Interviews
+offer them a drink (non-alcoholic), conduct a little small talk (but only a little) before you start,
+etc.
+•
+
+Try to keep the interview on time and heading in the right direction – the reason scripts are
+useful is because you can reference them for this. Remember, though, that while they provide a
+good framework or conduit, many key points can still come up spontaneously; so, keep an eye
+on how you ration your time, especially because users tend to get irritated if they’re kept longer
+than you had agreed.
+
+•
+
+Try to focus on the interviewee and not on making notes – it’s just plain rude to bury your head
+in your notes. Maintain eye contact, keep a conversation flowing, and record the interview
+instead of getting lost in notetaking. Keep the users engaged in a living process; if they feel
+they’re giving descriptions to a clerk at a lost property ofﬁce, they’ll almost certainly switch off.
+
+•
+
+Thank the interviewees at the end of the process – not only is this polite, but you can offer a
+chance for the interviewees to ask any questions of their own at this point, too.
+
+Reporting on User Interviews
+User interviews tend to provide qualitative rather than quantitative data. Compiling the results of
+many interviews can be challenging. Word clouds (graphical representations of word frequency)
+and mind maps (hierarchical diagrams that show the relationships between the components) are
+two good ways of presenting qualitative data in an interesting but easy-to-understand format.
+Written reports are ﬁne, but try to contain them to the key data and leave all the minor stuff in
+appendices.
+
+The Take Away
+User interviews are a cheap and easy way to get data ‘straight from the horse’s mouth’. However,
+it’s important to bear in mind that there are limitations to this technique and you may discover what
+people say they do rather than what they actually do. Contextual interviews are especially useful in
+exposing accurate user-experience situations. Whichever style you choose, conducting interviews
+is simple. Write a script, and go through it with the user. However, be prepared to tap unforeseen
+subjects that arise spontaneously. Remember to abide by the time parameters in which your
+
+INTERACTION-DESIGN.ORG
+
+40
+
+The Basics of User Experience (UX) Design by the Interaction Design Foundation
+
+5. How to Conduct User Interviews
+interviewee has agreed to speak to you. Above all, make sure you keep the user informed and
+comfortable as you proceed. The insights you gain from doing so can pay huge dividends later.
+Conducting user interviews is a crucial part of any UX designer’s job, but it’s not enough if you want
+to be a great designer. After all, it is crucial to understand how people interact (sometimes
+frustratingly) with computers to achieve their tasks. Our course “Human-Computer Interaction”
+covers just this—and will allow you to gain a deep understanding on how to design better.
+
+Human-Computer Interaction
+Beginner course
+By now, you’d have thought that interactions between computers and humans would be as intuitive
+as conversations between two people, right? Wrong—many products and services actually still fail
+to achieve this. So, what do you need to know in order to create such an intuitive user experience?
+Human psychology? Emotional design? Specialized design processes? The answer is all of the
+above, and our course on Human-Computer Interaction will cover them all. You’ll master the
+essential skill of being able to understand how a user should interact with a computer, enabling you
+to design products that work more efﬁciently and sell better than your competitors in the market.
+Get ready to re-examine what it means to design great user experiences, and start edging yourself
+ahead of the pack.
+Learn more about this course
+
+∠
+
+How Course Takers Have Benefited
+“The course covered a large breadth of essential knowledge in order to start a
+research or practice in HCI. I liked how he used the same example or cases for
+some of the exercises to ensure coherence between the chapters.”
+Briane Paul Samson, Japan
+
+INTERACTION-DESIGN.ORG
+
+41
+
+The Basics of User Experience (UX) Design by the Interaction Design Foundation
+
+5. How to Conduct User Interviews
+“I believe the content of the course its an must have knowledge for every person
+who works with technology, either if working with design or coding.”
+Walter Darcie Neto, Brazil
+“One of the most comprehensive online lessons about designing a product for
+the user, thanks!”
+Francesco Manciocchi, Italy
+
+View the course curriculum
+
+∠
+
+INTERACTION-DESIGN.ORG
+
+42
+
+CHAPTER 6
+
+7 Great, Tried and Tested UX
+Research Techniques
+5 min read
+Thinking about conducting some user research? Wondering which techniques are most likely to
+provide useful results? Then look no further.
+“Good design is about process, not product.”
+—Jared Sinclair, Designer and Developer at Bloglovin
+
+1. Card Sorting
+Card sorting was originally a technique used in psychological research long before ‘UX research’
+was a thing. It’s a simple concept: you write words or phrases on cards; then you ask the user to
+categorize them. You might also ask the user to label the categories.
+The words or phrases you write on the cards depend on what you’re trying to ﬁnd out from your
+users. For instance, if you want to ﬁnd out whether your Information Architecture, or the way your
+website is arranged, is easy to understand, you could write the different pages of your website
+down and ask a user to sort them into categories. If, on the other hand, you’re interested to
+examine how users think about ﬁnancial planning, you could write down different activities (“save
+money in a bank”, “travel once every year”, “look out for offers”, etc.) and ask your users to sort
+them by priority.
+
+INTERACTION-DESIGN.ORG
+
+43
+
+The Basics of User Experience (UX) Design by the Interaction Design Foundation
+
+6. 7 Great, Tried and Tested UX Research Techniques
+There are all sorts of card-sorting techniques, and choosing the right one is important. Better still,
+there are a bunch of online tools that let you do card sorting remotely, allowing you to use the
+technique globally and not just locally.
+
+Author/Copyright holder: Yandle. Copyright terms and licence: CC BY 2.0
+
+Card sorting, an approach that UX research inherited from psychological research, is an excellent, and wonderfully simple,
+way of assessing what users’ priorities are and how their sense of order processes the existing nature of an item in
+question.
+
+Why is Card Sorting a Good Technique?
+•
+
+It’s a very cheap form of research, since face-to-face online tools may be more expensive.
+
+•
+
+It’s also a very easy technique for users to understand and for clients to understand, too.
+
+•
+
+It’s a very easy method to get user input (or even to get user validation) for ideas early on in a UX
+project.
+
+•
+
+Preparing a card-sorting study requires next to no effort.
+
+INTERACTION-DESIGN.ORG
+
+44
+
+The Basics of User Experience (UX) Design by the Interaction Design Foundation
+
+6. 7 Great, Tried and Tested UX Research Techniques
+
+2. Expert Review
+Expert reviews involve a single ‘expert’ walking through a product via the User Interface (UI) and
+looking for issues with the design, accessibility, and usability of the product. There’s no ﬁxed
+process to follow, and the expert review can vary from professional to professional as well as from
+product to product. The more expertise the reviewer has in usability and UX design, the more
+valuable the input of that person will be (in most cases).
+
+Why is an Expert Review a Good Technique?
+•
+
+It’s quick, easy and cheap. This is doubly so when you compare it to more formal
+usability-testing methods.
+
+•
+
+It only takes a single professional to conduct an expert review.
+
+•
+
+It is a great way to inform further UX research; however, you should be careful when taking an
+expert review at face value—don’t let it preclude further user testing; instead, dig deeper and see
+how you might gain more thorough insights.
+
+3. Eye Movement Tracking
+Knowing where your users are looking when they’re using your system can tell you a great deal
+about where your design’s effectiveness stands. Eye movement tracking helps with UI design, and it
+helps with knowing how to prioritize certain kinds of content. This technique was developed for
+academic research. Used extensively in medical research, it has become popular and cost-effective
+enough to be deployed by UX teams, too.
+
+Why is Eye Movement Tracking a Good Technique?
+•
+
+Given the ever-improving state of the art in technology, the advancements have long since left
+bulky and invasive eye movement tracking systems behind. Consequently, EMT has become so
+sophisticated and discreet that modern systems do not interfere with the results of usability
+tests.
+
+•
+
+Hand in hand with those developments, the technology has become increasingly affordable.
+EMT may not suit every project budget, but it often won’t break the bank, either.
+
+INTERACTION-DESIGN.ORG
+
+45
+
+The Basics of User Experience (UX) Design by the Interaction Design Foundation
+
+6. 7 Great, Tried and Tested UX Research Techniques
+•
+
+The technology has become sufﬁciently reliable for results to be easy to reproduce and for us as
+researchers to be able to rely on the outputs we get.
+
+•
+
+UX design clients love eye movement tracking. It’s a great way to demonstrate why they might
+want to invest in further usability testing.
+
+4. Field Studies
+This is actually a number of techniques under a broad heading. It’s all about going out and
+observing users ‘in the wild’ so that we can measure behavior in the context where users actually
+use a product. Field studies include ethnographic research, interviews, observations, and
+contextual enquiry.
+
+Why are Field Studies a Good Technique?
+•
+
+There’s no stronger form of research than observing users behaving as they will when they use
+your product. Researchers love these techniques and are often passionate about persuading
+their clients to take them on board.
+
+•
+
+When conducted well, the outputs of ﬁeld studies provide the deepest insights into user issues
+and light up pathways towards possible solutions.
+
+5. Usability Testing
+A ﬁrm favorite that has a long and prestigious history in UX research, usability testing is the
+observation of users trying to carry out tasks with a product. Such testing can focus on a single
+process, or be much wider in range.
+
+INTERACTION-DESIGN.ORG
+
+46
+
+The Basics of User Experience (UX) Design by the Interaction Design Foundation
+
+6. 7 Great, Tried and Tested UX Research Techniques
+
+Author/Copyright holder: Luca Mascaro. Copyright terms and licence: CC BY-SA 2.0
+
+Usability testing gives a very clear lens for observing users as they attempt to carry out tasks with a system—not for
+nothing does it remain extremely popular among researchers.
+
+Why is Usability Testing a Good Technique?
+•
+
+Can you think of a better way to understand what users do than watching them do stuff? Of
+course, you have to pick the right users—they need to be a good representation of the user base
+as a whole, but that’s pretty much the only constraint.
+
+•
+
+Usability tests produce speciﬁc results that lead to speciﬁc actions. Better still, it’s very hard for
+people to contradict decisions based on these tests; it’s nearly impossible to refute evidence of
+user behavior.
+
+•
+
+You can bring clients into usability testing easily as observers. This increases their enthusiasm
+for such testing and shows clearly why such testing adds value.
+
+6. Remote Usability Testing
+This is usability testing, but without the need to drag users into your laboratory environment. It was
+once complex and expensive, but technology has moved on, and now it’s fairly simple to set up and
+reasonable value for money, too.
+
+INTERACTION-DESIGN.ORG
+
+47
+
+The Basics of User Experience (UX) Design by the Interaction Design Foundation
+
+6. 7 Great, Tried and Tested UX Research Techniques
+
+Why is Remote Usability Testing a Good Technique?
+•
+
+It often saves time and money when compared to lab testing, and allows for a wider range of
+participants when you don’t have to get them in the lab.
+
+•
+
+It is closer to ﬁeld testing in some respects in that the tests are conducted in the user’s
+environment and not an artiﬁcial lab environment. This delivers better results in many cases
+than a lab environment.
+
+7. User Personas
+User personas are a ﬁctional representation of the ideal user. They focus on the goals of the user,
+that individual’s characteristics and the attitudes he/she displays. They also examine what the user
+expects from the product.
+We created user personas from other forms of user research; thus, they offer an in-depth, real-life
+vivid portrait that is easy for the whole team to keep in mind when designing products. Each user
+persona has a name and a backstory. Moreover, personas inspire the imagination and keep the
+focus on the user.
+
+Why are User Personas a Good Technique?
+•
+
+They are a step above the old user proﬁle and give a more in-depth and speciﬁc look at a user.
+
+•
+
+They are easy for people to relate to, and they become part of the team as team members
+constantly speak about them during a project.
+
+•
+
+They are a lot of fun, and they tend to be interesting, easy for people to engage with and more
+memorable than many other research outputs.
+
+The Take Away
+There are many user research techniques, but these seven techniques have been used over the
+years, in many UX projects, with great results. Each technique provides a different output; so, you
+should use each one only to serve a distinct purpose.
+
+INTERACTION-DESIGN.ORG
+
+48
+
+The Basics of User Experience (UX) Design by the Interaction Design Foundation
+
+6. 7 Great, Tried and Tested UX Research Techniques
+To recap, the techniques are:
+1. Card sorting
+2. Expert review
+3. Eye movement tracking
+4. Field studies
+5. Usability testing
+6. Remote usability testing
+7. User personas
+As designers who can double as researchers, we have a wealth of options at our command in the
+twenty-ﬁrst century, options that hail from traditional, or unrelated, ﬁelds and ones that have grown
+with the technologies we have always concerned ourselves with. As the state of the art has lent
+power to the tools available to us, the price of these has dropped. Consequently, there’s no excuse
+not to use a combination of these techniques in the pursuit of the best design.
+You now have 7 new UX research techniques in your toolkit. But which ones should you use in your
+projects? When does card sorting make sense, and when does it become unproductive? To help
+you navigate the various ways you ought to be conducting user research, we have created the
+course “User Research - Methods and Best Practices”. Filled with actionable insights, the course
+ensures you’ll never be a novice in user research again.
+
+INTERACTION-DESIGN.ORG
+
+49
+
+The Basics of User Experience (UX) Design by the Interaction Design Foundation
+
+6. 7 Great, Tried and Tested UX Research Techniques
+
+User Research – Methods and Best Practices
+Intermediate course
+User experience (UX) design requires you to understand the pains and pleasures of your users—and
+user research is the way in which to do just that. In that sense, it’s actually the largest part of the
+ﬁeld… meaning it’s essential for you to have the relevant skills and knowledge if you want to be
+competing with the best. In our course User Research – Methods and Best Practices, you’ll learn
+the best practices for getting ﬁrst-hand knowledge of your users, this enabling you to design the
+optimal product—one that’s truly relevant for your users and, subsequently, outperforms your
+competitors’. In the course you’ll be equipped with templates that will give you pointers on how to
+effectively interview your users, conduct observations, and best present your ﬁndings to
+stakeholders. You’ve already downloaded this ebook, now take the next step and master the full
+range of user research techniques!
+Learn more about this course
+
+∠
+
+How Course Takers Have Benefited
+“I enjoyed the mix between video and text very much and I am sure that it
+improved my learning experience. In general the content of the course was very
+interesting to me and I consider it very useful for improving in doing user
+research. I really like the possibility to download templates about different
+methods because they enable me to easily look up the most important
+information.”
+Ulrike Bruckenberger, Austria
+“A strength of the course was the instructors’ knowledge and examples from
+their own experience. I ﬁnd it very useful when someone tells you stories, in this
+case about situations when they did research. The lessons where very easy to
+follow and understand.”
+Laura Gleco, Australia
+
+INTERACTION-DESIGN.ORG
+
+50
+
+The Basics of User Experience (UX) Design by the Interaction Design Foundation
+
+6. 7 Great, Tried and Tested UX Research Techniques
+“The course instructor has a lot of knowledge and experience, and can explain
+the topics without a problem.”
+Juan Esteban Arango Florez, Colombia
+
+View the course curriculum
+
+∠
+
+INTERACTION-DESIGN.ORG
+
+51
+
+CHAPTER 7
+
+What is Interaction Design?
+4 min read
+Interaction design is an important component within the giant umbrella of user experience (UX)
+design. In this article, we’ll explain what interaction design is, discuss some useful models of
+interaction design, as well as briefly describe what an interaction designer usually does.
+
+A Simple and Useful Understanding of
+Interaction Design
+Interaction design can be understood in simple (but not simpliﬁed) terms: it is the design of the
+interaction between users and products. Most often when people talk about interaction design, the
+products tend to be software products such as apps or websites. The goal of interaction design is
+to create products that enable users to achieve their objective(s) in the best way possible.
+If this deﬁnition sounds broad, that’s because the ﬁeld is rather broad: the interaction between a
+user and a product often involves elements such as aesthetics, motion, sound, space, and many
+more. Also, of course, each of these elements can involve even more specialized ﬁelds—for
+instance, sound design for the crafting of sounds used in user interactions.
+As you might already realize, there’s a huge overlap between interaction design and UX design.
+After all, UX design is about shaping the experience of using a product—for the most part, that
+experience involves some interaction between the user and the product. However, UX design is
+more than interaction design: it also involves user research (ﬁnding out who the users are in the
+
+INTERACTION-DESIGN.ORG
+
+52
+
+The Basics of User Experience (UX) Design by the Interaction Design Foundation
+
+7. What is Interaction Design?
+ﬁrst place), creating user personas (why, and under what conditions, would they use the product),
+performing user testing and usability testing, etc.
+“When creating content, be empathetic above all else. Try to live the lives of your audience.”
+—Rand Fishkin, Founder at Moz
+
+The 5 Dimensions of Interaction Design
+The ﬁve dimensions of interaction design is a useful model for understanding what interaction
+design involves. Gillian Crampton Smith, an interaction design academic, ﬁrst introduced the
+concept of four dimensions of an interaction design language, to which Kevin Silver, senior
+interaction designer at IDEXX Laboratories, added the ﬁfth.
+
+1D: Words
+Words—especially those used in interactions, such as button labels—should be meaningful and
+simple to understand. They should communicate information to users, but not so much
+information that they end up overwhelming users or slowing them down.
+
+2D: Visual Representations
+This concerns graphical elements such as images, typography and icons that users interact with.
+These usually supplement the words we use to communicate information to users. As an extremely
+visual-oriented species, humans value images immensely: not only because well thought-out,
+picture-rich designs make for more pleasing, calming user experience, but also because an image
+carries many words—a story, in fact—and that’s precious, given users’ tendency to lack patience.
+
+3D: Physical Objects or Space
+Through what physical objects do users interact with the product: is it a laptop, with a mouse or
+touchpad? Or is it a smartphone, with the user’s ﬁngers? Also, within what kind of physical space
+does the user do so? For instance, is the user standing in a crowded train while using the app on a
+smartphone, or sitting at a desk in the ofﬁce while surﬁng the website? These all affect the
+interaction between the user and the product. Space is all about context and goes a very long way
+
+INTERACTION-DESIGN.ORG
+
+53
+
+The Basics of User Experience (UX) Design by the Interaction Design Foundation
+
+7. What is Interaction Design?
+to deciding what a product must look like, in much the same way as the average size of a human
+hand will.
+
+4D: Time
+While this dimension sounds a little abstract, it mostly refers to media that changes with time
+(animation, videos, sounds). Motion and sounds play a crucial role in giving visual and audio
+feedback to users’ interactions. Also of concern is the amount of time a user spends interacting
+with the product: can users track their progress, or resume their interaction some time later? In an
+era saturated with information and where users can feel as time-starved as they can data-drowned,
+understanding how much time they spend in their user experiences is absolutely vital.
+
+5D: Behavior
+This includes the mechanism of a product and involves two pivotal questions—namely, “How do
+users perform actions on the website?” and “How do users operate the product?”. In other words,
+this dimension is all about how the previous dimensions deﬁne the interactions a user should be
+having with a product. It also includes the reactions—for instance, emotional responses or
+feedback—of users and the product. While the ﬁrst four dimensions are vital in their own right, the
+ﬁfth sheds light on a deeper aspect of the human realm in UX and can expose serious strengths as
+well as any flaws.
+
+Important Questions Interaction Designers Ask
+How do interaction designers work with the ﬁve dimensions above so as to create meaningful
+interactions? To get an understanding of that, we can look at some important questions interaction
+designers ask when designing for users, as provided by Usability.gov:
+•
+
+What can users do with their mice, ﬁngers, or styluses to interact with the interface directly?
+This helps us deﬁne the possible user interactions with the product.
+
+•
+
+What about the appearance (color, shape, size, etc.) gives the user a clue about how it may
+function? This helps us give users clues about what behaviors are possible.
+
+•
+
+Do error messages provide a way for the user to correct the problem or explain why the error
+occurred? This lets us anticipate and mitigate errors.
+
+INTERACTION-DESIGN.ORG
+
+54
+
+The Basics of User Experience (UX) Design by the Interaction Design Foundation
+
+7. What is Interaction Design?
+
+So, What do Interaction Designers do?
+
+• What feedback does a user get once an action is performed? This allows us to ensure that the
+Well, it depends.
+system provides feedback in a reasonable time after user actions.
+•ForAre
+the interface
+elements
+reasonable
+interact
+with? Questions
+these help
+instance,
+if the company
+is alarge
+enoughsize
+and to
+has
+huge resources,
+it mightsuch
+haveas
+separate
+jobsus
+strategically
+each designers.
+element used
+the product.
+for think
+UX designers
+and about
+interaction
+In ainlarge
+design team, there might be a UX
+•
+
+Are familiar or standard formats used? Standard elements and formats are used to simplify and
+enhance the learnability of a product.
+
+So, What do Interaction Designers do?
+Well, it depends...
+For instance, if the company is large enough and has huge resources, it might have separate jobs
+for UX designers and interaction designers. In a large design team, there might be a UX researcher,
+an information architect, an interaction designer, and a visual designer, for instance. For smaller
+companies and teams, it’s a different story—most of the UX design job might be done by one or two
+people, who might or might not have the title of ‘Interaction Designer’. In any case, here are some of
+the tasks we as interaction designers would expect to handle in a day’s work:
+
+Design Strategy
+This is concerned with what the goal(s) of a user is or are, and—in turn—what interactions are
+necessary so as to achieve this or these. Depending on the company, interaction designers might
+have to conduct user research in order to ﬁnd out what the goals of the users are before creating a
+strategy that translates that into interactions.
+
+Wireframes and Prototypes
+This again depends on the job description of the company, but most interaction designers are
+tasked with creating wireframes that lay out the interactions in the product. Sometimes, interaction
+designers might also create interactive prototypes and/or high-ﬁdelity prototypes that look exactly
+like the actual app or website.
+
+INTERACTION-DESIGN.ORG
+
+55
+
+The Basics of User Experience (UX) Design by the Interaction Design Foundation
+
+7. What is Interaction Design?
+
+The Take Away
+Interaction design is all about the interface between users and a product or service. It
+encompasses a large range of elements, such as aesthetics, motion, and sound, but we can
+categorize it into the ﬁve dimensions of interaction design.
+Those 5 dimensions are:
+1. Words
+2. Visual representations
+3. Physical objects or space
+4. Time
+5. Behavior
+As interaction designers, we are generally concerned with the feedback and usability of a product;
+nevertheless, we might also be in charge of the overall UX design of the product. Our job scope
+depends largely on the needs of the company, and it can range from design strategy to wireframing
+and prototyping. Attuning a sound understanding of these dimensions to the exact needs of the
+organizations we serve will help us create output that latches consistently with the different groups
+of users we will encounter as we progress in our careers.
+Creating a world-class interaction design requires matching the 5 dimensions of interactions to the
+psychology of your users. When you tune the timing of your animations to the cognitive capabilities
+of our brains, you’ll produce an effective design. Off by a few milliseconds? Your design might
+instead induce friction and frustration. Learn more about the intricate overlap between usability
+and interaction design, and how to create interactions that just work, in our course “Interaction
+Design for Usability”.
+
+INTERACTION-DESIGN.ORG
+
+56
+
+The Basics of User Experience (UX) Design by the Interaction Design Foundation
+
+6. What is Interaction Design?
+
+Interaction Design for Usability
+Beginner course
+Usability is a key consideration whenever designing a product or service—after all, nobody will buy
+your product if they can’t use it! Infusing usability into your interactive or visual designs, however,
+will often require the cooperation and participation of your entire team, from the project managers
+to developers. Through Interaction Design for Usability, you will therefore not only learn
+fundamental usability concepts and methods that will augment your design skills, but also how to
+adopt lean and agile processes that will allow your whole team to become design-centric. That way,
+you (and your team) will be well-equipped to reduce the costs, risks and time required to create
+products—thus gaining an advantage over the competition.
+Learn more about this course
+
+∠
+
+What Industry Experts Say About Us
+“Ivy League level education in UX, Product Design or Human-Computer
+Interaction."
+Forbes.com
+“Top-grade educational materials by the world’s technology elite... on how to
+make technology more people-oriented and easy-to-use."
+SAP Community Network
+“...an incredibly rich compendium ﬁlled with a wide variety of lessons and
+information."
+Core77
+
+View the course curriculum
+
+∠
+
+INTERACTION-DESIGN.ORG
+
+57
+
+CHAPTER 8
+
+Mobile Web UX Design:
+Some Simple Guidelines
+4 min read
+If you’re going to design for mobile, then it’s likely you’re going to need to consider the way that the
+device is used and the speciﬁcs of the device itself. There are some general principles that can
+help you begin designing for mobile, but don’t forget that these don’t replace the need for user
+research. They are guidelines, not hard and fast rules.
+There are many things to consider when designing for mobile. On top of standard UX
+considerations, there are also going to be mobile-speciﬁc design considerations. For instance, are
+you going to integrate your mobile offering with your current offering? Will you use responsive
+design or adaptive design?
+A lot of this will boil down to context—that is, the context in which users will use their mobile
+devices to do whatever tasks we have in mind. If your users access the mobile web from their
+desks, that’s awesome, but many users don’t. They’re going to be trying to use them in the
+supermarket, on their daily commute, on the walk to the coffee shop, etc.
+“If your business isn’t mobile friendly, your business is dead.”
+— Jonathan Stark, Best-selling mobile technology author
+
+INTERACTION-DESIGN.ORG
+
+58
+
+The Basics of User Experience (UX) Design by the Interaction Design Foundation
+
+8. Mobile Web UX Design: Some Simple Guidelines
+Space and occasion (i.e., context) should be foremost in your mind. As the era has freed people
+from having to anchor themselves to desks in order to get online, the places in which they interact
+with their devices are virtually limitless. That means you’re going to have to consider how to reduce
+distractions and make it easy for the user to focus on the task in hand, too.
+Josh Clark, the author of Tapworthy - Designing Great iPhone Apps, offers three categories for
+mobile web access:
+1. Microtasking: When users interact with their devices for brief but frenzied periods of activity
+2. Local: When the users want to know what’s going on around them
+3. Bored: When the users have nothing better to do and are looking to be entertained or otherwise
+diverted
+
+Basic Design Considerations for the Mobile Web
+Small Screens
+You don’t have as much screen real estate for mobile devices as you do for PCs and laptops. That
+means, normally, you’ll be designing for multiple screen sizes. You need to make a decision early as
+to whether to use responsive design (where the device handles the changes in display) or adaptive
+design (where your servers handle the changes).
+You want to focus on a ‘mobile ﬁrst’ approach, which means designing for the smallest mobile
+platforms and increasing complexity from there.
+A good process to follow would be:
+•
+
+Group device types based on similar screen sizes, and try to keep this to a manageable number
+of groups.
+
+•
+
+Deﬁne content rules and design adaption rules that enable you to display things well on each
+group of devices.
+
+•
+
+Try to adhere as closely to web standards as possible when implementing flexible layouts.
+
+INTERACTION-DESIGN.ORG
+
+59
+
+The Basics of User Experience (UX) Design by the Interaction Design Foundation
+
+8. Mobile Web UX Design: Some Simple Guidelines
+Don’t forget that there are many different browser types available for the mobile web and the wider
+Internet, too. You want to ensure that you support as many of these as possible.
+
+Keep Navigation Simple
+Keypads and touch screens don’t make for precise navigation like mice do, so try to:
+•
+
+Prioritize navigation based on the way users work with functionality—the most popular go at
+the top
+
+•
+
+Minimize the levels of navigation involved
+
+•
+
+Ensure labelling is clear and concise for navigation
+
+•
+
+Offer short-key access to different features
+
+•
+
+Remember to offer a 30x30 pixel space for touch screen tap points
+
+•
+
+Ensure that links are visually distinct, and make it clear when they have been activated, too
+
+•
+
+Make it easy to swap between the mobile and full site (if you choose to implement separate
+versions)
+
+Keep Content to a Minimum
+Don’t overwhelm your users—respect the small screen space. Keep content to a minimum; save the
+deluxe treatment for the desktop platform (while being careful not to make the mobile user feel
+short-changed if the desktop version seems vastly superior).
+Make sure that content is universally supported on all devices or avoid it. Think Flash and then
+don’t use it, for example.
+Make page descriptions short and to the point—for relevant bookmarks.
+
+Reduce the Inputs Required from Users
+The less the users have to ﬁddle with their phones, the more they’re going to enjoy using your
+mobile web offering.
+
+INTERACTION-DESIGN.ORG
+
+60
+
+The Basics of User Experience (UX) Design by the Interaction Design Foundation
+
+8. Mobile Web UX Design: Some Simple Guidelines
+Consider:
+•
+
+Keeping URLs short
+
+•
+
+Offering alternative input mechanisms (video, voice, etc.)
+
+•
+
+Minimizing inputs in forms (You can always ask for more data when the user logs on to the
+desktop.)
+
+•
+
+Allowing permanent sign in (Most smartphones are password or ﬁngerprint protected – the
+risks of staying logged in are less hazardous than on the desktop.)
+
+•
+
+Keeping scrolling to a minimum and only allowing scrolling in one direction
+
+Remember Mobile Connections Are Not Stable
+Mobile connections can be a colossal pain in the ass in areas with patchy service. Don’t make
+things hard on your users. As the global mobile broadband internet penetration map below shows,
+not all areas around the world have readily accessible mobile connections.
+
+Author/Copyright holder: Jeff Ogden. Copyright terms and licence: CC BY-SA 3.0
+
+INTERACTION-DESIGN.ORG
+
+61
+
+The Basics of User Experience (UX) Design by the Interaction Design Foundation
+
+8. Mobile Web UX Design: Some Simple Guidelines
+Try:
+•
+
+Retaining data so that it’s not lost in a connection break
+
+•
+
+Minimizing page size for rapid loading
+
+•
+
+Killing off ad-networks, etc. on mobile sites which consume huge amounts of bandwidth
+and data
+
+•
+
+Keeping images to a minimum and reducing the size of those images
+
+•
+
+Reducing the numbers of embedded images to a minimum (speeding up load times)
+
+Continuous Integrated Experiences
+As users move between mobile and the desktop, they’re going to expect similar experiences.
+Remember to:
+•
+
+Maintain continuity. If they log into your webstore on mobile, they should be able to track orders
+and make purchases just like they would on the desktop.
+
+•
+
+Maintain consistency. Offer the option to switch between mobile and desktop offerings at will.
+
+•
+
+Maintain brand. The look and feel of each version should be similar. Any deviations between the
+logo and such can have disastrous repercussions due to loss of trust.
+
+The Take Away
+Mobile is different from the traditional desktop environment. Moreover, while standard UX and
+usability considerations are needed in a mobile context, the mobile environment also demands
+design considerations of its own. This will frequently involve a balancing act as you try to condense
+needed features from the desktop version while shaving down on data demands, and all the while
+being careful to maintain the organization’s presence through a credible presentation so as to win
+and keep users’ trust. Get it right, though, and you will be another step closer to impactful designs
+that can catch users anywhere, anytime.
+When we see the next billion smartphone users on the horizon, we know that mobile is the big thing
+now. You cannot take any chances when it comes to mobile design—the good thing is you don’t
+have to... sign up for our course “Mobile User Experience (UX) Design” now!
+
+INTERACTION-DESIGN.ORG
+
+62
+
+The Basics of User Experience (UX) Design by the Interaction Design Foundation
+
+8. Mobile Web UX Design: Some Simple Guidelines
+
+Mobile User Experience (UX) Design
+Intermediate course
+Mobile devices have taken over the world and changed what it means to design a website or
+application. They’re also full of unique constraints and considerations that, when understood and
+mastered, can allow you to create impactful solutions that are easy to use. Through our course on
+Mobile User Experience (UX) Design, you will learn about the evidence-based approaches and best
+practices of designing for mobile, distilled from decades of research and practice. You will be
+taught by CEO of ExperienceDynamics.com, Frank Spillers, who is a distinguished speaker, author,
+and internationally respected Senior Usability practitioner. Designing for mobile means taking the
+rough with the smooth—the risk with the proﬁt potential, for example—and your need to learn the
+skills involved is nothing less than vital.
+Learn more about this course
+
+∠
+
+How Course Takers Have Benefited
+“The course covers all the major aspects of mobile user experience design. It
+has deﬁnitely equipped me with a great knowledge to build great mobile
+experiences. I would say this course is crucial if your users are mobile users.”
+Hemant Panchabhai, India
+“Great content, I loved how much the instructor sets practical design tasks for
+you to do. I also loved the feedback on open question answers.”
+Matthew Shenton, United States
+
+INTERACTION-DESIGN.ORG
+
+63
+
+The Basics of User Experience (UX) Design by the Interaction Design Foundation
+
+8. Mobile Web UX Design: Some Simple Guidelines
+“The overall organization of this course was great. I really liked the overview and
+wrap-up included in each module that introduced and summarized the
+information that was presented. The overall material was in-depth and very
+relevant to current trends and best practices."
+Jennifer Steiner-Kotch, United States
+
+View the course curriculum
+
+∠
+
+INTERACTION-DESIGN.ORG
+
+64
+
+CHAPTER 9
+
+Information Visualization –
+A Brief Introduction
+4 min read
+Have you ever thought about how much data flows past each of us in an ordinary day? From the
+newspaper you read at breakfast, to the e-mails you receive throughout the day, to the bank
+statements generated whenever you withdraw money or spend it, to the conversations we have,
+and so on?
+In case you weren’t sure of the exact situation on the average, there is a tidal wave of data
+associated with each aspect of our lives. What’s more interesting, and probably more frustrating in
+some regards, in addition to that personal data, there is data available on nearly every aspect of
+life.
+Over the last few decades, computing and the Internet have revolutionized our ability to create,
+store and retrieve information on a whim. A global economy and instant communication have
+created an explosion in the volumes of data to which we are exposed. At the same time, the
+amount of data leads to a large amount of possible confusion and decision paralysis. There’s more
+data available than we can comfortably process.
+Information visualization, the art of representing data in a way that makes it easy to understand
+and to manipulate, can help us make sense of information and thus make it useful in our lives.
+
+INTERACTION-DESIGN.ORG
+
+65
+
+The Basics of User Experience (UX) Design by the Interaction Design Foundation
+
+9. Information Visualization – A Brief Introduction
+From business decision making to simple route navigation, there’s a huge (and growing) need for
+us as designers to present data so that it delivers value.
+
+An Example of Everyday Information Visualization
+This map, generated in Google maps, offers two simple ways of representing the route from Chiang
+Mai in Northern Thailand to the capital of Thailand, Bangkok, in the center of the country.
+
+Author/Copyright holder: Google, Inc. Copyright terms and licence: Fair Use.
+
+A map in word and picture form—one will hold greater value to a certain kind of user, while another user will treasure the
+other one more. It’s mostly down to purpose.
+
+The ﬁrst representation consists of written instructions on how to go from Chiang Mai to Bangkok
+(as you can see, it’s a pretty simple drive – though, it’s worth noting that it would be more complex
+if we were to be moving between speciﬁc points within each city). The second representation is an
+image of the route itself imposed on a map.
+Both representations represent value to different people. The ﬁrst, the written instructions, is highly
+useful to people who need to get from Chiang Mai to Bangkok directly (for example, a businessman
+going to a meeting).
+The second, the map data, on the other hand, could be really useful to a tourist who intends not to
+drive straight from A to B but rather wants to know “What’s on the way?”. This lets the tourist look
+for potential break points in the journey and start to research what their options are in those places.
+
+INTERACTION-DESIGN.ORG
+
+66
+
+The Basics of User Experience (UX) Design by the Interaction Design Foundation
+
+9. Information Visualization – A Brief Introduction
+Both of these representations are examples of information visualization. The ﬁrst relies on clear
+simple instructions and the minimum of graphical content – it conveys a simple set of useful
+instructions. It is as fast and to-the-point as that businessman’s demands. The second conveys
+rather more data and in a visual form that allows for rapid cognitive processing to enable us to
+digest the information we see quickly. At the same time, it invites the imagination to dip in and
+process the information more leisurely.
+
+Common Uses for Information Visualization
+There are some very common uses for information visualization, and these include:
+
+Presentation (for Understanding or Persuasion)
+“Use a picture. It’s worth a thousand words.”
+—Tess Flanders, Journalist and Editor, Syracuse Post Standard, 1911
+Journalists have known for a very long time that some ideas are simply too awkward to
+communicate in words and that a visual representation can help someone understand concepts
+that might otherwise be impossible to explain.
+One of the most famous information visualizations in the world is the map of the London
+Underground. It is only a ‘map’ in the loosest sense of the word, in that the geography above ground
+is very different to the way it appears on the underground map. However, it enables pretty much
+anyone to understand in the quickest possible way how to get from one point in London to any
+other using the underground system.
+In simple terms, the underground map presents complex data for the purposes of understanding
+that data so as to make it useful. It doesn’t have to matter that the Thames looks like an impossibly
+geometric river; users aren’t using the subterranean trains to explore the riverbank, after all.
+
+INTERACTION-DESIGN.ORG
+
+67
+
+The Basics of User Experience (UX) Design by the Interaction Design Foundation
+
+9. Information Visualization – A Brief Introduction
+
+Author/Copyright holder: Lablascovegmenu. Copyright terms and licence: CC BY 2.0
+
+At a glance, one might ﬁnd it hard to imagine this map—of the London Underground system—to be able to capture the
+essence of the ancient capital in such a neat way. However, it does just that—users want to know how to get to sites that
+have unique, organic features; they don’t want those features showing and slowing them up on a map.
+
+There is a ‘dark side’ to the presentation of information for understanding—the presentation of
+information to persuade. There are “lies, damned lies and statistics”, as the saying (usually
+attributed to Mark Twain) goes. By choosing what information to represent and what information to
+leave out, there are now “lies, damned lies and information visualizations”.
+It is up to the presenter to decide where the ethical boundaries are in persuading people through
+information visualization. For example, you could show a graph that states “70% of people who use
+homeopathy feel better than those who don’t” but omit the fact that “70% of people who take a
+placebo feel better than those who don’t”. Being economical with the truth does not automatically
+make you a distorter of reality (or ‘liar’ in old money). The main thing is knowing the difference and
+how moving close to the boundaries can beneﬁt your organization and usership.
+
+INTERACTION-DESIGN.ORG
+
+68
+
+The Basics of User Experience (UX) Design by the Interaction Design Foundation
+
+9. Information Visualization – A Brief Introduction
+
+Explorative Analysis
+
+Author/Copyright holder: Centers for Disease Control and Prevention. Copyright terms and licence: Public Domain.
+
+A geographical image can capture powerful data regarding the incidence of disease. At a glance, we can see clusters of
+high frequency and work out the signiﬁcance as regards likely causes, contributing factors, etc.
+
+The image above portrays the frequency of lung cancer within the United States by geographic
+region. Mapping disease data like this enables researchers to explore the relationship between a
+disease and geography. It’s important to note that this data doesn’t explain why there is a spike in
+cancer rates in the South East of the United States, but it does indicate that there is a spike which is
+worthy of further investigation.
+Explorative analysis through information visualization allows you to see where relationships in data
+may exist. From there, you can proceed to work on discovering the factors, links and reasons
+underlying the reality.
+
+Confirmation Analysis
+We can also use information visualization to help conﬁrm our understanding and analysis of data.
+For example, if you perceive a relationship between two stock prices, you can plot the data and see
+if the two are related.
+
+INTERACTION-DESIGN.ORG
+
+69
+
+The Basics of User Experience (UX) Design by the Interaction Design Foundation
+
+9. Information Visualization – A Brief Introduction
+
+Author/Copyright holder: Arthena. Copyright terms and licence: CC BY-SA 3.0
+
+For conﬁrmation analysis, we use information visualization by tracking a couple of items’ behaviors and comparing them
+so as to establish a link.
+
+We might use this graph (above) to show the similarities in Brownian motion between sets of
+particles, or we might use it to question the break in the relationship towards the end of the graph.
+For instance, we might envision two experiments; in each, a group of dust particles are run through
+a cylinder containing methane in two different concentrations. Both voyages of the dust particles
+involve their colliding with a large set of smaller methane particles, all moving at different speeds
+and in seemingly random directions. The dust particles will move erratically (as shown in the
+jagged lines). In the ﬁrst experiment (the green line), they have less methane to deal
+with—nevertheless, in both experiments, the dust particles more or less conform to the proportions
+of gas around them, at least until the end. We might want to investigate what happened in the
+second experiment so as to see why the dust particles ended up moving so differently at the far
+side of the cylinder.
+
+The Take Away
+Information visualization is designed to help us make sense out of data and swiftly so. We can use
+it to explore relationships between data, to conﬁrm ideas we hold about data, or to explain data in
+an easy-to-digest manner. We may also use it, as long as we stay mindful of our ethical duties, to
+help persuade someone with data.
+
+INTERACTION-DESIGN.ORG
+
+70
+
+The Basics of User Experience (UX) Design by the Interaction Design Foundation
+
+9. Information Visualization – A Brief Introduction
+As the volume of data available to us increases exponentially in every ﬁeld of endeavor, information
+visualization is becoming increasingly important as a skill in the workplace and in academia. With
+this in mind, you should weave such representations carefully into your designs, balancing
+convenience for users so as to help their decision-making processes against considerations of
+purpose, namely what are they seeking to achieve and how your images can help them.
+Want to harness the power of information visualization and apply it to your designs and your
+workflow as a designer? Don’t miss our course “Information Visualization” (each course intake has
+limited spots available — make sure to book yours today)!
+
+Information Visualization
+Beginner course
+Whether or not you’re involved in the rising ﬁeld of big data, information visualization skills are in
+high demand. Information visualization can help with many of your design processes—by allowing
+you to collate and present data, and turn raw data into meaningful patterns and actionable insights.
+From designing meaningful interfaces, to processing your own UX research, information
+visualization is an indispensable tool in your UX design kit, and one you can learn from Alan Dix, a
+former professor at Lancaster University, UK, in our course Information Visualization. A
+world-renowned authority in the ﬁeld of human-computer interaction, Alan will guide you through
+both practical lessons and the theory behind how to distill rich information into meaningful visuals.
+Learn more about this course
+
+∠
+
+What Our Members Say About Us
+“I wanted to thank you! IDF is just the best thing ever. Just ever! Making this
+information accessible and available at the high level of quality. Just awesome!”
+Phillip Dodson, United States
+
+INTERACTION-DESIGN.ORG
+
+71
+
+The Basics of User Experience (UX) Design by the Interaction Design Foundation
+
+9. Information Visualization – A Brief Introduction
+“The course covers a lot of the fundamentals, particularly the history of data
+visualization and how people actually comprehend data.”
+Reid Dickson, United States
+“I am happy with the content of this course and other contents in IDF's site. This
+is helping me to reinforce my knowledge and deﬁne the concepts, discovering I
+knew more things about UX that I expected!”
+Julia Maroto Romero De Ávila, Spain
+
+View the course curriculum
+
+∠
+
+INTERACTION-DESIGN.ORG
+
+72
+
+The Basics of User Experience (UX) Design by the Interaction Design Foundation
+
+Learn UX Design from Industry Experts
+
+Learn UX Design from
+Industry Experts
+Interested in learning more about UX design?
+At the Interaction Design Foundation (IDF), you can learn about a wide range of topics—from
+interaction design to the psychology of e-commerce and design thinking—in courses that are
+specially crafted by industry experts. Learn in your own time with self-paced lessons that are a
+unique mix of academic rigor and industry relevance—the best combination to help you expand
+your knowledge and advance your career. What’s more, you are awarded a Course Certiﬁcate (with
+its own public URL) every time you successfully complete a course.
+To complement our course content, the IDF is also a growing and thriving international community
+of UX designers. We have communities in over 450 cities across the world through our Local
+Groups initiative, which allows you to meet like-minded peers (or your future boss) in your local
+area.
+One last thing: Don’t forget your special 3 months discount that we’re offering simply because you
+downloaded our ebook. Become a member of the Interaction Design Foundation today, and start
+enhancing your UX design knowledge and skill set!
+Get 3 months of free membership now!
+
+∠
+
+INTERACTION-DESIGN.ORG
+
+73
+
+

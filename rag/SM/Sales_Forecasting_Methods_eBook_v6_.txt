@@ -1,0 +1,484 @@
+#1 Salesforce Analytics
+
+The Definitive Guide to
+Data-Driven Sales Forecasting
+For Sales VPs and Sales Managers
+
+#1 Salesforce Analytics
+
+Contents
+Introduction to Data-Driven Sales Forecasting
+
+4
+
+Barriers to Effective Sales Forecasting
+
+4
+
+Managing Risk and Identifying Opportunity
+
+5
+
+Key Reasons to Use Data-Driven Sales Forecasting
+
+6
+
+6 Simple Steps to a Data-Driven Sales Forecast
+
+6
+
+1. Standardize Your Opportunity Stages
+
+7
+
+2. Know Historical Sales Stage Conversion Rates to Closed-Won
+
+7
+
+3. Define Key Metrics that Drive Your Forecast and Meetings
+
+8
+
+4. Demand Accurate Close Dates and Monitor Close Date Changes
+
+9
+
+5. Know the Historical Accuracy of Your Team’s Forecasts
+
+9
+
+6. Separate Your Pipeline Review vs. Forecasting Meeting
+
+9
+
+How to Prepare for Your Weekly Forecasting Meeting
+
+9
+
+Essential Metrics for Data-Driven Forecasts
+
+10
+
+Overlay Your Data-Driven Forecast with Your Rep’s Intuition
+
+11
+
+Manage Your 10 Forecast Killers
+
+12
+
+Conclusion
+
+13
+
+2
+
+About the Authors
+Zorian Rotenberg
+Zorian is a sales and marketing veteran with a proven track record of
+success in the high-tech world. He has brought his passion for
+improving sales performance management with analytics to
+InsightSquared. Prior to InsightSquared Zorian was an executive on
+the management teams of several global software companies which
+he helped to grow by over 100% in annual revenues, ranging
+between $8 Million to over $100 Million. He was also CEO at a
+software company which grew Americas sales by 145% in his first
+year as CEO using the best practices of inside sales management.
+Zorian has a degree in Finance and with minors in Applied
+Mathematics and in Computer Science from Lehigh University and
+earned his MBA from Harvard Business School.
+
+Kim Lindquist
+Kim can be found at the crossroads of marketing analytics and
+writing. With a passion for data-driven decisions, Kim strives to
+turn numbers into stories that help businesses understand their
+data-landscape.
+Since graduating from Boston College, where she earned degrees in
+English and Communication, Kim has enjoyed working in the lively
+start-up scene in and around the Boston area.
+
+3
+
+#1 Salesforce Analytics
+
+Introduction to Data-Driven Sales Forecasting
+Most companies face challenges with achieving accurate and effective forecasting. They have poor visibility
+into their projected sales because of the inaccurate intuition-based forecasting methods they deploy, which
+leads to poor performance in attaining sales quota. In recent years’ industry surveys, we have seen that
+just a little over 40% of forecasted opportunities actually close. Even when won, it’s not always the deal
+originally forecasted. A company can’t generate predictable revenue when they miss their forecasts and
+when more than half of reps don’t make their quota.
+Sales forecasting is typically done using legacy, subjective sales forecasting methods based on sales reps’
+gut instincts, not historical data. Thus, many companies don’t have a data-driven forecasting process,
+relying instead on guesswork, which makes their forecasts less accurate and does not allow sales managers
+to spot early signs of problems in the pipeline. Additionally many companies attempt to forecast within
+their CRMs or with Excel spreadsheets; unfortunately neither resource is designed to create meaningful
+and repeatable forecast processes. They are manual, unscalable and susceptible to errors. Sales managers
+end up spending too much of their time on forecasting activities and pipeline management rather than
+on more critical, value-add sales management tasks such as coaching, training and revenue-generating
+activities.
+What sales managers and VPs need is a system that encompasses the 8 Best Practices of Data-Driven Sales
+Forecasting, which will be covered in detail in the coming sections:
+1. Forecast by Pipeline Stages, not Forecast Stages
+2. Separate Pipeline Management vs. Forecasting Meeting
+3. Know The Company’s 4 Averages
+4. Know Each Rep’s 4 Performance Areas
+5. Inspect the 6 Essential Deal Metrics
+6. Manage Your Forecast Killers
+7. Look for Early Warning Signs
+
+Barriers to Effective Sales Forecasting
+Accurate sales forecasts are critical to managing your business effectively. They help sales teams achieve
+their goals by identifying potential early warning signals and risks in the sales pipeline. Forecasting
+facilitates business planning and risk management, along with budgeting and goal setting for the entire
+company. There are many obstacles keeping organizations from successfully executing an accurate sales
+forecast, including:
+
+4
+
+#1 Salesforce Analytics
+• Using a Legacy Intuition-Based or “Finger in the Wind” Approach
+• Insufficient Data, Inaccuracies and Guesswork in CRMs
+• Using Manual, Unscalable and Error-Prone Spreadsheets
+• Lack of Real-Time Data (Win/Loss, Sales Funnel, Sales Cycle)
+• Sandbagging and “Happy Ears”
+• Lack of Accountability in Relation to Individual Sales Rep Forecasts
+• No Formal Coaching and Training in Sales Forecasting
+However, there are many more reasons to align your sales team and processes with a data-driven
+approach to forecasting. Overall, reducing risk and identifying opportunity, as discussed below, are two key
+motivators for the bottom line of your business.
+
+Managing Risk and Identifying Opportunity
+Inaccurate sales forecasts carry tremendous risk. Without accurate forecasts, sales managers can expect a
+big gap between forecasted deals and actual closed-won deals.
+Do you know each of your sales rep’s historical forecasting error, or “Et = Yt – Ft”? Not knowing
+this information further complicates your ability to make your forecasts more accurate over time.
+
+Danger
+
+Opportunity
+
+Figure 1 - Risk
+The Chinese characters for “Risk” suggest that risk is equal parts danger and opportunity, which is fitting
+for sales forecasting. In terms of risk, for large public organizations, the danger can go as far as shareholder
+lawsuits if company executives make public comments using incorrectly forecasted data. For smaller
+organizations, incorrect forecasts can cause critical cash flow issues and a myriad of other nightmares for
+everyone from Inside Sales Representatives to C-level Executives. But there is an immense opportunity
+to improve your company’s sales growth, attain sales quota more effectively, and make better business
+decisions from the improved visibility and planning of data-driven forecasting.
+The opportunity to grow your company’s revenue, coupled with the risks your business takes from
+performing subjective forecasts should make it clear that your business needs to start transitioning to datadriven forecasting; however, there are other more tangible reasons to implement a data-driven approach
+with your sales team, reviewed below.
+
+5
+
+#1 Salesforce Analytics
+
+Key Reasons to Use Data-Driven Sales Forecasting
+What are the more immediate and tangible benefits of a data-driven sales forecast? Although reducing risk
+and identifying opportunities in your data are the ultimate returns on investment, instituting a data-driven
+approach to forecasting will help your company achieve the following:
+• Better Accuracy
+• More Effective Sales Reps
+• More Objective Conversations About Performance
+• Improved Conversion from Opportunities to Sales
+• Faster Revenue Growth
+• Better Business Decisions Based on Data
+• More Executive Alignment from Better Visibility and Planning
+Many sales organizations use Forecast Stages (i.e. Commit, Upside, Strong Upside, etc.) in sales forecasting.
+Independent of the milestone hit by the opportunities, sales reps and managers are asked to make a
+qualitative assessment of their opportunity. This is a “finger in the wind” approach that is based chiefly
+on intuition. Ultimately, data-driven forecasts trump the legacy intuition-based forecasting approach for
+the reasons above, discussed in more detail in the coming sections. Below are the steps you need to begin
+forecasting based on data or by “Opportunity Stages” rather than by qualitative and legacy “Forecast
+Stages”. Let’s get started.
+
+6 Simple Steps to a Data-Driven Sales Forecast
+Now that you are familiar with what data-driven forecasts can help you achieve, it is time to address the
+real issue here: forecasting is hard. Really hard. It is a major test for understanding how your business
+(micro and macro) works and running it effectively. It requires following processes, capturing data,
+crunching numbers and coming to an internal agreement on what you are measuring.
+If you are using a CRM like Salesforce.com, you probably have a pile of data in the form of old opportunities
+and custom fields. You may have even changed your sales process multiple times along the way. This can
+all make it tough to know where to start with respect to your Salesforce reporting, let alone your sales
+forecast.
+There are several steps you can take to get your sales process and sales forecasts to align more accurately;
+however, you need to ensure that everyone on your team understands and buys into your new processes
+and definitions in order to be truly effective. Here are the 6 steps to creating data-driven forecasts today:
+
+6
+
+#1 Salesforce Analytics
+
+1. Standardize Your Opportunity Stages
+In order to forecast more accurately, one of the first steps you should take is to define your opportunity
+stages based on distinct steps that your buyer activetly takes in the sales process. Keep in mind, your stages
+should be based on opportunity stages, not forecasting stages (commit, up-side), which are notoriously
+subjective inputs.
+First, start with a clearly defined sales process and formal definitions of each opportunity stage in the sales
+funnel. The stage definitions must be driven by the buying process, not the sales process—even if the rep
+is doing everything right, their steps do not reflect the customer's probability to buy. It is critical to define
+and document your entire sales process to make sure that the sales team clearly understands qualification
+rules, your sales system and the discrete stages through which an opportunity moves to close.
+
+Opportunity Stage
+
+Prospect Buying Action to Next Stage
+
+Qualification
+
+Agrees to a call with Sales Rep
+
+Demo
+
+Reviews demo and agrees to trial
+
+Trial
+
+Completes trial and requests quote
+
+Negotiation
+
+Reviews quote and responds with counter
+
+A sales forecasting system based on opportunity stages, and the average conversions from one stage to the
+next, is data-driven, objective and more accurate because it is based on conversion rates from analysis of
+recent sales.
+Opportunity stages should span the entire funnel from “New” to “Closed”. You should not have any
+opportunities that are not in one of the stages, and stages must be distinct enough that you do not see
+any two stages happening in conjunction; otherwise there is not enough differentiation between them
+to be meaningful. Lastly you should be able to measure a gradual drop-off in conversion as opportunities
+go through the funnel. Drastic drops or multiple “pass-through” stages should raise a red flag in your
+opportunity stages, where the stages may not be defined properly.
+By using opportunity stages, you will have the chance to measure what percent of opportunities make it to
+Closed-Won based on historical data. Although this can be a challenge to do in Salesforce reporting or Excel
+spreadsheets (hint: you can do this simply using InsightSquared), using quantitative stages makes it possible
+for your Sales Ops team or Sales Analyst to measure your win rates objectively.
+
+2. Know Historical Sales Stage Conversion Rates to Closed-Won
+Knowing your historical sales stage conversion rates is critical in order to perform your forecasting
+objectively. Data-driven forecasting takes historical data into consideration. In order to use historical data
+to better forecast and improve win rates, you will need to be able to calculate historic win rate by stage,
+historic win rate by employee and the estimated value of each opportunity. Calculate the value of those
+opportunities and understand how the total value is changing month to month.
+
+7
+
+#1 Salesforce Analytics
+Figure 2 below shows a sales funnel (by opportunity stage) and displays conversions from one stage to
+the next. It allows the sales manager to understand nuances of the pipeline value, how it changes over
+time, and the stage in which the dollars sit. Top sales managers will also know their historic win rates by
+stage (conversion from that stage to Closed-Won), not just conversion rates from one stage to the next. For
+example, in Figure 2 below, only 31% of all opportunities make it from Stage 1 to “Deal”, whereas 84% of
+deals in Stage 4 will turn into deals for your organization. Looking at your historic sales funnel is a critical
+first step to understanding how your team will perform in the short- and long-term and ultimately to
+understanding how accurate your forecast will be.
+
+Figure 2 – Opportunity Stage Conversions
+With this information, you can quickly move from estimating which opportunities will close to more
+accurately predicting how much each opportunity is worth based on size, rep, and stage. These historic win
+rates allow you to estimate the value of a deal more realistically based on what has happened in the past.
+Most importantly, using these win rates will help you identify bad opportunities that are currently
+forecasted to close based on what you know about your stage, your rep, and the size of the deal. This way
+you can eliminate them from your forecast to make it more honest and accurate.
+
+3. Define Key Metrics that Drive Your Forecast and Meetings
+The data-driven forecasting method looks at the conversion rates at each stage, and simply multiplies the
+opportunity values by those rates. It is more mathematical, but doesn’t account for the nuances in your
+pipeline. Your team should also consider your conversion rate from start to finish, or Opportunity: Deal
+ratio, as well as the Essential Metrics for Data-Driven Forecasts, outlined shortly in this eBook.
+
+8
+
+#1 Salesforce Analytics
+
+4. Demand Accurate Close Dates and Monitor Close Date Changes
+Most CRMs have a “Close Date” field which allows your reps to enter their own prediction on when a deal
+will close. Seek out examples where the close date doesn’t match the data (current stage + sales cycle from
+that stage). Sit down and talk to your rep to find out what is happening. Even if your entire organization
+loves numbers you can’t ignore all of the subjective data your sales rep gathers throughout their process.
+Demand accurate, up-to-date data from your reps and hold them accountable for all of their opportunities.
+All the forecasting tools in the world cannot help you forecast correctly if you have no data to analyze.
+
+5. Know the Historical Accuracy of Your Team’s Forecasts
+Past performance is a leading indicator for future performance. By knowing the historical accuracy and
+performance of each of your sales reps, you will be able to guide and coach them to adjust their forecast
+for improved accuracy based on the profile of deals they have in their pipeline and their historical data.
+
+6. Separate Your Pipeline Review vs. Forecasting Meeting
+Successful sales managers must differentiate between sales pipeline review meetings and sales forecasting
+meetings. Though they are both meant as a way to monitor sales, key leading indicators, and strategy, they
+should each have a distinct focus and objective.
+Pipeline review meetings should happen every two weeks and a sales manager should go through the top
+of the funnel to ensure that there are enough early stage opportunities for future success. Sales forecasting
+meetings should happen every week, ideally on a Monday, and during this meeting a sales manager should
+inspect each deal and help coach reps to the finish-line on later stage opportunities that are meant to close
+in the current selling period.
+
+How to Prepare for Your Weekly Forecasting Meeting
+Schedule a Weekly Meeting with Your Sales Team
+It’s important to have regular “Sales Forecasting” weekly meetings in order to accurately project deals
+that will close in the current reporting period. These meetings are intended to make sure the data that
+underlies your forecast is up to date and accurate. But the ultimate objective is to help coach and manage
+your reps to succeed with achieving their quota.
+Before starting any sales forecasting meeting, make sure you know:
+
+9
+
+#1 Salesforce Analytics
+
+A) The Company’s 4 Averages
+1. Average Sales Cycle (Winning)
+2. Average Loss Cycle
+3. Average Deal Size
+4. Average Conversion Rate from each Stage to Closed-Won
+
+B) Each Rep’s 4 Performance Areas
+1. Pipeline: Open Pipeline, Closed-Won, Quota Gap
+2. Deal Averages: Sales Cycle, Deal Size, Win/Loss Cycles for Key Stages
+3. Sales Funnel: Historical Conversion Rate from Each Stage to Closed-Won
+4. Deal Analysis: Historical Opportunity Diagnosis Accuracy
+
+Essential Metrics for Data-Driven Forecasts
+In order to get a complete view of your sales forecast you will need to also consider the following metrics in
+your analysis:
+1. Stage: Look at what stage your opportunity is currently in. Based on what we discussed above, by now
+you should know which conversion rate to Closed-Won would apply at each stage and have a clear
+idea of what the probability of converting the opportunity to a closed deal is at this stage. Watch for
+negative velocity at later stages in your sales cycle, as this is an indicator that your deal could be at risk
+(traditionally, deals speed up as they progress through the sales cycle).
+2. Age: You probably have a number of stale opportunities that should have been purged from your pipeline.
+If the opportunity is 2x or 3x longer than your typical average sales cycle, your opportunity is “at risk”.
+Sales managers should know their sales cycle by Won/Loss and look at how long a successful opportunity
+stays in each stage, and then compare that to their current open opportunities. If the successful
+opportunities usually move through Stage 1 in only a few days and your current pipeline is averaging over
+a month then that’s a clear sign that these stale opportunities should be purged. During your forecasting
+meeting you can now have this objective conversation with your sales rep.
+3. Size: Salespeople typically want to focus on big deals and have “happy ears” (reps hear only good news,
+not listening objectively) but as a result, most organizations waste time on big opportunities that were
+never realistic in the first place. Effective managers must review their won/loss analysis and then look
+at win rates for the bigger opportunities. There is typically a sizeable gap between those two numbers,
+which is why you should discuss these bigger forecasted opportunities at forecasting meetings and ask
+each rep for more objective data about why they believe these will close when projected.
+4. Engagement: Know if the opportunity has stalled in momentum by viewing activity on the opportunity
+for the past 2 weeks (or 10 business days)—if there is no activity and it is forecasted to close this month,
+
+10
+
+#1 Salesforce Analytics
+this is an indicator that the opportunity is at risk. If you have a traditionally longer sales cycle, adjust this
+threshold based on your historical data, but continue to monitor for drops in engagement.
+5. Effort: Know how much effort went into the opportunity—this can be measured by tracked activities
+that your sales reps should be logging in your CRM. Additionally, you should apply some of the principles
+of “activity based costing” and measure some of your activities as more impactful and effective than
+others: thus a demo activity or a trial activity of your product would mean a lot more than just a cold call
+activity. If a lot of effort or activity was invested into the opportunity then it’s more likely to close, but it is
+important to monitor the “quality” or the type of activity and not just the “quantity”.
+6. Slippage: When reviewing opportunities, if you are seeing deal slippage or the opportunity close date
+getting pushed out a several times then the opportunity is at risk. Another “Forecast Killer”, slippage
+should be a key indicator of stalling opportunities.
+
+Overlay Your Data-Driven Forecast with
+Your Rep’s Intuition
+While we are espousing using a data-driven sales forecasting method to replace legacy forecasting
+methods, a successful sales manager must still make sure to overlay the data-driven forecast with the
+sales rep’s insights. Accurate forecasting demands that the two not be mutually exclusively, but rather
+that companies start with data and then overlay it with their reps’ experience, insight and intuition (after
+all, you pay them a lot of money to be experts at reading prospects and situations). Consider these key
+concerns that every inside sales manager should address:
+• Does your Sales Rep Have Proof of "BANT" with the Opportunity? (Budget, Authority, Need, Timeline)
+• What competing products are being evaluated?
+• Why is this opportunity in stage X and what would move it to the next stage?
+• Why do you believe that this opportunity will ultimately close?
+These questions will help you get the accurate forecast you need and better prepare you to meet with
+management to address your sales forecast for the coming month or quarter.
+Also, remember to look for early warning signs such as monthly progress vs. forecast projections, negative
+velocity, and struggling reps to fill in the entire forecasting story.
+
+11
+
+#1 Salesforce Analytics
+
+Manage Your 10 Forecast Killers
+Consider these key factors that increase the risk for any forecast. Flag your opportunities as “at risk” if
+they fall outside of the normal profile of the following:
+• Timing: Time kills all deals. Look at the opportunity age vs. your average sales cycle (i.e. win cycle).
+Also if the opportunity is sitting in first two stages longer your historical won cycles for those stages,
+then they are “stuck opportunities” and should be flagged as at risk.
+• Average Deal Size ($): Review the expected opportunity size vs. your average won deal size. If your
+opportunity is 3x greater than your average, it should be treated differently than your regular
+opportunities. Larger deals have lower close rates and longer sales cycles than smaller deals, so if
+the sales rep is not treating the particular opportunity differently then it’s at risk. Also note if the
+expected deal size of a given opportunity dropped by more than 30% in later stages then it may be
+at risk.
+• Slippage: Opportunities that are pushed often or slip beyond the expected close date should be
+flagged as at risk. If a deal’s close date has pushed more than 3x then it should be flagged as at risk.
+• Stalled Engagement: Opportunities that are forecasted to close soon should be actively engaged
+with by reps. If an opportunity displays little to no rep activity over the past two weeks, it has likely
+stalled, diminishing the chances that this deal will close so it should be flagged as at risk.
+
+Figure 3 – Slippage and Opportunity Changes
+• Stage: An opportunity in the first stage of the sales cycle does not belong in the sales forecast, even
+if the rep marked the expected close date in the current selling period. Additionally, make sure that
+for every opportunity (at any stage), your reps know clear next steps that the contact will take.
+Otherwise, the opportunity must be flagged as at risk.
+• Negative Velocity: If there is negative velocity (or deal is stalling for a longer period of time in
+the last few stages) then it should also be flagged as a deal at risk.
+
+12
+
+#1 Salesforce Analytics
+• Title: By the time the opportunity reaches the late stages, your reps should be talking to a contact
+who has a title of your typical buyers. If your champion still has to ask for permission at this late
+stage from others with authority at his company then the opportunity is at risk. If the rep is not
+already talking to these other executive sponsors at this late stage then this opportunity must be
+flagged as at risk.
+• Lead Source: Figure out what your win rates are for each lead source. If an opportunity comes
+from your low-probability source, it should be flagged as at risk.
+• No competitor: Typically, customers will shop around to compare products and prices. If during
+late stages in the buying process, your sales rep is not aware of which competitors his contact
+has looked at, then that opportunity should be flagged at risk.
+• Late Random Additions: Look closely at any large deals (that are more than 2x the average deal
+size) that were randomly added at the last minute. These should be flagged as at risk.
+Make sure to monitor these variables when judging your projected forecasts and analyze them in your
+weekly meeting with your sales reps. You may find that opportunities that look like winnable deals at
+face value could actually be at risk and in need of immediate attention. Ultimately, by planning your
+sales stages, maintaining standards throughout your sales process, and measuring your projected
+forecasts against your historic performance you will find that sales forecasting becomes a more
+accurate, integral and dependable measurement of your sales performance, and that your organization
+will prosper from your newfound processes and the integrity of your forecasting.
+
+Conclusion
+Like all sales managers, you need better sales forecasts to manage your team, plan and budget
+more accurately, set more realistic expectations for your organization, and ultimately to help grow
+revenue. It is also likely that you’ve spent countless hours in your CRM or Excel spreadsheets trying
+to formulate an accurate, repeatable forecast that has continued to miss the mark, time and again.
+This guide discussed the best practices of data-driven sales forecasting and the key reasons to use
+data-driven sales forecasting with “opportunity stages” rather than the legacy approach using
+“forecasting stages”. It also provided the simple steps to get started with a data-driven sales forecast
+that will place you on the path to more accurate forecasts and increase your team’s performance
+and productivity.
+Below is a figure that shows a data-driven forecast —our Smart Forecast— in InsightSquared. If you
+are interested in using predictive analytics and automating your forecast, request a free trial of the
+Smart Forecast and other InsightSquared reports by reaching out via email or by clicking below.
+
+13
+
+REQUEST A FREE TRIAL >
+
+About InsightSquared
+InsightSquared provides disruptive and breakthrough sales and marketing analytics for Salesforce. The
+analytics, dashboards and reports are built from the ground up for sales managers and business executives
+who run small and midsize companies (SMBs). Our Software-as-a-Service (SaaS) product lives in the cloud,
+meaning SMBs don’t need to license expensive software, invest in new hardware, or employ dedicated IT
+and analytical staff to use it.
+
+Contact Us
+160 Sidney Street
+Cambridge MA, 02139
+(617) 370-8100
+info@insightsquared.com
+
+13
+
+

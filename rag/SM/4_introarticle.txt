@@ -1,0 +1,839 @@
+An Overview of Negotiating Strategies
+―Let us never negotiate out of fear. But, let us never fear to negotiate.‖
+John F Kennedy
+
+“In today’s operations environment, one’s span of authority is often less than one’s span of
+responsibility. In short, leaders are charged with mission success while relying on people they have
+no authority over.”
+Dr Stefan Eisen
+I. Introduction
+Because we are social by nature, we constantly interact with others. Often the interaction’s
+purpose is to solve a problem; getting two or more people (or groups of people) to decide on a
+course of action to accomplish a goal. Virtually every problem-solving process involves some
+aspect of negotiations. Practically speaking, Air Force personnel engage daily in negotiations with
+co-workers, supervisors, subordinates, business partners, coalition warfighters, non-governmental
+organizations, etc. On-duty, one could be working a Memorandum of Agreement. Later, off-duty,
+it could be deciding on a Saturday who will 1) take one kid to soccer while 2) the other spouse takes
+on the grocery chores so 3) the entire family can join for a sit-down dinner.
+In the Air Force, negotiation skills have also become a critical leadership competency. Air
+Force Doctrine Document DD-1 Leadership and Force Development (18 Feb 2004) and the Air
+Force Institutional Competencies List (ICL), under ―Leading People/Teams‖ highlights the
+competency of ―Influencing and Negotiating‖. Additionally, the complexity of today’s
+environment, the need to work more with peer-based relationships, and the need to communicate
+across and within the service, joint, interagency, and coalition environments all point to the value of
+understanding and effectively applying negotiations skills. Leadership articles and books, whether
+addressing senior leader skills or broader leadership competencies that all Airmen should develop,
+are consistent in their advocacy for improved negotiations skills as a ―must do‖ competency.
+This article outlines several negotiating strategies and recommends a particular strategy
+that isn’t intuitively in many negotiating tool kits, the Cooperative Negotiating Strategy (CNS).
+II. Negotiations Defined
+First, a definition of negotiations is useful to frame the discussion. A negotiation is not what
+many envision – that ―smoke-filled back room‖ where bare-knuckled deals are hammered out
+USAF Negotiation Center of Excellence
+
+http://negotiation.au.af.mil/
+
+1
+
+between rival parties. Rather negotiations are much more broadly defined. A negotiation is really a
+communication process between two or more parties. This process may range from something open
+and cordial with a free exchange of information as parties cooperatively seek to satisfy common
+interest(s) to something closed and adversarial, where information is hoarded as parties
+competitively seek to satisfy only their own interest(s), and if needed, destroy the other party’s
+interests in the process. In the middle is a process where you ―lose some and win some‖ –
+otherwise called the ―compromise‖ or ―settle‖ strategy.
+True negotiations must have two elements: first, a true negotiation indicates that there are
+two or more parties with some sort of difference between them. It may be a difference in value(s),
+data, relationship(s), and / or interest(s). Second, the parties in the negotiation must be motivated
+to resolve the difference(s) between them and come up with some sort of solution.
+III. Negotiating Preferences and Styles Chart
+THE TASK / RELATIONSHIP VARIABLES
+There are two basic variables that form a common thread between the five negotiation strategies.
+Every negotiation involves some sort of task (problem) and requires the interaction of two or more
+people. The relative importance of these two variables (task orientation and people orientation) forms
+the basis of the bull’s-eye framework used to visualize the differences between negotiating strategies.
+The Negotiation Preferences and Styles (NPSC) Chart, or ―Bulls-eye‖ Chart, has two axes, one
+indicating how important the relationship is to the negotiating party and the other axis indicating the
+importance of the task (see chart at the top of the article). By depicting the two variables on the Bull’seye chart, the relative importance of each variable can be visualized, and the type of negotiating strategy
+reflecting those two variables can be described. Since ―words do count‖ when building frameworks, we
+will specify definitions for these two variables.
+The first variable is the importance of the relationship. In other words, how important is it for
+you to develop and/or maintain a productive relationship and mutual trust with the other party? If the
+negotiator intends to harm the relationship, the relationship orientation variable can take on a negative
+value. If the relationship is of low or no importance, then the relationship can have a low or zero value.
+This is sometimes the case when one is negotiating a ―one time‖ deal with little or no chance of ever reengaging with the other party. However, if interaction is expected to re-occur, perhaps in the execution
+of the agreement, or if multiple negotiations may occur over a period of time, trust-building is much
+more important. This could result in a positive value assessment. Likewise, if local reputation is
+important, the relationship orientation variable may take on a high value even if multiple negotiations
+are not expected with the particular counterpart.
+The second variable is task. In this chart, task orientation refers to the importance of resolving
+the problem in a way that meets your interests. A high task orientation means that you are very
+motivated to resolve the problem in a way that satisfies your interests. Conversely, a negative task
+orientation means that you are not motivated to resolve the problem at all, or you may not understand
+the problem (poor task clarity). A zero value means that this issue is not a priority for you.
+The following five strategies combine the two variables as seen in the Bull’s-eye Chart. We
+examine each negotiating strategy, with reference to task and relationship orientation.
+
+USAF Negotiation Center of Excellence
+
+http://negotiation.au.af.mil/
+
+2
+
+1. Evade: tends to reveal a totally passive, unassertive preference for the negotiator to get
+what they might want while simultaneously not desiring to meet the other party’s needs either.
+When might people ―avoid‖ or ―kick the can down the road‖? Perhaps if the issue at hand is totally
+unimportant to them, or they lack the energy and drive to tackle the problem and any outcome is of
+relatively equal value to them. Also, a person may use the avoiding approach if they are faced with
+an overwhelmingly competitive opponent and this forestalls an outcome that would definitely not
+satisfy their needs. Essentially, this style avoids any meaningful negotiations and seeks neither a
+―result‖ or the development off a relationship.. Although this approach ―manages‖ the conflict, it
+doesn’t seek to resolve it – its usefulness is extremely limited. Both task and relationship needs are
+relatively weak.
+1.a. Bumper Sticker: ―Not now, can you come back later?‖
+2. Comply: tends to delegate the resolution of the conflict to the other person or party. This
+(along with the ―Avoid‖ strategy) is a passive approach to negotiations. This style is preferred
+when preserving the relationship between the two parties is the paramount concern even if it is at
+the ―expense of the task‖. The result of this approach: the more assertive side gets what they want
+and the complying side gives up whatever is at stake, regardless of the cost to that party.
+2.a. Bumper Sticker: Yes, Absolutely, let’s do it your way!‖
+3. Insist: preferred by those who perceive that obtaining their objective is paramount,
+regardless of the cost to the relationship or the other party’s task interest. The Insist strategy is
+usually associated with a position, declared with a demand that leaves little room for movement and
+/ or compromise. Information is usually hoarded and withheld. Relationships are usually put at risk
+and any long-term negotiating relationships are difficult to maintain. This style is preferred when a
+―winner takes all‖ requirement is sought at the expense of the relationship. Usually the Insist
+strategy is used when there is a single issue (like price) and the likelihood of further interaction
+between the parties is unlikely. The Insist strategy is quick, and there’s usually one outcome: one
+party ―wins‖ and the other ―loses‖. At issue is which party gets to play the victor or the vanquished.
+Usually, the party with the greater amount of power gets to be the victor. The Insist Strategy may
+also be described as a zero-sum process where there are a finite number of ―chips‖ to be won—and
+each party wants to be the sole winner. Some suggest that this winner-take-all approach is a
+misunderstanding of negotiations. Because it is short-sighted and does not consider relationships,
+etc., once a confrontational negotiator wins, the other party is not likely to want to deal with that
+person again or perhaps not execute the agreement they just completed with that party.
+3.a. Bumper Sticker: ―Take it or Leave it‖
+4. Settle: preferred by those who seek resolution to a situation, but see little chance for them
+to get it ―their way‖ (Insist Strategy) or don’t want to ―give in‖ to (Comply with) the other party.
+By committing to a Settle strategy, the parties are minimally satisfied through the process of
+splitting whatever difference that separates them, usually splitting the difference ―…somewhere
+down the middle.‖ The Settle strategy usually opens not with a demand (a position with no wiggle
+room), but an offer (a position that leaves room for one or both parties to maneuver the other to a
+solution). Each party ―gets something‖, but usually not what they really needed or are satisfied
+with. Settling usually results in a quick negotiation, but rarely an optimal outcome. Also, the Settle
+strategy usually happens in a situation where only one variable is at stake or being considered (like
+price) and power tends to be equally distributed.
+4.a. Bumper Sticker: ―Let’s just split the difference and call it a day‖
+
+USAF Negotiation Center of Excellence
+
+http://negotiation.au.af.mil/
+
+3
+
+5. Cooperative Negotiating Strategy (CNS) is an Air Force adaptation of the business
+world concept known as “Interest-Based Negotiations (IBN): CNS seeks to maximize both
+sides’ interests and integrate their ideas into a solution that is better than what either of them could
+have come up on their own (i.e. their opening positions). CNS depends on each party’s desire to
+achieve both a mutually satisfactory outcome while simultaneously managing the relationship. For
+this to occur, trust must exist between the parties and they must be willing to share information and
+withhold judgment on possible solutions.
+CNS has potential to address multiple issues. The basic premise is that the ―game‖ is not
+inherently zero-sum, but there is an ability to create new value for each party involved and help
+manage long-term relationships. CNS is particularly effective in a diverse situation – such as the
+military environment. Agreements in the military must be reached with people and groups that are
+often very different —culturally, socially, politically, etc. To get beyond the obstacles to an
+agreement, CNS suggests focusing on the underlying interests behind each party’s initial positions.
+From interests arises the potential to find common ground and opportunities to create new value.
+Reduced to its essential, CNS proposes that two groups working together will come up with a
+solution that is qualitatively better than what either party could have generated on their own.
+5.a. Bumper Sticker: ―Let’s work together and come up with an even better idea‖
+―It became clear to me that at the age of 58 I would have to learn new tricks that were not taught in
+the military manuals or on the battlefield. In this position I am a political soldier and will have to
+put my training in rapping-out orders and making snap decisions on the back burner, and have to
+learn the arts of persuasion and guile. I must become an expert in a whole new set of skills.‖
+Gen George C. Marshall
+IV. CNS Key Features:
+1. CNS Changes Negotiation from a Contest of Wills to a Search for Solutions: By
+separating the people while actively managing the relationship, CNS gets negotiators to treat
+disputes and issues as problems to be solved rather than a contest of wills between the parties and
+their positions. It shifts the negotiation dynamic away from the primary focus on making
+concessions, often the hallmark of distributive bargaining, to a genuine search for win/win
+solutions. One aspect of actively managing the relationship is that it is not a quest to necessarily
+establish a friendship. You don’t have to like the person you are negotiating with, but you need to
+respect them, and they need to respect you. Respect helps engender trust, which helps open up
+communications channels so that interests may be shared and used to develop potential solutions.
+Searching for solutions as a cooperative venture rather than a competitive sport shifts the
+negotiation dynamic away from an Insist strategy, where concessions by the weaker side to the
+stronger side are expected. Key in the military context is finding ways for leaders to properly
+identify what the problem really is all about. It is one thing to say in the business world that you
+need to negotiate the delivery date of a shipment of parts. It is quite another matter for two leaders,
+who at one time may have been antagonists in a conflict, to see eye to eye on a matter such as
+―security‖, or criminal activity, etc.
+2. CNS Focuses on Underlying Interests: CNS recognizes that parties’ underlying
+interests are at the heart of their dispute. It recognizes that it is more important to the negotiation
+that the parties know WHY they want something (the interests) rather than focusing on just WHAT
+they want (position). The interests are the underlying desires, values, concerns, fears and
+
+USAF Negotiation Center of Excellence
+
+http://negotiation.au.af.mil/
+
+4
+
+limitations that motivate the parties and stand behind their posturing about their positions. CNS
+requires each party to focus on their own interests AND to focus on uncovering and understanding
+their counterpart’s interests as well. Critical to this discovery process is not only identifying and
+sharing interest, but also prioritizing which interests is most to least important. This will become
+important during the option selection phase of the negotiation.
+3. CNS Searches for Solutions Based on Differences: CNS recognizes that parties have
+differing interests, priorities, preferences, and organizational needs. By uncovering these varying
+interests and preferences, parties can better search for solutions that satisfy the priority needs of
+each party. The search for options changes negotiation from a pattern of concessions to a genuine
+search to solve the problem and find the best solution to meet both parties’ differing interests.
+4. CNS Recognizes that Information Sharing and Communication Are at the Heart of
+Problem Solving: CNS rests on a skill set that includes active listening and critical thinking. These
+skills are needed for parties to understand perceptions of events, interests, priorities and possible
+options to enhance the parties’ search for viable solutions. CNS information sharing is in sharp
+contrast to the tendency to withhold and manipulate information that characterizes positional
+negotiations.
+5. CNS requires you to consider a Best Alternative to a Negotiated Agreement
+(BATNA): BATNAs are elegantly simple in concept, but notoriously difficult to execute. A
+BATNA is the option a negotiating party might execute independent of the other party should
+negotiations fail. A BATNA is not the negotiation’s ―bottom line‖ – it is something a negotiator
+may wish to do if an acceptable ―bottom line‖ cannot be achieved during negotiations. You should
+always know and update your BATNA and always estimate (and update) your counterpart’s
+BATNA. Seek ways to improve your BATNA and make the counterpart’s BATNA less valuable.
+There are three keys to determining a valid BATNA.
+First, must be an option that the negotiating party can execute unilaterally (without
+any action or interaction with the other negotiating party). A BATNA is worthless if it requires the
+participation of the other negotiating party to execute.
+Second, it must be a real option. It must be something that the negotiating party can
+actually do (has the time and resources available).
+Third, it must be credible. To have the time and resources is a necessary, but not
+sufficient condition; the negotiating party must also have the will.
+BATNAs may be strong or weak. As an example, if I am negotiating with other base
+personnel on an office move, and it is getting nowhere, a strong BATNA would be that the current
+office space is adequate to do the mission, and it is available for the foreseeable future. A weak
+BATNA would be that the current office area is cramped, the electrical system unsafe, and it is due
+to be demolished in three weeks.
+BATNAs may change during the negotiations process as information and conditions change.
+For example, you may be buying a new car with a good BATNA (your current car is in excellent
+condition). However, your BATNA would change considerably if your car got sideswiped
+tomorrow during the daily commute.
+Although BATNA has applicability to other negotiating strategies (Insist, Evade, and Settle,
+but not Comply), in CNS, there is a specific effort to identify and manage BATNAs for both sides
+
+USAF Negotiation Center of Excellence
+
+http://negotiation.au.af.mil/
+
+5
+
+in the negotiation. Additionally, since CNS has relatively more engagement (depth and duration)
+than the other strategies, there is an opportunity within CNS to manage BATNAs (i.e. work
+conditions to strengthen your BATNA or make the other party’s BATNA less attractive). In short,
+BATNA has applicability in many negotiating strategies, but can be exercised to it s fullest potential
+when applied to CNS.
+6. CNS Focuses on Expanding Solution Options (Expanding the “Pie”): An Insist
+strategy conceives of negotiation as a football game and seeks a win-lose outcome (―what I gain on
+the field, you lose.‖) Such strategies create a battle of wills rather than a meeting of the minds. In
+contrast, CNS allows parties to conceptually sit side-by-side to search for value-creating
+opportunities based on their differences. They literally have the potential to create new solutions
+that neither of them could have imagined on their own. By focusing on expanding the solution field
+and creating as much value as possible, the division of the expanded pie becomes more reasoned
+and logical, rather than simply being a result of manipulation and hard-ball negotiation tactics.
+7. CNS Focuses on Using Some Sort of Objective Standards and Legitimate Reasons in
+the Option Selection Phase: Once parties have expanded and created possible options for
+solutions, the pie must still be divided. Where Insist strategy relies on posturing on many fronts to
+divide the proceeds, CNS asks negotiators to find standards to justify the division that is inevitable
+in any negotiation. Which option to select can become problematic in the military environment
+because so few ―industry standards‖ exist. The AF NCE suggests that parties agree to select the
+option that best meets the top interest(s) of the negotiating parties. This has the secondary benefit
+of getting parties to reveal and prioritize their interest(s) early in the negotiation, since they’ll be
+using those prioritized interests to help select the best option to execute.
+Some Negotiating Pitfalls
+1. Neglecting the other side’s problem. The first mistake is to focus on your own problem
+exclusively. You need to understand the problem from the other side’s perspective. Most people
+have difficulty understanding the other side’s perspective, and overcoming this self-centered
+tendency is critical. Always try to put yourself in the other person’s shoes and try to understand, in
+depth, what the other side really wants out of the deal. If you want to change someone’s mind, you
+should first learn where that person’s mind is. Then you can build a bridge spanning the distance
+where your counterpart is now and your desired end point. The best tool for doing this is to actively
+listen and follow up their conversations and contributions with a series of critical thinking questions
+to help deepen and clarify the message (A critical thinking question is any question that cannot be
+answered by a ―yes‖, ―no‖, or ―maybe‖. The 5 ―Ws+‖ are great critical thinking questions (Why,
+Who, What, When, Where, How Much, If, etc.)
+2. Letting Positions Drive Out Interests. People have a built in bias toward focusing on their
+own positions in negotiation over reconciling deeper interests. Creating new value by reconciling
+requires patience and a desire to research the other side, ask many questions, and actively listen.
+3. Searching too hard for Common Ground. We negotiate to overcome the differences that
+divide us. Typically, we’re advised to find win-win agreements by searching for common ground,
+yet many of the most frequently overlooked sources of value in negotiation arise from differences
+among the parties. Remember, ―In difference there is strength.‖ Conducting a disciplined
+―differences inventory‖ is as least as important as identifying areas of common ground.
+USAF Negotiation Center of Excellence
+
+http://negotiation.au.af.mil/
+
+6
+
+4. Neglecting BATNAs. A BATNA reflects a course available to negotiating parties. Know yours;
+do not forget that the other side has one. Do not inadvertently weaken yours. The better your
+BATNA appears to you and the other party, the more it can serve you as leverage.
+6. Failing to Correct for Skewed Vision. First, people tend to unconsciously interpret
+information pertaining to their own side in a strongly self-serving way…they get caught in ―role
+biases‖. Getting too committed to your point of view is a common mistake (Never fall in
+love…with your ideas!‖). Second, is the concept of partisan perceptions. While we systematically
+err in processing information critical to our own side, we are even worse at assessing the other side.
+In short, we tend to overvalue our information and undervalue the counterpart’s information. This
+can be corrected through self-awareness and seeking outside views.
+VI. The Air Force CNS Worksheet
+Below is a sample CNS worksheet. Within the worksheet, each major event (Position,
+Interests, BATNA), is followed by a series of critical thinking questions that you need to consider
+when planning to negotiate. Not all the questions must be answered, nor can be answered, since the
+negotiating situation will vary from one negotiation to the next. However, there are some
+overarching themes. First, after reading each question, evaluate if it is of value to your situation. If
+it is, the second question should be ―Do I have the time, resources, and ability to gather an answer
+that may improve my negotiations planning?‖ If the answer is yes, then the question should be
+answered. Third, not only should you be planning for your side, but you should also devote serious
+effort to planning ―their side‖. You may be making informed guesses, but it will help you anticipate
+potential issues and plan for action that will either turn it to an advantage to your side or at least
+minimize its affect on your side.
+
+USAF Negotiation Center of Excellence
+
+http://negotiation.au.af.mil/
+
+7
+
+Cooperative Negotiation Strategy Worksheet
+Assessing the Negotiation Context: Planning
+
+Position: What
+do you want?
+Aspiration Point:
+What is the best
+you could hope
+for‖
+Reservation
+Point: What is the
+least you are
+willing to accept?
+Interests &
+Priorities
+Why do I want
+outcome above?
+How important is
+each interest?
+Which is the most
+important, least
+important, etc?
+
+Your Side
+
+Other Party
+
+- What is “our” position?
+-- Is the position unique to a single
+organization, or must the scope of the
+position include other organizations
+(other stakeholders)?
+- Is this a new situation or the
+continuation of another situation?
+- Are there any “in force” agreements?
+- What does your organization / chain of
+command / team want to have happen? What is the rationale for this position?
+
+- What is the other party’s position(s)?
+- Do they present any “in-force”
+agreement to support their position?
+-Do they see it as a new situation or
+the continuation of another situation?
+- Is there precedent / tradition?
+- What does the other party’s chain of
+authority look like? What do you
+think they will desire as their “best
+position”?
+- Rationale for the position?
+
+- List (and prioritize) what the your
+interests are in this case (and what is the
+context / situation / conditions /
+environment BEHIND the position that
+creates the position)
+
+List (and prioritize) what the other
+party’s interests are in this case (what
+is the context / situation / conditions /
+environment BEHIND the position
+that creates the position)
+
+1. From a your perspective, what are the
+overarching issues? What are other
+stakeholders’ (if any) overarching
+issues?
+
+1. From a their perspective, what are
+the overarching issues? What do they
+think ours might be?(avoid mirror
+imaging, strive to put issues in their
+context)
+
+2. From a your perspective, what are
+issues specific to this region outside of
+this individual case (economic, political,
+cultural, etc.)?
+
+2. From their perspective, what are
+issues specific to the other main party
+to the negotiations (and / or other
+interested parties with power) outside
+of this individual case (economic,
+political, cultural, etc.)? What are
+their issues? Why might they be
+interested in the negotiations?
+
+3. From a your perspective, what are
+issues specific to this individual case (for
+example: SOFA, laws, existing contracts
+/ agreements, maximize a gain or
+minimize a loss, political issues,
+economics, tradition, etc.)? Do you see
+this as an individual case or part of a
+
+3. From their perspective, what are
+issues specific to this individual case
+(for example: SOFA, laws, existing
+contracts / agreements, maximize a
+gain or minimize a loss, political
+issues, economics, tradition, etc.)?
+What might their perceptions be of
+
+USAF Negotiation Center of Excellence
+
+http://negotiation.au.af.mil/
+
+8
+
+larger situation?
+
+Interests &
+4. Identify your stakeholders. What are
+Priorities
+(continued) the stakeholder’s positions and interests?
+What are their relationships with the
+other parties and with each other? Who
+has power, why and how can it be
+affected?
+
+ours? Does the other party see this as
+an individual case or part of a larger
+situation?
+4. Identify their potential
+stakeholders. What are their positions
+and interests? What are their
+relationships with your parties and
+with each other? Who has power, why
+and how can it be affected?
+
+5. Are there any interrelations between
+issues? (For example, if I execute an
+economic policy in response to this case,
+what will the effect be on other elements
+of my relationship with their
+government? Might other parties (i.e.
+stakeholders) relationships change (how
+and why?)
+
+5. What does the other party see as
+the interrelations between issues?
+(For example, if they execute an
+action within their legal system, what
+might be the effect on other elements
+of their relationship with your
+stakeholders?)
+
+6. What does your side want the
+situation to be AFTER the negotiations
+conclude (what is/are the long-term
+interest(s))? Do all stakeholders share
+the same long-term goal?
+
+6. What do you think they want the
+situation to be AFTER the
+negotiations conclude (what is/are
+their perceptions of long-term
+interest(s))?
+
+BATNA: an action that may be pursued
+by your side without any consultation or
+agreement by the other party.
+- Determine your “unilaterally
+executable options” if you “leave the
+What do I have the table”
+will and the
+- Within each option, what is /are the
+resources to do if I desired response(s) from the other party?
+don’t reach an
+- Within each option, what action by the
+agreement with
+other party might trigger this event?
+the other party?
+- Within each option, how might your
+stakeholders respond?
+What might they
+- Within each option, what are some
+do?
+possible 2nd, 3rd order effects that are
+undesirable to your position?
+- Within each option, how will executing
+the option affect your long-term
+relationship with the other party? With
+your stakeholders?
+- Within each option, how much does the
+other party know about the option? How
+BATNAs
+(Best Alternative
+to a Negotiated
+Agreement)
+
+USAF Negotiation Center of Excellence
+
+A BATNA may also be pursued by the
+other party without any consultation
+or agreement by you.
+- Estimate the other party’s
+“unilaterally executable options” if
+they “leave the table”
+- Within each option, what is /are the
+desired response(s) they might want
+from you
+- Can they impact a stakeholder that
+can, in turn, exert influence on your
+BATNA?
+- Within each option, what action by
+you might trigger this event?
+- Within each option, how might their
+stakeholders respond? How might
+your stakeholders respond?
+- Within each option, what are some
+possible 2nd, 3rd order effects that are
+undesirable to their position? To their
+stakeholder’s position? To your
+
+http://negotiation.au.af.mil/
+
+9
+
+much power / ability do they have to
+weaken your BATNA options?
+
+position? To your stakeholder’s
+position?
+- Within each option, how will
+executing the option affect their longterm relationship with you? With your
+stakeholders?
+- Within each option, how much do
+you know of the details? How much
+power / ability do you have to weaken
+their BATNA options?
+
+Where are possible sources for objective criteria?
+a. Within the respective parties’ constructs (civil, criminal, social, political,
+economic, etc)? – What is the relevant law
+What criteria can
+b. Within the region? – might there be regional criteria to consider? Other
+parties agree to as examples within the region (especially if the example is of a regional power that
+objective measures the countries both respect)
+of merit for each
+c. Within bilateral documents / agreements? (SOFA, etc.)
+option?
+d. Within regional documents / agreements? (Might there be a regional /
+coalition agreement?
+History,
+e. Within international agreements / agreements?
+precedent, third
+f. Is there any precedent? (Where has this happened before?)
+party standards,
+g. Does the culture consider “golden rule” type criteria “do unto others….”?
+industry
+Is there other “quid pro quo” criterion that is part of the social fabric and / or
+standards, law,
+custom? How is it enforced?
+tradition, etc.
+h. For the military context, a potential tool to help select the best idea from all
+the ideas is to see which idea best supports the top interest(s) of BOTH sides
+equitably (not necessarily equally)
+Objective
+Criteria
+
+AGENDA
+
+ZOPA
+
+What might the most appropriate approach? Going beyond “full proposal” or
+“issue at a time”, consider:
+-- Broaden/Narrow – Should you add or subtract issues from the table help to
+create a common interest?
+-- Are there automatic de-railers? How might you avoid them?
+-- What will you opening statement e (the “first 90 seconds”? What do you expect
+the other party’s “first 90 seconds” to be?
+-- Who should go first? What should go first? An easy issue (trust building?) or a
+hard issue?
+Execution Processes
+- Identify your Zone of Possible Agreement (ZOPA). From the least you’ll accept
+to the best you can possibly hope to get, this establishes your ZOPA. How does
+this change during your negotiations?
+-- Gather information & identify the ZOPA
+-- Test assumptions and motives
+-- Learn from your counterpart. Listen carefully
+
+USAF Negotiation Center of Excellence
+
+http://negotiation.au.af.mil/
+
+10
+
+-- Be prepared to learn/modify as facts are unveiled.
+-- Understanding priorities and why the priorities are they way they are
+-- Brainstorming – is the other party amenable to brainstorming?
+Options for
+Mutual Gain
+
+- Satisfying as many interests of both parties as possible
+- Where might your interests and the interests of the other side coincide?
+- Are there areas of mutual agreement?
+- What actions (or combination of actions) might support the attainment of these
+mutual interests?
+- How might these actions be coordinated? Verified?
+
+At the Table
+
+- Managing the process at the table
+-- Managing your team – who will lead the discussion (one or many)? Who do you
+think will lead their discussion (one or many on their party?)
+-- Sequencing – How do you want to sequentially organize your negotiation?
+-- Who records the proceedings? In what language (both)? Written record or
+audio/video?
+-- Shaping perceptions
+-- Structuring the deal – is there a need for interim summaries / agreements?
+-- Closure
+
+Away from the
+Table
+
+- Managing the process away from the table
+- How do you call an “intermission”?
+- How do you manage communication with the stakeholders during negotiations?
+
+Impasse
+
+- Overcoming Impasse
+-- Cause of impasse? Positions? No ability to see common ground?
+-- Need to move to distributive style?
+-- Influence of third party power
+-- Mediation?
+-- Change negotiator(s)?
+-- Change location (perception of time court advantage?)
+- Change timing of certain events?
+-- Take a recess
+-- Defer issues that don’t require agreement now
+-- Build incentives
+-- Reframe issues to play to interests
+
+Goal is to selfassess for future
+skills
+improvement
+
+Post-Negotiation: Evaluation
+- Outcomes: Compare against entire range of outcomes – What is the best you can
+hope to achieve vs. What is your “walk away” point?
+- Compare outcome to BATNA
+- What transpired during the negotiations that followed the plan? Were the initial
+
+USAF Negotiation Center of Excellence
+
+http://negotiation.au.af.mil/
+
+11
+
+assessments / perceptions accurate?
+- What changes were you able to accommodate and why?
+- What changes were unanticipated? Could they have been foreseen with a
+modification in the planning process?
+
+Can also act as a
+tool for
+mentoring others
+on negotiations
+
+- Do you anticipate a good basis for follow-on negotiations should problems arise
+in execution? If so why, If not, why not?
+- What lessons can you extract from this negotiation to help mentor others?
+Successes failures, insights, etc.
+
+Cultural Considerations / Perspectives Guide
+The questions below ask you to examine and consider both the other party’s culture as
+well as yours. It is suggested you answer these questions first on how you perceive the
+other party and then ―mirror image‖ to see how the other party might perceive you. What
+is critical is not what you think you are culturally, but what the other party thinks you are
+– because that is what they will base their planning and action upon.
+
+Cultural SECTION I: Cultural architecture
+Architecture This is a series asking you to consider several general questions to help set the
+architecture of both your culture and the other party’s culture
+Individualistic or communal culture (Proself or Prosocial)?
+- Proself: Individualistic / Egalitarian (Calvinism) sets value on what you
+do/individual achievement. Independence is valued and compartmentalization of
+life is accepted. Individual needs may take priority over group needs. Competitive
+and rewards based.
+Mantra: Live to work
+-
+
+Prosocial: Communal/ hierarchical sets value on who you are and where you
+come from. Lineage is valued as is association with groups. Groups’ needs take a
+higher priority than individual needs. Life is not compartmentalized and is seen
+as a whole of interconnected parts – one affecting all and all affecting one.
+Cooperation is valued and rewarded with prestige.
+Mantra: Work to Live
+
+Purpose of the Negotiation. Is the priority on “sealing the deal” or to “cultivate /
+maintain and relationship”?
+- Proself see negotiations more as a problem solving method – process to achieve
+an end state. Problems are dissected and solutions offered. Usually Inductive
+reasoning is used (generalized conclusions from observing specific events /
+USAF Negotiation Center of Excellence
+
+http://negotiation.au.af.mil/
+
+12
+
+-
+
+-
+
+instances). May prefer specific legalistic documents (contract law)
+Proself may also consider the issue at hand in isolation “Let’s solve this problem
+and move on”
+Prosocial may see negotiations as a necessary evil as other lower processes to
+resolve issues have failed. May approach the process with Deductive reasoning
+(conclusion about a specific flows from general principles). May prefer general
+agreements without much detail
+Prosocial may also consider the issue at hand as one step in a seemingly endless
+flow. Previous issues impact this one (baggage) and this issue impact other
+unforeseen future issues. “This problem is but one in a series of problems, let us
+examine the ideas to resolve it”. A “solution” here may not be seen as a
+“solution” in a proself culture
+
+Linear approach or relative approach to time?
+- Proself may emphasize punctuality and precise agendas. Time is to be spent
+“wisely” on the task at hand. Time is a resource to be marshaled – each second
+as valuable as the other. A schedule defines the process and at the end of the
+process, the problem needs a solution.
+- Prosocial may emphasize time as a gift to be shared. Time with friends is more
+important than time spent in other manners. Punctuality is not critical, nor even
+desired. A social process defines the schedule and since the social process may be
+never-ending, so a solution is not critical.
+Low or High Context communications?
+- Proself emphasizes the meaning of words and precise choice of words. Little
+emphasis on non-verbal contexts. Direct, believes that the truth must be said, can
+be blunt, but always precise. “Legalistic”
+- Prosocial emphasizes the environment of the communication. Indirect meanings,
+hinting phrases are used so as to not offend either party (saving face). What is not
+said is often as important as what is said. Non-verbal contexts critical to
+understanding the message. “What is meant is not often said”
+Org Culture SECTION II: Organizational Culture
+This series of questions looks at organizations. Gaining insight here is particularly useful
+for examining across US cultures such as DOD, federal agencies, state and local
+organization
+- What is the mission of the organization? How are they organized to do the mission?
+- How do they interact and function? Emphasis on hierarchy or egalitarianism?
+- Where are their allegiances? What are their relationships with other organizations?
+- What is their relationship with power organizations (Congress, etc?)
+- What are their priorities, what do they value the most?
+- Who do they normally cooperate with? Who are their antagonists?
+- What is their planning process?
+- How do they garner resources? What is their budget process?
+- What is their history with your organization?
+Regional SECTION III: Regional Culture
+
+USAF Negotiation Center of Excellence
+
+http://negotiation.au.af.mil/
+
+13
+
+Culture This series of questions looks at regions from a macro, then micro, perspective.
+MACRO region
+- Physical geography / climate
+- Geo-strategic relation with its neighbors. Who are historic “friends” and “enemies”
+- Are there outstanding “debts” (social, cultural, historical) owed to them or they might
+owe others?
+- Members of a coalition? (formal, informal, etc.)
+- Economy, Trade, Currency, Exchange
+GOVERNMENT – Distribution of power
+- Type of government – how do the different branches communicate and decide?
+- Nature of the executive system, bureaucracy, judicial system. Who holds power and why
+- Nature of commerce and trade. Nature of transportation and communications
+HISTORY
+- Development of land – how did they come to be?
+- Who do they revere as national / regional heroes? Why?
+- What are their myths and legends? Do they have historical scores to settle?
+- Relationship with the US and other western countries?
+- Do they have a “colonial” experience? Were they the “colonized” or the “colonial
+rulers”? If they were ruled, were they members of the elite or common sector of society?
+- Relationship with their neighbors?
+MICRO region
+- Community layout / facilities
+- Meeting areas
+- Social opportunities
+- Organizational relationships
+- Local allegiances (tribal, hierarchy, government, etc.)
+Regional LOCALITY
+Culture - Is the “neighborhood” friendly or challenging?
+(continued) - What are the relationships between the major groups of people?
+- What is the nature of local power? Who answers to whom?
+- What are their priorities?
+SOCIAL ORDER
+- If something goes right, how do they distribute the credit?
+- If something goes wrong, how do they handle it? How do they save face?
+- Influence of Religion?
+-- Central and directive or secular and guiding?
+- Role of elders / children / women
+INDIVIDUALS TO THE NEGOTATIONS
+-Individual’s history /education /background /preferences
+
+USAF Negotiation Center of Excellence
+
+http://negotiation.au.af.mil/
+
+14
+
+Insights into BOTH your culture and the other party’s can help guide your
+negotiations.
+Note: These are not the only possible outcomes, these exemplify the ends of a spectrum of
+cultural contexts, your situation may lie at one or the other end, or somewhere in
+between.
+Culture Summative items:
+Summary - Top Consideration: How do they and their people view you and your “people”?
+- Cultural underpinnings of this top consideration
+-- Individualistic or communitarian?
+-- Context/Communications: high context (indirect) or low context (direct)?
+-- Time perspective: linear or circular?
+-- May this issue be treated distinctly and separately or is this part of a larger series
+of issues?
+-- Relationships: formal or informal?
+-- Agenda: full proposal or approaching the negotiations an issue at a time?
+-- Are trust-building measures in order?
+-- Language: what language? Theirs / yours / an interpreter?
+-- Outcome: Is the relationship more important as the outcome or the agreement?
+-- Impasse: how might they respond to an impasse?
+
+USAF Negotiation Center of Excellence
+
+http://negotiation.au.af.mil/
+
+15
+
+
