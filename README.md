@@ -2,7 +2,9 @@
 
 ## Introduction
 
-SynergyMAS is a Multi-Agent System (MAS) framework designed to enhance the capabilities of Large Language Models (LLMs) for complex tasks. It integrates logical reasoning, Retrieval-Augmented Generation (RAG), and Theory of Mind (ToM) to overcome common LLM limitations.
+SynergyMAS is a Multi-Agent System (MAS) framework designed to enhance Large Language Models (LLMs) for complex tasks, integrating logical reasoning, Retrieval-Augmented Generation (RAG), and Theory of Mind (ToM). 
+This repository contains a modified version for comparative evaluation. To enable fair comparisons with methods handling shorter interactions, conversation stage tracking functionality have been removed. 
+For instance, in applying Lean Startup methodology, this version evaluates only the "Learn" step instead of all five steps (see example at the end of README).
 
 ## Project Structure
 
